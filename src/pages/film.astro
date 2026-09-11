@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Film"
+  description="Watch Golden Wings — the award-winning aviation documentary on Robyn Stewart’s 55-year career."
+>
+  <section class="hero" aria-label="Film">
+    <p class="script" style="font-size: 1.75rem; margin: 0;">Golden Wings</p>
+    <h1 class="hero__headline">The film</h1>
+    <p class="hero__lede">
+      A cinematic tribute to aviation history and generational legacy — five
+      decades of flight through the life of American Airlines flight attendant
+      Robyn Stewart, directed by Caleb Mills Stewart.
+    </p>
+    <div class="hero__ctas">
+      <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
+        >Watch on gwingz.com</a
+      >
+      <a class="btn btn--ghost" href="/about-the-film">Full story</a>
+    </div>
+    <div class="hero__wing" aria-hidden="true"></div>
+  </section>
+
+  <section class="section">
+    <p class="section__label">Synopsis</p>
+    <h2 class="section__title">Keep going</h2>
+    <div class="prose">
+      <p>
+        Robyn Stewart has been a flight attendant for 55 years — a living bridge
+        between aviation’s past and present. She began flying before the Boeing
+        747’s first commercial flight and stayed aloft through deregulation, the
+        industry’s golden age and its hangover, and the trauma of September 11th.
+      </p>
+      <p>
+        Her son Caleb grew up in airport terminals and hotel lobbies. What began
+        as a nine-minute college film became Golden Wings: a deeply human
+        chronicle of family, career, and the instinct to keep going — assembled
+        from home video, rare archival footage, and candid interviews with
+        aviation insiders.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

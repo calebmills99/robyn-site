@@ -1,0 +1,23 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getEntry, render } from "astro:content";
+
+const entry = await getEntry("pages", "optin");
+if (!entry) throw new Error("Missing content: pages/optin");
+const { Content } = await render(entry);
+---
+
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.description || "SMS opt-in for Golden Wings updates."}
+>
+  <article class="prose optin-box">
+    <Content />
+  </article>
+  <div class="hero__ctas" style="margin-top: 2rem;">
+    <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
+      >Continue to gwingz.com</a
+    >
+    <a class="btn btn--ghost" href="/privacy-policy">Privacy Policy</a>
+  </div>
+</BaseLayout>

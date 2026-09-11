@@ -1,0 +1,103 @@
+# Layouts
+
+## BaseLayout — `src/layouts/BaseLayout.astro`
+
+Root shell for every page: head meta, fonts, global CSS, header/nav/footer chrome.
+
+```astro
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+  canonical?: string;
+}
+
+const {
+  title = "Golden Wings",
+  description = "Golden Wings — an award-winning aviation documentary following Robyn Stewart’s 55-year career as a flight attendant, told by her son Caleb Mills Stewart.",
+  canonical,
+} = Astro.props;
+
+const pageTitle =
+  title === "Golden Wings" ? "Golden Wings" : `${title} · Golden Wings`;
+
+const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
+
+const nav = [
+  { href: "/film", label: "Film" },
+  { href: "/about-the-film", label: "About" },
+  { href: "/indie-doc-journey", label: "Journey" },
+  { href: "/contact", label: "Contact" },
+];
+
+function isCurrent(href: string) {
+  if (href === "/") return pathname === "/";
+  return pathname === href || pathname.startsWith(href + "/");
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="sr-only" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="/">Golden Wings</a>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            {
+              nav.map((item) => (
+                <li>
+                  <a
+                    href={item.href}
+                    aria-current={isCurrent(item.href) ? "page" : undefined}
+                  >
+                    {item.label}
+                  </a>
+                </li>
+              ))
+            }
+            <li>
+              <a
+                class="nav-cta"
+                href="https://gwingz.com"
+                rel="noopener noreferrer"
+                >Watch</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <p>© {new Date().getFullYear()} Golden Wings</p>
+        <nav aria-label="Legal">
+          <a href="/privacy-policy">Privacy</a>
+          <a href="/terms-of-use">Terms</a>
+          <a href="/optin">SMS Opt-In</a>
+          <a href="mailto:info@golden-wings-robyn.com">info@golden-wings-robyn.com</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
+
+```
