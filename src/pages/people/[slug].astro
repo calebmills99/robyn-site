@@ -1,0 +1,51 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
+import { getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+  const people = await getCollection("people");
+  return people.map((person) => ({
+    params: { slug: person.id },
+    props: { person },
+  }));
+}
+
+const { person } = Astro.props;
+const { name, role, years, lede, description, portrait, portraitAlt } = person.data;
+const { Content } = await render(person);
+---
+
+<BaseLayout title={name} description={description}>
+  <article>
+    <header class:list={["person__header", { "person__header--with-portrait": portrait }]}>
+      <div>
+        <p class="section__label"><a href="/people">People</a> / {role}</p>
+        <h1 class="section__title">{name}</h1>
+        {years && <p class="person__years mono">{years}</p>}
+        <p class="person__lede">{lede}</p>
+      </div>
+      {
+        portrait && (
+          <Image
+            class="person__portrait"
+            src={portrait}
+            alt={portraitAlt ?? ""}
+            widths={[360, 720]}
+            sizes="(max-width: 720px) 90vw, 20rem"
+            loading="eager"
+          />
+        )
+      }
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+    <div class="hero__ctas person__ctas">
+      <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
+        >Watch the film</a
+      >
+      <a class="btn btn--ghost" href="/people">All people</a>
+    </div>
+  </article>
+</BaseLayout>

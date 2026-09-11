@@ -620,6 +620,121 @@ a:hover {
   padding-inline: max(1rem, calc((100vw - var(--gw-max)) / 2));
 }
 
+/* —— People —— */
+.section__label a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.people-grid {
+  list-style: none;
+  margin: var(--gw-space-6) 0 0;
+  padding: 0;
+  display: grid;
+  gap: var(--gw-space-5);
+  grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
+}
+
+.people-card {
+  display: grid;
+  align-content: start;
+  gap: var(--gw-space-2);
+  height: 100%;
+  padding: var(--gw-space-4);
+  border: 1px solid rgba(216, 203, 174, 0.18);
+  border-radius: var(--gw-radius-md);
+  background: rgba(6, 11, 20, 0.45);
+  color: var(--gw-cream);
+  text-decoration: none;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+}
+
+.people-card:hover {
+  border-color: var(--gw-gold);
+  color: var(--gw-cream);
+  transform: translateY(-2px);
+}
+
+.people-card__img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: var(--gw-radius-sm);
+  margin-bottom: var(--gw-space-2);
+}
+
+.people-card__img--empty {
+  display: grid;
+  place-items: center;
+  background: linear-gradient(160deg, var(--gw-teal-bright), var(--gw-midnight));
+  font-family: var(--gw-font-display);
+  font-size: 2.5rem;
+  letter-spacing: 0.08em;
+  color: var(--gw-gold);
+}
+
+.people-card__role {
+  font-family: var(--gw-font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gw-gold);
+}
+
+.people-card__name {
+  font-family: var(--gw-font-display);
+  font-size: 1.05rem;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.people-card__lede {
+  margin: 0;
+  font-size: 0.95rem;
+  color: rgba(247, 238, 219, 0.75);
+}
+
+.person__header {
+  display: grid;
+  gap: var(--gw-space-6);
+  align-items: end;
+  margin-bottom: var(--gw-space-6);
+}
+
+@media (min-width: 720px) {
+  .person__header--with-portrait {
+    grid-template-columns: minmax(0, 1fr) 20rem;
+  }
+}
+
+.person__years {
+  margin: 0 0 var(--gw-space-4);
+  letter-spacing: 0.08em;
+  color: rgba(247, 238, 219, 0.7);
+}
+
+.person__lede {
+  max-width: 36rem;
+  margin: 0;
+  font-size: 1.125rem;
+  color: rgba(247, 238, 219, 0.85);
+}
+
+.person__portrait {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center 20%;
+  border-radius: var(--gw-radius-md);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+}
+
+.person__ctas {
+  margin-top: var(--gw-space-7);
+}
+
 @media (max-width: 720px) {
   .nav {
     gap: 0.25rem 0.75rem;

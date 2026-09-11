@@ -26,4 +26,25 @@ const blog = defineCollection({
   schema: blogSchema,
 });
 
-export const collections = { pages, blog };
+// Hand-written bios. Outside pages/ and blog/, so ingest-content.mjs never clears them.
+const people = defineCollection({
+  loader: glob({ base: "./src/content/people", pattern: "**/*.md" }),
+  schema: ({ image }) =>
+    z
+      .object({
+        name: z.string(),
+        role: z.string(),
+        order: z.number().int(),
+        lede: z.string(),
+        description: z.string(),
+        years: z.string().optional(),
+        portrait: image().optional(),
+        portraitAlt: z.string().optional(),
+      })
+      .refine((data) => !data.portrait || Boolean(data.portraitAlt), {
+        message: "portraitAlt is required when portrait is set (alt text for the bio photo)",
+        path: ["portraitAlt"],
+      }),
+});
+
+export const collections = { pages, blog, people };
