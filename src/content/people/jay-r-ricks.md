@@ -5,8 +5,8 @@ order: 2
 years: 1919–2016
 lede: Robyn's father and Caleb's Papa. He flew in World War II and helped build American Airlines' 747 training program.
 description: Jay R. Ricks (1919-2016), a World War II veteran and American Airlines flight engineer, helped build the airline's 747 training program. His daughter, Robyn Stewart, followed him to American in 1971.
-portrait: ../../assets/people/jay-r-ricks.jpg
-portraitAlt: Jay R. Ricks in a WWII veteran cap and plaid shirt, a white dog on his lap, with his daughter Robyn Stewart leaning in behind him.
+# TODO(presskit): restore portrait from Jay_R_Ricks_and_Robyn2014.jpg once
+# byte-identical presskit file is available (attachments did not mount).
 ---
 
 Jay R. Ricks flew in a Douglas A-20 in World War II. Some people found it odd that he kept an electric razor next to his recliner. The habit came from that cockpit: above the flak, your face had to be smooth or the oxygen mask wouldn't seal.

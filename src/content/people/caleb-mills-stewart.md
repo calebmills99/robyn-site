@@ -5,7 +5,7 @@ order: 5
 lede: Robyn's son and Papa's grandson. I made Golden Wings for an audience of one.
 description: Caleb Mills Stewart is a Los Angeles documentary filmmaker and the director of Golden Wings / Fifty Year Flight Path, a film about his mother, American Airlines flight attendant Robyn Stewart.
 portrait: ../../assets/people/caleb-mills-stewart.png
-portraitAlt: Caleb Mills Stewart in a light blue jacket and lavender shirt.
+portraitAlt: Caleb Mills Stewart in a suit against a twilight cityscape (presskit precleared).
 ---
 
 ## Director's statement
