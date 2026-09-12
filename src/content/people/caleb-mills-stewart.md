@@ -5,7 +5,7 @@ order: 5
 lede: Robyn's son and Papa's grandson. I made Golden Wings for an audience of one.
 description: 'Caleb Mills Stewart is a Los Angeles documentary filmmaker and the director of Golden Wings: Stewardess to Sky Queen, a film about his mother, American Airlines flight attendant Robyn Stewart.'
 portrait: ../../assets/people/caleb-mills-stewart.png
-portraitAlt: Caleb Mills Stewart smiling at a restaurant table behind a dessert with a lit birthday candle.
+portraitAlt: Caleb Mills Stewart in a suit and tie, professional headshot against a city skyline at dusk.
 ---
 
 ## Director's statement

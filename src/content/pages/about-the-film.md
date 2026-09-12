@@ -18,7 +18,7 @@ reason: core v1
 
       [
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/335f990e-e9f4-4d2b-9c4e-6774b18dd915/Robyn+Headsot.jpg)
+  ![](/images/headshots/RobynHeadshot_TealOrangeBG_upscale.jpg)
 
       ](/indie-doc-journey)
 
@@ -78,6 +78,6 @@ Keywords to search by: flight attendant documentary, aviation history, flight at
 
 Support our mission, inspire others, and soar with us through decades of aviation history.
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/06b7c91e-5b83-4e66-a12d-c13ed9acc13c/calebs_61_edit_web-1-1.jpg)
+  ![](/images/headshots/Caleb_Exec_Square.png)
 
     ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/79095536-0b5a-4bf5-b377-f2277c21ecd3/1000027265.jpg)

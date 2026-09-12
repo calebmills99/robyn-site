@@ -34,7 +34,7 @@ reason: core v1
 
         Elevate Legacy, Celebrate Courage *Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/f15615c2-a648-4495-ab26-ad6dc7136c1f/CalebProfilePicPro_resized.png)
+  ![](/images/headshots/Caleb_Exec_Square.png)
 
   Introduction: Who is Caleb Mills Stewart?
 

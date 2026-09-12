@@ -14,7 +14,7 @@ reason: core v1
 
     -
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/e6f8c69d-8e73-4ef0-9591-1711f6506f86/Caleb+Stewart+Headshot+4.jpg)
+![](/images/headshots/CalebS_2.png)
 
 ## Caleb Stewart by Night
 
@@ -24,7 +24,7 @@ Not a single honorary title listed. Caleb literally does everything but he gets 
 
     -
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/261a2305-8d54-4d31-846c-47a1de9f71ae/first+headshot.jpeg)
+![](/images/headshots/headshotssuit_no_tie_1.jpg)
 
 ## Caleb Mills Stewart
 
@@ -34,7 +34,7 @@ This little guy started it all with his dreams of being and actor that eventuall
 
     -
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/a91c4727-e639-462f-a998-c3ba85303f62/Caleb+Stewart+Headshot.jpg)
+![](/images/headshots/Caleb_Exec_Square.png)
 
 ## Eleanor Parks aka Caleb Stewart by Day
 

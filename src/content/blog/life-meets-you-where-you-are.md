@@ -94,7 +94,7 @@ Mr. Burns was taken at only sixty-one. Life meets us where we are, and I know he
 
 I know he meant my sister and me, but also every student whose life he touched. I know that in his final moments he was still cheering all of us on. Its both heartwarming and heartbreaking.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/13941802-bd4b-4ead-82bf-181f7f075a4b/RobynHeadshot.jpg)
+                ![](/images/headshots/RobynHeadshot_TealOrangeBG_upscale.jpg)
 
             Robyn Stewart’s First Headshot July 2025
 
@@ -104,7 +104,7 @@ One thing that breaks my heart is that Mr. Burns will never get to see Golden Wi
 
 This is one of the reasons why I decided to start doing virtual screenings, because I felt like not enough of the people I know and love have gotten to see it yet. So this Sunday's virtual screening will be in his memory. There are still a few spaces available if you'd like to come.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/06b7c91e-5b83-4e66-a12d-c13ed9acc13c/calebs_61_edit_web-1-1.jpg)
+                ![](/images/headshots/Caleb_Exec_Square.png)
 
             Caleb Mills Stewart, director of Golden Wings
 
