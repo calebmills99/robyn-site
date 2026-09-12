@@ -108,6 +108,7 @@ const description =
         playsinline
         preload="metadata"
         poster="/images/synth-media/747-synth-broll-reel-poster.jpg"
+        aria-label="747 B-roll reel"
       >
         <source
           src="/videos/synth-media/747-synth-broll-reel.mp4"
@@ -123,14 +124,24 @@ const description =
   </section>
 </BaseLayout>
 
+
 <script>
   const cta = document.querySelector("[data-synth-play]");
   const reel = document.getElementById("synth-reel");
   if (cta instanceof HTMLAnchorElement && reel instanceof HTMLVideoElement) {
     cta.addEventListener("click", (event) => {
       event.preventDefault();
-      reel.scrollIntoView({ behavior: "smooth", block: "center" });
-      void reel.play();
+      const reduceMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)",
+      ).matches;
+      reel.scrollIntoView({
+        behavior: reduceMotion ? "auto" : "smooth",
+        block: "center",
+      });
+      reel.play().catch(() => {
+        reel.setAttribute("controls", "");
+        reel.focus();
+      });
     });
   }
 </script>
