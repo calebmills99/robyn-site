@@ -96,9 +96,41 @@ const description =
   <section class="section" aria-labelledby="synth-heading">
     <p class="section__label plate--subtitle">Synthetic media</p>
     <h2 id="synth-heading" class="section__title">747 B-roll reel</h2>
-    <p class="prose">This is synthetic media: 747 shots rebuilt so they play like ordinary period B-roll.</p>
+    <p class="prose">
+      This is synthetic media: 747 shots rebuilt so they play like ordinary
+      period B-roll.
+    </p>
+    <figure class="synth-reel">
+      <video
+        id="synth-reel"
+        class="synth-reel__video"
+        controls
+        playsinline
+        preload="metadata"
+        poster="/images/synth-media/747-synth-broll-reel-poster.jpg"
+      >
+        <source
+          src="/videos/synth-media/747-synth-broll-reel.mp4"
+          type="video/mp4"
+        />
+      </video>
+    </figure>
     <div class="hero__ctas" style="margin-top: 1.5rem;">
-      <a class="btn btn--primary" href="/videos/synth-media/747-synth-broll.mp4">Watch the reel</a>
+      <a class="btn btn--primary" href="#synth-reel" data-synth-play
+        >Watch the reel</a
+      >
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  const cta = document.querySelector("[data-synth-play]");
+  const reel = document.getElementById("synth-reel");
+  if (cta instanceof HTMLAnchorElement && reel instanceof HTMLVideoElement) {
+    cta.addEventListener("click", (event) => {
+      event.preventDefault();
+      reel.scrollIntoView({ behavior: "smooth", block: "center" });
+      void reel.play();
+    });
+  }
+</script>
