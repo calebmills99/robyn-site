@@ -8,7 +8,22 @@ const description =
 <BaseLayout title="Golden Wings" description={description}>
   <section class="hero full-bleed-home" aria-label="Golden Wings">
     <div class="hero__media" aria-hidden="true">
+      <video
+        class="hero__video"
+        autoplay
+        muted
+        loop
+        playsinline
+        preload="metadata"
+        poster="/images/hero-sky.jpg"
+      >
+        <source
+          src="/videos/synth-media/747-aerial-helicopter-1969.mp4"
+          type="video/mp4"
+        />
+      </video>
       <img
+        class="hero__poster"
         src="/images/hero-sky.jpg"
         alt=""
         width="1920"
