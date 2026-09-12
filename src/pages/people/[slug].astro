@@ -20,7 +20,7 @@ const { Content } = await render(person);
   <article>
     <header class:list={["person__header", { "person__header--with-portrait": portrait }]}>
       <div>
-        <p class="section__label"><a href="/people">People</a> / {role}</p>
+        <p class="section__label plate--subtitle"><a href="/people">People</a> / {role}</p>
         <h1 class="section__title">{name}</h1>
         {years && <p class="person__years mono">{years}</p>}
         <p class="person__lede">{lede}</p>
