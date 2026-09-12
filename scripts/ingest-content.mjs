@@ -174,13 +174,20 @@ function clearMd(dir) {
 }
 
 function ingest() {
+  const pagesDir = path.join(MIGRATION, "pages");
+  const blogDir = path.join(MIGRATION, "blog");
+
+  if (!fs.existsSync(pagesDir) || !fs.existsSync(blogDir)) {
+    console.warn(
+      `Migration content missing at ${MIGRATION}; keeping existing src/content/{pages,blog}.`,
+    );
+    return;
+  }
+
   ensureDir(DEST_PAGES);
   ensureDir(DEST_BLOG);
   clearMd(DEST_PAGES);
   clearMd(DEST_BLOG);
-
-  const pagesDir = path.join(MIGRATION, "pages");
-  const blogDir = path.join(MIGRATION, "blog");
 
   let pageCount = 0;
   let blogCount = 0;
