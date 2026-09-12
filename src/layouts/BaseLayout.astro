@@ -9,7 +9,7 @@ interface Props {
 
 const {
   title = "Golden Wings",
-  description = "Golden Wings: Stewardess to Sky Queen — an award-winning aviation documentary following Robyn Stewart’s 55-year career as a flight attendant, told by her son Caleb Mills Stewart.",
+  description = "Golden Wings, an award-winning aviation documentary following Robyn Stewart's 55-year career as a flight attendant, told by her son Caleb Mills Stewart.",
   canonical,
 } = Astro.props;
 
@@ -42,12 +42,6 @@ function isCurrent(href: string) {
     {canonical && <link rel="canonical" href={canonical} />}
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
     <title>{pageTitle}</title>
   </head>
   <body>
@@ -56,7 +50,6 @@ function isCurrent(href: string) {
       <div class="site-header__inner">
         <a class="brand" href="/">
           Golden Wings
-          <span class="brand__subtitle">Stewardess to Sky Queen</span>
         </a>
         <nav aria-label="Primary">
           <ul class="nav">
