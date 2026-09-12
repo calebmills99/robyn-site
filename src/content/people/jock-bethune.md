@@ -4,6 +4,8 @@ role: The collaborator
 order: 3
 lede: The American Airlines media production specialist whose department made the slides for Jay Ricks' 747 ground school, and who told that story on camera.
 description: Jock Bethune joined American Airlines in 1968 and worked as a media production specialist. His department made the training slides for Jay R. Ricks' 747 ground school, and he appears on camera in Golden Wings.
+portrait: ../../assets/people/jock-bethune.jpg
+portraitAlt: Jock Bethune, longtime American Airlines media voice, in a promotional still.
 ---
 
 Jock Bethune started at American Airlines in Fort Worth on September 16, 1968. He arrived as a kid out of New York with a degree in broadcast radio and television from Ithaca College. American hired him because it planned a TV studio for its new Flight Academy.
