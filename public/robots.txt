@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://golden-wings-robyn.com/sitemap.xml
 Sitemap: https://golden-wings-robyn.com/sitemap-index.xml
