@@ -167,8 +167,14 @@ function processMarkdown(filePath, { isBlog }) {
 }
 
 function clearMd(dir) {
-  if (!fs.existsSync(dir)) return;
-  for (const f of fs.readdirSync(dir)) {
+  let entries;
+  try {
+    entries = fs.readdirSync(dir);
+  } catch (err) {
+    if (err && err.code === "ENOENT") return;
+    throw err;
+  }
+  for (const f of entries) {
     if (f.endsWith(".md")) fs.unlinkSync(path.join(dir, f));
   }
 }
@@ -177,7 +183,17 @@ function ingest() {
   const pagesDir = path.join(MIGRATION, "pages");
   const blogDir = path.join(MIGRATION, "blog");
 
-  if (!fs.existsSync(pagesDir) || !fs.existsSync(blogDir)) {
+  const migrationPresent = (dir) => {
+    try {
+      fs.readdirSync(dir);
+      return true;
+    } catch (err) {
+      if (err && err.code === "ENOENT") return false;
+      throw err;
+    }
+  };
+
+  if (!migrationPresent(pagesDir) || !migrationPresent(blogDir)) {
     console.warn(
       `Migration content missing at ${MIGRATION}; keeping existing src/content/{pages,blog}.`,
     );

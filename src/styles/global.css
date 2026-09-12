@@ -235,8 +235,9 @@ a:hover {
 }
 
 :focus-visible {
-  outline: var(--bw-rule) solid var(--gw-gold);
+  outline: var(--bw-rule) solid var(--gw-cream-light);
   outline-offset: 3px;
+  box-shadow: 0 0 0 calc(var(--bw-rule) * 2) var(--gw-ink);
 }
 
 .sr-only {
