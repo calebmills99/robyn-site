@@ -296,7 +296,7 @@ a:hover {
 }
 
 .site-header__inner {
-  width: min(100% - 2 * var(--gutter), var(--max));
+  width: min(calc(100% - (var(--gutter) + var(--gutter))), var(--max));
   margin-inline: auto;
   display: flex;
   align-items: center;
@@ -377,7 +377,7 @@ a:hover {
 }
 
 .site-main {
-  width: min(100% - 2 * var(--gutter), var(--max));
+  width: min(calc(100% - (var(--gutter) + var(--gutter))), var(--max));
   margin-inline: auto;
   padding-block: var(--sp-7) var(--sp-8);
   min-height: calc(100vh - var(--header-h) - 12rem);
@@ -391,7 +391,7 @@ a:hover {
 }
 
 .site-footer__inner {
-  width: min(100% - 2 * var(--gutter), var(--max));
+  width: min(calc(100% - (var(--gutter) + var(--gutter))), var(--max));
   margin-inline: auto;
   display: flex;
   flex-wrap: wrap;
