@@ -15,6 +15,7 @@
     "deploy:staging": "npm run build && wrangler deploy"
   },
   "dependencies": {
+    "@astrojs/sitemap": "^3.7.4",
     "astro": "^7.1.3"
   },
   "devDependencies": {
