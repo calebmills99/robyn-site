@@ -1,8 +1,6 @@
 ---
 title: The Challenges of Filming a Documentary with No Budget
-description: >-
-  Discover the journey of creating a no-budget documentary about my mom -
-  shooting Golden Wings on a phone, editing at home, and learning as I went.
+description: Discover the journey of creating a no-budget documentary about my mom
 path: /indie-doc-journey/making-a-no-budget-documentary
 sourceUrl: >-
   https://www.golden-wings-robyn.com/indie-doc-journey/making-a-no-budget-documentary
@@ -63,7 +61,7 @@ Filming a documentary with no budget presents numerous challenges, but it also o
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

@@ -8,7 +8,7 @@ scrapedAt: '2026-07-21T15:33:48.785Z'
 reason: comms consent (manual — not in sitemap)
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/334f7f65-09bb-4785-a120-b4f6f5f0bd3c/h5a2j5b7jsrm80cn39z81qgxdc.jpg)
+![](/blog/8052fd92e3d4.jpg)
 
 ## Come Fly With Us!
 

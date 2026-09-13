@@ -2,9 +2,7 @@
 title: >-
   My Weight Loss Journey: Transforming a Student Project into a Full-Fledged
   Documentary
-description: >-
-  Discover how a personal weight loss journey inspired the expansion of Golden
-  Wings from a student short into a fuller family story.
+description: Discover how a personal weight loss journey inspired the expansion of
 path: /indie-doc-journey/weight-loss-journey-golden-wings-documentary
 sourceUrl: >-
   https://www.golden-wings-robyn.com/indie-doc-journey/weight-loss-journey-golden-wings-documentary
@@ -81,7 +79,7 @@ Researching film festivals and preparing submissions required careful considerat
 
 I later went on to place as a [semi finalist](https://indieshortfest.com/2024/05/05/golden-wings/) and earn my first laurel above “Official Selection”
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/71e9a9d0-26c1-471d-a5bf-eb380de043c0/SEMI+-+FINALIST+-+Indie+Short+Fest+-+2024+%281%29.png)
+![](/blog/eb220ba1a99e.png)
 
   Audience Engagement and FeedbackThe feedback from the audience on the clips we released was overwhelmingly positive. Hearing how our story resonated with others was incredibly rewarding. It validated our effort and encouraged us to keep going.
 
@@ -95,7 +93,7 @@ Join MeI’d love to hear your stories or answer any questions you might have. S
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

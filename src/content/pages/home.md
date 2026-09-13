@@ -11,35 +11,35 @@ scrapedAt: '2026-07-21T15:32:05.561Z'
 reason: core v1
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/cbbecfc4-5a8e-49ae-980d-739df38a9067/goldenwingstitlelogo2026.png)
+![](/blog/9af0831d9595.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/4d89d86a-afd0-44d7-a6c4-be650d6e65e5/Award+winner+white.png)
+  ![](/blog/d40a0d47d1b9.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1fa7f992-1b7d-4ae8-88f3-74bd591305e5/Best+Documentary+Short+-+Clown+International+Film+Festival+-+2024.png)
+  ![](/blog/c7e58104c973.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/5125432d-e318-48cd-abef-221081ce2a01/BEST+FIRST+TIME+DIRECTOR+-+Magic+Silver+Screen+-+2024+%281%29.png)
+  ![](/blog/f697c43eb728.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/61e843f7-0d3e-468f-b42f-b8f38cf58b72/BEST+SHORT+CINEMATOGRAPHY+-+Silicon+Beach+Film+Festival+-+2024+%281%29.png)
+  ![](/blog/32019acb3b0a.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/327c4d20-f625-4344-85e1-ff040bd34ec2/BEST+MOBILE+SHORT+-+Independent+Shorts+Awards+-+2024+%281%29.png)
+  ![](/blog/c28b33109d3a.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/e31adc34-4279-41a7-9cc0-eff45024bc69/BEST+DOCUMENTARY+SHORT+-+Magic+Silver+Screen+-+2024.png)
+  ![](/blog/9e25a4751327.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/3909ab67-aae3-45da-8892-c8edcee61c28/Most+Outstanding+-+The+NewsFest+true+stories+-+2024+%281%29.png)
+  ![](/blog/de19227dc266.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/c542517b-302a-4264-b7bc-9ddab8ae697a/BEST+DOCUMENTARY+SHORT+-+IGFA+-+International+Guadalajara+Film+Awards+-+2024+%281%29.png)
+  ![](/blog/04eb61d956ff.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/74e02b58-9e4b-41ea-ac33-9714f0735999/Most+Inspiring+-+The+NewsFest+true+stories+-+2024.png)
+  ![](/blog/16aa9095ede7.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/0a313f7b-a36e-43a5-8f83-7e1e96cd22f5/ARFF_Paris_Official_2024_W_FilmFreeway.png)
+  ![](/blog/7b4ecfe3b3c6.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/77d39d11-763e-4a47-9f54-424ec4dbceda/17-arff-barcelona-best-student-film-1-1-1.png)
+  ![](/blog/6d1cacfc33c1.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/c9e836d3-e5c5-4d4b-8690-18ecb62d8529/FINALIST+-+NYC+Independent+Film+Festival+-+2024.png)
+  ![](/blog/89da18052574.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/eea1b348-2b5e-4609-85a3-1b2a34e18798/SEMIFINALIST-BtchFestFilmFestivalScreenplayContest-2025.png)
+  ![](/blog/76cf84ba8d07.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/9bb829dc-6866-458c-bd4f-f8bb85ab53ee/OFFICIAL-SELECTION_ORO_2025.png)
+  ![](/blog/0c03a10b6766.png)
 
 ## Golden Wings: An Award-Winning Aviation Documentary
 
@@ -57,7 +57,7 @@ Caleb Mills Stewart is a Los Angeles-based documentary filmmaker whose work focu
 
 Beyond the film, the companion blog [My Indie Doc Journey](/blog) shares insights into independent documentary filmmaking, festival strategy, and the craft of storytelling. Watch the featured video, “10 Documentaries That Will Change Your Life,” and discover behind-the-scenes lessons from an award-winning aviation documentary.
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/d39ae747-35c2-4941-b3a1-fec09939d4dc/Firefly_Gemini+Flash_clean+up+the+Golden+Wings+typography.+The+edges+need+beveling+and+sharpness+and+droop+195080.png)
+  ![](/blog/a3fe2de16478.png)
 
 # Golden Wings Wins Best Documentary (Short) at 2025 Swedish International Film Festival
 
@@ -113,11 +113,11 @@ Director, Golden Wings
 
   Read Full Press Release
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1772482724571-PYC61ECNO3NUR0R06KA7/unsplash-image-Q5akQr0bn9A.jpg)
+![](/blog/e1c9f419d3d4.jpg)
 
 
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/3815d957-b2f9-418d-972a-0553796516c0/stewardess+college+play+button.png)
+  ![](/blog/11d3ef06af17.png)
 
 
 
@@ -127,21 +127,21 @@ This archival segment from Golden Wings explores the American Airlines Stewardes
 
 Featuring rare footage and the leadership of legendary president Millie Alford, this mini documentary highlights the evolving role of women in aviation and the transformation of the airline industry. The Stewardess College represents a pivotal chapter in commercial aviation history and the foundation of modern flight attendant training.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/316291db-bc7e-4037-bbc4-e76872097f8a/boeing747.png)
+![](/blog/3b2ed548206f.png)
 
 
     watch now
 
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1777335650579-XKSCUYZY20J8CO6IZRN0/unsplash-image-oMpAz-DN-9I.jpg)
+![](/blog/783107fa99fe.jpg)
 
 ## A living legend : timeless, graceful, unforgettable.
 
   Robyn Stewart celebrated and commended for an extraordinary 55 years of dedicated service
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/3400eb3b-5833-434b-bcdc-87b3e0a5b9c1/web50.png)
+  ![](/blog/ab520b136e00.png)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/ab0170ca-89bb-4f65-8e09-218ecce82b5d/Robyn_1971-grad-blog.png)
+  ![](/blog/c58f7a40ad81.png)
 
   Robyn Stewart at her graduation from The Stewardess College in 1971, proudly flanked by her beaming parents Jay and Marie Ricks.
 
@@ -155,7 +155,7 @@ This section celebrates dedication, resilience, and the evolving identity of the
 
 
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/ee93259f-5a29-4abd-b56f-ca06695f2db0/caleb_paly_button_blog.png)
+  ![](/blog/9fc4eb6dc404.png)
 
 
 
@@ -167,4 +167,4 @@ This section celebrates dedication, resilience, and the evolving identity of the
     Read the Blog!
 
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/43e40661-e28c-4d87-b3e5-12b285da8f63/ROBYN_BABY_RESTOR+copy+2.jpeg)
+![](/blog/4ad51ec1afdd.jpeg)

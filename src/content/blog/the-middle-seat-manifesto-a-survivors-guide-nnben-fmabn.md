@@ -20,7 +20,7 @@ Feb 20
 
 Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/d90890ff-d5dc-477e-b500-563dea669da1/wc97rd0a85rma0cn333aw708z4.png)
+![](/blog/2b8d1905c36f.png)
 
 Captain Cutiepie at your service
 
@@ -28,7 +28,7 @@ Captain Cutiepie at your service
 
 I've mastered the art of maintaining dignity at 35,000 feet while sandwiched between strangers. I've survived the great recline wars of the early 2000s, navigated the emotional turbulence of post-9/11 travel, and developed a sixth sense for identifying which airport bathrooms are secretly luxurious. By the time I was making a documentary about my flight attendant mother's journey from girdle checks to sobriety in the sky, I had earned a PhD in middle seat survival.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/8cf484ba-f7e7-4ab0-b985-1d244578fc78/tmpcklj8qp2.jpg)
+![](/blog/201dc1535754.jpg)
 
   So whether you're a frequent flyer or an occasional traveler, these rules will help you transform your middle seat experience from a test of endurance into an art form. Because sometimes the only difference between suffering and success is knowing how to assert dominance over both armrests.
 
@@ -36,7 +36,7 @@ Welcome to The Middle Seat Manifesto. Fasten your seatbelts - dignity and surviv
 
   RULE 1: THE ARMREST DOCTRIne
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/d64a7c1b-24c7-45e2-838a-c935f48fbbca/tmpoeabrg0k.png)
+![](/blog/e2285cd30f73.png)
 
 The middle seat’s rightful throne
 
@@ -46,7 +46,7 @@ Establish your armrest dominion immediately upon sitting. No apologies, no hesit
 
   RULE 2: PASSIVE-AGGRESSIVE SEAT RECLINE DEFENSE
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/0cb2fdce-ed63-4c6e-8fa0-182f9ab335cb/he10r3c63srmc0cn37xsfw5p84.jpg)
+![](/blog/0c4163e9fef6.jpg)
 
 Have that laptop ready
 
@@ -58,7 +58,7 @@ This isn't aggression - it's a quiet conversation between your MacBook and their
 
 
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/480dd643-180a-499b-b3da-923b9f5e976c/tmp_d1ms8pj.jpg)
+![](/blog/78d9304f8001.jpg)
 
 
 
@@ -72,7 +72,7 @@ Pro tip: Always travel with an arsenal of your own scents. A tiny bottle of lave
 
   RULE 4: THE EXIT STRATEGY
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/673dc6dd-49e6-4043-a11c-2abafdaae76c/yamytspq81rma0cn38wvysvzpw.png)
+![](/blog/deda51f3c05f.png)
 
 You can be in the aisle before anyone else hears the seatbelt sign chime.
 
@@ -82,7 +82,7 @@ Move with purpose, but maintain dignity. This isn't a sprint; it's a choreograph
 
   RULE 5: BATHROOM INTELLIGENCE
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/67c943a1-2b4c-4c43-b951-a8f409b65e0c/6bv4q3gagnrj00cn39gvzhxezc.png)
+![](/blog/36895d5fb4f5.png)
 
 Family Changing Rooms
 
@@ -90,7 +90,7 @@ Family Changing Rooms
 
   Pro tip: Time your airplane bathroom visits like a professional. Movie time = bathroom time. When the drink cart is out = stay put. It's all about strategic timing.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/865d14ce-2c15-46ce-a8a8-00adfb9002fe/en9m3tz6yhrj60cn39m9e2dsm8.png)
+![](/blog/85eae8cd49a2.png)
 
 These bathrooms
 
@@ -98,7 +98,7 @@ when you find them, they will not seem real.
 
   BONUS TIP: THE FORBIDDEN KNOWLEDGE: UNDER-SEAT SUPREMACY
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/e4f7b3cb-41fc-4fa5-9867-36ad8a39848c/tmpx6mmyi0r.png)
+![](/blog/8e4a14d04e43.png)
 
 You must have a permanent go bag
 
@@ -120,13 +120,13 @@ The secret is a perfectly packed personal item that fits under the seat in front
 
   This isn't just travel advice - it's a philosophy. While everyone else is performing their overhead bin ballet, you're sitting in 14B, cool as a cucumber, with everything you need within arm's reach. It's like being the one person at a family reunion who didn't bring emotional baggage.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/6b20bf0b-2663-44e7-912f-9a51ae04e9a7/The_Middle_Seat_Manifesto_Pastel.jpg)
+![](/blog/acb9edb651bd.jpg)
 
 Everyone will be envious of your middle seat
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

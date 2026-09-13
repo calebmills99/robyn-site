@@ -3,9 +3,10 @@ title: >-
   "Golden Wings" Takes Flight: Celebrating Wins at Clown International and
   Independent Shorts Awards!
 description: >-
-  Golden Wings wins at the Clown International Film Festival and Independent
-  Shorts Awards - festival surprises, challenges, and the next leg of the
-  journey.
+  Introduction:    We are thrilled to announce that our documentary, "Golden
+  Wings," has soared to new heights, winning prestigious awards at the Clown
+  International Film Festival and the Independent Shorts Awards. This journey
+  has been full of surprises, challenges,
 path: >-
   /indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards
 sourceUrl: >-
@@ -60,7 +61,7 @@ Director/Executive Producer
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

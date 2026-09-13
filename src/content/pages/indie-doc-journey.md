@@ -8,7 +8,7 @@ scrapedAt: '2026-07-21T15:28:52.356Z'
 reason: core v1
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1783628321775-HT7RVC76JE9OVYOWNID1/Designer%252B%2525285%252529%252B%252528Medium%252529.png)
+![](/blog/40aac89c82e9.png)
 
 
 Caleb Stewart
@@ -19,7 +19,6 @@ Caleb Stewart
 
 7/9/26
 
-#
 
 
 

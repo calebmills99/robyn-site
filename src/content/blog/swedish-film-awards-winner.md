@@ -24,7 +24,7 @@ Aug 1
 
 Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/4be9893c-1135-43da-ba01-56196bbd3d26/swedishawardpromosiff.png)
+![](/blog/6cf8d8d8fb9e.png)
 
 Headshots of Flight Attendant, RObyn Stewart and film director Caleb Mills Stewart. A candid photo of Henry Stewart. (botom left) A satirical depciction of the Norse God, Bragi.
 
@@ -107,7 +107,7 @@ Bragi: Aye. Grief sings the deepest notes. The film? A hymn for those who remain
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

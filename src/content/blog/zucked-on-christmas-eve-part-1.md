@@ -13,7 +13,7 @@ reason: blog post
 slug: zucked-on-christmas-eve-part-1
 ---
 
-# Zucked on Christmas Eve: My Facebook ban survival story (part 1)
+# Zucked on Christmas Eve:                              My Facebook ban survival story (part 1)
 
 [Personal Stories](/indie-doc-journey/category/Personal+Stories)[Social Issues](/indie-doc-journey/category/Social+Issues)
 
@@ -443,7 +443,7 @@ To be continued in Part 2
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

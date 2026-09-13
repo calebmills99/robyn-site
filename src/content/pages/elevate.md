@@ -8,9 +8,9 @@ scrapedAt: '2026-07-21T15:33:27.651Z'
 reason: core v1
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/78d938d0-7b7b-4074-9c98-75f5e006ce75/artboardBG.jpg)
+![](/blog/fe9c9b3938a9.jpg)
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/9383680a-2761-43c3-b92e-d835f6191ac0/artboard.jpg)
+  ![](/blog/91b007ba6d09.jpg)
 
    -
 
@@ -18,7 +18,7 @@ reason: core v1
 
 ## Get Early Access & Discounts
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/202c524b-d5b3-4d53-92f4-f0db0e349543/artboardBG.jpg)
+![](/blog/fe9c9b3938a9.jpg)
 
   Step aboard an inspiring journey through the skies with Golden Wings, a heartfelt documentary celebrating the remarkable life of Robyn Stewart, a pioneering flight attendant with American Airlines. This film isn’t just about aviation; it’s a tapestry woven with threads of dedication, resilience, and love.
 
@@ -34,11 +34,11 @@ Let’s bring Golden Wings to life together—your support means the world!
 
 ##  Sign Up Now!
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/a30e91c4-faca-4211-8bc1-b4c46b6fc81c/tokyo.png)
+![](/blog/aa1afea265b0.png)
 
 # Robyn’s favorite place to fly is Tokyo, Japan.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/202c524b-d5b3-4d53-92f4-f0db0e349543/artboardBG.jpg)
+![](/blog/fe9c9b3938a9.jpg)
 
   Get Rewarded for Supporting Golden Wings!At Golden Wings, we believe that love and family transcend boundaries, and that every journey deserves to be celebrated! We’re inviting our vibrant LGBTQ+ community and allies to come together to support a project that shares heartfelt stories of resilience, joy, and connection in aviation history.
 
@@ -78,7 +78,7 @@ This story is deeply personal. It’s a love letter, not only to aviation but to
 
 ## Hit the Download Now button to secure that offer
 
-  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/447b4264-30b0-41a4-8701-826a53f38ca5/GOLDEN_WINGS_POSTER_small.png)
+  ![](/blog/0f4f4113e44b.png)
 
 ## Do you need Kleenex, sweetie?
 

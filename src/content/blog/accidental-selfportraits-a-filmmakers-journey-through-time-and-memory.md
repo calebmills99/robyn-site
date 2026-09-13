@@ -1,8 +1,6 @@
 ---
 title: 'Official Selection: Palma Film Festival and An Accidental Revelation'
-description: >-
-  In a Parisian elevator in 2005, impatient sighs became the opening of Golden
-  Wings - and years later, official selection at the Palma Film Festival.
+description: 'In a Parisian elevator in 2005, my impatient ex-boyfriend couldn'
 path: >-
   /indie-doc-journey/accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 sourceUrl: >-
@@ -15,12 +13,11 @@ slug: accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 ---
 
 # Official Selection: Palma Film Festival and An Accidental Revelation
-
 Nov 13
 
 Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/f668becc-b9a3-493d-b144-8750ea306201/accidental+portrait+of+an+artist+as+a+young+man.png)
+![](/blog/eab68a963763.png)
 
 An accidental portrait of an artist as young man:
 
@@ -44,7 +41,7 @@ Perhaps there's no greater creative validation than outlasting your critics. Or,
 
 The lesson, if there is one? Trust the glacial pace of your process. The ones tapping their watches rarely make history, but they do occasionally make excellent cautionary characters in your director's commentary. And sometimes, if you're particularly fortunate, they even help fund your next parking adventure—one borrowed euro at a time.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/a6353e33-9214-4214-b99d-ff4df94a83ea/logo.jpg)
+![](/blog/896e1e5c0dcd.jpg)
 
 The Palma Film Festival logo
 
@@ -80,7 +77,7 @@ The grainy aesthetic of early 2000s DV tapes—blooming whites, crushed blacks, 
 
 That reflection in the glass reveals a younger version of me: earnest, focused, unaware of the future audience his footage would one day face. The camcorder itself, a now-obsolete Sony MiniDV, was part of a movement of filmmakers finding voice through analog constraints.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/72e74dcb-f78d-4f95-bc2f-9c50f0307c0b/dsct1.png)
+![](/blog/fb4fbc6d0d8e.png)
 
 Tools of the Trade
 
@@ -110,13 +107,13 @@ The film is now screening in [Palma de Mallorca](https://en.wikipedia.org/wiki/M
 But I'm grounded—literally. I'm recovering from a fractured tibia with a titanium rod, confined to a couch, watching my film travel without me.
 To experience the documentary wherever you are, visit [gwingz.com](https://www.gwingz.com) and stream it directly.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042597782-M6Q5O4UN0J82FV2UF7BK/20251030_045451.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042597782-M6Q5O4UN0J82FV2UF7BK/20251030_045451.jpg)
+![](/blog/b65bb17bf020.jpg)![](/blog/b65bb17bf020.jpg)
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042613544-DNDV1YK3OGO643GLL2ZQ/20251030_050135.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042613544-DNDV1YK3OGO643GLL2ZQ/20251030_050135.jpg)
+![](/blog/4a533a6c38d8.jpg)![](/blog/4a533a6c38d8.jpg)
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042627953-7OAXJX188GJEQC6O1MEB/20251107_175030.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042627953-7OAXJX188GJEQC6O1MEB/20251107_175030.jpg)
+![](/blog/9a75e70da873.jpg)![](/blog/9a75e70da873.jpg)
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042907375-A607NVMSJVNGIHBGZBVY/gyuu6uy.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042907375-A607NVMSJVNGIHBGZBVY/gyuu6uy.jpg)
+![](/blog/c21c10513851.jpg)![](/blog/c21c10513851.jpg)
 
 ## The Memory of a Mallorca Cove
 
@@ -153,7 +150,7 @@ A: Easy—[gwingz.com](https://www.gwingz.com). It's up and streaming for the wo
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

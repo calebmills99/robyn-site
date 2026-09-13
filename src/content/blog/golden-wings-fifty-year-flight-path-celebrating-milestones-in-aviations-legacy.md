@@ -1,9 +1,9 @@
 ---
-title: 'Golden Wings: Celebrating Milestones in Aviation''s Legacy'
+title: Golden Wings – Celebrating Milestones in Aviation’s Legacy
 description: >-
   Golden Wings celebrates selections at The NewsFest and Silicon Beach Film
   Festival. Discover how this aviation documentary is gaining recognition and
-  honoring industry pioneers.
+  honoring industry pioneers
 path: >-
   /indie-doc-journey/golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy
 sourceUrl: >-
@@ -23,11 +23,11 @@ Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
   We are thrilled to share some exciting updates regarding Golden Wings. Our documentary, which chronicles the remarkable evolution of aviation over the past 55 years, has recently achieved significant recognition at not one, but two prestigious film festivals.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/332eb8e9-04b2-4190-8426-9c2c7deba277/Default_A_stylized_illustration_of_the_NewsFest_True_Stories_2.jpg)
+![](/blog/c1d620acf1bd.jpg)
 
   The NewsFest – True Stories International Film and Writers FestivalWe are proud to announce that Golden Wings has been selected for The NewsFest – True Stories International Film and Writers Festival. This marks the sixth film festival selection for our documentary, highlighting the growing appreciation for the story we are telling. The NewsFest is renowned for celebrating powerful, real-life narratives, and we are honored to be part of this year’s lineup.
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/2e82ee61-1944-46dd-bf23-a6c80eb9d6f4/Default_A_vibrant_poster_for_the_Silicon_Beach_Film_Festival_s_3.jpg)
+![](/blog/4956acb5464a.jpg)
 
   Silicon Beach Film FestivalIn addition to this, we are equally delighted to announce that Golden Wings was also selected for the Silicon Beach Film Festival, where it was showcased at the iconic Chinese Theater in Hollywood. The Silicon Beach Film Festival is a notable event that brings together filmmakers from around the globe, and having our documentary featured in such a historic venue was an incredible experience.
 
@@ -51,7 +51,7 @@ Please stay tuned for more updates as we continue to work on making Golden Wings
 
 
 
-![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 
