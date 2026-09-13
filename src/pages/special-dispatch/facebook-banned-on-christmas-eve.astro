@@ -5,7 +5,14 @@ import { blogPostingJsonLd } from "../../lib/seo";
 const h1 = "Banned on Christmas Eve. Here's how to fight a Facebook ban.";
 const description =
   "Hacked, banned, and stuck in Meta's appeal maze? Read the Indie Doc Journey Special Dispatch: Christmas Eve ban, smoking gun, and the small-claims win.";
-const path = "/special-dispatch/facebook-banned-on-christmas-eve";
+/** Live URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
+const path = "/special-dispatch/facebook-banned-on-christmas-eve/";
+const canonical =
+  "https://golden-wings-robyn.com/special-dispatch/facebook-banned-on-christmas-eve/";
+const metaTitle =
+  "Banned on Christmas Eve | Facebook Ban Survival + Meta Small Claims";
+/** Existing poster asset beats the generic title-logo for share cards. */
+const ogImage = "/images/poster/GWSSQ_Poster_2026.png";
 
 /** Magazine PDF download only (not the HTML body). */
 const pdfHref =
@@ -22,10 +29,17 @@ const part2Exists = true;
 
 <BaseLayout
   title="Banned on Christmas Eve"
-  fullTitle="Banned on Christmas Eve | Facebook Ban Survival + Meta Small Claims"
+  fullTitle={metaTitle}
   description={description}
+  canonical={canonical}
+  ogImage={ogImage}
   ogType="article"
-  jsonLd={blogPostingJsonLd({ title: h1, description, url: path })}
+  jsonLd={blogPostingJsonLd({
+    title: h1,
+    description,
+    url: path,
+    image: ogImage,
+  })}
 >
   <article class="prose">
     <p class="section__label">

@@ -4,6 +4,8 @@ import { collectionPageJsonLd } from "../../lib/seo";
 
 const description =
   "Indie Doc Journey Special Dispatches: field reports from the grind, starting with the Facebook ban survival map.";
+/** Live hub URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
+const canonical = "https://golden-wings-robyn.com/special-dispatch/";
 
 const dispatches = [
   {
@@ -18,7 +20,7 @@ const dispatches = [
 const jsonLd = collectionPageJsonLd({
   name: "Special Dispatch",
   description,
-  url: "/special-dispatch",
+  url: "/special-dispatch/",
   items: dispatches.map((d) => ({
     name: d.title,
     url: d.href,
@@ -30,6 +32,7 @@ const jsonLd = collectionPageJsonLd({
 <BaseLayout
   title="Special Dispatch"
   description={description}
+  canonical={canonical}
   jsonLd={jsonLd}
 >
   <p class="section__label plate--subtitle">Indie Doc Journey</p>

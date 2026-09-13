@@ -14,8 +14,10 @@ export const DIRECTOR = {
 
 export function absoluteUrl(path: string): string {
   if (!path || path === "/") return `${SITE_URL}/`;
-  const clean = path.replace(/\/$/, "");
-  return clean.startsWith("http") ? clean : `${SITE_URL}${clean.startsWith("/") ? clean : `/${clean}`}`;
+  if (path.startsWith("http")) return path;
+  const withLeading = path.startsWith("/") ? path : `/${path}`;
+  // Preserve an explicit trailing slash (Special Dispatch live URLs, etc.).
+  return `${SITE_URL}${withLeading}`;
 }
 
 export function homeJsonLd(description: string) {
@@ -85,7 +87,13 @@ export function blogPostingJsonLd(opts: {
   title: string;
   description: string;
   url: string;
+  image?: string;
 }) {
+  const image = opts.image
+    ? opts.image.startsWith("http")
+      ? opts.image
+      : absoluteUrl(opts.image)
+    : DEFAULT_OG_IMAGE;
   return {
     "@context": "https://schema.org",
     "@type": "BlogPosting",
@@ -100,7 +108,7 @@ export function blogPostingJsonLd(opts: {
       url: SITE_URL,
       logo: DEFAULT_OG_IMAGE,
     },
-    image: DEFAULT_OG_IMAGE,
+    image,
   };
 }
 
