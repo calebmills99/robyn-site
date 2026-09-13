@@ -585,8 +585,11 @@ a:hover {
   letter-spacing: var(--ls-normal);
   text-transform: uppercase;
   line-height: var(--lh-tight);
-  max-width: 18ch;
+  max-width: 28ch;
   margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35em;
   color: var(--text-body);
   animation: fade-up 0.9s var(--ease) 0.12s both;
 }
@@ -1063,3 +1066,7 @@ a:hover {
 }
 
 /* Synth media reel — press-kit still that plays */
+
+.hero__headline-line {
+  display: block;
+}
