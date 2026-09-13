@@ -1,7 +1,6 @@
 ---
 title: >-
-  Golden Wings: Fifty Year Flight Path – Celebrating Milestones in Aviation’s
-  Legacy
+  Golden Wings: Celebrating Milestones in Aviation's Legacy
 description: >-
   Golden Wings celebrates selections at The NewsFest and Silicon Beach Film
   Festival. Discover how this aviation documentary is gaining recognition and

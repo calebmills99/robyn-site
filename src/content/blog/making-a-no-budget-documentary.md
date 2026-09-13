@@ -1,7 +1,7 @@
 ---
 title: The Challenges of Filming a Documentary with No Budget
 description: >-
-  Discover the journey of creating a no-budget documentary about my mom —
+  Discover the journey of creating a no-budget documentary about my mom -
   shooting Golden Wings on a phone, editing at home, and learning as I went.
 path: /indie-doc-journey/making-a-no-budget-documentary
 sourceUrl: >-

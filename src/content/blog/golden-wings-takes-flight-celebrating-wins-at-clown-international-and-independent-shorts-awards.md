@@ -4,7 +4,7 @@ title: >-
   Independent Shorts Awards!
 description: >-
   Golden Wings wins at the Clown International Film Festival and Independent
-  Shorts Awards — festival surprises, challenges, and the next leg of the
+  Shorts Awards - festival surprises, challenges, and the next leg of the
   journey.
 path: >-
   /indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards

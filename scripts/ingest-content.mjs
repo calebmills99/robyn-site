@@ -40,7 +40,10 @@ function ensureDir(dir) {
 
 function cleanTitle(raw, slug, isBlog) {
   if (isBlog && raw && !/^Legacies/i.test(raw) && !/&mdash;/i.test(raw)) {
-    return decodeEntities(String(raw).trim()).replace(/\s*\(Copy\)\s*$/i, "").trim();
+    let t = decodeEntities(String(raw).trim()).replace(/\s*\(Copy\)\s*$/i, "").trim();
+    t = t.replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
+    t = t.replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings");
+    return t;
   }
   if (PAGE_TITLES[slug]) return PAGE_TITLES[slug];
   if (raw) {

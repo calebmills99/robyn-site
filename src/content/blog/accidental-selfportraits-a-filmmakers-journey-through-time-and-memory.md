@@ -2,7 +2,7 @@
 title: 'Official Selection: Palma Film Festival and An Accidental Revelation'
 description: >-
   In a Parisian elevator in 2005, impatient sighs became the opening of Golden
-  Wings — and years later, official selection at the Palma Film Festival.
+  Wings - and years later, official selection at the Palma Film Festival.
 path: >-
   /indie-doc-journey/accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 sourceUrl: >-
