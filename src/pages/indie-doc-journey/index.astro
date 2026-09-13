@@ -2,14 +2,22 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
 
+function displayTitle(raw: string) {
+  return String(raw)
+    .replace(/\s*\(Copy\)\s*$/i, "")
+    .replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings")
+    .replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings")
+    .trim();
+}
+
 const posts = (await getCollection("blog")).sort((a, b) =>
-  a.data.title.localeCompare(b.data.title),
+  displayTitle(a.data.title).localeCompare(displayTitle(b.data.title)),
 );
 ---
 
 <BaseLayout
   title="Indie Doc Journey"
-  description="Behind-the-scenes notes from making Golden Wings — festival strategy, craft, and the indie documentary grind."
+  description="Behind-the-scenes notes from making Golden Wings - festival strategy, craft, and the indie documentary grind."
 >
   <p class="section__label plate--subtitle">Companion blog</p>
   <h1 class="section__title">Indie Doc Journey</h1>
@@ -22,7 +30,7 @@ const posts = (await getCollection("blog")).sort((a, b) =>
       posts.map((post) => (
         <li>
           <a href={`/indie-doc-journey/${post.id}`}>
-            <h2 class="post-list__title">{post.data.title}</h2>
+            <h2 class="post-list__title">{displayTitle(post.data.title)}</h2>
             {post.data.description && (
               <p class="post-list__desc">{post.data.description}</p>
             )}

@@ -1,7 +1,7 @@
 ---
 title: The Challenges of Filming a Documentary with No Budget
 description: >-
-  Discover the journey of creating a no-budget documentary about my mom —
+  Discover the journey of creating a no-budget documentary about my mom -
   shooting Golden Wings on a phone, editing at home, and learning as I went.
 path: /indie-doc-journey/making-a-no-budget-documentary
 sourceUrl: >-
@@ -15,9 +15,9 @@ slug: making-a-no-budget-documentary
 
 # The Challenges of Filming a Documentary with No Budget
 
-              Jun 13
+Jun 13
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
 ## Introduction
 
@@ -61,11 +61,11 @@ Another inspiring example is "Tarnation" by Jonathan Caouette, which was made on
 
 Filming a documentary with no budget presents numerous challenges, but it also offers unique opportunities for creativity and innovation. By leveraging personal stories, utilizing available resources, and maintaining passion for the subject, filmmakers can overcome these obstacles and create compelling documentaries. The key is meticulous planning, networking, and a relentless commitment to the project.
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)

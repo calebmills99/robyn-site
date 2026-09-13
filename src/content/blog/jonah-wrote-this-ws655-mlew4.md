@@ -15,11 +15,11 @@ slug: jonah-wrote-this-ws655-mlew4
 
 # ✨ Star Wingz: A New Nope (for My Hard Drive)
 
-              May 7
+May 7
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/5bfd1230-085f-4556-b867-a6e7c50c5280/starwingz.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/5bfd1230-085f-4556-b867-a6e7c50c5280/starwingz.png)
 
 ### Quick Note from Caleb 🚨
 
@@ -47,9 +47,9 @@ Festival director Chez emailed the theater. Nothing. I tweeted. Crickets. I DM�
 
 “Help me, Regal Social Media Team. You’re my only hope.”
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/fcf41135-1d9f-46b2-ae82-e8ad16a895b8/calebprincessleiah.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/fcf41135-1d9f-46b2-ae82-e8ad16a895b8/calebprincessleiah.png)
 
-            You’re my only..nope
+You’re my only..nope
 
 ## 🧙🏼‍♂️ Wisdom from the Jedi Council
 
@@ -69,9 +69,9 @@ The audience loved her. People came up afterward to tell me how much the film mo
 
 That, to me, was the real prize.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/01c0e077-1364-4bd7-897a-fce60ce13271/STAR-WINGS.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/01c0e077-1364-4bd7-897a-fce60ce13271/STAR-WINGS.png)
 
-            Thats not how you hold  a light saber, Mom…
+Thats not how you hold  a light saber, Mom…
 
 ## 📊 The Awards Ceremony: The Snub Strikes Back
 
@@ -81,9 +81,9 @@ But the audience’s reaction? The personal stories people shared with me? The m
 
 You don’t need a statue to know your film landed
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/55237180-b0fa-4413-bdd4-59c7f7d9a156/calebstarwarsslurpee.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/55237180-b0fa-4413-bdd4-59c7f7d9a156/calebstarwarsslurpee.png)
 
-            schlurp-B will be voiced by a digitally ressurected ai version of Gilbert Gottfried
+schlurp-B will be voiced by a digitally ressurected ai version of Gilbert Gottfried
 
 ## 🛋 A Glitch in the Cargo Hold
 
@@ -101,9 +101,9 @@ He hums during hyperspace. He might be Force-sensitive. He might just be... mine
 
 I didn’t adopt him. He adopted me.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/222946e1-3ef8-4db1-a914-2775adc641cb/SLURP-A.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/222946e1-3ef8-4db1-a914-2775adc641cb/SLURP-A.png)
 
-            u know we have to make it canon
+u know we have to make it canon
 
 ## 📖 Classified: STARPEDIA Entry [SHLURP-B]
 
@@ -127,9 +127,9 @@ Abilities:
 
 Risk Level: High (may chew HDMI cables)
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/0d303f4e-c396-43b2-8dbb-a032c572b69f/MERCH.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/0d303f4e-c396-43b2-8dbb-a032c572b69f/MERCH.png)
 
-            a scene from comi-con 26
+a scene from comi-con 26
 
 ## 🎥 The Encounter: Storyboard Snapshot
 
@@ -141,9 +141,9 @@ Risk Level: High (may chew HDMI cables)
 
 - Panel 4: Shlurp-B grins. I sigh. A legacy begins.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/efc6b0a5-57df-45c5-b815-ca688a224146/STORYBOARDSLURB.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/efc6b0a5-57df-45c5-b815-ca688a224146/STORYBOARDSLURB.png)
 
-            the origin ripoff— I mean, story
+the origin ripoff— I mean, story
 
 ## 🎯 Merch of the Future
 
@@ -158,19 +158,19 @@ Shlurp-B isn’t an afterthought. He’s my franchise soft launch.
 You came for Golden Wings…
 You stayed for the goblin.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/801e9683-ec14-4549-92b5-ad38353e16d4/Screenshot+2025-05-05+100455.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/801e9683-ec14-4549-92b5-ad38353e16d4/Screenshot+2025-05-05+100455.png)
 
-            A funco pop of schlurp-B
+A funco pop of schlurp-B
 
   May the legacy be with you.Always. (((three snaps)))
 
 — Caleb StewartFilmmaker | Star Wingz Founder | Emotional Host to a Sticky Goblin
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)

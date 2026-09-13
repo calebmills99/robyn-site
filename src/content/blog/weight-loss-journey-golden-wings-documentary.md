@@ -17,9 +17,9 @@ slug: weight-loss-journey-golden-wings-documentary
 
 # My Weight Loss Journey: Transforming a Student Project into a Full-Fledged Documentary
 
-              Jun 23
+Jun 23
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
  [@calebmills99](https://www.tiktok.com/@calebmills99?refer=embed) From feeling weighed down to lifting off! 🚀 Shedding 40 lbs rekindled my drive to finish a documentary about my mom, my ultimate inspiration. Dive into director’s commentary and... stay tuned for a HUGE surprise! 🎥🏆 [#TransformationJourney](https://www.tiktok.com/tag/transformationjourney?refer=embed) [#DocumentaryFilmmaker](https://www.tiktok.com/tag/documentaryfilmmaker?refer=embed) [#GoldenWings](https://www.tiktok.com/tag/goldenwings?refer=embed) [#FilmFestival](https://www.tiktok.com/tag/filmfestival?refer=embed) [#MomInspiration](https://www.tiktok.com/tag/mominspiration?refer=embed) [#WeightLossStory](https://www.tiktok.com/tag/weightlossstory?refer=embed) [#BigReveal](https://www.tiktok.com/tag/bigreveal?refer=embed) [♬ original sound - Caleb Stewart](https://www.tiktok.com/music/original-sound-7370234629829184298?refer=embed)
 
@@ -81,7 +81,7 @@ Researching film festivals and preparing submissions required careful considerat
 
 I later went on to place as a [semi finalist](https://indieshortfest.com/2024/05/05/golden-wings/) and earn my first laurel above “Official Selection”
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/71e9a9d0-26c1-471d-a5bf-eb380de043c0/SEMI+-+FINALIST+-+Indie+Short+Fest+-+2024+%281%29.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/71e9a9d0-26c1-471d-a5bf-eb380de043c0/SEMI+-+FINALIST+-+Indie+Short+Fest+-+2024+%281%29.png)
 
   Audience Engagement and FeedbackThe feedback from the audience on the clips we released was overwhelmingly positive. Hearing how our story resonated with others was incredibly rewarding. It validated our effort and encouraged us to keep going.
 
@@ -93,11 +93,11 @@ ConclusionLooking back, my weight loss journey and the evolution of my documenta
 
 Join MeI’d love to hear your stories or answer any questions you might have. Share your thoughts in the comments below and follow my blog for more updates on my journey and the documentary.
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)

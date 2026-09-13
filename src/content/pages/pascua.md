@@ -18,7 +18,7 @@ reason: core v1
 
 ## Caleb Stewart by Night
 
-          Director/Executive Producer/Cinematographer/Editor
+Director/Executive Producer/Cinematographer/Editor
 
 Not a single honorary title listed. Caleb literally does everything but he gets assists from friends a freelancers along the way.
 
@@ -38,7 +38,7 @@ This little guy started it all with his dreams of being and actor that eventuall
 
 ## Eleanor Parks aka Caleb Stewart by Day
 
-          He works the day job so night time Caleb can have all the fun. He’s working hard so 14 year old Caleb didn’t dream in vain. He’s a good guy doesn’t get enough credit.
+He works the day job so night time Caleb can have all the fun. He’s working hard so 14 year old Caleb didn’t dream in vain. He’s a good guy doesn’t get enough credit.
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/d6552a54-c897-44d4-9428-8cc0f35cfb35/Screenshot+2024-06-05+at+10.46.20%E2%80%AFAM.png)
 

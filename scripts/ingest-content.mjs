@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { cleanScrapedMarkdown } from "./rescue-indented-image-blocks.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -40,7 +41,10 @@ function ensureDir(dir) {
 
 function cleanTitle(raw, slug, isBlog) {
   if (isBlog && raw && !/^Legacies/i.test(raw) && !/&mdash;/i.test(raw)) {
-    return decodeEntities(String(raw).trim()).replace(/\s*\(Copy\)\s*$/i, "").trim();
+    let t = decodeEntities(String(raw).trim()).replace(/\s*\(Copy\)\s*$/i, "").trim();
+    t = t.replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
+    t = t.replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings");
+    return t;
   }
   if (PAGE_TITLES[slug]) return PAGE_TITLES[slug];
   if (raw) {
@@ -137,6 +141,7 @@ function processMarkdown(filePath, { isBlog }) {
   // Drop empty H1 stubs and Squarespace "(Copy)" title leftovers
   body = body.replace(/^#\s*$/gm, "");
   body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
+  body = cleanScrapedMarkdown(body);
 
   if (isBlog) {
     // One H1 per post: keep the first ATX H1, demote the rest to H2

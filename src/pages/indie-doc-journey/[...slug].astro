@@ -16,6 +16,8 @@ const { Content } = await render(post);
 
 const title = String(post.data.title)
   .replace(/\s*\(Copy\)\s*$/i, "")
+  .replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings")
+  .replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings")
   .trim();
 const description = (post.data.description || title).trim();
 const path = `/indie-doc-journey/${post.id}`;

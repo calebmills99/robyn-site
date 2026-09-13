@@ -607,6 +607,14 @@ a:hover {
   filter: drop-shadow(3px 3px 0 rgba(26, 18, 8, 0.55));
 }
 
+.hero__motto {
+  margin: -0.35rem 0 0;
+  font-size: clamp(1.75rem, 4vw, 2.75rem);
+  color: var(--gw-gold);
+  text-shadow: 2px 2px 0 rgba(26, 18, 8, 0.45);
+  animation: fade-up 0.9s var(--ease) 0.06s both;
+}
+
 .hero__headline {
   font-family: var(--font-display);
   font-size: clamp(var(--fs-xl), 4.5vw, var(--fs-4xl));
@@ -898,11 +906,15 @@ a:hover {
 
 .contact-panel a.mailto {
   font-family: var(--font-display);
-  font-size: clamp(var(--fs-lg), 2.5vw, var(--fs-2xl));
+  font-size: clamp(var(--fs-md), 2.2vw, var(--fs-xl));
   letter-spacing: var(--ls-normal);
   text-decoration: none;
   color: var(--gw-red);
   text-transform: uppercase;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+  display: inline-block;
+  max-width: 100%;
 }
 
 .optin-box {

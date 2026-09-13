@@ -36,7 +36,7 @@ Opt-Out & Support:
 
 Privacy & Data Security:
 
-- We value your privacy. Your information will not be shared or sold. View our full [[Privacy Policy]](https://golden-wings-robyn.com/privacy-policy) and [[Terms of Service]](https://golden-wings-robyn.com/terms-of-use) for more details.
+- We value your privacy. Your information will not be shared or sold. View our full [Privacy Policy](https://golden-wings-robyn.com/privacy-policy) and [Terms of Service](https://golden-wings-robyn.com/terms-of-use) for more details.
 
 ✔ Secure & Private
 ✔ No Spam – Just Important Updates

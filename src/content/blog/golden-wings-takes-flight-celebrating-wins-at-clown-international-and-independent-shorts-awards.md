@@ -4,7 +4,7 @@ title: >-
   Independent Shorts Awards!
 description: >-
   Golden Wings wins at the Clown International Film Festival and Independent
-  Shorts Awards — festival surprises, challenges, and the next leg of the
+  Shorts Awards - festival surprises, challenges, and the next leg of the
   journey.
 path: >-
   /indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards
@@ -20,9 +20,9 @@ slug: >-
 
 # "Golden Wings" Takes Flight: Celebrating Wins at Clown International and Independent Shorts Awards!
 
-              Jul 25
+Jul 25
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
 ## Introduction:
 
@@ -58,11 +58,11 @@ Warmest regards,
 Caleb Mills Stewart
 Director/Executive Producer
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)
