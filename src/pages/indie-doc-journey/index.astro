@@ -22,11 +22,19 @@ const jsonLd = collectionPageJsonLd({
   name: "Indie Doc Journey",
   description,
   url: "/indie-doc-journey",
-  items: posts.map((post) => ({
-    name: displayTitle(post.data.title),
-    url: `/indie-doc-journey/${post.id}`,
-    description: post.data.description || undefined,
-  })),
+  items: [
+    {
+      name: "Special Dispatch № 01: Banned on Christmas Eve",
+      url: "/special-dispatch/facebook-banned-on-christmas-eve/",
+      description:
+        "Christmas Eve ban survival map, smoking gun, and Meta small-claims win.",
+    },
+    ...posts.map((post) => ({
+      name: displayTitle(post.data.title),
+      url: `/indie-doc-journey/${post.id}`,
+      description: post.data.description || undefined,
+    })),
+  ],
 });
 ---
 
@@ -41,6 +49,26 @@ const jsonLd = collectionPageJsonLd({
     Festival lessons, craft notes, and the long road of an independent aviation
     documentary.
   </p>
+
+  <section class="section" style="padding-block: 0 2rem;" aria-labelledby="special-dispatch-heading">
+    <p class="section__label plate--subtitle">Special Dispatch</p>
+    <h2 class="section__title" id="special-dispatch-heading">
+      Banned on Christmas Eve
+    </h2>
+    <p class="prose" style="margin-bottom: 1.25rem;">
+      Indie Doc Journey · Special Dispatch № 01. Hub plus Part 1 survival map,
+      with a magazine PDF download. Part 2 stays on Journey for now.
+    </p>
+    <div class="hero__ctas">
+      <a
+        class="btn btn--primary"
+        href="/special-dispatch/facebook-banned-on-christmas-eve/"
+        >Read Special Dispatch № 01</a
+      >
+      <a class="btn btn--ghost" href="/special-dispatch/">All Special Dispatches</a>
+    </div>
+  </section>
+
   <ul class="post-list">
     {
       posts.map((post) => (

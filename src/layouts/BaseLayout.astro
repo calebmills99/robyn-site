@@ -3,6 +3,8 @@ import "../styles/global.css";
 
 interface Props {
   title?: string;
+  /** Exact document title; skips the default "· Golden Wings" / "| Golden Wings" append. */
+  fullTitle?: string;
   description?: string;
   /** Absolute URL override; defaults to self-referencing site URL for this path. */
   canonical?: string;
@@ -21,6 +23,7 @@ const DEFAULT_DESCRIPTION =
 
 const {
   title = "Golden Wings",
+  fullTitle,
   description = DEFAULT_DESCRIPTION,
   canonical: canonicalProp,
   ogImage = DEFAULT_OG_IMAGE,
@@ -29,9 +32,10 @@ const {
 } = Astro.props;
 
 const pageTitle =
-  title === "Golden Wings"
+  fullTitle ||
+  (title === "Golden Wings"
     ? "Golden Wings | Aviation Documentary"
-    : `${title} | Golden Wings`;
+    : `${title} | Golden Wings`);
 
 const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
 const canonicalPath = pathname === "/" ? "/" : pathname;
@@ -59,6 +63,15 @@ const nav = [
 
 function isCurrent(href: string) {
   if (href === "/") return pathname === "/";
+  // Special Dispatch lives under Journey in the IA
+  if (href === "/indie-doc-journey") {
+    return (
+      pathname === href ||
+      pathname.startsWith(href + "/") ||
+      pathname === "/special-dispatch" ||
+      pathname.startsWith("/special-dispatch/")
+    );
+  }
   return pathname === href || pathname.startsWith(href + "/");
 }
 ---

@@ -1,0 +1,61 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { collectionPageJsonLd } from "../../lib/seo";
+
+const description =
+  "Indie Doc Journey Special Dispatches: field reports from the grind, starting with the Facebook ban survival map.";
+
+const dispatches = [
+  {
+    num: "01",
+    title: "Banned on Christmas Eve. Here's how to fight a Facebook ban.",
+    href: "/special-dispatch/facebook-banned-on-christmas-eve/",
+    description:
+      "Hacked, banned, and stuck in Meta's appeal maze? Christmas Eve ban, smoking gun, and the small-claims win.",
+  },
+];
+
+const jsonLd = collectionPageJsonLd({
+  name: "Special Dispatch",
+  description,
+  url: "/special-dispatch",
+  items: dispatches.map((d) => ({
+    name: d.title,
+    url: d.href,
+    description: d.description,
+  })),
+});
+---
+
+<BaseLayout
+  title="Special Dispatch"
+  description={description}
+  jsonLd={jsonLd}
+>
+  <p class="section__label plate--subtitle">Indie Doc Journey</p>
+  <h1 class="section__title">Special Dispatch</h1>
+  <p class="prose" style="margin-bottom: 2rem;">
+    Field reports from the Indie Doc Journey: the bans, the receipts, and the
+    fights worth documenting. Start with № 01.
+  </p>
+
+  <ul class="post-list">
+    {
+      dispatches.map((d) => (
+        <li>
+          <a href={d.href}>
+            <p class="section__label" style="margin-bottom: 0.35rem;">
+              Special Dispatch № {d.num}
+            </p>
+            <h2 class="post-list__title">{d.title}</h2>
+            <p class="post-list__desc">{d.description}</p>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
+  <p class="prose" style="margin-top: 2rem;">
+    <a href="/indie-doc-journey">← Back to Indie Doc Journey</a>
+  </p>
+</BaseLayout>
