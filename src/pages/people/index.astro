@@ -2,6 +2,7 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
+import { collectionPageJsonLd } from "../../lib/seo";
 
 const people = (await getCollection("people")).sort(
   (a, b) => a.data.order - b.data.order,
@@ -15,12 +16,23 @@ function initials(name: string) {
     .slice(0, 2)
     .join("");
 }
+
+const description =
+  "The people of Golden Wings: flight attendant Robyn Stewart, her father Jay R. Ricks, Jock Bethune, Millie Alford, and director Caleb Mills Stewart.";
+
+const jsonLd = collectionPageJsonLd({
+  name: "People",
+  description,
+  url: "/people",
+  items: people.map((person) => ({
+    name: person.data.name,
+    url: `/people/${person.id}`,
+    description: person.data.description || person.data.lede,
+  })),
+});
 ---
 
-<BaseLayout
-  title="People"
-  description="The people of Golden Wings: flight attendant Robyn Stewart, her father Jay R. Ricks, Jock Bethune, Millie Alford, and director Caleb Mills Stewart."
->
+<BaseLayout title="People" description={description} jsonLd={jsonLd}>
   <p class="section__label plate--subtitle">Golden Wings</p>
   <h1 class="section__title">People</h1>
   <p class="prose">

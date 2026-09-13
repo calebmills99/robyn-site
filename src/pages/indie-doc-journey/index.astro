@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from "astro:content";
+import { collectionPageJsonLd } from "../../lib/seo";
 
 function displayTitle(raw: string) {
   return String(raw)
@@ -13,11 +14,26 @@ function displayTitle(raw: string) {
 const posts = (await getCollection("blog")).sort((a, b) =>
   displayTitle(a.data.title).localeCompare(displayTitle(b.data.title)),
 );
+
+const description =
+  "Behind-the-scenes notes from making Golden Wings - festival strategy, craft, and the indie documentary grind.";
+
+const jsonLd = collectionPageJsonLd({
+  name: "Indie Doc Journey",
+  description,
+  url: "/indie-doc-journey",
+  items: posts.map((post) => ({
+    name: displayTitle(post.data.title),
+    url: `/indie-doc-journey/${post.id}`,
+    description: post.data.description || undefined,
+  })),
+});
 ---
 
 <BaseLayout
   title="Indie Doc Journey"
-  description="Behind-the-scenes notes from making Golden Wings - festival strategy, craft, and the indie documentary grind."
+  description={description}
+  jsonLd={jsonLd}
 >
   <p class="section__label plate--subtitle">Companion blog</p>
   <h1 class="section__title">Indie Doc Journey</h1>
