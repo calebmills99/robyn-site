@@ -141,6 +141,12 @@ function processMarkdown(filePath, { isBlog }) {
   // Drop empty H1 stubs and Squarespace "(Copy)" title leftovers
   body = body.replace(/^#\s*$/gm, "");
   body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
+  // Drop duplicate page H1 when body repeats the page title (template owns the H1).
+  if (!isBlog && title) {
+    body = body.replace(/^#\s+ABOUT THE FILM\s*$/gim, "");
+    const esc = String(title).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+    body = body.replace(new RegExp(`^#\\s+${esc}\\s*$`, "gim"), "");
+  }
   body = cleanScrapedMarkdown(body);
 
   if (isBlog) {
