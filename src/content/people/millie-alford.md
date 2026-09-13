@@ -2,9 +2,11 @@
 name: Millie Alford
 role: The head of school
 order: 4
-years: 1922–2000
+years: 1922-2000
 lede: The first director of American Airlines Stewardess College, and the woman at the foot of the staircase at Robyn's graduation.
 description: 'Rose Mildred "Millie" Alford (1922-2000) was the first director of the American Airlines Stewardess College in Fort Worth, which opened in 1957. Robyn Stewart trained there in 1971.'
+portrait: ../../assets/people/mildred-alford-studio.jpg
+portraitAlt: Mildred Alford smiling in a navy collared jacket and pearl necklace, studio portrait.
 ---
 
 Rose Mildred "Millie" Alford was the first director of the American Airlines Stewardess College when it opened in Fort Worth in 1957. C.R. Smith, the airline's founder and president, appointed her. She had started at American as a stewardess and rose into management. She served the company for 33 years.
