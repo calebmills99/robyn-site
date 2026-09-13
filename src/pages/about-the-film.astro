@@ -16,7 +16,11 @@ const description =
   description={description}
   jsonLd={aboutPageJsonLd(description)}
 >
-  <article class="prose">
+  <header>
+    <h1 class="section__title">{entry.data.title}</h1>
+    <p class="script page-motto">Find Your Wings</p>
+  </header>
+  <article class="prose prose--drop-lead-title">
     <Content />
   </article>
   <div class="hero__ctas" style="margin-top: 2.5rem;">

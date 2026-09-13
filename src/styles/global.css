@@ -615,6 +615,36 @@ a:hover {
   animation: fade-up 0.9s var(--ease) 0.06s both;
 }
 
+/* Gold script flourish under page titles (light plates / non-video heroes) */
+.page-motto {
+  margin: 0.15rem 0 1.35rem;
+  font-size: clamp(1.35rem, 2.8vw, 2.1rem);
+  color: var(--gw-gold);
+  line-height: var(--lh-tight);
+}
+
+.section__title + .page-motto,
+.hero__headline + .page-motto,
+.hero__headline + .hero__motto {
+  margin-top: 0.1rem;
+}
+
+.section__title:has(+ .page-motto) {
+  margin-bottom: 0;
+}
+
+.prose--drop-lead-title > h1:first-child {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 .hero__headline {
   font-family: var(--font-display);
   font-size: clamp(var(--fs-xl), 4.5vw, var(--fs-4xl));
@@ -906,15 +936,31 @@ a:hover {
 
 .contact-panel a.mailto {
   font-family: var(--font-display);
-  font-size: clamp(var(--fs-md), 2.2vw, var(--fs-xl));
+  font-size: clamp(var(--fs-sm), 2vw, var(--fs-lg));
   letter-spacing: var(--ls-normal);
   text-decoration: none;
   color: var(--gw-red);
   text-transform: uppercase;
-  overflow-wrap: anywhere;
-  word-break: break-word;
+  overflow-wrap: normal;
+  word-break: normal;
+  white-space: nowrap;
   display: inline-block;
   max-width: 100%;
+}
+
+.contact-panel a.mailto .mailto__host {
+  white-space: nowrap;
+}
+
+@media (max-width: 420px) {
+  .contact-panel a.mailto {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-panel a.mailto .mailto__host {
+    white-space: normal;
+  }
 }
 
 .optin-box {
