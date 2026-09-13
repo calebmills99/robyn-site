@@ -11,6 +11,9 @@ const path = "/special-dispatch/facebook-banned-on-christmas-eve";
 const pdfHref =
   "/special-dispatch/Banned-on-Christmas-Eve-Part-1-Magazine.pdf";
 
+/** Optional Journey companion for the scraped Part 1 magazine. */
+const journeyPart1 = "/indie-doc-journey/zucked-on-christmas-eve-part-1/";
+
 /** Existing Journey companion for Part 2. Do not invent a Part 2 Astro page. */
 const part2Href =
   "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
@@ -40,40 +43,39 @@ const part2Exists = true;
     <h1>{h1}</h1>
 
     <p>
-      Christmas Eve, Meta permanently disabled a 22-year account for the crime of
-      getting hacked. This Special Dispatch is the survival map: the appeal
-      abyss, the smoking gun in Meta's own logs, and the small-claims fight that
-      got the account back. If you are a Facebook exile, start here.
+      My 22-year Facebook account, gone in an instant, and the year-long fight to
+      prove I was hacked, not guilty.
+    </p>
+    <p class="mono" style="font-size: var(--fs-sm); color: var(--text-muted);">
+      Words & Receipts by Caleb Mills Stewart
+    </p>
+    <p class="section__label" style="margin-top: 1rem;">
+      The Ban · The Appeal Abyss · The Smoking Gun
     </p>
 
     <div class="hero__ctas" style="margin: 1.5rem 0 2rem;">
       <a class="btn btn--primary" href={pdfHref} download
         >Download: Banned on Christmas Eve (PDF)</a
       >
-      {
-        part2Exists && (
-          <a class="btn btn--ghost" href={part2Href}
-            >Part 2 on Journey (existing)</a
-          >
-        )
-      }
+      <a class="btn btn--ghost" href="#part-1">Jump to Part 1</a>
     </div>
 
-    <h2>Start here</h2>
+    <h2 id="start-here">Start here</h2>
     <ul>
       <li>
-        <strong>Part 1 (this page):</strong> the ban night playbook below
+        <a href="#part-1">Part 1 on this page</a> (hub + survival map below)
+      </li>
+      <li>
+        <a href={journeyPart1}>Journey magazine post</a> (existing companion)
       </li>
       {
         part2Exists ? (
           <li>
-            <a href={part2Href}>Part 2: I sued Meta and won</a>
+            <a href={part2Href}>Part 2 (court win)</a>
             {" "}
-            (existing Journey post)
+            on Journey. Soft link only. Astro Part 2 waits.
           </li>
-        ) : (
-          <li>Part 2: coming on Journey</li>
-        )
+        ) : null
       }
       <li>
         <a href={pdfHref}>Download: Banned on Christmas Eve (PDF)</a>
@@ -82,138 +84,269 @@ const part2Exists = true;
       </li>
     </ul>
 
-    <h2>The digital death sentence</h2>
+    <h2 id="part-1">Part 1</h2>
+
+    <h2 id="digital-death-sentence">I. The Digital Death Sentence</h2>
     <p>
-      Christmas Eve. Instead of cocoa, a disable notice: a 22-year Facebook
-      account, permanently gone. No warning. No explanation. Just cold absolute
-      language that assumes you already know what you did wrong, and that nobody
-      is coming to help.
+      Picture this. It's Christmas Eve, and instead of a warm mug of cocoa, you
+      get a piping hot notice that twenty-two years of your digital life just went
+      poof, gone, like the last donut at a morning meeting. That's what happened
+      to me.
     </p>
     <p>
-      That account held family photos, milestones, grief, jokes, and two decades
-      of digital life. Losing it on a holiday, when support is a ghost town, is
-      the digital death sentence. If you have been there, you already know the
-      dopamine withdrawal is real.
+      Other people were opening presents or pretending to like their in-laws.
+      Meanwhile, I was staring at a screen. It informed me that my Facebook
+      account had been permanently disabled. No warning. No explanation. No
+      context. Just a message as cheerful as a tax audit.
+    </p>
+    <p>
+      <strong
+        >"Account Permanently Disabled. You cannot request another review."</strong
+      >
+    </p>
+    <p>
+      This wasn't just any account. This was my award-winning Facebook account.
+      "Biggest Social Media Oversharer" at my ten-year high school reunion, thank
+      you very much.
+    </p>
+    <p>
+      A meticulously curated archive contained memories, milestones, grief, and
+      joy. It included memes, sobriety anniversaries, and family losses. There were
+      inside jokes and way too many opinions about reality TV shows that probably
+      didn't deserve the emotional investment.
+    </p>
+    <p>
+      And it was gone in an instant. The timing felt particularly cruel. Christmas
+      Eve: a day when most customer-service departments are as reachable as Santa's
+      workshop.
+    </p>
+    <p>
+      I'd been using Facebook since 2004, back when you needed a ".edu" email to
+      sign up. I'd watched it evolve from a simple college networking site to the
+      digital town square where democracy goes to die. I dropped Myspace Tom faster
+      than a three-day-old "Top 8 Friends" list.
+    </p>
+    <p>
+      I'd survived every privacy scandal, every algorithm change, every redesign,
+      two decades of loyal participation in this odd social experiment. Now I was
+      being kicked out without so much as a "bye bitch."
+    </p>
+    <p>
+      The language was final. Cold. Absolute. It was almost like they were trolling
+      me. It carried the tone of a bureaucracy that assumes guilt and offers
+      silence as due process, the message that tells you very clearly that no one
+      is coming to help you.
+    </p>
+    <p>
+      It's the digital equivalent of being kicked off the party bus. Except the
+      party bus holds all your family photos and your primary means of staying
+      connected to distant relatives.
+    </p>
+    <p>
+      Dopamine withdrawals are a real thing. It wasn't just the loss of access. It
+      was the sudden realization of how much of my identity had become intertwined
+      with this platform. My connection to friends on other continents. My
+      repository of old photos. A primary news source. Even my method of
+      remembering birthdays. All of it disappeared faster than a one-night stand
+      after the booze wears off.
     </p>
 
-    <h2>Into the appeal abyss</h2>
+    <h2 id="appeal-abyss">II. Into the Appeal Abyss</h2>
     <p>
-      Meta's appeal process assumes guilt first. The forms ask you to explain
-      what you did wrong. The drop-downs do not include "I got hacked." Waiting
-      stretches from days to months. Automated replies arrive on schedule and say
-      almost nothing useful.
+      Most people would have called it quits and said oh well. Why? Because Meta's
+      appeal process is like arguing with a Roomba. It bumps into a wall, spins in
+      a circle, and pretends not to notice you. Only about twenty-four percent of
+      appeals go anywhere. Paying for Meta Verified support mostly gets you a
+      shinier automated brush-off from agents named Solange.
     </p>
     <p>
-      Meta Verified mostly buys a shinier brush-off: elevated "human" support that
-      still runs you in circles. The maze is designed to exhaust you into
-      acceptance. Stubborn documentation beats spammy re-appeals.
+      It was a confusing hedge maze with more grey areas than my Aunt Linda's
+      mystery casserole at Thanksgiving. I was down the rabbit hole. Things were
+      getting curiouser and curiouser.
+    </p>
+    <p>
+      You know me, I'm gay and stubborn. I also love tea parties. So I said nope to
+      giving up and pulled a full Leslie Knope instead.
+    </p>
+    <p>
+      The appeal process deserves its own anthropological study. First, you're
+      presented with a form that asks you to explain what you did wrong. It already
+      assumes guilt. The drop-down menus for violation types don't include "Bitch, I
+      didn't do shit." You're forced to guess at your own crime like some dystopian
+      game show.
+    </p>
+    <p>
+      Then comes the waiting. Days turn into weeks. Weeks turn into months. The
+      automated responses arrive with the regularity of a Swiss watch and the
+      helpfulness of a belt and suspenders but no pants. Each one essentially says,
+      "We've reviewed your appeal and determined that you're still guilty of
+      something we won't specify."
+    </p>
+    <p>
+      The most infuriating part was the gaslighting. The responses would reference
+      "community standards" violations without citing which standards or what
+      content. It was like being told you failed a test but not being allowed to see
+      the questions or your answers. The platform seemed designed not to resolve
+      issues but to exhaust you into acceptance.
     </p>
 
-    <h2>The smoking gun in Meta's own logs</h2>
+    <h2 id="smoking-gun">III. The Smoking Gun</h2>
     <p>
-      The breakthrough lived in Meta's own plumbing. Trying
+      I documented the whole experience. Screenshots. Timestamps. Notes. Emails.
+      I'm a documentary filmmaker, so I treated it like a job.
+    </p>
+    <p>
+      I even started paying Meta for Meta Verified, because it comes with the
+      promise of elevated HUMAN support, capital letters doing a lot of work there.
+      What I got instead was a maze of catch-22s, broken promises, and flat-out
+      falsehoods.
+    </p>
+    <p>
+      In the beginning, they tried to shame me. They literally told me my account
+      was disabled because I was a bad person. When I asked what I had done to
+      merit closure, they responded with, "You know what you did", which I haven't
+      heard out loud since I was a toddler.
+    </p>
+    <p>
+      It was dismissive. Infantilizing. It made me feel like a bad dog who'd chewed
+      up the furniture but couldn't remember doing it. That's when I realized I
+      needed proof.
+    </p>
+    <p>
+      <strong
+        >"Your account was disabled because you are a bad person."</strong
+      >
+      {" "}
+      An actual Meta Verified agent.
+    </p>
+    <p>
+      The breakthrough came almost by accident. While desperately trying every
+      avenue to regain access, I stumbled upon
       {" "}
       <a href="https://www.facebook.com/hacked" rel="noopener noreferrer"
         >hacked.facebook.com</a
-      >
-      {" "}
-      can surface a checkpoint URL that includes language like
-      <code>login_with_hacked_cookie</code>. That is cookie theft: a session
-      breach that never needs your password, so two-factor never fires.
+      >, a link I'd never heard of but decided to try.
     </p>
     <p>
-      When Facebook's own system admits the compromise and still treats you like
-      the criminal, you have receipts. Keep the screenshots, the odd URLs, the
-      timestamps. That smoking gun carried this fight into small claims.
+      I entered my password and was redirected to a link that looked… odd. I looked
+      closer and did a digital spit-take. It read:
+      www.facebook.com/checkpoint/disabled/login_with_hacked_cookie.
+    </p>
+    <p>
+      That phrase isn't decorative. "Login with hacked cookie" is Facebook's own
+      internal language. Cookie theft is a breach where a hacker doesn't need your
+      password, so it never triggers two-factor authentication. It's the digital
+      equivalent of someone stealing your house keys and then acting surprised when
+      you notice the furniture moved.
+    </p>
+    <p>
+      This was my smoking gun. Facebook's own system informed me my account had
+      been compromised through cookie theft, a sophisticated attack I'd have no way
+      to prevent or even detect until too late. I finally had ironclad proof: it was
+      a hack, not something I did. But instead of restoring my account, Meta treated
+      me like the criminal.
+    </p>
+    <p>
+      The real fight, and the gut-wrenching digital autopsy, was still ahead. To be
+      continued in Part 2.
     </p>
 
-    <h2>Essential steps if Facebook banned you</h2>
+    <h2 id="survival-kit">IV. Essential Steps / Survival Kit</h2>
     <ol>
       <li>
-        <strong>Act fast.</strong> You generally have about 180 days to appeal
-        before a suspension hardens into permanence.
+        <strong>Act fast.</strong> You generally have up to 180 days to appeal a
+        suspension before it becomes permanent.
       </li>
       <li>
-        <strong>Document everything.</strong> Screenshot every error, email, and
-        URL, especially anything with "hacked" or "disabled" in it.
+        <strong>Document everything.</strong> Screenshot every error message, URL
+        (especially anything with "hacked" or "disabled"), and email.
       </li>
       <li>
-        <strong>Download your data</strong> immediately if you still can
-        (Settings → Your Facebook Information → Download Your Information).
+        <strong>Download your data immediately.</strong> If you still can, Settings
+        → Your Facebook Information → Download Your Information.
       </li>
       <li>
-        <strong>Try the hacked-account flow</strong> at hacked.facebook.com and
-        look for session or cookie-theft clues.
+        <strong>Try the hacked-account flow.</strong> Visit hacked.facebook.com and
+        see if it gives you clues about session / cookie theft.
       </li>
       <li>
-        <strong>Don't spam appeals.</strong> One calm, well-written appeal beats
-        a dozen angry ones.
+        <strong>Don't spam appeals.</strong> One well-written, calm appeal performs
+        better than dozens of angry ones.
       </li>
       <li>
-        <strong>Meta Verified is a last resort.</strong> It sometimes escalates
-        support. Results vary wildly. Treat it as optional, not magic.
+        <strong>Consider Meta Verified, last resort.</strong> It sometimes
+        escalates to (semi) human support, but results vary wildly.
       </li>
     </ol>
 
-    <h2>FAQ</h2>
+    <h2 id="faq">V. FAQ with Macho Mark Z</h2>
+    <p class="section__label">Direct from the Digital Tyrant's Seat.</p>
 
-    <h3>What if Facebook banned me?</h3>
+    <h3>
+      Why did you permanently disable my 22-year-old account on Christmas Eve with
+      zero explanation?
+    </h3>
     <p>
-      Start with this Part 1 playbook: what the disable notice looks like, how
-      the appeal abyss works, and how to keep your sanity while you hunt for
-      proof. Grab the
-      {" "}
-      <a href={pdfHref}>magazine PDF</a>
-      {" "}
-      if you want the offline cut.
+      <strong>Macho Zuck</strong> (flexing, thick gold chain catching the light):
+      Bro, the algorithm don't take holidays. Sometimes it just hits you with the
+      rear-naked choke. You know what you did… or maybe the cookie thief did.
+      Either way, tap or nap. Merry Christmas.
     </p>
 
-    <h3>Hacked, then banned?</h3>
+    <h3>
+      What the hell is "login_with_hacked_cookie," and why did your own system admit
+      my account was compromised?
+    </h3>
     <p>
-      That is the trap. Cookie theft can look like "you" from Meta's side, then
-      the platform disables the account and gaslights the appeal. This page
-      covers the smoking gun in Meta's own logs.
-      {
-        part2Exists && (
-          <>
-            {" "}
-            The courtroom chapter lives on Journey as
-            {" "}
-            <a href={part2Href}>Part 2: I sued Meta and won</a>.
-          </>
-        )
-      }
+      <strong>Macho Zuck</strong> (shrugging while adjusting his chain): Hackers
+      these days are straight black belts in session theft. We catch the breach, we
+      shut it down hard. Collateral damage happens when you're running the digital
+      octagon. Should've had better guard, my friend.
     </p>
 
-    <h3>Can you sue Meta in small claims?</h3>
+    <h3>
+      Your appeal process felt like pure gaslighting. Why does every response just
+      say "We reviewed it and you're still guilty"?
+    </h3>
     <p>
-      {
-        part2Exists ? (
-          <>
-            Yes. The small-claims win that got the account back is documented on
-            Journey:
-            {" "}
-            <a href={part2Href}
-              >Part 2: I sued Meta in small claims court and won</a
-            >. This hub ships Part 1 first; Part 2 stays on Journey for now.
-          </>
-        ) : (
-          <>
-            The small-claims chapter is coming on Journey. This page ships the
-            Part 1 survival map first.
-          </>
-        )
-      }
+      <strong>Macho Zuck</strong> (smirking, cracking his knuckles): Details are for
+      white belts. Billions of users, millions of reports, can't be breaking down
+      every single takedown. Trust the process. Or don't. I'm still undefeated in my
+      local BJJ bracket.
+    </p>
+
+    <h3>
+      I paid for Meta Verified hoping for real human help. Why did I still get the
+      automated runaround?
+    </h3>
+    <p>
+      <strong>Macho Zuck</strong> (laughing): Verified gets you to the front of the
+      automated line, champ. I'm out here training with UFC fighters and stacking
+      chains, you think I'm personally reviewing your 2017 memes? The system is the
+      system. Respect it or get swept.
+    </p>
+
+    <h3>Should people just give up when they get hit with a Meta ban?</h3>
+    <p>
+      <strong>Macho Zuck</strong> (leaning in, suddenly serious): Hell no. That's
+      when you turn into the Hardy Boy. Document everything. Find your smoking gun.
+      Download the data. Some legends even drag me into small claims court. Respect
+      the grind. Most people tap out early, that's why I keep winning.
+    </p>
+
+    <h3>Any final advice from the guy actually running the platform?</h3>
+    <p>
+      <strong>Macho Zuck</strong> (standing, double-bicep flex so the gold chain
+      bounces): Back up your memories off-platform, use real 2FA, and don't put your
+      whole life in one app. Me? I'm building the future, rolling on the mats, and
+      collecting chains. You got Zucked? Dust off, touch grass, and come back
+      stronger. The algorithm doesn't miss you… much.
     </p>
 
     <h2>Series path</h2>
     <ol>
       <li>
-        <strong>This hub + Part 1</strong> (you are here):
-        {" "}
-        <a href="/special-dispatch/facebook-banned-on-christmas-eve/"
-          >Special Dispatch № 01</a
-        >
+        <strong>This hub + Part 1</strong> (you are here)
       </li>
       <li>
         <a href={pdfHref}>Download the Part 1 magazine PDF</a>
@@ -221,25 +354,25 @@ const part2Exists = true;
       {
         part2Exists ? (
           <li>
-            <a href={part2Href}>Part 2 on Journey</a>
-            {" "}
-            (existing post; Astro Part 2 waits)
+            <a href={part2Href}>Part 2 (court win)</a> on Journey
           </li>
         ) : (
-          <li>Part 2: coming on Journey</li>
+          <li>Part 2: coming</li>
         )
       }
       <li>
-        <a href="/special-dispatch/facebook-banned-on-christmas-eve/"
-          >Back here</a
-        >
-        {" "}
-        when you need the map again
+        <a href="#start-here">Back to Start here</a>
       </li>
     </ol>
 
     <p style="margin-top: 2.5rem;">
       <a class="btn btn--primary" href={pdfHref} download>Download PDF</a>
+      {" "}
+      {
+        part2Exists && (
+          <a class="btn btn--ghost" href={part2Href}>Part 2 (court win)</a>
+        )
+      }
       {" "}
       <a class="btn btn--ghost" href="/special-dispatch/">All Special Dispatches</a>
     </p>
