@@ -527,14 +527,18 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
+  /* Above .hero__video (z-index: 1) so the ink plate covers moving B-roll */
+  z-index: 2;
+  pointer-events: none;
   background:
     linear-gradient(
       180deg,
-      rgba(11, 42, 58, 0.25) 0%,
-      rgba(11, 42, 58, 0.45) 40%,
-      rgba(26, 18, 8, 0.88) 100%
+      rgba(11, 42, 58, 0.4) 0%,
+      rgba(11, 42, 58, 0.55) 32%,
+      rgba(26, 18, 8, 0.88) 68%,
+      rgba(26, 18, 8, 0.96) 100%
     ),
-    linear-gradient(90deg, rgba(15, 61, 76, 0.55) 0%, transparent 60%);
+    linear-gradient(90deg, rgba(15, 61, 76, 0.62) 0%, transparent 58%);
 }
 
 .hero:has(.hero__media) {
@@ -543,11 +547,18 @@ a:hover {
 
 .hero:has(.hero__media) .hero__headline {
   color: var(--gw-cream);
+  /* Hard plate ink offset — matches brand-mark drop-shadow energy, not soft glow */
+  text-shadow:
+    3px 3px 0 rgba(26, 18, 8, 0.92),
+    1px 1px 0 rgba(26, 18, 8, 0.85),
+    -1px 0 0 rgba(26, 18, 8, 0.55),
+    0 -1px 0 rgba(26, 18, 8, 0.55);
 }
 
 .hero:has(.hero__media) .hero__lede {
   color: var(--gw-cream);
-  opacity: 0.92;
+  opacity: 0.95;
+  text-shadow: 2px 2px 0 rgba(26, 18, 8, 0.8);
 }
 
 .hero:has(.hero__media) .btn--ghost {
@@ -563,6 +574,8 @@ a:hover {
 }
 
 .hero__content {
+  position: relative;
+  z-index: 1;
   display: grid;
   gap: var(--sp-5);
   max-width: 40rem;
