@@ -16,11 +16,11 @@ slug: janice-engel-mentor-documentary
 
 # The Making of My Indie Documentary Short: A Journey of Discovery
 
-              [Short Documentary](/indie-doc-journey/category/Short+Documentary)[Education and Learning](/indie-doc-journey/category/Education+and+Learning)[Personal Stories](/indie-doc-journey/category/Personal+Stories)[Student Projects](/indie-doc-journey/category/Student+Projects)[Filmmaking and Production](/indie-doc-journey/category/Filmmaking+and+Production)
+[Short Documentary](/indie-doc-journey/category/Short+Documentary)[Education and Learning](/indie-doc-journey/category/Education+and+Learning)[Personal Stories](/indie-doc-journey/category/Personal+Stories)[Student Projects](/indie-doc-journey/category/Student+Projects)[Filmmaking and Production](/indie-doc-journey/category/Filmmaking+and+Production)
 
-              May 28
+May 28
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
 ## Janice Engel: The Mentor Behind the Documentary
 
@@ -79,13 +79,13 @@ Would you be a dear and rent it on[ Amazon](https://www.amazon.com/Raise-Hell-Ti
 
 You can find Janice Engel on [Twitter](https://x.com/janiceengel).
 
-              [Indie Documentary](/indie-doc-journey/tag/Indie+Documentary)[Documentary Filmmaking](/indie-doc-journey/tag/Documentary+Filmmaking)[Janice Engel](/indie-doc-journey/tag/Janice+Engel)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Student Film Project](/indie-doc-journey/tag/Student+Film+Project)[Filmmaking Journey](/indie-doc-journey/tag/Filmmaking+Journey)[Academy of Art University](/indie-doc-journey/tag/Academy+of+Art+University)[Personal Storytelling](/indie-doc-journey/tag/Personal+Storytelling)[Documentary Mentor](/indie-doc-journey/tag/Documentary+Mentor)[Short Documentary](/indie-doc-journey/tag/Short+Documentary)
+[Indie Documentary](/indie-doc-journey/tag/Indie+Documentary)[Documentary Filmmaking](/indie-doc-journey/tag/Documentary+Filmmaking)[Janice Engel](/indie-doc-journey/tag/Janice+Engel)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Student Film Project](/indie-doc-journey/tag/Student+Film+Project)[Filmmaking Journey](/indie-doc-journey/tag/Filmmaking+Journey)[Academy of Art University](/indie-doc-journey/tag/Academy+of+Art+University)[Personal Storytelling](/indie-doc-journey/tag/Personal+Storytelling)[Documentary Mentor](/indie-doc-journey/tag/Documentary+Mentor)[Short Documentary](/indie-doc-journey/tag/Short+Documentary)
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)

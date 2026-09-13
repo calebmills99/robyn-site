@@ -24,15 +24,15 @@ reason: core v1
           Elevate Legacy, Celebrate Courage
 
 #
-          *Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
+*Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
 
 #
 
-              Elevate Legacy, Celebrate Courage
+Elevate Legacy, Celebrate Courage
 
-              *Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
+*Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
 
-        Elevate Legacy, Celebrate Courage *Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
+Elevate Legacy, Celebrate Courage *Sign up with your email before launch day and receive a 20% discount on any full-price perk during our campaign. Early birds get the golden worms!
 
   ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/f15615c2-a648-4495-ab26-ad6dc7136c1f/CalebProfilePicPro_resized.png)
 
@@ -50,9 +50,9 @@ Download Section: Early Access Digital Screener
 
 - Support the documentary and be the first to watch the exclusive Silicon Beach Layover Edition.
 
-  [
+
     Download Now
-  ](/1971)
+
 
   ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/cab184b7-a7c6-4a59-916c-ee2d333c1aaf/lgbt.png)
 
@@ -161,13 +161,13 @@ Help us celebrate Robyn's legacy and contribute to a world where love, diversity
 
 Sign Up Now & Take Off With Us! 🛫✨
 
-  [
-    Download Now!
-  ](/1971)
 
-  [
     Download Now!
-  ](/1971)
+
+
+
+    Download Now!
+
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/a30e91c4-faca-4211-8bc1-b4c46b6fc81c/tokyo.png)
 
@@ -215,6 +215,6 @@ Hit the Download Now Button to Secure That OfferDon’t wait any longer! Click t
 
 ## This film has been snatching wigs!
 
-  [
+
     Download Now!
-  ](/1971)
+

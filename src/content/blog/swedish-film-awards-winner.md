@@ -20,13 +20,13 @@ slug: swedish-film-awards-winner
 
 # A Win in Sweden: Norse Gods and Hot Rollers
 
-              Aug 1
+Aug 1
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/4be9893c-1135-43da-ba01-56196bbd3d26/swedishawardpromosiff.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/4be9893c-1135-43da-ba01-56196bbd3d26/swedishawardpromosiff.png)
 
-            Headshots of Flight Attendant, RObyn Stewart and film director Caleb Mills Stewart. A candid photo of Henry Stewart. (botom left) A satirical depciction of the Norse God, Bragi.
+Headshots of Flight Attendant, RObyn Stewart and film director Caleb Mills Stewart. A candid photo of Henry Stewart. (botom left) A satirical depciction of the Norse God, Bragi.
 
 The first shot of my documentary features my mother getting ready for a flight in her [cinema verité](https://nofilmschool.com/what-is-cinema-verite) style. I chose it instinctively (a quiet moment of intimacy and routine). But this week, I received an unexpected email from the [Swedish International Film Festival (SIFF)](https://www.thesiff.com/). [Golden Wings](https://www.imdb.com/title/tt33046424) had been selected as a winner in their 46th edition.
 
@@ -105,11 +105,11 @@ Bragi: Aye. Grief sings the deepest notes. The film? A hymn for those who remain
 
 “To all storytellers: Keep the lens honest, the heart open, and the harp tuned. For every frame carries a whisper from the gods — if you know how to listen.”
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)

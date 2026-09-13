@@ -10,17 +10,17 @@ reason: core v1
 
 ##
 
-            SBIFF Layover Edition
+SBIFF Layover Edition
 
-          Clear
+Clear
 
-              Filters
+Filters
 
-            Filter
+Filter
 
-          Clear
+Clear
 
-          Filter
+Filter
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/33a3dd1a-94ce-42b7-8b13-f8abc2c8fc81/thumbnail+ethos.jpg)
 
@@ -50,21 +50,21 @@ reason: core v1
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1738724157644-N0AWC59TDTKAJOJNG5KD/default_a_highly_detailed_colorful_screenshot_of_a_professiona_1.jpg)
 
-    Quick View
+Quick View
 
-          Gift Card
+Gift Card
 
-    from $25.00
-
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1738724164432-LRLAVQSVHT47U1T6VU8U/image-7.png)
+from $25.00
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1738724164432-LRLAVQSVHT47U1T6VU8U/image-7.png)
 
-    Quick View
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1738724164432-LRLAVQSVHT47U1T6VU8U/image-7.png)
 
-          Educational Package
+Quick View
 
-      $1,296.21
+Educational Package
 
-        No results found
-        No results match your search. Try removing a few filters.
+$1,296.21
+
+No results found
+No results match your search. Try removing a few filters.

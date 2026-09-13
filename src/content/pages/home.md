@@ -43,19 +43,19 @@ reason: core v1
 
 ## Golden Wings: An Award-Winning Aviation Documentary
 
-    Golden Wings is an award-winning aviation documentary directed by Los Angeles filmmaker Caleb Mills Stewart. The film chronicles the 55-year career of American Airlines flight attendant Robyn Stewart and explores the evolution of commercial aviation through iconic aircraft including the Boeing 747, Boeing 707, Boeing 727, Boeing 777, and Boeing 787.
+Golden Wings is an award-winning aviation documentary directed by Los Angeles filmmaker Caleb Mills Stewart. The film chronicles the 55-year career of American Airlines flight attendant Robyn Stewart and explores the evolution of commercial aviation through iconic aircraft including the Boeing 747, Boeing 707, Boeing 727, Boeing 777, and Boeing 787.
 
 ### A Story of Women in Aviation and Airline History
 
-    More than a flight attendant documentary, Golden Wings highlights the changing role of women in aviation and the transformation of the airline industry over five decades. From the jet age to modern international routes, the film captures both historical milestones and personal resilience.
+More than a flight attendant documentary, Golden Wings highlights the changing role of women in aviation and the transformation of the airline industry over five decades. From the jet age to modern international routes, the film captures both historical milestones and personal resilience.
 
 ### About the Director
 
-    Caleb Mills Stewart is a Los Angeles-based documentary filmmaker whose work focuses on legacy, resilience, and the human spirit. Golden Wings has received multiple international awards, including Best Documentary Short at the Swedish International Film Festival and Best Mobile Short at the Independent Shorts Awards.
+Caleb Mills Stewart is a Los Angeles-based documentary filmmaker whose work focuses on legacy, resilience, and the human spirit. Golden Wings has received multiple international awards, including Best Documentary Short at the Swedish International Film Festival and Best Mobile Short at the Independent Shorts Awards.
 
 ### Explore the Indie Doc Journey
 
-    Beyond the film, the companion blog [My Indie Doc Journey](/blog) shares insights into independent documentary filmmaking, festival strategy, and the craft of storytelling. Watch the featured video, “10 Documentaries That Will Change Your Life,” and discover behind-the-scenes lessons from an award-winning aviation documentary.
+Beyond the film, the companion blog [My Indie Doc Journey](/blog) shares insights into independent documentary filmmaking, festival strategy, and the craft of storytelling. Watch the featured video, “10 Documentaries That Will Change Your Life,” and discover behind-the-scenes lessons from an award-winning aviation documentary.
 
   ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/d39ae747-35c2-4941-b3a1-fec09939d4dc/Firefly_Gemini+Flash_clean+up+the+Golden+Wings+typography.+The+edges+need+beveling+and+sharpness+and+droop+195080.png)
 
@@ -65,7 +65,7 @@ reason: core v1
 
   Golden Wings, a cinematic tribute to aviation history and generational legacy, stood out among hundreds of submissions from around the globe. The announcement was made via the [official SIFF Winners page](https://www.thesiff.com/march-march-2025/), where a still frame from the film was prominently featured.
 
-    "It’s an honor to be recognized by a festival with SIFF’s cultural reach and reputation," said director Caleb Mills Stewart. "This recognition validates the deep emotional and historical layers we sought to capture through minimalist production and vérité style."
+"It’s an honor to be recognized by a festival with SIFF’s cultural reach and reputation," said director Caleb Mills Stewart. "This recognition validates the deep emotional and historical layers we sought to capture through minimalist production and vérité style."
 
 ## Festival Favorite with Global Momentum
 
@@ -77,49 +77,49 @@ reason: core v1
 
 ## Major Awards & Recognition
 
-    - Swedish International Film Festival (2025): Best Documentary (Short)
+- Swedish International Film Festival (2025): Best Documentary (Short)
 
-    - Clown International Film Festival: Best Mobile Short & Best Documentary (Short)
+- Clown International Film Festival: Best Mobile Short & Best Documentary (Short)
 
-    - NewsFest Santa Monica: Most Inspirational, Best Trailer
+- NewsFest Santa Monica: Most Inspirational, Best Trailer
 
-    - Silicon Beach Film Festival: Best Cinematography (Rough Cut)
+- Silicon Beach Film Festival: Best Cinematography (Rough Cut)
 
-    - Beyond Hollywood IFF: Finalist – Best Short Documentary
+- Beyond Hollywood IFF: Finalist – Best Short Documentary
 
-    - NYC Independent Film Festival: Winner – Best Documentary
+- NYC Independent Film Festival: Winner – Best Documentary
 
 ## Learn More
 
-    - [IMDb – Golden Wings](https://www.imdb.com/title/tt33046424)
+- [IMDb – Golden Wings](https://www.imdb.com/title/tt33046424)
 
-    - [Official Film Website](https://www.golden-wings-robyn.com)
+- [Official Film Website](https://www.golden-wings-robyn.com)
 
-    - [FilmFreeway Page](https://filmfreeway.com/GoldenWingsDoc)
+- [FilmFreeway Page](https://filmfreeway.com/GoldenWingsDoc)
 
-    - [Director IMDb Profile](https://www.imdb.com/name/nm5278087)
+- [Director IMDb Profile](https://www.imdb.com/name/nm5278087)
 
 ## Press Contact
 
   Caleb Mills Stewart
 
-     Director, Golden Wings
+Director, Golden Wings
 
-     📧 [caleb@golden-wings-robyn.com](mailto:caleb@golden-wings-robyn.com)
+📧 [caleb@golden-wings-robyn.com](mailto:caleb@golden-wings-robyn.com)
 
-     📞 (562) 523‑9620
+📞 (562) 523‑9620
 
-     🌐 [www.golden-wings-robyn.com](https://www.golden-wings-robyn.com)
+🌐 [www.golden-wings-robyn.com](https://www.golden-wings-robyn.com)
 
   Read Full Press Release
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1772482724571-PYC61ECNO3NUR0R06KA7/unsplash-image-Q5akQr0bn9A.jpg)
 
-      [
+
 
   ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/3815d957-b2f9-418d-972a-0553796516c0/stewardess+college+play+button.png)
 
-      ](/stewardess-college-1968)
+
 
 ## American Airlines Stewardess College (1968)
 
@@ -129,9 +129,9 @@ Featuring rare footage and the leadership of legendary president Millie Alford, 
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/316291db-bc7e-4037-bbc4-e76872097f8a/boeing747.png)
 
-  [
+
     watch now
-  ](https://gwingz.com)
+
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1777335650579-XKSCUYZY20J8CO6IZRN0/unsplash-image-oMpAz-DN-9I.jpg)
 
@@ -153,18 +153,18 @@ Golden Wings documents not only an extraordinary professional milestone but a li
 
 This section celebrates dedication, resilience, and the evolving identity of the modern flight attendant.
 
-      [
+
 
   ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/ee93259f-5a29-4abd-b56f-ca06695f2db0/caleb_paly_button_blog.png)
 
-      ](/caleb-blog-preview)
 
-  [
+
+
     Free Newsletter
-  ](/optin)
 
-  [
+
+
     Read the Blog!
-  ](/indie-doc-journey)
+
 
 ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/43e40661-e28c-4d87-b3e5-12b285da8f63/ROBYN_BABY_RESTOR+copy+2.jpeg)

@@ -73,6 +73,6 @@ Fun Fact: The inclusion of FAQs in Terms of Use documents became a standard prac
 
 ###
 
-  [
+
     Indie Doc Journey Blog
-  ](/indie-doc-journey)
+

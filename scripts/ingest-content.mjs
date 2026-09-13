@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { cleanScrapedMarkdown } from "./rescue-indented-image-blocks.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -140,6 +141,7 @@ function processMarkdown(filePath, { isBlog }) {
   // Drop empty H1 stubs and Squarespace "(Copy)" title leftovers
   body = body.replace(/^#\s*$/gm, "");
   body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
+  body = cleanScrapedMarkdown(body);
 
   if (isBlog) {
     // One H1 per post: keep the first ATX H1, demote the rest to H2

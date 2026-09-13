@@ -1,6 +1,5 @@
 ---
-title: >-
-  Golden Wings: Celebrating Milestones in Aviation's Legacy
+title: 'Golden Wings: Celebrating Milestones in Aviation''s Legacy'
 description: >-
   Golden Wings celebrates selections at The NewsFest and Silicon Beach Film
   Festival. Discover how this aviation documentary is gaining recognition and
@@ -18,17 +17,17 @@ slug: golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-le
 
 # Golden Wings – Celebrating Milestones in Aviation’s Legacy
 
-              Aug 14
+Aug 14
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
   We are thrilled to share some exciting updates regarding Golden Wings. Our documentary, which chronicles the remarkable evolution of aviation over the past 55 years, has recently achieved significant recognition at not one, but two prestigious film festivals.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/332eb8e9-04b2-4190-8426-9c2c7deba277/Default_A_stylized_illustration_of_the_NewsFest_True_Stories_2.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/332eb8e9-04b2-4190-8426-9c2c7deba277/Default_A_stylized_illustration_of_the_NewsFest_True_Stories_2.jpg)
 
   The NewsFest – True Stories International Film and Writers FestivalWe are proud to announce that Golden Wings has been selected for The NewsFest – True Stories International Film and Writers Festival. This marks the sixth film festival selection for our documentary, highlighting the growing appreciation for the story we are telling. The NewsFest is renowned for celebrating powerful, real-life narratives, and we are honored to be part of this year’s lineup.
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/2e82ee61-1944-46dd-bf23-a6c80eb9d6f4/Default_A_vibrant_poster_for_the_Silicon_Beach_Film_Festival_s_3.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/2e82ee61-1944-46dd-bf23-a6c80eb9d6f4/Default_A_vibrant_poster_for_the_Silicon_Beach_Film_Festival_s_3.jpg)
 
   Silicon Beach Film FestivalIn addition to this, we are equally delighted to announce that Golden Wings was also selected for the Silicon Beach Film Festival, where it was showcased at the iconic Chinese Theater in Hollywood. The Silicon Beach Film Festival is a notable event that brings together filmmakers from around the globe, and having our documentary featured in such a historic venue was an incredible experience.
 
@@ -48,13 +47,13 @@ A Special Thanks
 
 Please stay tuned for more updates as we continue to work on making Golden Wings the best it can be. This journey is far from over, and we look forward to sharing the final product with you soon.
 
-              [#BlogPost](/indie-doc-journey/tag/%23BlogPost)[#DocumentaryJourney](/indie-doc-journey/tag/%23DocumentaryJourney)[#SiliconBeachFilmFestival](/indie-doc-journey/tag/%23SiliconBeachFilmFestival)[#Filmmaking](/indie-doc-journey/tag/%23Filmmaking)[#BehindTheScenes](/indie-doc-journey/tag/%23BehindTheScenes)[#IndieFilm](/indie-doc-journey/tag/%23IndieFilm)[#ChineseTheater](/indie-doc-journey/tag/%23ChineseTheater)[#StudentProject](/indie-doc-journey/tag/%23StudentProject)[#AviationDocumentary](/indie-doc-journey/tag/%23AviationDocumentary)
+[#BlogPost](/indie-doc-journey/tag/%23BlogPost)[#DocumentaryJourney](/indie-doc-journey/tag/%23DocumentaryJourney)[#SiliconBeachFilmFestival](/indie-doc-journey/tag/%23SiliconBeachFilmFestival)[#Filmmaking](/indie-doc-journey/tag/%23Filmmaking)[#BehindTheScenes](/indie-doc-journey/tag/%23BehindTheScenes)[#IndieFilm](/indie-doc-journey/tag/%23IndieFilm)[#ChineseTheater](/indie-doc-journey/tag/%23ChineseTheater)[#StudentProject](/indie-doc-journey/tag/%23StudentProject)[#AviationDocumentary](/indie-doc-journey/tag/%23AviationDocumentary)
 
-              [
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
-](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)

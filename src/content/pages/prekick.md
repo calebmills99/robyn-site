@@ -43,9 +43,9 @@ $1,500 Donation: Executive Producer title in the credits, VIP invitation to the 
 Exclusive early access to the Kickstarter page.
 VIP Perks Package for $19.71 (year Robyn started flying) – includes early access to a digital screener, discounted perks, and 50% off
 
-  [
+
     Be part of the legacy!
-  ](/1971)
+
 
 ## Get Early Access & Discounts
 
