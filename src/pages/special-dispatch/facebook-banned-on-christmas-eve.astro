@@ -1,0 +1,197 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { blogPostingJsonLd } from "../../lib/seo";
+
+const h1 = "Banned on Christmas Eve. Here's how to fight a Facebook ban.";
+const description =
+  "Hacked, banned, and stuck in Meta's appeal maze? Read the Indie Doc Journey Special Dispatch: Christmas Eve ban, smoking gun, and the small-claims win.";
+const path = "/special-dispatch/facebook-banned-on-christmas-eve";
+
+const part1 = "/indie-doc-journey/zucked-on-christmas-eve-part-1/";
+const part2 = "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
+---
+
+<BaseLayout
+  title="Banned on Christmas Eve"
+  fullTitle="Banned on Christmas Eve | Facebook Ban Survival + Meta Small Claims"
+  description={description}
+  ogType="article"
+  jsonLd={blogPostingJsonLd({ title: h1, description, url: path })}
+>
+  <article class="prose">
+    <p class="section__label">
+      <a href="/special-dispatch/" style="text-decoration: none;"
+        >← Special Dispatch</a
+      >
+      {" · "}
+      <a href="/indie-doc-journey" style="text-decoration: none;">Journey</a>
+    </p>
+
+    <p class="section__label plate--subtitle">
+      Indie Doc Journey · Special Dispatch № 01
+    </p>
+
+    <h1>{h1}</h1>
+
+    <p>
+      Christmas Eve, Meta permanently disabled a 22-year account for the crime of
+      getting hacked. This Special Dispatch is the survival map: the appeal
+      abyss, the smoking gun in Meta's own logs, and the small-claims fight that
+      got the account back. If you are a Facebook exile, start here.
+    </p>
+
+    <h2>Start here</h2>
+    <ul>
+      <li>
+        <a href={part1}>Part 1: The ban night playbook</a>
+      </li>
+      <li>
+        <a href={part2}>Part 2: I sued Meta and won</a>
+      </li>
+      <li>
+        <strong>Download: Banned on Christmas Eve (PDF)</strong>
+        <br />
+        PDF not yet published on this site. Read the full Part 1 magazine piece
+        on the Journey while that asset lands:
+        {" "}
+        <a href={part1}>Zucked on Christmas Eve (Part 1)</a>.
+      </li>
+    </ul>
+
+    <h2>The digital death sentence</h2>
+    <p>
+      Christmas Eve. Instead of cocoa, a disable notice: a 22-year Facebook
+      account, permanently gone. No warning. No explanation. Just cold absolute
+      language that assumes you already know what you did wrong, and that nobody
+      is coming to help.
+    </p>
+    <p>
+      That account held family photos, milestones, grief, jokes, and two decades
+      of digital life. Losing it on a holiday, when support is a ghost town, is
+      the digital death sentence. If you have been there, you already know the
+      dopamine withdrawal is real.
+    </p>
+
+    <h2>Into the appeal abyss</h2>
+    <p>
+      Meta's appeal process assumes guilt first. The forms ask you to explain
+      what you did wrong. The drop-downs do not include "I got hacked." Waiting
+      stretches from days to months. Automated replies arrive on schedule and say
+      almost nothing useful.
+    </p>
+    <p>
+      Meta Verified mostly buys a shinier brush-off: elevated "human" support that
+      still runs you in circles. The maze is designed to exhaust you into
+      acceptance. Stubborn documentation beats spammy re-appeals.
+    </p>
+
+    <h2>The smoking gun in Meta's own logs</h2>
+    <p>
+      The breakthrough lived in Meta's own plumbing. Trying
+      {" "}
+      <a href="https://www.facebook.com/hacked" rel="noopener noreferrer"
+        >hacked.facebook.com</a
+      >
+      {" "}
+      can surface a checkpoint URL that includes language like
+      <code>login_with_hacked_cookie</code>. That is cookie theft: a session
+      breach that never needs your password, so two-factor never fires.
+    </p>
+    <p>
+      When Facebook's own system admits the compromise and still treats you like
+      the criminal, you have receipts. Keep the screenshots, the odd URLs, the
+      timestamps. That smoking gun carried this fight into small claims.
+    </p>
+
+    <h2>Essential steps if Facebook banned you</h2>
+    <ol>
+      <li>
+        <strong>Act fast.</strong> You generally have about 180 days to appeal
+        before a suspension hardens into permanence.
+      </li>
+      <li>
+        <strong>Document everything.</strong> Screenshot every error, email, and
+        URL, especially anything with "hacked" or "disabled" in it.
+      </li>
+      <li>
+        <strong>Download your data</strong> immediately if you still can
+        (Settings → Your Facebook Information → Download Your Information).
+      </li>
+      <li>
+        <strong>Try the hacked-account flow</strong> at hacked.facebook.com and
+        look for session or cookie-theft clues.
+      </li>
+      <li>
+        <strong>Don't spam appeals.</strong> One calm, well-written appeal beats
+        a dozen angry ones.
+      </li>
+      <li>
+        <strong>Meta Verified is a last resort.</strong> It sometimes escalates
+        support. Results vary wildly. Treat it as optional, not magic.
+      </li>
+    </ol>
+
+    <h2>FAQ</h2>
+
+    <h3>What if Facebook banned me?</h3>
+    <p>
+      Start with the ban-night playbook: what the disable notice looks like, how
+      the appeal abyss works, and how to keep your sanity while you hunt for
+      proof. Read
+      {" "}
+      <a href={part1}>Part 1: Zucked on Christmas Eve</a>.
+    </p>
+
+    <h3>Hacked, then banned?</h3>
+    <p>
+      That is the trap. Cookie theft can look like "you" from Meta's side, then
+      the platform disables the account and gaslights the appeal. Part 1 covers
+      the smoking gun in Meta's own logs; Part 2 covers what happened after the
+      proof existed. Start with
+      {" "}
+      <a href={part1}>Part 1</a>, then
+      {" "}
+      <a href={part2}>Part 2: I sued Meta and won</a>.
+    </p>
+
+    <h3>Can you sue Meta in small claims?</h3>
+    <p>
+      Yes. This dispatch ends in a small-claims win that got the account back.
+      The courtroom chapter, the manifesto, and the hard-won return live in
+      {" "}
+      <a href={part2}>Part 2: I sued Meta in small claims court and won</a>.
+    </p>
+
+    <h2>Series path</h2>
+    <ol>
+      <li>
+        <strong>This hub</strong> (you are here):
+        {" "}
+        <a href="/special-dispatch/facebook-banned-on-christmas-eve/"
+          >Special Dispatch № 01</a
+        >
+      </li>
+      <li>
+        <a href={part1}>Part 1: The ban night playbook</a>
+      </li>
+      <li>
+        <a href={part2}>Part 2: I sued Meta and won</a>
+      </li>
+      <li>
+        <a href="/special-dispatch/facebook-banned-on-christmas-eve/"
+          >Back here</a
+        >
+        {" "}
+        when you need the map again
+      </li>
+    </ol>
+
+    <p style="margin-top: 2.5rem;">
+      <a class="btn btn--primary" href={part1}>Read Part 1</a>
+      {" "}
+      <a class="btn btn--ghost" href={part2}>Read Part 2</a>
+      {" "}
+      <a class="btn btn--ghost" href="/special-dispatch/">All Special Dispatches</a>
+    </p>
+  </article>
+</BaseLayout>
