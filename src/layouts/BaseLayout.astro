@@ -6,6 +6,7 @@ interface Props {
   description?: string;
   /** Absolute URL override; defaults to self-referencing site URL for this path. */
   canonical?: string;
+  home?: boolean;
   /** Absolute or root-relative image URL for og:image / twitter:image. */
   ogImage?: string;
   /** Open Graph type; default website. Use article for blog posts. */
@@ -23,6 +24,7 @@ const {
   title = "Golden Wings",
   description = DEFAULT_DESCRIPTION,
   canonical: canonicalProp,
+  home = false,
   ogImage = DEFAULT_OG_IMAGE,
   ogType = "website",
   jsonLd,
@@ -30,8 +32,8 @@ const {
 
 const pageTitle =
   title === "Golden Wings"
-    ? "Golden Wings | Aviation Documentary"
-    : `${title} | Golden Wings`;
+    ? "Golden Wings / Fifty Year Flight Path"
+    : `${title} · Golden Wings`;
 
 const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
 const canonicalPath = pathname === "/" ? "/" : pathname;
@@ -95,15 +97,21 @@ function isCurrent(href: string) {
 
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Roboto+Condensed:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>{pageTitle}</title>
   </head>
-  <body>
+  <body class:list={[{ "is-home": home }]}>
     <a class="sr-only" href="#main">Skip to content</a>
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="/">
-          Golden Wings
-          <span class="brand__subtitle">Stewardess to Sky Queen</span>
+          <span class="brand__primary">Golden Wings</span>
+          <span class="brand__sub">Fifty Year Flight Path</span>
         </a>
         <nav aria-label="Primary">
           <ul class="nav">
@@ -132,20 +140,25 @@ function isCurrent(href: string) {
       </div>
     </header>
 
-    <main id="main" class="site-main">
+    <main id="main" class:list={["site-main", { "site-main--home": home }]}>
       <slot />
     </main>
 
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <p>© {new Date().getFullYear()} Golden Wings</p>
-        <nav aria-label="Legal">
+        <div class="site-footer__brand">
+          <p class="site-footer__title">Golden Wings</p>
+          <p class="site-footer__sub">Fifty Year Flight Path</p>
+          <p class="site-footer__copy">
+            © 2026 Get Booked Studio / Gwingz
+          </p>
+        </div>
+        <nav aria-label="Contact and legal" class="site-footer__nav">
+          <a href="mailto:caleb@golden-wings-robyn.com">caleb@golden-wings-robyn.com</a>
+          <a href="mailto:info@golden-wings-robyn.com">info@golden-wings-robyn.com</a>
           <a href="/privacy-policy">Privacy</a>
           <a href="/terms-of-use">Terms</a>
           <a href="/optin">SMS Opt-In</a>
-          <a href="mailto:info@golden-wings-robyn.com"
-            >info@golden-wings-robyn.com</a
-          >
         </nav>
       </div>
     </footer>

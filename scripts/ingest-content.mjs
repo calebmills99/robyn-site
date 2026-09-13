@@ -88,7 +88,7 @@ function rewriteCareerCopy(text, { isBlogTitle = false } = {}) {
   out = out.replace(/\bfifty-year\b/gi, "55-year");
   out = out.replace(/\b50-year\b/gi, "55-year");
   out = out.replace(/\bmore than fifty years\b/gi, "55 years");
-  out = out.replace(/\bover five decades\b/gi, "over five decades"); // leave idiom
+  out = out.replace(/\bover five decades\b/gi, "over five decades");
   out = out.replace(/\bflight attendant for more than fifty years\b/gi, "flight attendant for 55 years");
   out = out.replace(/\b(?:her|Robyn(?:'s)?|a)\s+50-year\s+career\b/gi, (m) =>
     m.replace(/50-year/i, "55-year"),
@@ -106,7 +106,6 @@ function extractH1(body) {
 }
 
 function blogSlugFromFilename(name) {
-  // indie-doc-journey__swedish-film-awards-winner.md → swedish-film-awards-winner
   const base = name.replace(/\.md$/i, "");
   if (base.startsWith("indie-doc-journey__")) {
     return base.slice("indie-doc-journey__".length);
@@ -134,12 +133,10 @@ function processMarkdown(filePath, { isBlog }) {
   }
 
   let body = content;
-  // Drop empty H1 stubs and Squarespace "(Copy)" title leftovers
   body = body.replace(/^#\s*$/gm, "");
   body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
 
   if (isBlog) {
-    // One H1 per post: keep the first ATX H1, demote the rest to H2
     let seenH1 = false;
     body = body.replace(/^#\s+(.+)$/gm, (_m, text) => {
       if (!seenH1) {
@@ -148,7 +145,6 @@ function processMarkdown(filePath, { isBlog }) {
       }
       return `## ${text}`;
     });
-    // Leave blog titles alone; still clean body career marketing + privacy typo
     body = rewriteCareerCopy(body, { isBlogTitle: false });
   } else {
     body = rewriteCareerCopy(body);
@@ -157,7 +153,6 @@ function processMarkdown(filePath, { isBlog }) {
 
   let description = data.description ? String(data.description) : "";
   description = rewriteCareerCopy(description);
-  // Scraped opt-in meta typo
   description = description.replace(
     /Sign up for the\.\s*App/gi,
     "Sign up for the Golden Wings App",

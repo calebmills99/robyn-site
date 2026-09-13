@@ -5,170 +5,180 @@ import { homeJsonLd } from "../lib/seo";
 const description =
   "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
 
-const year = new Date().getFullYear();
-
-const posterSrc = "/images/poster/GWSSQ_Poster_2026.png";
-
-const laurels = [
-  {
-    src: "/images/laurels/Clown_International_BEST_DOCUMENTARY_SHORT_2024.png",
-    alt: "Clown International Film Festival — Best Documentary Short",
-  },
-  {
-    src: "/images/laurels/Laurel_BEST_MOBILE_SHORT_-_Independent_Shorts_Awards_-_2024.png",
-    alt: "Independent Shorts Awards — Best Mobile Short",
-  },
-  {
-    src: "/images/laurels/Laurel_BEST_SHORT_CINEMATOGRAPHY_SILICON_BEACH.png",
-    alt: "Silicon Beach Film Festival — Best Short Cinematography",
-  },
-  {
-    src: "/images/laurels/Laurel_MAGIC_FANCY_DIRECTOR.png",
-    alt: "Magic Silver Screen — Best First Time Director",
-  },
-  {
-    src: "/images/laurels/BEST_DOCUMENTARY_SHORT_-_IGFA_-_International_Guadalajara_Film_Awards_-_2024.png",
-    alt: "IGFA International Guadalajara Film Awards — Best Documentary Short",
-  },
-];
+const logline =
+  "From girdle checks at stewardess college to golden wings after fifty years in the cabin, one American Airlines family carries the 747 rollout, 9/11, sobriety, and loss across three generations.";
 ---
 
-<BaseLayout title="Golden Wings" description={description} jsonLd={homeJsonLd(description)}>
-  <section class="hero full-bleed-home" aria-label="Golden Wings">
-    <div class="hero__media" aria-hidden="true">
-      <video
-        class="hero__video"
-        autoplay
-        muted
-        loop
-        playsinline
-        preload="metadata"
-        poster="/images/synth-media/747-synth-broll-reel-poster.jpg"
-      >
-        <source
-          src="/videos/synth-media/747-synth-broll-reel.mp4"
-          type="video/mp4"
-        />
-      </video>
+<BaseLayout title="Golden Wings" description={description} jsonLd={homeJsonLd(description)} home>
+  <section class="home-hero" aria-label="Golden Wings">
+    <div class="home-hero__media" aria-hidden="true">
       <img
-        class="hero__poster"
-        src="/images/synth-media/747-synth-broll-reel-poster.jpg"
+        src="/images/boeing747.png"
         alt=""
         width="1920"
         height="1080"
         fetchpriority="high"
       />
     </div>
-    <div class="hero__content">
-      <p class="hero__brand-mark">
-        <img
-          src="/images/title-logo.png"
-          alt="Golden Wings"
-          width="900"
-          height="360"
-        />
-      </p>
-      <h1 class="hero__headline">
-        <span class="hero__headline-line"
-          >1971: Robyn meets Destiny onboard the 747.</span
-        >
-        <span class="hero__headline-line"
-          >{year}: Still flying. Now with golden wings.</span
-        >
+    <div class="home-hero__veil" aria-hidden="true"></div>
+    <div class="home-hero__content">
+      <p class="home-hero__eyebrow">A documentary</p>
+      <h1 class="home-hero__title">
+        <span class="home-hero__brand">Golden Wings</span>
+        <span class="home-hero__subtitle">Fifty Year Flight Path</span>
       </h1>
-      <p class="hero__lede">
-        The story of the 747 is more than just the tale of an aircraft. For my family, it became the backdrop for five decades of aviation history. Connecting Jay's groundbreaking work to Robyn's soaring career.
+      <p class="home-hero__lede">
+        The golden age of air travel, the Boeing 747, and the cabin crews who
+        kept the aisles moving.
       </p>
-      <div class="hero__ctas">
+      <div class="home-hero__ctas">
         <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
-          >Watch Golden Wings</a
+          >Watch</a
         >
-        <a class="btn btn--ghost" href="/people">Meet the people</a>
+        <a class="btn btn--ghost" href="#story">The story</a>
       </div>
     </div>
-    <div class="hero__laurels award-strip" aria-label="Festival wins">
-      {
-        laurels.map((laurel) => (
-          <img src={laurel.src} alt={laurel.alt} width="320" height="210" loading="lazy" />
-        ))
-      }
-    </div>
-    <div class="hero__wing" aria-hidden="true"></div>
   </section>
 
-  <section class="section poster-plate full-bleed-home" aria-labelledby="poster-heading">
-    <div class="poster-plate__inner">
-      <div class="poster-plate__copy">
-        <p class="section__label plate--subtitle">The film</p>
-        <h2 id="poster-heading" class="section__title">Official poster</h2>
-        <p class="poster-plate__lede">
-          Stewardess to Sky Queen. The 2026 poster for Golden Wings.
-        </p>
-        <div class="hero__ctas">
-          <a
-            class="btn btn--primary"
-            href={posterSrc}
-            download="GWSSQ_Poster_2026.png"
-            >Download poster</a
-          >
-          <a class="btn btn--ghost" href="https://gwingz.com" rel="noopener noreferrer"
-            >Watch Golden Wings</a
-          >
+  <section class="cite-strip" aria-label="About this film">
+    <p class="cite-strip__text">
+      A documentary about flight attendants. A stewardess family memoir. Not a
+      museum piece about airplanes.
+    </p>
+  </section>
+
+  <section class="section section--story" id="story" aria-labelledby="story-heading">
+    <div class="section__grid">
+      <div class="section__copy">
+        <p class="section__label">The story</p>
+        <h2 id="story-heading" class="section__title">Cabin service since 1971</h2>
+        <div class="prose">
+          <p>
+            Robyn Stewart joined American Airlines as a stewardess in 1971. She
+            trained on the 747 and kept flying through the years that remade the
+            job: weight checks, mergers, 9/11, and the long haul after.
+          </p>
+          <p>
+            Her father, Jay R. Ricks, was an American Airlines flight engineer
+            who helped build the airline's 747 training program. Jock Bethune,
+            an AA media production specialist, appears on camera to remember that
+            era from the hangar floor, not the cockpit.
+          </p>
+          <p>
+            Directed by Robyn's son, Caleb Mills Stewart, the film stays with
+            one family across three generations of American Airlines service.
+          </p>
         </div>
       </div>
-      <a
-        class="poster-plate__frame"
-        href={posterSrc}
-        download="GWSSQ_Poster_2026.png"
-        aria-label="Download the official Golden Wings Stewardess to Sky Queen poster"
-      >
+      <figure class="section__figure">
         <img
-          class="poster-plate__img"
-          src={posterSrc}
-          alt="Official Golden Wings: Stewardess to Sky Queen poster, 2026"
-          width="1083"
-          height="1452"
+          src="/images/headshots/Jay_R_Ricks_and_Robyn2014.jpg"
+          alt="Jay R. Ricks and Robyn Stewart with their dog, 2014"
+          width="1600"
+          height="1726"
           loading="lazy"
-          decoding="async"
         />
-      </a>
+        <figcaption>Jay R. Ricks and Robyn Stewart, 2014</figcaption>
+      </figure>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="story-heading">
-    <p class="section__label plate--subtitle">The story</p>
-    <h2 id="story-heading" class="section__title">Aviation history, family memory</h2>
-    <div class="prose">
-      <p>
-        Golden Wings chronicles the evolution of commercial aviation through the
-        life of Robyn Stewart, from the jet age to modern international routes,
-        weaving archival footage, home video, and vérité moments into a portrait
-        of professionalism, resilience, and the stubborn instinct to keep going.
-      </p>
-      <p>
-        Shot as a micro-budget student project that grew into an award-winning
-        short, the film has been recognized at festivals including the Swedish
-        International Film Festival, Clown International, and Independent Shorts
-        Awards.
-      </p>
-    </div>
-    <div class="hero__ctas" style="margin-top: 2rem;">
-      <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
-        >Watch on gwingz.com</a
-      >
-      <a class="btn btn--ghost" href="/indie-doc-journey">Indie Doc Journey</a>
-    </div>
-  </section>
-
-  <section class="section" aria-labelledby="awards-heading">
-    <p class="section__label plate--subtitle">Recognition</p>
-    <h2 id="awards-heading" class="section__title">Selected awards</h2>
-    <ul class="prose">
+  <section class="section section--press" id="press" aria-labelledby="press-heading">
+    <p class="section__label">Festival &amp; press</p>
+    <h2 id="press-heading" class="section__title">On the circuit</h2>
+    <blockquote class="logline">
+      <p>{logline}</p>
+    </blockquote>
+    <ul class="spec-list">
+      <li>Short documentary</li>
+      <li>Directed by Caleb Mills Stewart</li>
+      <li>Subject: Robyn Stewart, American Airlines flight attendant since 1971</li>
       <li>Swedish International Film Festival (2025): Best Documentary (Short)</li>
       <li>Clown International Film Festival: Best Documentary Short</li>
       <li>Independent Shorts Awards: Best Mobile Short</li>
-      <li>Magic Silver Screen: Best First Time Director</li>
       <li>Silicon Beach Film Festival: Best Short Cinematography</li>
+    </ul>
+  </section>
+
+  <section class="section section--people" id="people" aria-labelledby="people-heading">
+    <p class="section__label">People</p>
+    <h2 id="people-heading" class="section__title">Who you'll meet</h2>
+    <ul class="people-row">
+      <li>
+        <article class="person-tile">
+          <img
+            class="person-tile__img"
+            src="/images/headshots/RobynHeadshot_TealOrangeBG_upscale.jpg"
+            alt="Robyn Stewart smiling in a colorful jacket"
+            width="663"
+            height="960"
+            loading="lazy"
+          />
+          <h3 class="person-tile__name">Robyn Stewart</h3>
+          <p class="person-tile__role">Flight attendant</p>
+          <p class="person-tile__bio">
+            American Airlines cabin crew since 1971. The reason this film exists.
+          </p>
+        </article>
+      </li>
+      <li>
+        <article class="person-tile">
+          <img
+            class="person-tile__img"
+            src="/images/headshots/Caleb_Exec_Square.png"
+            alt="Caleb Mills Stewart, director"
+            width="1200"
+            height="1200"
+            loading="lazy"
+          />
+          <h3 class="person-tile__name">Caleb Mills Stewart</h3>
+          <p class="person-tile__role">Director</p>
+          <p class="person-tile__bio">
+            Robyn's son. Los Angeles filmmaker. Made the film for an audience of one.
+          </p>
+        </article>
+      </li>
+      <li>
+        <article class="person-tile person-tile--text">
+          <h3 class="person-tile__name">Jock Bethune</h3>
+          <p class="person-tile__role">On camera</p>
+          <p class="person-tile__bio">
+            American Airlines media production specialist. His department made
+            training slides for Jay Ricks' 747 ground school. He tells that story
+            on camera.
+          </p>
+        </article>
+      </li>
+    </ul>
+    <p class="section__more">
+      <a href="/people">More people</a>
+    </p>
+  </section>
+
+  <section class="section section--watch" id="watch" aria-labelledby="watch-heading">
+    <p class="section__label">Watch</p>
+    <h2 id="watch-heading" class="section__title">See the film</h2>
+    <p class="section__lede">
+      Screenings and digital access live on gwingz.com.
+    </p>
+    <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
+      >Watch on gwingz.com</a
+    >
+  </section>
+
+  <section class="section section--contact" id="contact" aria-labelledby="contact-heading">
+    <p class="section__label">Contact</p>
+    <h2 id="contact-heading" class="section__title">Press &amp; festivals</h2>
+    <p class="section__lede">
+      Reach the filmmaker or the production inbox.
+    </p>
+    <ul class="contact-list">
+      <li>
+        <a href="mailto:caleb@golden-wings-robyn.com">caleb@golden-wings-robyn.com</a>
+      </li>
+      <li>
+        <a href="mailto:info@golden-wings-robyn.com">info@golden-wings-robyn.com</a>
+      </li>
     </ul>
   </section>
 </BaseLayout>

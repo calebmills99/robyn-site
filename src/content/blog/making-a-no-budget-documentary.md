@@ -1,7 +1,7 @@
 ---
 title: The Challenges of Filming a Documentary with No Budget
 description: >-
-  Discover the journey of creating a no-budget documentary about my mom —
+  Discover the journey of creating a no-budget documentary about my mom,
   shooting Golden Wings on a phone, editing at home, and learning as I went.
 path: /indie-doc-journey/making-a-no-budget-documentary
 sourceUrl: >-
@@ -25,7 +25,7 @@ When I first decided to film a documentary about my mom, I naively thought it wo
 
 ## Initial Challenges Faced
 
-Filming alone meant I had to juggle multiple roles—director, cameraman, sound technician, and editor. Without professional equipment, I relied on what I had: a cheap tripod from Amazon, a sound recorder from a sound design class, and a ring light. As a poor college student, my budget was tighter than my jeans after finals week, requiring a lot of creativity to achieve the quality I envisioned. Documenting a loved one's story also added emotional pressure, as I wanted to do justice to my mom's incredible journey.
+Filming alone meant I had to juggle multiple roles: director, cameraman, sound technician, and editor. Without professional equipment, I relied on what I had: a cheap tripod from Amazon, a sound recorder from a sound design class, and a ring light. As a poor college student, my budget was tighter than my jeans after finals week, requiring a lot of creativity to achieve the quality I envisioned. Documenting a loved one's story also added emotional pressure, as I wanted to do justice to my mom's incredible journey.
 
 ## Finding Stories Within Your Immediate Circle
 
