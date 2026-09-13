@@ -983,6 +983,161 @@ a:hover {
   padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2));
 }
 
+/* Homepage archive plate — Stewardess College 1968 section player */
+.archive-plate {
+  background: var(--gradient-paper);
+  color: var(--text-body);
+  border-block: var(--bw-rule) solid var(--border-ink);
+  padding-block: var(--sp-8);
+}
+
+.archive-plate__inner {
+  display: grid;
+  gap: var(--sp-7);
+  align-items: center;
+  max-width: var(--max);
+  margin-inline: auto;
+}
+
+@media (min-width: 860px) {
+  .archive-plate__inner {
+    grid-template-columns: minmax(0, 1fr) minmax(18rem, 34rem);
+    gap: var(--sp-8);
+  }
+}
+
+.archive-plate__copy {
+  display: grid;
+  gap: var(--sp-4);
+  align-content: start;
+}
+
+.archive-plate .section__title {
+  margin: 0;
+  color: var(--gw-ink);
+}
+
+.archive-plate__lede {
+  margin: 0;
+  max-width: 28rem;
+  font-size: var(--fs-lg);
+  line-height: var(--lh-body);
+  color: var(--text-soft);
+}
+
+.archive-plate__frame {
+  display: block;
+  justify-self: center;
+  width: min(100%, 34rem);
+  border: var(--bw-thick) solid var(--border-ink);
+  border-radius: var(--radius-none);
+  background: var(--surface-ink);
+  box-shadow: var(--shadow-plate-lg);
+  overflow: hidden;
+}
+
+.archive-plate__frame--page {
+  width: min(100%, 48rem);
+  margin-top: var(--sp-6);
+  box-shadow: var(--shadow-plate-gold);
+}
+
+.archive-plate__media {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: var(--gw-ink);
+}
+
+.archive-plate__video,
+.archive-plate__poster {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.archive-plate__video {
+  z-index: 1;
+}
+
+.archive-plate__poster {
+  z-index: 0;
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .archive-plate__video {
+    display: none;
+  }
+  .archive-plate__poster {
+    display: block;
+  }
+}
+
+/* Homepage 1971 graduation still — after college plate */
+.graduation-plate {
+  padding-block: var(--sp-8);
+}
+
+.graduation-plate__inner {
+  display: grid;
+  gap: var(--sp-7);
+  align-items: center;
+  max-width: var(--max);
+  margin-inline: auto;
+}
+
+@media (min-width: 860px) {
+  .graduation-plate__inner {
+    grid-template-columns: minmax(16rem, 22rem) minmax(0, 1fr);
+    gap: var(--sp-8);
+  }
+
+  .graduation-plate__copy {
+    order: 2;
+  }
+
+  .graduation-plate__frame {
+    order: 1;
+  }
+}
+
+.graduation-plate__copy {
+  display: grid;
+  gap: var(--sp-4);
+  align-content: start;
+}
+
+.graduation-plate .section__title {
+  margin: 0;
+}
+
+.graduation-plate__lede {
+  margin: 0;
+  max-width: 28rem;
+  font-size: var(--fs-lg);
+  line-height: var(--lh-body);
+  color: var(--text-soft);
+}
+
+.graduation-plate__frame {
+  margin: 0;
+  justify-self: center;
+  width: min(100%, 22rem);
+  border: var(--bw-thick) solid var(--border-ink);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-plate);
+}
+
+.graduation-plate__img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Homepage official poster — hard plate, prominent, not a footer thumbnail */
 .poster-plate {
   background: var(--surface-darkest);
