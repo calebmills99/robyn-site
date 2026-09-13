@@ -7,8 +7,14 @@ const description =
   "Hacked, banned, and stuck in Meta's appeal maze? Read the Indie Doc Journey Special Dispatch: Christmas Eve ban, smoking gun, and the small-claims win.";
 const path = "/special-dispatch/facebook-banned-on-christmas-eve";
 
-const part1 = "/indie-doc-journey/zucked-on-christmas-eve-part-1/";
-const part2 = "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
+/** Magazine PDF download only (not the HTML body). */
+const pdfHref =
+  "/special-dispatch/Banned-on-Christmas-Eve-Part-1-Magazine.pdf";
+
+/** Existing Journey companion for Part 2. Do not invent a Part 2 Astro page. */
+const part2Href =
+  "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
+const part2Exists = true;
 ---
 
 <BaseLayout
@@ -40,21 +46,39 @@ const part2 = "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
       got the account back. If you are a Facebook exile, start here.
     </p>
 
+    <div class="hero__ctas" style="margin: 1.5rem 0 2rem;">
+      <a class="btn btn--primary" href={pdfHref} download
+        >Download: Banned on Christmas Eve (PDF)</a
+      >
+      {
+        part2Exists && (
+          <a class="btn btn--ghost" href={part2Href}
+            >Part 2 on Journey (existing)</a
+          >
+        )
+      }
+    </div>
+
     <h2>Start here</h2>
     <ul>
       <li>
-        <a href={part1}>Part 1: The ban night playbook</a>
+        <strong>Part 1 (this page):</strong> the ban night playbook below
       </li>
+      {
+        part2Exists ? (
+          <li>
+            <a href={part2Href}>Part 2: I sued Meta and won</a>
+            {" "}
+            (existing Journey post)
+          </li>
+        ) : (
+          <li>Part 2: coming on Journey</li>
+        )
+      }
       <li>
-        <a href={part2}>Part 2: I sued Meta and won</a>
-      </li>
-      <li>
-        <strong>Download: Banned on Christmas Eve (PDF)</strong>
-        <br />
-        PDF not yet published on this site. Read the full Part 1 magazine piece
-        on the Journey while that asset lands:
+        <a href={pdfHref}>Download: Banned on Christmas Eve (PDF)</a>
         {" "}
-        <a href={part1}>Zucked on Christmas Eve (Part 1)</a>.
+        magazine export for offline reading
       </li>
     </ul>
 
@@ -135,48 +159,76 @@ const part2 = "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
 
     <h3>What if Facebook banned me?</h3>
     <p>
-      Start with the ban-night playbook: what the disable notice looks like, how
+      Start with this Part 1 playbook: what the disable notice looks like, how
       the appeal abyss works, and how to keep your sanity while you hunt for
-      proof. Read
+      proof. Grab the
       {" "}
-      <a href={part1}>Part 1: Zucked on Christmas Eve</a>.
+      <a href={pdfHref}>magazine PDF</a>
+      {" "}
+      if you want the offline cut.
     </p>
 
     <h3>Hacked, then banned?</h3>
     <p>
       That is the trap. Cookie theft can look like "you" from Meta's side, then
-      the platform disables the account and gaslights the appeal. Part 1 covers
-      the smoking gun in Meta's own logs; Part 2 covers what happened after the
-      proof existed. Start with
-      {" "}
-      <a href={part1}>Part 1</a>, then
-      {" "}
-      <a href={part2}>Part 2: I sued Meta and won</a>.
+      the platform disables the account and gaslights the appeal. This page
+      covers the smoking gun in Meta's own logs.
+      {
+        part2Exists && (
+          <>
+            {" "}
+            The courtroom chapter lives on Journey as
+            {" "}
+            <a href={part2Href}>Part 2: I sued Meta and won</a>.
+          </>
+        )
+      }
     </p>
 
     <h3>Can you sue Meta in small claims?</h3>
     <p>
-      Yes. This dispatch ends in a small-claims win that got the account back.
-      The courtroom chapter, the manifesto, and the hard-won return live in
-      {" "}
-      <a href={part2}>Part 2: I sued Meta in small claims court and won</a>.
+      {
+        part2Exists ? (
+          <>
+            Yes. The small-claims win that got the account back is documented on
+            Journey:
+            {" "}
+            <a href={part2Href}
+              >Part 2: I sued Meta in small claims court and won</a
+            >. This hub ships Part 1 first; Part 2 stays on Journey for now.
+          </>
+        ) : (
+          <>
+            The small-claims chapter is coming on Journey. This page ships the
+            Part 1 survival map first.
+          </>
+        )
+      }
     </p>
 
     <h2>Series path</h2>
     <ol>
       <li>
-        <strong>This hub</strong> (you are here):
+        <strong>This hub + Part 1</strong> (you are here):
         {" "}
         <a href="/special-dispatch/facebook-banned-on-christmas-eve/"
           >Special Dispatch № 01</a
         >
       </li>
       <li>
-        <a href={part1}>Part 1: The ban night playbook</a>
+        <a href={pdfHref}>Download the Part 1 magazine PDF</a>
       </li>
-      <li>
-        <a href={part2}>Part 2: I sued Meta and won</a>
-      </li>
+      {
+        part2Exists ? (
+          <li>
+            <a href={part2Href}>Part 2 on Journey</a>
+            {" "}
+            (existing post; Astro Part 2 waits)
+          </li>
+        ) : (
+          <li>Part 2: coming on Journey</li>
+        )
+      }
       <li>
         <a href="/special-dispatch/facebook-banned-on-christmas-eve/"
           >Back here</a
@@ -187,9 +239,7 @@ const part2 = "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
     </ol>
 
     <p style="margin-top: 2.5rem;">
-      <a class="btn btn--primary" href={part1}>Read Part 1</a>
-      {" "}
-      <a class="btn btn--ghost" href={part2}>Read Part 2</a>
+      <a class="btn btn--primary" href={pdfHref} download>Download PDF</a>
       {" "}
       <a class="btn btn--ghost" href="/special-dispatch/">All Special Dispatches</a>
     </p>
