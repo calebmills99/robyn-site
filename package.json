@@ -7,12 +7,13 @@
   },
   "scripts": {
     "ingest": "node scripts/ingest-content.mjs",
-    "prebuild": "node scripts/ingest-content.mjs",
+    "prebuild": "node scripts/ingest-content.mjs && node scripts/mirror-blog-cdn.cjs",
     "dev": "astro dev",
     "build": "astro build && node -e \"import fs from 'fs'; fs.copyFileSync('dist/sitemap-index.xml','dist/sitemap.xml');\"",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy:staging": "npm run build && wrangler deploy"
+    "deploy:staging": "npm run build && wrangler deploy",
+    "mirror:blog": "node scripts/mirror-blog-cdn.cjs"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "^7.2.1",

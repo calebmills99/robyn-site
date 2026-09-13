@@ -4,6 +4,8 @@ const presskit = 'E:/~GoldenWings/presskit';
 const mapPath = path.join(presskit, 'migration/asset-map.json');
 const blogDir = path.join(presskit, 'robyn-site/src/content/blog');
 const pagesDir = path.join(presskit, 'robyn-site/src/content/pages');
+const migBlog = path.join(presskit, 'migration/content/blog');
+const migPages = path.join(presskit, 'migration/content/pages');
 const outDir = path.join(presskit, 'robyn-site/public/blog');
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -90,7 +92,7 @@ function processFile(fp) {
   return false;
 }
 
-for (const dir of [blogDir, pagesDir]) {
+for (const dir of [blogDir, pagesDir, migBlog, migPages].filter((d) => fs.existsSync(d))) {
   for (const name of fs.readdirSync(dir)) {
     if (!name.endsWith('.md')) continue;
     processFile(path.join(dir, name));
