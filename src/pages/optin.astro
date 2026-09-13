@@ -1,10 +1,19 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { webPageJsonLd } from "../lib/seo";
+
+const description =
+  "Find Your Wings. Watch Golden Wings online at gwingz.com, or email us for updates.";
 ---
 
 <BaseLayout
   title="Sign Up"
-  description="Find Your Wings. Watch Golden Wings online at gwingz.com, or email us for updates."
+  description={description}
+  jsonLd={webPageJsonLd({
+    name: "Sign Up",
+    description,
+    url: "/optin",
+  })}
 >
   <section class="optin-box">
     <p class="script hero__motto" style="margin: 0 0 0.5rem;">Find Your Wings</p>

@@ -1,10 +1,14 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { contactPageJsonLd } from "../lib/seo";
+
+const description = "Contact Golden Wings at info@golden-wings-robyn.com";
 ---
 
 <BaseLayout
   title="Contact"
-  description="Contact Golden Wings at info@golden-wings-robyn.com"
+  description={description}
+  jsonLd={contactPageJsonLd(description)}
 >
   <section class="contact-panel">
     <p class="section__label plate--subtitle">Get in touch</p>

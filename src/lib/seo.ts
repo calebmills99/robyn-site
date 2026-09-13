@@ -103,3 +103,92 @@ export function blogPostingJsonLd(opts: {
     image: DEFAULT_OG_IMAGE,
   };
 }
+
+type WebPageType = "WebPage" | "AboutPage" | "ContactPage" | "CollectionPage";
+
+/** Generic WebPage (and subtypes) for static/content pages. */
+export function webPageJsonLd(opts: {
+  type?: WebPageType;
+  name: string;
+  description: string;
+  url: string;
+  about?: Record<string, unknown> | Record<string, unknown>[];
+  mainEntity?: Record<string, unknown>;
+}) {
+  const data: Record<string, unknown> = {
+    "@context": "https://schema.org",
+    "@type": opts.type ?? "WebPage",
+    name: opts.name,
+    description: opts.description,
+    url: absoluteUrl(opts.url),
+    isPartOf: {
+      "@type": "WebSite",
+      name: FILM_SHORT,
+      url: SITE_URL,
+    },
+  };
+  if (opts.about) data.about = opts.about;
+  if (opts.mainEntity) data.mainEntity = opts.mainEntity;
+  return data;
+}
+
+export function aboutPageJsonLd(description: string) {
+  return webPageJsonLd({
+    type: "AboutPage",
+    name: "About the Film",
+    description,
+    url: "/about-the-film",
+    about: {
+      "@type": "Movie",
+      name: FILM_NAME,
+      alternateName: FILM_SHORT,
+      url: absoluteUrl("/film"),
+      director: DIRECTOR,
+    },
+  });
+}
+
+export function contactPageJsonLd(description: string) {
+  return webPageJsonLd({
+    type: "ContactPage",
+    name: "Contact",
+    description,
+    url: "/contact",
+    mainEntity: {
+      "@type": "Organization",
+      name: FILM_SHORT,
+      url: SITE_URL,
+      email: "info@golden-wings-robyn.com",
+      logo: DEFAULT_OG_IMAGE,
+    },
+  });
+}
+
+/** Hub pages (people, journey) with an ItemList of child entries. */
+export function collectionPageJsonLd(opts: {
+  name: string;
+  description: string;
+  url: string;
+  items: { name: string; url: string; description?: string }[];
+}) {
+  return webPageJsonLd({
+    type: "CollectionPage",
+    name: opts.name,
+    description: opts.description,
+    url: opts.url,
+    mainEntity: {
+      "@type": "ItemList",
+      numberOfItems: opts.items.length,
+      itemListElement: opts.items.map((item, index) => {
+        const entry: Record<string, unknown> = {
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.name,
+          url: absoluteUrl(item.url),
+        };
+        if (item.description) entry.description = item.description;
+        return entry;
+      }),
+    },
+  });
+}
