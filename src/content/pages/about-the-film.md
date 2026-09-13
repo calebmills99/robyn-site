@@ -31,4 +31,4 @@ Golden Wings draws on decades of home video and archival footage. Jay R. Ricks c
 
 ![Golden Wings: Stewardess to Sky Queen poster](/images/poster/GWSSQ_Poster_2026.png)
 
-Watch the film at [gwingz.com](https://gwingz.com).
+Screenings live at [gwingz.com](https://gwingz.com).

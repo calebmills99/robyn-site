@@ -62,7 +62,7 @@ The fact sheet accepts "55 years" in body copy, along with "since 1971" and "ove
 - Leave DNS and custom domains alone, and don't bind this Worker to `gwingz-worker`. The screening funnel stays on gwingz.com.
 - `vue-cloudflare-funnel` serves gwingz.com's legal pages and SMS consent; don't rebuild or "fix" them here. This site's `/privacy-policy`, `/terms-of-use`, and `/optin` hold the film-site versions.
 - Title: **Golden Wings: Stewardess to Sky Queen** (short form *Golden Wings*), per `FACT_SHEET.md` (2026-08-11). The fact sheet overrides the soft-rollout rule in `PHASE-2-NOTES.md` that kept the subtitle out of the hero and nav. Caleb retired "Fifty Year Flight Path": keep it out of new copy, and leave old laurels and press that carry it alone. `BaseLayout.astro` and the home hero show the short title; changing them is a separate task.
-- The Watch CTA links to https://gwingz.com. Contact is info@golden-wings-robyn.com.
+- golden-wings-robyn.com is not a screening site: no Watch / Watch the film CTAs. Screening lives only at https://gwingz.com. Contact is info@golden-wings-robyn.com.
 - Leave Squarespace CDN image URLs in content alone until cutover, and use the local assets in `public/images` for new work.
 
 ## Astro docs

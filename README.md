@@ -36,7 +36,7 @@ Do **not** attach a custom domain or touch DNS from this repo. Screening funnel 
 
 - Film title: **Golden Wings**
 - Career: **55 years** in marketing copy
-- Watch CTA: https://gwingz.com
+- Screening (gwingz.com only): https://gwingz.com - no Watch CTAs on this domain
 - Contact: info@golden-wings-robyn.com
 
 See `PHASE-2-NOTES.md` for parallel gwingz legal work already done.
