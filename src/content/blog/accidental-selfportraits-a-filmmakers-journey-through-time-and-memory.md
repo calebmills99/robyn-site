@@ -14,15 +14,15 @@ slug: accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 
 # Official Selection: Palma Film Festival and An Accidental Revelation (Copy)
 
-              Nov 13
+Nov 13
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-              ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/f668becc-b9a3-493d-b144-8750ea306201/accidental+portrait+of+an+artist+as+a+young+man.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/f668becc-b9a3-493d-b144-8750ea306201/accidental+portrait+of+an+artist+as+a+young+man.png)
 
-                An accidental portrait of an artist as young man:
+An accidental portrait of an artist as young man:
 
-                - A 2005 elevator video from the Eiffel Tower in Paris captures more than a moment—it freezes youthful ambition amid confinement and a vast skyline. The sepia tones lend a nostalgic, cinematic feel, highlighting the tension between limits and possibilities. This unplanned glimpse reminds us that true portraits often emerge spontaneously, quietly preserved by time.
+- A 2005 elevator video from the Eiffel Tower in Paris captures more than a moment—it freezes youthful ambition amid confinement and a vast skyline. The sepia tones lend a nostalgic, cinematic feel, highlighting the tension between limits and possibilities. This unplanned glimpse reminds us that true portraits often emerge spontaneously, quietly preserved by time.
 
 ## Official Selection: Palma Film Festival!
 
@@ -42,13 +42,13 @@ Perhaps there's no greater creative validation than outlasting your critics. Or,
 
 The lesson, if there is one? Trust the glacial pace of your process. The ones tapping their watches rarely make history, but they do occasionally make excellent cautionary characters in your director's commentary. And sometimes, if you're particularly fortunate, they even help fund your next parking adventure—one borrowed euro at a time.
 
-              ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/a6353e33-9214-4214-b99d-ff4df94a83ea/logo.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/a6353e33-9214-4214-b99d-ff4df94a83ea/logo.jpg)
 
-                The Palma Film Festival logo
+The Palma Film Festival logo
 
-                An elegant palm tree with swirling fronds, symbolizing gentle wind. It stands behind a minimalist sea wall, both in silver-gray tones against a subtle gray-silver gradient background, conveying timeless elegance and coastal charm.
+An elegant palm tree with swirling fronds, symbolizing gentle wind. It stands behind a minimalist sea wall, both in silver-gray tones against a subtle gray-silver gradient background, conveying timeless elegance and coastal charm.
 
-    A triumphant symphony of the French National Anthem, La Marseillaise, sweeps in as a whoosh transitions us to bold typography: Paris. 2005. Spring.
+A triumphant symphony of the French National Anthem, La Marseillaise, sweeps in as a whoosh transitions us to bold typography: Paris. 2005. Spring.
 
 Captured on a grainy, damaged home movie camera, we find ourselves inside the Eiffel Tower’s elevator, steadily ascending from the iconic cashbox below. A flicker of darkness briefly cloaks the view, revealing, for a fleeting moment, the Eiffel Tower sparkling against the night sky. Amid the glass reflections inside the elevator, the faint silhouette of a young man holding the camera appears—almost ghostly, caught in time.
 
@@ -78,11 +78,11 @@ The grainy aesthetic of early 2000s DV tapes—blooming whites, crushed blacks, 
 
 That reflection in the glass reveals a younger version of me: earnest, focused, unaware of the future audience his footage would one day face. The camcorder itself, a now-obsolete Sony MiniDV, was part of a movement of filmmakers finding voice through analog constraints.
 
-              ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/72e74dcb-f78d-4f95-bc2f-9c50f0307c0b/dsct1.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/72e74dcb-f78d-4f95-bc2f-9c50f0307c0b/dsct1.png)
 
-                Tools of the Trade
+Tools of the Trade
 
-                Sometimes the smallest tools create the biggest stories. This pocket-sized Sony captured footage that would travel from Paris to Palma de Mallorca, from student project to international film festivals. The filmmaker's accidental cameo was always there—just waiting for the right color grade to be seen.
+Sometimes the smallest tools create the biggest stories. This pocket-sized Sony captured footage that would travel from Paris to Palma de Mallorca, from student project to international film festivals. The filmmaker's accidental cameo was always there—just waiting for the right color grade to be seen.
 
 ## A Film That Grew Beyond Its Original Design
 
@@ -108,13 +108,13 @@ The film is now screening in [Palma de Mallorca](https://en.wikipedia.org/wiki/M
 But I'm grounded—literally. I'm recovering from a fractured tibia with a titanium rod, confined to a couch, watching my film travel without me.
 To experience the documentary wherever you are, visit [gwingz.com](https://www.gwingz.com) and stream it directly.
 
-                  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042597782-M6Q5O4UN0J82FV2UF7BK/20251030_045451.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042597782-M6Q5O4UN0J82FV2UF7BK/20251030_045451.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042597782-M6Q5O4UN0J82FV2UF7BK/20251030_045451.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042597782-M6Q5O4UN0J82FV2UF7BK/20251030_045451.jpg)
 
-                  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042613544-DNDV1YK3OGO643GLL2ZQ/20251030_050135.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042613544-DNDV1YK3OGO643GLL2ZQ/20251030_050135.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042613544-DNDV1YK3OGO643GLL2ZQ/20251030_050135.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042613544-DNDV1YK3OGO643GLL2ZQ/20251030_050135.jpg)
 
-                  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042627953-7OAXJX188GJEQC6O1MEB/20251107_175030.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042627953-7OAXJX188GJEQC6O1MEB/20251107_175030.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042627953-7OAXJX188GJEQC6O1MEB/20251107_175030.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042627953-7OAXJX188GJEQC6O1MEB/20251107_175030.jpg)
 
-                  ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042907375-A607NVMSJVNGIHBGZBVY/gyuu6uy.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042907375-A607NVMSJVNGIHBGZBVY/gyuu6uy.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042907375-A607NVMSJVNGIHBGZBVY/gyuu6uy.jpg)![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1763042907375-A607NVMSJVNGIHBGZBVY/gyuu6uy.jpg)
 
 ## The Memory of a Mallorca Cove
 
@@ -149,9 +149,9 @@ A: Easy—[gwingz.com](https://www.gwingz.com). It's up and streaming for the wo
 
   &nbsp;
 
-              [
+[
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
 ](/indie-doc-journey?author=6629724930ab2f215b26ef6e)

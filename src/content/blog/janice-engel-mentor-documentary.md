@@ -79,11 +79,11 @@ Would you be a dear and rent it on[ Amazon](https://www.amazon.com/Raise-Hell-Ti
 
 You can find Janice Engel on [Twitter](https://x.com/janiceengel).
 
-              [Indie Documentary](/indie-doc-journey/tag/Indie+Documentary)[Documentary Filmmaking](/indie-doc-journey/tag/Documentary+Filmmaking)[Janice Engel](/indie-doc-journey/tag/Janice+Engel)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Student Film Project](/indie-doc-journey/tag/Student+Film+Project)[Filmmaking Journey](/indie-doc-journey/tag/Filmmaking+Journey)[Academy of Art University](/indie-doc-journey/tag/Academy+of+Art+University)[Personal Storytelling](/indie-doc-journey/tag/Personal+Storytelling)[Documentary Mentor](/indie-doc-journey/tag/Documentary+Mentor)[Short Documentary](/indie-doc-journey/tag/Short+Documentary)
+[Indie Documentary](/indie-doc-journey/tag/Indie+Documentary)[Documentary Filmmaking](/indie-doc-journey/tag/Documentary+Filmmaking)[Janice Engel](/indie-doc-journey/tag/Janice+Engel)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Student Film Project](/indie-doc-journey/tag/Student+Film+Project)[Filmmaking Journey](/indie-doc-journey/tag/Filmmaking+Journey)[Academy of Art University](/indie-doc-journey/tag/Academy+of+Art+University)[Personal Storytelling](/indie-doc-journey/tag/Personal+Storytelling)[Documentary Mentor](/indie-doc-journey/tag/Documentary+Mentor)[Short Documentary](/indie-doc-journey/tag/Short+Documentary)
 
-              [
+[
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
 ](/indie-doc-journey?author=6629724930ab2f215b26ef6e)

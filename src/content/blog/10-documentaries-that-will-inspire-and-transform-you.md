@@ -24,9 +24,9 @@ slug: 10-documentaries-that-will-inspire-and-transform-you
 
 ### Introduction
 
-                ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1720077886888-XNEC28YYLXPAIUHTCGZV/image-asset.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1720077886888-XNEC28YYLXPAIUHTCGZV/image-asset.jpeg)
 
-            A documentarian stands at the ready
+A documentarian stands at the ready
 
   Documentaries have a unique way of delving into the depths of real-life stories.  I have been watching documentaries religiously since I was a teenager. I can't remember the first one that I watched, but I remember watching them with my father on PBS. He used to love nature documentaries and other types of science documentaries as well, and I sort of veered off into other realms of documentaries from watching them with him. Ever since, if you put a documentary in front of me, I will watch it till the end. I love documentaries. As soon as a documentary comes on Netflix, I am probably the first person to watch it. I've loved documentaries since I was a child, and my passion for them has never waned. This list was hard to make because I have so many favorites, but these are the ones that have influenced my own documentary work and my sense of what it is to be a documentarian.
 
@@ -34,7 +34,7 @@ Documentaries have a unique way of delving into the depths of real-life stories,
 
 ## 1. [The Stories We Tell by Sarah Polle](https://www.imdb.com/title/tt2366450/)y
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/24b5977c-2459-4002-8603-fe6ce776ab8a/Screenshot+2024-07-01+at+3.23.44%E2%80%AFAM.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/24b5977c-2459-4002-8603-fe6ce776ab8a/Screenshot+2024-07-01+at+3.23.44%E2%80%AFAM.png)
 
   Sarah Polley's "The Stories We Tell" is perhaps the most influential documentary on my list. It tells a deeply personal and intimate story, painting a vivid picture of Polley's family and their history. The film explores the concept of family secrets and the narratives we build around them, delving into how these narratives shape our perceptions of ourselves and our loved ones.
 
@@ -50,7 +50,7 @@ It’s a riveting piece of work that emphasizes that, no matter how many things 
 
 ## 2. [Dark Days by Marc Singer](https://www.imdb.com/title/tt0235327/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/7be16add-3806-4a20-a018-3505d61658b1/292994.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/7be16add-3806-4a20-a018-3505d61658b1/292994.jpg)
 
   "Dark Days," directed by Marc Singer, is an absolutely captivating portrait of human ingenuity, survival, and resilience. This 2000 documentary focuses on a group of people living in an abandoned train tunnel underneath New York City. Singer, who lives among the tunnel dwellers, captures every aspect of their existence—their struggles, their community, and their humanity.
 
@@ -66,7 +66,7 @@ Overall, "Dark Days" is a testament to the power of documentary filmmaking. It s
 
 ## [3. Grey Gardens by Albert and David Maysles](https://www.imdb.com/title/tt0073076/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/117e8aef-4340-4018-93d9-a07ce3923126/MV5BMTQ2NDMyNjM3Nl5BMl5BanBnXkFtZTcwMDg1NzUyMg%40%40._V1_QL75_UX500_CR0%2C47%2C500%2C281_-gigapixel.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/117e8aef-4340-4018-93d9-a07ce3923126/MV5BMTQ2NDMyNjM3Nl5BMl5BanBnXkFtZTcwMDg1NzUyMg%40%40._V1_QL75_UX500_CR0%2C47%2C500%2C281_-gigapixel.jpeg)
 
   "Grey Gardens" is another one of my absolute favorites. When I saw it for the first time, I tried to get every single person I knew to sit down and watch it with me. I was absolutely captivated by the world that Albert and David Maysles were able to document. It was surreal, heartwarming, disgusting, and comfy all at once.
 
@@ -80,11 +80,11 @@ Interestingly, at its heart, it’s a documentary about family. It's about love,
 
 ## [4. Won’t You Be My Neighbor? by Morgan Neville](https://www.imdb.com/title/tt7681902/mediaviewer/rm285167360/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/337eb4ae-ec93-487d-b9b3-1c74806f0ec2/Screenshot+2024-07-01+at+9.23.07%E2%80%AFAM-gigapixel.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/337eb4ae-ec93-487d-b9b3-1c74806f0ec2/Screenshot+2024-07-01+at+9.23.07%E2%80%AFAM-gigapixel.jpeg)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/cd0206a8-eca0-477f-b3a9-b45dc4240d67/Screenshot+2024-07-01+at+9.32.11%E2%80%AFAM.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/cd0206a8-eca0-477f-b3a9-b45dc4240d67/Screenshot+2024-07-01+at+9.32.11%E2%80%AFAM.png)
 
-    Fred Rogers testifies before Congress on the importance of public funding for PBS
+Fred Rogers testifies before Congress on the importance of public funding for PBS
 
   "Won’t You Be My Neighbor?" is the documentary to watch if you were a child of the '70s, '80s, or '90s—and even beyond, as Mr. Rogers' show is still being shown on PBS. This film captures the essence of Fred Rogers, a phenomenon of pure light and love. Watching this movie will make you feel good.
 
@@ -100,7 +100,7 @@ It is no secret that Fred Rogers attended Presbyterian seminary. I grew up in a 
 
 ## 5. [Daughters by Natalie Ray and Angela Patton](https://www.sundance.org/blogs/give-me-the-backstory-get-to-know-angela-patton-and-natalie-rae-the-co-directors-of-daughters/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/e9529d6b-ca0f-4292-bc6f-771a1f232c26/Screenshot+2024-07-01+at+9.38.09%E2%80%AFAM.png)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/e9529d6b-ca0f-4292-bc6f-771a1f232c26/Screenshot+2024-07-01+at+9.38.09%E2%80%AFAM.png)
 
   “Daughters” follows the journey of four young girls as they prepare for a special “Daddy Daughter Dance” with their incarcerated fathers. Through the program, the fathers undergo intensive therapy and training to become more involved and engaged parents, while the daughters share their stories and experiences of growing up without their fathers. The documentary highlights the powerful bond between fathers and daughters and the importance of family bonds in the lives of incarcerated individuals.
 
@@ -122,7 +122,7 @@ If you haven't seen "Daughters," I highly recommend it. It will not only move yo
 
 ## [6. Matt Shepard is a Friend of Mine by Michele Josue](https://www.imdb.com/title/tt2555302/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/2a5491c0-b5b0-4469-9a13-a1052a181ecc/mswfa-gigapixel.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/2a5491c0-b5b0-4469-9a13-a1052a181ecc/mswfa-gigapixel.jpeg)
 
   "Matt Shepard is a Friend of Mine" is a powerful feature documentary about Matthew Shepard, a 21-year-old gay man who was brutally murdered in one of the most notorious hate crimes in U.S. history. Directed by Michele Josue, a close friend of Shepard’s, the film revisits the shocking case with never-before-seen photos, rare video footage, and new revelations about Shepard’s all-too-brief life.
 
@@ -136,7 +136,7 @@ This documentary about Matthew and his friends—those who knew and loved him—
 
 ## [7. Bowling for Columbine by Michael Moore](https://www.imdb.com/title/tt0310793/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/b78ba4f4-aa66-4044-b485-012fd9a61105/Columbine_Shooting_Security_Camera-gigapixel.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/b78ba4f4-aa66-4044-b485-012fd9a61105/Columbine_Shooting_Security_Camera-gigapixel.jpeg)
 
   "Bowling for Columbine," directed by Michael Moore, is a documentary that showed me the power of film to be provocative, evocative, and a genuine agent of change. Moore inserts himself right into the middle of the action, driving the narrative with his relentless pursuit of answers and accountability. This documentary is his best work, in my opinion, as he takes on the mission to seek justice for the victims of the Columbine High School massacre.
 
@@ -154,7 +154,7 @@ We have more documentaries than ever, and I think we have Mr. Moore to thank for
 
 ## 8. [Grizzly Man by Werner Herzog](https://www.imdb.com/title/tt0427312/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/bda18910-f8ba-4e3a-ae34-321284bade19/Grizzly-Man-HERO-gigapixel.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/bda18910-f8ba-4e3a-ae34-321284bade19/Grizzly-Man-HERO-gigapixel.jpeg)
 
   A docudrama that centers on amateur grizzly bear expert Timothy Treadwell, "Grizzly Man" tells the story of a man who periodically journeyed to Alaska to study and live with the bears. He was killed, along with his girlfriend, Amie Huguenard, by a rogue bear in October 2003. The film explores Treadwell's compassionate life as he found solace among these endangered animals.
 
@@ -176,7 +176,7 @@ In summary, "Grizzly Man" is not just a documentary about one man’s tragic end
 
 ## [9. Unzipped by Douglas Keeve](https://pro.imdb.com/title/tt0114805)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/09c355ce-26f7-4103-930a-91bbc87cc289/unzipped-gigapixel.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/09c355ce-26f7-4103-930a-91bbc87cc289/unzipped-gigapixel.jpeg)
 
   “Unzipped," directed by Douglas Keeve, is a captivating documentary about fashion designer Isaac Mizrahi. I first watched this documentary as a closeted boy in high school, and it transported me away from small-town Texas, giving me bigger dreams to aspire to. This film showed me that, even if you're gay, you can be happy and successful, and your dreams can come true.
 
@@ -196,7 +196,7 @@ The cinematography in "Unzipped" is striking, with vibrant colors and dynamic sh
 
 ## [10. All That Breathes by Shaunak Sen](https://www.imdb.com/title/tt16377862/)
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/6512e258-175b-4ee8-a4ee-96c59d2ceed3/221012120407-all-that-breathes-1-gigapixel-2.jpeg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/6512e258-175b-4ee8-a4ee-96c59d2ceed3/221012120407-all-that-breathes-1-gigapixel-2.jpeg)
 
   "All That Breathes," directed by Shaunak Sen, is a captivating documentary that portrays a bird hospital in Delhi, India. The film follows two brothers who take care of kites—birds affected by the ever-increasing urban landscape and pollution of the city. The brothers' selflessness and unconditional love for these birds are incredibly moving.
 
@@ -210,7 +210,7 @@ One particularly moving shot focuses on a puddle with a piece of trash and a cen
 
 ## BONUS: Waiting for Guffman
 
-            ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/38199812-a8d5-4c33-a68a-017f3a29242e/MV5BMTQ1MTYxNjU5N15BMl5BanBnXkFtZTcwNTM1MjYyNw%40%40._V1_.jpg)
+![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/38199812-a8d5-4c33-a68a-017f3a29242e/MV5BMTQ1MTYxNjU5N15BMl5BanBnXkFtZTcwNTM1MjYyNw%40%40._V1_.jpg)
 
   This film is not only one of my favorite documentaries, but it's also one of my favorite films of all time. To be fair, it is not actually a documentary; it is a parody of a documentary. But sometimes parodies are even better than the real thing, and this is definitely one of those cases. "Waiting for Guffman" is a mockumentary about a small town in America's heartland, Blaine, Missouri, which has a thriving theater community led by Corky St. Clair. Every year, he produces a Fourth of July extravaganza that includes the local community and showcases their acting skills, singing talent, and dance attempts.
 
@@ -230,11 +230,11 @@ P.S. This being such a brilliant film, the title is a parody of "Waiting for God
 
 P.P.S. My favorite song in the show is "Stool Boom" 💺💩
 
-              [Transformative Films](/indie-doc-journey/tag/Transformative+Films)[Inspiring Documentaries](/indie-doc-journey/tag/Inspiring+Documentaries)[Real Life Stories,](/indie-doc-journey/tag/Real+Life+Stories%2C)[Documentary Recommendations](/indie-doc-journey/tag/Documentary+Recommendations)[Film Inspiration](/indie-doc-journey/tag/Film+Inspiration)[Must Watch Docs](/indie-doc-journey/tag/Must+Watch+Docs)[Life Changing Documentaries](/indie-doc-journey/tag/Life+Changing+Documentaries)[Top 10 Documentaries](/indie-doc-journey/tag/Top+10+Documentaries)[Power of Documentaries](/indie-doc-journey/tag/Power+of+Documentaries)[Documentary Lovers](/indie-doc-journey/tag/Documentary+Lovers)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Educational Films](/indie-doc-journey/tag/Educational+Films)
+[Transformative Films](/indie-doc-journey/tag/Transformative+Films)[Inspiring Documentaries](/indie-doc-journey/tag/Inspiring+Documentaries)[Real Life Stories,](/indie-doc-journey/tag/Real+Life+Stories%2C)[Documentary Recommendations](/indie-doc-journey/tag/Documentary+Recommendations)[Film Inspiration](/indie-doc-journey/tag/Film+Inspiration)[Must Watch Docs](/indie-doc-journey/tag/Must+Watch+Docs)[Life Changing Documentaries](/indie-doc-journey/tag/Life+Changing+Documentaries)[Top 10 Documentaries](/indie-doc-journey/tag/Top+10+Documentaries)[Power of Documentaries](/indie-doc-journey/tag/Power+of+Documentaries)[Documentary Lovers](/indie-doc-journey/tag/Documentary+Lovers)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Educational Films](/indie-doc-journey/tag/Educational+Films)
 
-              [
+[
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
 ](/indie-doc-journey?author=6629724930ab2f215b26ef6e)

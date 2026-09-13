@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { rescueIndentedImageBlocks } from "./rescue-indented-image-blocks.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -136,6 +137,8 @@ function processMarkdown(filePath, { isBlog }) {
   if (isBlog) {
     // Leave blog titles alone; still clean body career marketing + privacy typo
     body = rewriteCareerCopy(body, { isBlogTitle: false });
+    // Unwrap scrape indentation that traps ![]() inside indented code blocks.
+    body = rescueIndentedImageBlocks(body);
   } else {
     body = rewriteCareerCopy(body);
     title = rewriteCareerCopy(title);

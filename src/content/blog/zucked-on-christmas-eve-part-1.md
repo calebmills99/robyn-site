@@ -32,10 +32,10 @@ slug: zucked-on-christmas-eve-part-1
 # Banned on
 Christmas Eve
 
-      My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
-      Words & Receipts by Caleb Mills Stewart
+My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
+Words & Receipts by Caleb Mills Stewart
 
-      ![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
 
   Poof. Gone.
 
@@ -71,33 +71,33 @@ Christmas Eve
 
 ## This wasn't just any account
 
-    This was my award-winning Facebook account. "Biggest Social Media Oversharer" at my ten-year high school reunion, thank you very much.
+This was my award-winning Facebook account. "Biggest Social Media Oversharer" at my ten-year high school reunion, thank you very much.
 
-    A meticulously curated archive contained memories, milestones, grief, and joy. It included memes, sobriety anniversaries, and family losses. There were inside jokes and way too many opinions about reality TV shows that probably didn't deserve the emotional investment.
+A meticulously curated archive contained memories, milestones, grief, and joy. It included memes, sobriety anniversaries, and family losses. There were inside jokes and way too many opinions about reality TV shows that probably didn't deserve the emotional investment.
 
-    And it was gone in an instant. The timing felt particularly cruel. Christmas Eve: a day when most customer-service departments are as reachable as Santa's workshop.
+And it was gone in an instant. The timing felt particularly cruel. Christmas Eve: a day when most customer-service departments are as reachable as Santa's workshop.
 
-    I'd been using Facebook since 2004, back when you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die. I dropped Myspace Tom faster than a three-day-old "Top 8 Friends" list.
+I'd been using Facebook since 2004, back when you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die. I dropped Myspace Tom faster than a three-day-old "Top 8 Friends" list.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png)
-    Caleb throws Myspace Tom into the trash. I'd survived every privacy scandal, every algorithm change, every redesign, two decades of loyal participation in this odd social experiment. Now I was being kicked out without so much as a "bye bitch."
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png)
+Caleb throws Myspace Tom into the trash. I'd survived every privacy scandal, every algorithm change, every redesign, two decades of loyal participation in this odd social experiment. Now I was being kicked out without so much as a "bye bitch."
 
   ![](https://indiedocjourney.com/wp-content/uploads/2026/03/Firefly_Gemini-Flash-2-579x1024.png)
   A dramatic reimagining of my ten-year high school reunion, crowned "Biggest Social Media Oversharer," Class of '99.
 
   I · The Digital Death Sentence06
 
-    "yOu cAnNoT rEqWeSt aNoThEr rEvU"
-    The final, cold, absolute language of the ban
+"yOu cAnNoT rEqWeSt aNoThEr rEvU"
+The final, cold, absolute language of the ban
 
-    The language was final. Cold. Absolute. It was almost like they were trolling me. It carried the tone of a bureaucracy that assumes guilt and offers silence as due process, the message that tells you very clearly that no one is coming to help you.
+The language was final. Cold. Absolute. It was almost like they were trolling me. It carried the tone of a bureaucracy that assumes guilt and offers silence as due process, the message that tells you very clearly that no one is coming to help you.
 
-    It's the digital equivalent of being kicked off the party bus. Except the party bus holds all your family photos and your primary means of staying connected to distant relatives.
+It's the digital equivalent of being kicked off the party bus. Except the party bus holds all your family photos and your primary means of staying connected to distant relatives.
 
-    Dopamine withdrawals are a real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents. My repository of old photos. A primary news source. Even my method of remembering birthdays. All of it disappeared faster than a one-night stand after the booze wears off.
+Dopamine withdrawals are a real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents. My repository of old photos. A primary news source. Even my method of remembering birthdays. All of it disappeared faster than a one-night stand after the booze wears off.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg)
-    A cartoonish take on the Facebook logo, sticking its tongue out, the company's controversial nature, distilled.
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg)
+A cartoonish take on the Facebook logo, sticking its tongue out, the company's controversial nature, distilled.
 
   ![](https://indiedocjourney.com/wp-content/uploads/2026/03/3bf199b0-7160-42b5-8560-d4af0bcff7db-2026-03-27-535x1024.png)
 
@@ -242,10 +242,10 @@ Macho Mark Z
 # Banned on
 Christmas Eve
 
-      My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
-      Words & Receipts by Caleb Mills Stewart
+My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
+Words & Receipts by Caleb Mills Stewart
 
-      ![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
 
   Poof. Gone.
 
@@ -281,33 +281,33 @@ Christmas Eve
 
 ## This wasn't just any account
 
-    This was my award-winning Facebook account. "Biggest Social Media Oversharer" at my ten-year high school reunion, thank you very much.
+This was my award-winning Facebook account. "Biggest Social Media Oversharer" at my ten-year high school reunion, thank you very much.
 
-    A meticulously curated archive contained memories, milestones, grief, and joy. It included memes, sobriety anniversaries, and family losses. There were inside jokes and way too many opinions about reality TV shows that probably didn't deserve the emotional investment.
+A meticulously curated archive contained memories, milestones, grief, and joy. It included memes, sobriety anniversaries, and family losses. There were inside jokes and way too many opinions about reality TV shows that probably didn't deserve the emotional investment.
 
-    And it was gone in an instant. The timing felt particularly cruel. Christmas Eve: a day when most customer-service departments are as reachable as Santa's workshop.
+And it was gone in an instant. The timing felt particularly cruel. Christmas Eve: a day when most customer-service departments are as reachable as Santa's workshop.
 
-    I'd been using Facebook since 2004, back when you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die. I dropped Myspace Tom faster than a three-day-old "Top 8 Friends" list.
+I'd been using Facebook since 2004, back when you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die. I dropped Myspace Tom faster than a three-day-old "Top 8 Friends" list.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png)
-    Caleb throws Myspace Tom into the trash. I'd survived every privacy scandal, every algorithm change, every redesign, two decades of loyal participation in this odd social experiment. Now I was being kicked out without so much as a "bye bitch."
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png)
+Caleb throws Myspace Tom into the trash. I'd survived every privacy scandal, every algorithm change, every redesign, two decades of loyal participation in this odd social experiment. Now I was being kicked out without so much as a "bye bitch."
 
   ![](https://indiedocjourney.com/wp-content/uploads/2026/03/Firefly_Gemini-Flash-2-579x1024.png)
   A dramatic reimagining of my ten-year high school reunion, crowned "Biggest Social Media Oversharer," Class of '99.
 
   I · The Digital Death Sentence06
 
-    "yOu cAnNoT rEqWeSt aNoThEr rEvU"
-    The final, cold, absolute language of the ban
+"yOu cAnNoT rEqWeSt aNoThEr rEvU"
+The final, cold, absolute language of the ban
 
-    The language was final. Cold. Absolute. It was almost like they were trolling me. It carried the tone of a bureaucracy that assumes guilt and offers silence as due process, the message that tells you very clearly that no one is coming to help you.
+The language was final. Cold. Absolute. It was almost like they were trolling me. It carried the tone of a bureaucracy that assumes guilt and offers silence as due process, the message that tells you very clearly that no one is coming to help you.
 
-    It's the digital equivalent of being kicked off the party bus. Except the party bus holds all your family photos and your primary means of staying connected to distant relatives.
+It's the digital equivalent of being kicked off the party bus. Except the party bus holds all your family photos and your primary means of staying connected to distant relatives.
 
-    Dopamine withdrawals are a real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents. My repository of old photos. A primary news source. Even my method of remembering birthdays. All of it disappeared faster than a one-night stand after the booze wears off.
+Dopamine withdrawals are a real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents. My repository of old photos. A primary news source. Even my method of remembering birthdays. All of it disappeared faster than a one-night stand after the booze wears off.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg)
-    A cartoonish take on the Facebook logo, sticking its tongue out, the company's controversial nature, distilled.
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg)
+A cartoonish take on the Facebook logo, sticking its tongue out, the company's controversial nature, distilled.
 
   ![](https://indiedocjourney.com/wp-content/uploads/2026/03/3bf199b0-7160-42b5-8560-d4af0bcff7db-2026-03-27-535x1024.png)
 
@@ -441,9 +441,9 @@ Macho Mark Z
   Banned on Christmas Eve
   Spring 2026
 
-              [
+[
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
 ](/indie-doc-journey?author=6629724930ab2f215b26ef6e)

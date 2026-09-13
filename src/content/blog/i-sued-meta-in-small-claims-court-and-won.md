@@ -16,25 +16,25 @@ slug: i-sued-meta-in-small-claims-court-and-won
 
 # I sued Meta in small claims court and got my life back
 
-              Jul 9
+Jul 9
 
-            Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
+Written By [Caleb Stewart](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
 
-     -
+-
 
-    Indie Doc Journey
-    Dispatch № 02 · Part Two
-    Summer 2026
+Indie Doc Journey
+Dispatch № 02 · Part Two
+Summer 2026
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/07/pink_dico_ball.png)
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/pink_dico_ball.png)
 
-      The Autopsy · The Court Case · The Ball of Rights
-      ![](https://indiedocjourney.com/wp-content/uploads/2026/07/digital-ball-of-rights-sparkle.png)
+The Autopsy · The Court Case · The Ball of Rights
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/digital-ball-of-rights-sparkle.png)
 
-      A Funifesto
-      A Facebook ban, a digital auto-autopsy, and a small-claims showdown. Plus, seven rights worth throwing a ball over. Settle in for the saga of my 381-days of exile and my hard won return to Facebook.Words & Receipts by Caleb Mills Stewart
+A Funifesto
+A Facebook ban, a digital auto-autopsy, and a small-claims showdown. Plus, seven rights worth throwing a ball over. Settle in for the saga of my 381-days of exile and my hard won return to Facebook.Words & Receipts by Caleb Mills Stewart
 
-      ![](https://indiedocjourney.com/wp-content/uploads/2026/06/ElevenLabs_image_gpt-image-2_Were-not-a-reg_2026-06-19T10_01_48-1.png)
+![](https://indiedocjourney.com/wp-content/uploads/2026/06/ElevenLabs_image_gpt-image-2_Were-not-a-reg_2026-06-19T10_01_48-1.png)
 
   Get in, we're going rights shopping.
 
@@ -42,17 +42,17 @@ slug: i-sued-meta-in-small-claims-court-and-won
   Editor's Note
   Missed how this nightmare started? Catch up on [Part 1: The Meta Ban Survival Playbook](https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/), the Christmas Eve Facebook ban, the cookie-theft smoking gun, and Macho Zuck himself. This is Part 2: the autopsy, the court case, and your official invite to the event of the millennium, Lady Justice's Digital Ball (not bill) of Rights.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/03/sparky.jpeg)
-    In memoriam: my innocence, et al.
+![](https://indiedocjourney.com/wp-content/uploads/2026/03/sparky.jpeg)
+In memoriam: my innocence, et al.
 
-    In This Issue
+In This Issue
 
-      IFacebook Edu: The Land Before the Ban03
-      IIA Digital Autopsy08
-      IIIDavid v. Digital Goliath13
-      IVThe Trial & Zucked Back to Life18
-      VThe Digital Ball of Rights24
-      VITRAF: The Jenna Maroney Profile28
+IFacebook Edu: The Land Before the Ban03
+IIA Digital Autopsy08
+IIIDavid v. Digital Goliath13
+IVThe Trial & Zucked Back to Life18
+VThe Digital Ball of Rights24
+VITRAF: The Jenna Maroney Profile28
 
   "Blind, fabulous, and weighing your data against a disco ball."
 
@@ -81,14 +81,14 @@ slug: i-sued-meta-in-small-claims-court-and-won
 
 ## Jughead Zuckerberg & the signs of reality erosion
 
-    At the center of it all was Zuckerberg, who at the time felt like Jughead. (Not from the comic, from the cool teen melodrama Riverdale.) Socially odd, weirdly earnest, constantly hungry: for more sign-ups to his Social Network, the same network that would, two decades later, [permanently disable my 22-year-old account on Christmas Eve](https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/).
+At the center of it all was Zuckerberg, who at the time felt like Jughead. (Not from the comic, from the cool teen melodrama Riverdale.) Socially odd, weirdly earnest, constantly hungry: for more sign-ups to his Social Network, the same network that would, two decades later, [permanently disable my 22-year-old account on Christmas Eve](https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/).
 
-    Here is my imitation of a modern Facebook post to explain:
+Here is my imitation of a modern Facebook post to explain:
 
-      ![](https://indiedocjourney.com/wp-content/uploads/2026/07/zuckerjug.avif)
-      Jughead Zuckerberg, artist's rendering
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/zuckerjug.avif)
+Jughead Zuckerberg, artist's rendering
 
-    So Facebook was Riverdale but it was also Happy Days, a show set in an idealized 1950s. Just like Riverdale, the main character, Archie Cunningham, had a dumb best friend named Potsy.
+So Facebook was Riverdale but it was also Happy Days, a show set in an idealized 1950s. Just like Riverdale, the main character, Archie Cunningham, had a dumb best friend named Potsy.
 
 Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archie was the first sign of reality erosion. That redundancy was the first little hairline crack, like when your funny friend Manny starts insisting he has always been called Lenny and suddenly you are not in a memory. You are in the Mandela Effect with a two-drink minimum and an unshakable feeling the timeline has been edited by a Bearenstain (stein?) Bear.
     Fictional Facebook Diatribe
@@ -99,27 +99,27 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
 
 ## Facebook, a.k.a. the Boomer Thunderdome
 
-    That is how it goes. First the names get slippery. Then the vibes get slippery. Then your grandparents join. Presently, Facebook is the place you go to watch Boomers scream at everybody and no one. In reality, they are screaming at themselves. It's like Who's Afraid of Virginia Woolf? except the set is a comment section under a local news story about a sinkhole.
+That is how it goes. First the names get slippery. Then the vibes get slippery. Then your grandparents join. Presently, Facebook is the place you go to watch Boomers scream at everybody and no one. In reality, they are screaming at themselves. It's like Who's Afraid of Virginia Woolf? except the set is a comment section under a local news story about a sinkhole.
 
-    I have a theory: Boomers missed their own online cringe era. Nobody archived their AIM away-message poetry. Nobody ratioed their "I'm just being honest" phase. So now they are doing it at 67, in public, with the confidence of a person who has never been screenshot by a goth furry and does not know that is a thing that happens.
+I have a theory: Boomers missed their own online cringe era. Nobody archived their AIM away-message poetry. Nobody ratioed their "I'm just being honest" phase. So now they are doing it at 67, in public, with the confidence of a person who has never been screenshot by a goth furry and does not know that is a thing that happens.
 
-    Romanticizing the ex
+Romanticizing the ex
 
-    When the Facebook ban hit, I did what any sane person does when a long relationship ends. I romanticized the beginning. In my head, Facebook turned back into the 2007 version, like an ex from college. I wanted the parties. And the feeling that my life was archived somewhere safe. I did not want what Facebook is now, essentially a wasteland of angst and whatever gross AI-generated thing the algorithm coughs up to monetize the human dopamine delivery system so Meta can hit their Q3 numbers.
+When the Facebook ban hit, I did what any sane person does when a long relationship ends. I romanticized the beginning. In my head, Facebook turned back into the 2007 version, like an ex from college. I wanted the parties. And the feeling that my life was archived somewhere safe. I did not want what Facebook is now, essentially a wasteland of angst and whatever gross AI-generated thing the algorithm coughs up to monetize the human dopamine delivery system so Meta can hit their Q3 numbers.
 
-    ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/golden-wings-an-indie-doc-adventure-no-less-6a2c8f554478c.png?quality=72&w=1000)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/golden-wings-an-indie-doc-adventure-no-less-6a2c8f554478c.png?quality=72&w=1000)
 
-      A Rogue's Gallery
-      The worst thing about going through my Facebook autopsy report was having a look at this mug.
+A Rogue's Gallery
+The worst thing about going through my Facebook autopsy report was having a look at this mug.
 
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam17-847x1024.png?ssl=1&w=600&quality=68)
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam5.png?ssl=1&w=600&quality=68)
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam7.jpg?ssl=1&w=600&quality=68)
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam14-1024x1024.jpg?ssl=1&w=600&quality=68)
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam1-1024x544.jpg?ssl=1&w=600&quality=68)
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam15-Copy-577x1024.jpg?ssl=1&w=600&quality=68)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam17-847x1024.png?ssl=1&w=600&quality=68)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam5.png?ssl=1&w=600&quality=68)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam7.jpg?ssl=1&w=600&quality=68)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam14-1024x1024.jpg?ssl=1&w=600&quality=68)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam1-1024x544.jpg?ssl=1&w=600&quality=68)
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam15-Copy-577x1024.jpg?ssl=1&w=600&quality=68)
 
-    Images found in the zip file after the Facebook ban.
+Images found in the zip file after the Facebook ban.
 
   II · The Investigation08
 
@@ -184,12 +184,12 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
 
 ### Becoming the Hardest Boy
 
-    I became what they made me become. An amateur cyber-sleuth. A Hardy Boy gone rogue. The Hardest Boy: Breaking Digital. That title is objectively stupid, which is why it is perfect, like naming your band "The Postal Service" and then being surprised the vibe is sad. I followed up again and again. Thirteen times. Which in customer-service years is infinity.
+I became what they made me become. An amateur cyber-sleuth. A Hardy Boy gone rogue. The Hardest Boy: Breaking Digital. That title is objectively stupid, which is why it is perfect, like naming your band "The Postal Service" and then being surprised the vibe is sad. I followed up again and again. Thirteen times. Which in customer-service years is infinity.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/07/Asset-1@2x-Recovered.avif)The Hardest Boy on the case. A board of clues, an alley, and one puppet marked permanently disabled.
-    And I know for a fact that after each of these sessions with the Meta agents, by the end of it, they were a little in love with me. You just cannot spend that much time with me one-on-one and not fall in love. Just ask every dog I have ever met. If you think that is delusional, welcome to Los Angeles, where everyone is delusional and the only difference is whether you monetize it.
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/Asset-1@2x-Recovered.avif)The Hardest Boy on the case. A board of clues, an alley, and one puppet marked permanently disabled.
+And I know for a fact that after each of these sessions with the Meta agents, by the end of it, they were a little in love with me. You just cannot spend that much time with me one-on-one and not fall in love. Just ask every dog I have ever met. If you think that is delusional, welcome to Los Angeles, where everyone is delusional and the only difference is whether you monetize it.
 
-    In the end, Meta responded with the most insidious form of apathy: banality. Emotionally, it was like being ghosted by someone you genuinely liked. Years of photos, messages, and connections locked away by an algorithm with less empathy than a stubbed toe. It was not just silence but REVERSE FLATULENCE.
+In the end, Meta responded with the most insidious form of apathy: banality. Emotionally, it was like being ghosted by someone you genuinely liked. Years of photos, messages, and connections locked away by an algorithm with less empathy than a stubbed toe. It was not just silence but REVERSE FLATULENCE.
 
   ![](https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/HArdy-Boys-Final.webp?quality=72&w=1000)
 
@@ -214,9 +214,9 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
 
 ### The checks kept clearing
 
-    And the cherry on this dystopian sundae? While my personal account sat in the void, my business account kept right on running, kept right on spending, kept right on making Meta money. Cha-ching. They were happy to cash my checks while pretending I didn't exist. Twenty-two years of a person was disposable. The ad revenue was not.
+And the cherry on this dystopian sundae? While my personal account sat in the void, my business account kept right on running, kept right on spending, kept right on making Meta money. Cha-ching. They were happy to cash my checks while pretending I didn't exist. Twenty-two years of a person was disposable. The ad revenue was not.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/07/hacker_party.png)Somewhere in Romania, the lads celebrate. Pixel acquired, campaign launched, three grand of a stranger's money already spent on ads. Multumim frumos.
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/hacker_party.png)Somewhere in Romania, the lads celebrate. Pixel acquired, campaign launched, three grand of a stranger's money already spent on ads. Multumim frumos.
 
 ### Mistaking the burgled for the burglar
 
@@ -243,10 +243,10 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
 
 ### Taking the Facebook ban to small claims
 
-    So instead of giving up, or writing a moody indie album called Microplastics, I filed a small-claims case. That meant gathering every email, every screenshot, every scrap of evidence, and building a case thick enough to kill a spider. Sorry, Charlotte.
+So instead of giving up, or writing a moody indie album called Microplastics, I filed a small-claims case. That meant gathering every email, every screenshot, every scrap of evidence, and building a case thick enough to kill a spider. Sorry, Charlotte.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/07/losfelizhipstertrash.png)
-    The legal research, meanwhile, was eye-opening. I discovered I wasn't alone: thousands of people had similar experiences with wrongful account disablements. But most gave up when faced with Meta's labyrinthine appeal process. The company seemed to rely on user exhaustion as a primary defense strategy.
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/losfelizhipstertrash.png)
+The legal research, meanwhile, was eye-opening. I discovered I wasn't alone: thousands of people had similar experiences with wrongful account disablements. But most gave up when faced with Meta's labyrinthine appeal process. The company seemed to rely on user exhaustion as a primary defense strategy.
 
 ### Exhausting the plaintiff
 
@@ -260,20 +260,20 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
 
 ## Thirty minutes early, at the wrong courthouse
 
-    The filing fee was reasonable, and the process, while intimidating, was accessible. Then I did something truly impressive. I showed up thirty minutes early to court. At the wrong courthouse. That's not a joke. I had to scramble and beg for a continuance, which the court granted. My hearing moved from October 23, 2025, to January 8, 2026. Three more months of account purgatory.
+The filing fee was reasonable, and the process, while intimidating, was accessible. Then I did something truly impressive. I showed up thirty minutes early to court. At the wrong courthouse. That's not a joke. I had to scramble and beg for a continuance, which the court granted. My hearing moved from October 23, 2025, to January 8, 2026. Three more months of account purgatory.
 
-    ![](https://indiedocjourney.com/wp-content/uploads/2026/07/lights-camera-journey-6a4664f730740.avif)
-    I was crushed. But in hindsight, those extra months gave me time to strengthen my case and gather additional evidence of Meta's pattern of wrongful disablements.
+![](https://indiedocjourney.com/wp-content/uploads/2026/07/lights-camera-journey-6a4664f730740.avif)
+I was crushed. But in hindsight, those extra months gave me time to strengthen my case and gather additional evidence of Meta's pattern of wrongful disablements.
 
-    The false positive
+The false positive
 
-    Restored, then robbed
+Restored, then robbed
 
-    In the window between the first court date and the continuance, Meta finally tried to fix it. They reached out, in writing, and admitted the disabling had been a "false positive." In writing. A miracle. They told me my account had been restored.
+In the window between the first court date and the continuance, Meta finally tried to fix it. They reached out, in writing, and admitted the disabling had been a "false positive." In writing. A miracle. They told me my account had been restored.
 
-    I logged in. It worked. And there was nothing. No posts. No friends. No memories. Their idea of "restored" was a digital husk: the account shell handed back with twenty-two years scooped out of it. A practical joke played by fate, and a technicality played by Meta.
+I logged in. It worked. And there was nothing. No posts. No friends. No memories. Their idea of "restored" was a digital husk: the account shell handed back with twenty-two years scooped out of it. A practical joke played by fate, and a technicality played by Meta.
 
-    It was like being handed your house back after a fire and finding only the foundation, a few charred beams, and a pair of jock straps you definitely did not buy.
+It was like being handed your house back after a fire and finding only the foundation, a few charred beams, and a pair of jock straps you definitely did not buy.
 
   ![](https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/watermarked_img_7076381300635757818-1.jpg?quality=72&w=1000)
   Meta's idea of "restored." An empty husk where twenty-two years used to live.
@@ -328,16 +328,16 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
 
 ## Why fighting a Facebook ban still matters
 
-    I fought for it anyway, because I still need it as a tool. If I want to do a fundraiser, a Kickstarter, or rally people around a documentary screening, Facebook is still a lever. Not a home, not a community. Even so, it is a janky Swiss Army knife that still opens cans, like MacGyver if MacGyver had to subscribe for $15 a month to access the blade. I was not trying to return because I love it. I was trying to get the Facebook ban lifted because the account holds my stuff, and because it is still the fastest way to reach certain people, including relatives who treat Facebook as the only news outlet they trust.
+I fought for it anyway, because I still need it as a tool. If I want to do a fundraiser, a Kickstarter, or rally people around a documentary screening, Facebook is still a lever. Not a home, not a community. Even so, it is a janky Swiss Army knife that still opens cans, like MacGyver if MacGyver had to subscribe for $15 a month to access the blade. I was not trying to return because I love it. I was trying to get the Facebook ban lifted because the account holds my stuff, and because it is still the fastest way to reach certain people, including relatives who treat Facebook as the only news outlet they trust.
 
-    Now the same surveillance is sold to us as connection. It is packaged as "stay in touch with your relatives." It is marketed like a Hallmark movie, but the engine underneath is running Minority Report with less Tom Cruise and more ads for orthopedic shoes. When I opened that login folder and saw the trail, I had that cold little moment of stunned clarity, like the end of The Sixth Sense, except the ghost is your browser history and the twist is the company was never your friend.
+Now the same surveillance is sold to us as connection. It is packaged as "stay in touch with your relatives." It is marketed like a Hallmark movie, but the engine underneath is running Minority Report with less Tom Cruise and more ads for orthopedic shoes. When I opened that login folder and saw the trail, I had that cold little moment of stunned clarity, like the end of The Sixth Sense, except the ghost is your browser history and the twist is the company was never your friend.
 
-    The sick part is that you can turn some of it off. Go straight to your Accounts Center and dig into your Off-Facebook Activity settings. I did it, and it felt less like self-care and more like finally changing the locks after a breakup. The story was not "I lost Facebook." It was "Facebook had been living inside my life like a squatter, and I finally caught it on camera."
+The sick part is that you can turn some of it off. Go straight to your Accounts Center and dig into your Off-Facebook Activity settings. I did it, and it felt less like self-care and more like finally changing the locks after a breakup. The story was not "I lost Facebook." It was "Facebook had been living inside my life like a squatter, and I finally caught it on camera."
 
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/special-bulletin_head.png?quality=72&w=1000)BEFORE
-      ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-1-2026-10_16_30-AM-Copy.png?quality=72&w=1000)AFTER
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/special-bulletin_head.png?quality=72&w=1000)BEFORE
+![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-1-2026-10_16_30-AM-Copy.png?quality=72&w=1000)AFTER
 
-    This is the project that made me decide to sue. That's Sassy McGraw at the bulletin desk; she returns on page 28.
+This is the project that made me decide to sue. That's Sassy McGraw at the bulletin desk; she returns on page 28.
 
   Off the record
 
@@ -458,16 +458,16 @@ Singalong & Colonic
 
   As we left, a single audience member (the gentleman with the walker) rose. Jenna called it a standing ovation. He was, in fact, about to be evacuated. His colonic was ready. She has decided these are the same thing, and on this point she will not be moved. Sassy watched him go, turned to a camera that was not there out of forty years of habit, and filed the only review that matters: "Bless her heart."
 
-    Jenna Maroney (calling after us across the parking structure): "Sign his little Facebook ban petition, darlings. A signature is an autograph, and an autograph is a gift to history. I signed it four times. They kept two."
+Jenna Maroney (calling after us across the parking structure): "Sign his little Facebook ban petition, darlings. A signature is an autograph, and an autograph is a gift to history. I signed it four times. They kept two."
 
-    [Add your autograph →](https://c.org/sdcmBMtQkN)
+[Add your autograph →](https://c.org/sdcmBMtQkN)
 
-    [More dispatches from the Indie Doc Journey →](https://indiedocjourney.com/blog)
-    💋
+[More dispatches from the Indie Doc Journey →](https://indiedocjourney.com/blog)
+💋
 
-              [
+[
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
 ](/indie-doc-journey?author=6629724930ab2f215b26ef6e)

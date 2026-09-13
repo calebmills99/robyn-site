@@ -59,9 +59,9 @@ Another inspiring example is "Tarnation" by Jonathan Caouette, which was made on
 
 Filming a documentary with no budget presents numerous challenges, but it also offers unique opportunities for creativity and innovation. By leveraging personal stories, utilizing available resources, and maintaining passion for the subject, filmmakers can overcome these obstacles and create compelling documentaries. The key is meticulous planning, networking, and a relentless commitment to the project.
 
-              [
+[
 
-      ![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
+![](https://images.squarespace-cdn.com/content/v2/namespaces/memberAccountAvatars/libraries/6629724930ab2f215b26ef6e/4d79a3d7-69a1-4690-9f9e-841878db7215/thirdPartyMemberAvatar-6629724930ab2f215b26ef6e-54a44221-7dc9-4854-a63b-f8d7c8348d7d?format=300w)
 
   Caleb Stewart
 ](/indie-doc-journey?author=6629724930ab2f215b26ef6e)
