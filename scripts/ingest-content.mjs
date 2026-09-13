@@ -80,22 +80,22 @@ function rewriteCareerCopy(text, { isBlogTitle = false } = {}) {
 
   // Soft title: replace full film-subtitle branding with Golden Wings (pages)
   out = out.replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
-  out = out.replace(/(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
+  out = out.replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings");
 
   // Career duration → 55
-  out = out.replace(/53-year/gi, "55-year");
-  out = out.replace(/53 years?/gi, "55 years");
-  out = out.replace(/fifty-year/gi, "55-year");
-  out = out.replace(/50-year/gi, "55-year");
-  out = out.replace(/more than fifty years/gi, "55 years");
-  out = out.replace(/over five decades/gi, "over five decades");
-  out = out.replace(/flight attendant for more than fifty years/gi, "flight attendant for 55 years");
-  out = out.replace(/(?:her|Robyn(?:'s)?|a)\s+50-year\s+career/gi, (m) =>
+  out = out.replace(/\b53-year\b/gi, "55-year");
+  out = out.replace(/\b53 years?\b/gi, "55 years");
+  out = out.replace(/\bfifty-year\b/gi, "55-year");
+  out = out.replace(/\b50-year\b/gi, "55-year");
+  out = out.replace(/\bmore than fifty years\b/gi, "55 years");
+  out = out.replace(/\bover five decades\b/gi, "over five decades");
+  out = out.replace(/\bflight attendant for more than fifty years\b/gi, "flight attendant for 55 years");
+  out = out.replace(/\b(?:her|Robyn(?:'s)?|a)\s+50-year\s+career\b/gi, (m) =>
     m.replace(/50-year/i, "55-year"),
   );
-  out = out.replace(/50 years/gi, "55 years");
-  out = out.replace(/fifty years/gi, "55 years");
-  out = out.replace(/flight attendant 50 years/gi, "flight attendant 55 years");
+  out = out.replace(/\b50 years\b/gi, "55 years");
+  out = out.replace(/\bfifty years\b/gi, "55 years");
+  out = out.replace(/\bflight attendant 50 years\b/gi, "flight attendant 55 years");
 
   return out;
 }
