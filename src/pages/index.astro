@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 
 const description =
-  "Golden Wings, a vivid documentary following flight attendant Robyn Stewart’s 55-year legacy of resilience, family, and flight, told by her son Caleb.";
+  "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
 ---
 
 <BaseLayout title="Golden Wings" description={description}>
@@ -15,16 +15,16 @@ const description =
         loop
         playsinline
         preload="metadata"
-        poster="/images/hero-sky.jpg"
+        poster="/images/synth-media/747-synth-broll-reel-poster.jpg"
       >
         <source
-          src="/videos/synth-media/747-aerial-helicopter-1969.mp4"
+          src="/videos/synth-media/747-synth-broll-reel.mp4"
           type="video/mp4"
         />
       </video>
       <img
         class="hero__poster"
-        src="/images/hero-sky.jpg"
+        src="/images/synth-media/747-synth-broll-reel-poster.jpg"
         alt=""
         width="1920"
         height="1080"
@@ -42,7 +42,7 @@ const description =
       </p>
       <h1 class="hero__headline">She walked into stewardess college in 1971 and onto the 747. Robyn Stewart is still flying.</h1>
       <p class="hero__lede">
-        An award-winning documentary on Robyn Stewart’s 55-year career as an
+        An award-winning documentary on Robyn Stewart's 55-year career as an
         American Airlines flight attendant, told by her son, Los Angeles
         filmmaker Caleb Mills Stewart.
       </p>
@@ -92,56 +92,4 @@ const description =
       <li>Silicon Beach Film Festival: Best Short Cinematography</li>
     </ul>
   </section>
-
-  <section class="section" aria-labelledby="synth-heading">
-    <p class="section__label plate--subtitle">Synthetic media</p>
-    <h2 id="synth-heading" class="section__title">747 B-roll reel</h2>
-    <p class="prose">
-      This is synthetic media: 747 shots rebuilt so they play like ordinary
-      period B-roll.
-    </p>
-    <figure class="synth-reel">
-      <video
-        id="synth-reel"
-        class="synth-reel__video"
-        controls
-        playsinline
-        preload="metadata"
-        poster="/images/synth-media/747-synth-broll-reel-poster.jpg"
-        aria-label="747 B-roll reel"
-      >
-        <source
-          src="/videos/synth-media/747-synth-broll-reel.mp4"
-          type="video/mp4"
-        />
-      </video>
-    </figure>
-    <div class="hero__ctas" style="margin-top: 1.5rem;">
-      <a class="btn btn--primary" href="#synth-reel" data-synth-play
-        >Watch the reel</a
-      >
-    </div>
-  </section>
 </BaseLayout>
-
-
-<script>
-  const cta = document.querySelector("[data-synth-play]");
-  const reel = document.getElementById("synth-reel");
-  if (cta instanceof HTMLAnchorElement && reel instanceof HTMLVideoElement) {
-    cta.addEventListener("click", (event) => {
-      event.preventDefault();
-      const reduceMotion = window.matchMedia(
-        "(prefers-reduced-motion: reduce)",
-      ).matches;
-      reel.scrollIntoView({
-        behavior: reduceMotion ? "auto" : "smooth",
-        block: "center",
-      });
-      reel.play().catch(() => {
-        reel.setAttribute("controls", "");
-        reel.focus();
-      });
-    });
-  }
-</script>

@@ -1063,29 +1063,3 @@ a:hover {
 }
 
 /* Synth media reel — press-kit still that plays */
-.synth-reel {
-  margin: var(--sp-5) 0 0;
-  padding: 0;
-  width: 100%;
-  background: var(--gw-cream);
-  border: var(--bw-rule) solid var(--border-ink);
-  box-shadow:
-    var(--shadow-plate),
-    inset 0 0 0 var(--bw-hairline) var(--border-gold);
-  border-radius: var(--radius-none);
-  overflow: hidden;
-  line-height: 0;
-}
-
-.synth-reel__video {
-  display: block;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  height: auto;
-  vertical-align: top;
-  background: var(--gw-ink);
-  border: 0;
-  border-radius: var(--radius-none);
-  accent-color: var(--gw-gold);
-  color-scheme: light;
-}
