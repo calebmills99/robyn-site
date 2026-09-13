@@ -139,6 +139,15 @@ function processMarkdown(filePath, { isBlog }) {
   body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
 
   if (isBlog) {
+    // One H1 per post: keep the first ATX H1, demote the rest to H2
+    let seenH1 = false;
+    body = body.replace(/^#\s+(.+)$/gm, (_m, text) => {
+      if (!seenH1) {
+        seenH1 = true;
+        return `# ${text}`;
+      }
+      return `## ${text}`;
+    });
     // Leave blog titles alone; still clean body career marketing + privacy typo
     body = rewriteCareerCopy(body, { isBlogTitle: false });
   } else {
