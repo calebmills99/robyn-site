@@ -14,7 +14,9 @@ const {
 } = Astro.props;
 
 const pageTitle =
-  title === "Golden Wings" ? "Golden Wings" : `${title} | Golden Wings`;
+  title === "Golden Wings"
+  ? "Golden Wings | Aviation Documentary"
+  : `${title} | Golden Wings`;
 
 const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
 
