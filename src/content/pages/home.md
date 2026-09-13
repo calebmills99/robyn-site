@@ -79,7 +79,6 @@ Beyond the film, the companion blog [My Indie Doc Journey](/blog) shares insight
 
 - Swedish International Film Festival (2025): Best Documentary (Short)
 
-- Clown International Film Festival: Best Mobile Short & Best Documentary (Short)
 
 - NewsFest Santa Monica: Most Inspirational, Best Trailer
 
