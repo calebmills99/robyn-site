@@ -1,7 +1,7 @@
 ---
 title: >-
   Wrapping Up the Holidays and Soaring into New Beginnings: A Sneak Peek into
-  Our Next Big Adventure (Copy)
+  Our Next Big Adventure
 description: >-
   Golden Wings documentary update: A behind-the-scenes look at holiday highs and
   lows, post-production magic with Mocha masks, and an exclusive, soft sneak
@@ -18,7 +18,7 @@ slug: >-
   wrapping-up-the-holidays-and-diving-into-the-wonderful-world-of-mocha-masks-xetef-w45bk
 ---
 
-# Wrapping Up the Holidays and Soaring into New Beginnings: A Sneak Peek into Our Next Big Adventure (Copy)
+# Wrapping Up the Holidays and Soaring into New Beginnings: A Sneak Peek into Our Next Big Adventure
 
               Feb 4
 

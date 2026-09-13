@@ -3,10 +3,9 @@ title: >-
   "Golden Wings" Takes Flight: Celebrating Wins at Clown International and
   Independent Shorts Awards!
 description: >-
-  Introduction:    We are thrilled to announce that our documentary, "Golden
-  Wings," has soared to new heights, winning prestigious awards at the Clown
-  International Film Festival and the Independent Shorts Awards. This journey
-  has been full of surprises, challenges,
+  Golden Wings wins at the Clown International Film Festival and Independent
+  Shorts Awards — festival surprises, challenges, and the next leg of the
+  journey.
 path: >-
   /indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards
 sourceUrl: >-

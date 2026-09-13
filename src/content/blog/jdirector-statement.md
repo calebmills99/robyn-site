@@ -4,7 +4,7 @@ description: >-
   Explore the multifaceted filmmaking journey of Caleb Stewart, from his early
   projects to impactful documentaries. Learn how his values of authenticity,
   empathy, social impact, and creativity shape his work, fostering human
-  connection and advocating for social justice. Discover more about Caleb
+  connection and advocating for social justice.
 path: /indie-doc-journey/jdirector-statement
 sourceUrl: 'https://www.golden-wings-robyn.com/indie-doc-journey/jdirector-statement'
 canonical: 'https://www.golden-wings-robyn.com/indie-doc-journey/jdirector-statement'

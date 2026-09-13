@@ -1,6 +1,6 @@
 ---
 title: Sign Up
-description: Sign up for the. App to watch the film online.
+description: Sign up for the Golden Wings App to watch the film online.
 path: /optin
 sourceUrl: 'https://www.golden-wings-robyn.com/optin'
 canonical: 'https://www.golden-wings-robyn.com/optin'

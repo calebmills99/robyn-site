@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection, render } from "astro:content";
+import { blogPostingJsonLd } from "../../lib/seo";
 
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
@@ -12,11 +13,19 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const { Content } = await render(post);
+
+const title = String(post.data.title)
+  .replace(/\s*\(Copy\)\s*$/i, "")
+  .trim();
+const description = (post.data.description || title).trim();
+const path = `/indie-doc-journey/${post.id}`;
 ---
 
 <BaseLayout
-  title={post.data.title}
-  description={post.data.description || post.data.title}
+  title={title}
+  description={description}
+  ogType="article"
+  jsonLd={blogPostingJsonLd({ title, description, url: path })}
 >
   <article class="prose">
     <p class="section__label">

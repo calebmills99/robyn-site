@@ -527,27 +527,53 @@ a:hover {
   content: "";
   position: absolute;
   inset: 0;
+  /* Above .hero__video (z-index: 1); type sits above via .hero__content z-index */
+  z-index: 2;
+  pointer-events: none;
+  /* Dense left + headline-band (mid/lower) ink plate so cream holds on pale fuselage */
   background:
     linear-gradient(
       180deg,
-      rgba(11, 42, 58, 0.25) 0%,
-      rgba(11, 42, 58, 0.45) 40%,
-      rgba(26, 18, 8, 0.88) 100%
+      rgba(11, 42, 58, 0.55) 0%,
+      rgba(11, 42, 58, 0.62) 28%,
+      rgba(26, 18, 8, 0.78) 42%,
+      rgba(26, 18, 8, 0.9) 58%,
+      rgba(26, 18, 8, 0.96) 78%,
+      rgba(26, 18, 8, 0.98) 100%
     ),
-    linear-gradient(90deg, rgba(15, 61, 76, 0.55) 0%, transparent 60%);
+    linear-gradient(
+      90deg,
+      rgba(26, 18, 8, 0.88) 0%,
+      rgba(26, 18, 8, 0.72) 28%,
+      rgba(15, 61, 76, 0.45) 48%,
+      transparent 72%
+    );
 }
 
 .hero:has(.hero__media) {
   color: var(--text-on-dark);
 }
 
-.hero:has(.hero__media) .hero__headline {
+.hero:has(.hero__media) .hero__headline,
+.hero:has(.hero__media) .hero__headline-line {
   color: var(--gw-cream);
+  /* UEZZE ink halo + hard plate offsets (wordmark energy, not soft white glow) */
+  text-shadow:
+    0 0 2px rgba(26, 18, 8, 0.85),
+    0 1px 0 rgba(26, 18, 8, 0.9),
+    0 2px 8px rgba(26, 18, 8, 0.55),
+    2px 2px 0 rgba(26, 18, 8, 0.95),
+    3px 3px 0 rgba(26, 18, 8, 0.8);
 }
 
 .hero:has(.hero__media) .hero__lede {
   color: var(--gw-cream);
-  opacity: 0.92;
+  opacity: 0.98;
+  text-shadow:
+    0 0 2px rgba(26, 18, 8, 0.85),
+    0 1px 0 rgba(26, 18, 8, 0.9),
+    0 2px 8px rgba(26, 18, 8, 0.55),
+    2px 2px 0 rgba(26, 18, 8, 0.92);
 }
 
 .hero:has(.hero__media) .btn--ghost {
@@ -563,6 +589,8 @@ a:hover {
 }
 
 .hero__content {
+  position: relative;
+  z-index: 1;
   display: grid;
   gap: var(--sp-5);
   max-width: 40rem;
@@ -608,6 +636,28 @@ a:hover {
   flex-wrap: wrap;
   gap: var(--sp-3);
   animation: fade-up 0.9s var(--ease) 0.36s both;
+}
+
+/* Win laurels on the hero plate (over B-roll, behind the fold) */
+.hero__laurels {
+  position: relative;
+  z-index: 1;
+  margin-top: var(--sp-5);
+  max-width: min(100%, 52rem);
+  animation: fade-up 0.9s var(--ease) 0.42s both;
+}
+
+.hero:has(.hero__media) .hero__laurels.award-strip img {
+  height: 4.75rem;
+  background: rgba(245, 233, 200, 0.92);
+  border-color: var(--gw-ink);
+  box-shadow: var(--shadow-plate-sm);
+}
+
+@media (max-width: 720px) {
+  .hero:has(.hero__media) .hero__laurels.award-strip img {
+    height: 3.5rem;
+  }
 }
 
 .hero__wing {
@@ -872,6 +922,79 @@ a:hover {
   margin-left: calc(50% - 50vw);
   margin-right: calc(50% - 50vw);
   padding-inline: max(var(--gutter), calc((100vw - var(--max)) / 2));
+}
+
+/* Homepage official poster — hard plate, prominent, not a footer thumbnail */
+.poster-plate {
+  background: var(--surface-darkest);
+  color: var(--text-on-dark);
+  border-block: var(--bw-rule) solid var(--border-ink);
+  padding-block: var(--sp-8);
+}
+
+.poster-plate__inner {
+  display: grid;
+  gap: var(--sp-7);
+  align-items: center;
+  max-width: var(--max);
+  margin-inline: auto;
+}
+
+@media (min-width: 860px) {
+  .poster-plate__inner {
+    grid-template-columns: minmax(0, 1fr) minmax(16rem, 22rem);
+    gap: var(--sp-8);
+  }
+}
+
+.poster-plate__copy {
+  display: grid;
+  gap: var(--sp-4);
+  align-content: start;
+}
+
+.poster-plate .section__label {
+  color: var(--gw-ink);
+}
+
+.poster-plate .section__title {
+  color: var(--gw-cream);
+  margin: 0;
+}
+
+.poster-plate__lede {
+  margin: 0;
+  max-width: 28rem;
+  font-size: var(--fs-lg);
+  line-height: var(--lh-body);
+  color: var(--gw-cream);
+  opacity: 0.92;
+}
+
+.poster-plate__frame {
+  display: block;
+  justify-self: center;
+  width: min(100%, 22rem);
+  border: var(--bw-thick) solid var(--border-ink);
+  border-radius: var(--radius-none);
+  background: var(--surface-card);
+  box-shadow: var(--shadow-plate-lg);
+  text-decoration: none;
+  transition:
+    transform var(--dur-fast) var(--ease),
+    box-shadow var(--dur-fast) var(--ease);
+}
+
+.poster-plate__frame:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0 var(--gw-gold);
+}
+
+.poster-plate__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: var(--radius-none);
 }
 
 /* —— People —— */
