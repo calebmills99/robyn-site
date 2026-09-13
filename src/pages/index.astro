@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { homeJsonLd } from "../lib/seo";
 
 const description =
   "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
@@ -32,7 +33,7 @@ const laurels = [
 ];
 ---
 
-<BaseLayout title="Golden Wings" description={description}>
+<BaseLayout title="Golden Wings" description={description} jsonLd={homeJsonLd(description)}>
   <section class="hero full-bleed-home" aria-label="Golden Wings">
     <div class="hero__media" aria-hidden="true">
       <video

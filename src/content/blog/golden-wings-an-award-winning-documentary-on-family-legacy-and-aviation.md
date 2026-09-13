@@ -1,10 +1,10 @@
 ---
 title: 'Golden Wings: An Award-Winning Documentary on Family Legacy and Aviation'
 description: >-
-  Golden Wings  is an award-winning documentary    It explores family legacy,
-  resilience, and aviation history. After a recent screening at Newsfest, where
-  the film won  Best Trailer ,  Most Inspirational , and  Most Outstanding , 
-  Golden Wings  continues to resonate with audience
+  Golden Wings is an award-winning documentary exploring family legacy,
+  resilience, and aviation history. After NewsFest wins for Best Trailer, Most
+  Inspirational, and Most Outstanding, the film continues to resonate with
+  audiences.
 path: >-
   /indie-doc-journey/golden-wings-an-award-winning-documentary-on-family-legacy-and-aviation
 sourceUrl: >-

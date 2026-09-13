@@ -1,10 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { movieJsonLd } from "../lib/seo";
+
+const description =
+  "Watch Golden Wings — the award-winning aviation documentary on Robyn Stewart’s 55-year career.";
 ---
 
 <BaseLayout
   title="Film"
-  description="Watch Golden Wings — the award-winning aviation documentary on Robyn Stewart’s 55-year career."
+  description={description}
+  ogType="video.other"
+  jsonLd={movieJsonLd(description)}
 >
   <section class="hero" aria-label="Film">
     <p class="script" style="font-size: 1.75rem; margin: 0;">Golden Wings</p>

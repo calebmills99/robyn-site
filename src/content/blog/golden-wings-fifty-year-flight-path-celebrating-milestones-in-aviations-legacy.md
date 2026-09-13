@@ -5,7 +5,7 @@ title: >-
 description: >-
   Golden Wings celebrates selections at The NewsFest and Silicon Beach Film
   Festival. Discover how this aviation documentary is gaining recognition and
-  honoring industry pioneers
+  honoring industry pioneers.
 path: >-
   /indie-doc-journey/golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy
 sourceUrl: >-

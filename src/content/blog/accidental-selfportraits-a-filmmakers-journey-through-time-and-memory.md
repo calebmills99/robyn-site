@@ -1,6 +1,8 @@
 ---
-title: 'Official Selection: Palma Film Festival and An Accidental Revelation (Copy)'
-description: 'In a Parisian elevator in 2005, my impatient ex-boyfriend couldn'
+title: 'Official Selection: Palma Film Festival and An Accidental Revelation'
+description: >-
+  In a Parisian elevator in 2005, impatient sighs became the opening of Golden
+  Wings — and years later, official selection at the Palma Film Festival.
 path: >-
   /indie-doc-journey/accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 sourceUrl: >-
@@ -12,7 +14,7 @@ reason: blog post
 slug: accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 ---
 
-# Official Selection: Palma Film Festival and An Accidental Revelation (Copy)
+# Official Selection: Palma Film Festival and An Accidental Revelation
 
               Nov 13
 
@@ -28,7 +30,7 @@ slug: accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
 
 Wow, we're an official selection at the [Palma Film Festival](https://palmafilmfestival.com/)! I'm so excited and honored. I can't believe this happened. I've submitted to so many festivals in Spain, and this is my first one that actually accepted me. It's like the universe was telling me, "Just wait on Spain until you can have your premiere in your hometown."
 
-# The Exquisite Timing of Creative Vindication
+## The Exquisite Timing of Creative Vindication
 
 In the cramped confines of a Parisian elevator circa 2005, I adjusted my camera settings while my then-boyfriend performed his one-man show titled "Impatience as Performance Art." His persistent refrain—"Hurry UP, what are you DOING? Why are you taking so LONG?"—provided an ironic soundtrack to what would eventually become the opening sequence of Golden Wings.
 

@@ -40,7 +40,7 @@ function ensureDir(dir) {
 
 function cleanTitle(raw, slug, isBlog) {
   if (isBlog && raw && !/^Legacies/i.test(raw) && !/&mdash;/i.test(raw)) {
-    return decodeEntities(String(raw).trim());
+    return decodeEntities(String(raw).trim()).replace(/\s*\(Copy\)\s*$/i, "").trim();
   }
   if (PAGE_TITLES[slug]) return PAGE_TITLES[slug];
   if (raw) {
@@ -48,6 +48,7 @@ function cleanTitle(raw, slug, isBlog) {
     t = t.replace(/^Legacies\s*[—–\-:]?\s*/i, "");
     t = t.replace(/Golden Wings:\s*(50|Fifty|5o)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
     t = t.replace(/\s*[-–—]\s*Documentary\s*$/i, "");
+    t = t.replace(/\s*\(Copy\)\s*$/i, "");
     t = t.replace(/\s+/g, " ").trim();
     if (t && t.toLowerCase() !== "documentary") return t;
   }
@@ -133,6 +134,10 @@ function processMarkdown(filePath, { isBlog }) {
   }
 
   let body = content;
+  // Drop empty H1 stubs and Squarespace "(Copy)" title leftovers
+  body = body.replace(/^#\s*$/gm, "");
+  body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
+
   if (isBlog) {
     // Leave blog titles alone; still clean body career marketing + privacy typo
     body = rewriteCareerCopy(body, { isBlogTitle: false });
@@ -142,11 +147,12 @@ function processMarkdown(filePath, { isBlog }) {
   }
 
   let description = data.description ? String(data.description) : "";
-  if (!isBlog) {
-    description = rewriteCareerCopy(description);
-  } else {
-    description = rewriteCareerCopy(description);
-  }
+  description = rewriteCareerCopy(description);
+  // Scraped opt-in meta typo
+  description = description.replace(
+    /Sign up for the\.\s*App/gi,
+    "Sign up for the Golden Wings App",
+  );
 
   const frontmatter = {
     title,

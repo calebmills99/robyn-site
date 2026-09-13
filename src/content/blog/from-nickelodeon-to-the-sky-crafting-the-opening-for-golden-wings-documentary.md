@@ -3,9 +3,8 @@ title: >-
   From Nickelodeon to the Sky: Crafting the Opening for "Golden Wings"
   Documentary
 description: >-
-  Introduction  "Golden Wings" is a documentary chronicling the extraordinary
-  career of Robyn Stewart, a pioneering flight attendant for American Airlines.
-  As we unveil a stunning new opening sequence, I
+  Crafting the opening of Golden Wings: how a new sequence frames Robyn
+  Stewart's American Airlines career and the film's family story.
 path: >-
   /indie-doc-journey/from-nickelodeon-to-the-sky-crafting-the-opening-for-golden-wings-documentary
 sourceUrl: >-
