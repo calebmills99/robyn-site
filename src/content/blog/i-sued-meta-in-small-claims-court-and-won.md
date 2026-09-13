@@ -245,7 +245,7 @@ A Scholar
 
 So instead of giving up, or writing a moody indie album called Microplastics, I filed a small-claims case. That meant gathering every email, every screenshot, every scrap of evidence, and building a case thick enough to kill a spider. Sorry, Charlotte.
 
-![](/blog/4b37d58b18c4.png)
+![](/blog/4b37d58b18c4.jpg)
 The legal research, meanwhile, was eye-opening. I discovered I wasn't alone: thousands of people had similar experiences with wrongful account disablements. But most gave up when faced with Meta's labyrinthine appeal process. The company seemed to rely on user exhaustion as a primary defense strategy.
 
 ### Exhausting the plaintiff
