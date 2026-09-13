@@ -1,15 +1,15 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { homeJsonLd } from "../lib/seo";
 
 const description =
-  "From girdle checks at stewardess college to golden wings after fifty years in the cabin, one American Airlines family carries the 747 rollout, 9/11, sobriety, and loss across three generations.";
+  "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
 
 const logline =
   "From girdle checks at stewardess college to golden wings after fifty years in the cabin, one American Airlines family carries the 747 rollout, 9/11, sobriety, and loss across three generations.";
 ---
 
-<BaseLayout title="Golden Wings" description={description} home>
-  <!-- HERO: Rule Two — 747 / golden age first -->
+<BaseLayout title="Golden Wings" description={description} jsonLd={homeJsonLd(description)} home>
   <section class="home-hero" aria-label="Golden Wings">
     <div class="home-hero__media" aria-hidden="true">
       <img
@@ -40,7 +40,6 @@ const logline =
     </div>
   </section>
 
-  <!-- Cite strip: FA / stewardess memoir framing -->
   <section class="cite-strip" aria-label="About this film">
     <p class="cite-strip__text">
       A documentary about flight attendants. A stewardess family memoir. Not a
@@ -48,7 +47,6 @@ const logline =
     </p>
   </section>
 
-  <!-- Story -->
   <section class="section section--story" id="story" aria-labelledby="story-heading">
     <div class="section__grid">
       <div class="section__copy">
@@ -85,7 +83,6 @@ const logline =
     </div>
   </section>
 
-  <!-- Festival / Press -->
   <section class="section section--press" id="press" aria-labelledby="press-heading">
     <p class="section__label">Festival &amp; press</p>
     <h2 id="press-heading" class="section__title">On the circuit</h2>
@@ -103,7 +100,6 @@ const logline =
     </ul>
   </section>
 
-  <!-- People: approved color headshots only -->
   <section class="section section--people" id="people" aria-labelledby="people-heading">
     <p class="section__label">People</p>
     <h2 id="people-heading" class="section__title">Who you'll meet</h2>
@@ -159,7 +155,6 @@ const logline =
     </p>
   </section>
 
-  <!-- Watch placeholder: no stock trailer still -->
   <section class="section section--watch" id="watch" aria-labelledby="watch-heading">
     <p class="section__label">Watch</p>
     <h2 id="watch-heading" class="section__title">See the film</h2>
@@ -171,7 +166,6 @@ const logline =
     >
   </section>
 
-  <!-- Contact band -->
   <section class="section section--contact" id="contact" aria-labelledby="contact-heading">
     <p class="section__label">Contact</p>
     <h2 id="contact-heading" class="section__title">Press &amp; festivals</h2>

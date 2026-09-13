@@ -23,7 +23,7 @@ slug: bhiff-here-we-come
 
         ![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/be6c454a-a163-4695-b783-8fcb5fc334d4/gwnewlogo.png?format=1500w)
 
-# FOR IMMEDIATE RELEASE
+## FOR IMMEDIATE RELEASE
 
 ## Golden Wings – A Finalist at Beyond Hollywood International Film Festival 2025
 

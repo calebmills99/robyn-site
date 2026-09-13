@@ -13,7 +13,7 @@ reason: blog post
 slug: zucked-on-christmas-eve-part-1
 ---
 
-# Zucked on Christmas Eve:                              My Facebook ban survival story (part 1)
+# Zucked on Christmas Eve: My Facebook ban survival story (part 1)
 
               [Personal Stories](/indie-doc-journey/category/Personal+Stories)[Social Issues](/indie-doc-journey/category/Social+Issues)
 
@@ -29,7 +29,7 @@ slug: zucked-on-christmas-eve-part-1
 
       The Ban · The Appeal Abyss · The Smoking Gun
 
-# Banned on
+## Banned on
 Christmas Eve
 
       My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
@@ -239,7 +239,7 @@ Macho Mark Z
 
       The Ban · The Appeal Abyss · The Smoking Gun
 
-# Banned on
+## Banned on
 Christmas Eve
 
       My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.

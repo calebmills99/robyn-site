@@ -2,7 +2,9 @@
 title: >-
   My Weight Loss Journey: Transforming a Student Project into a Full-Fledged
   Documentary
-description: Discover how a personal weight loss journey inspired the expansion of
+description: >-
+  Discover how a personal weight loss journey inspired the expansion of Golden
+  Wings from a student short into a fuller family story.
 path: /indie-doc-journey/weight-loss-journey-golden-wings-documentary
 sourceUrl: >-
   https://www.golden-wings-robyn.com/indie-doc-journey/weight-loss-journey-golden-wings-documentary

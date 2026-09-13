@@ -40,7 +40,7 @@ function ensureDir(dir) {
 
 function cleanTitle(raw, slug, isBlog) {
   if (isBlog && raw && !/^Legacies/i.test(raw) && !/&mdash;/i.test(raw)) {
-    return decodeEntities(String(raw).trim());
+    return decodeEntities(String(raw).trim()).replace(/\s*\(Copy\)\s*$/i, "").trim();
   }
   if (PAGE_TITLES[slug]) return PAGE_TITLES[slug];
   if (raw) {
@@ -48,6 +48,7 @@ function cleanTitle(raw, slug, isBlog) {
     t = t.replace(/^Legacies\s*[—–\-:]?\s*/i, "");
     t = t.replace(/Golden Wings:\s*(50|Fifty|5o)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
     t = t.replace(/\s*[-–—]\s*Documentary\s*$/i, "");
+    t = t.replace(/\s*\(Copy\)\s*$/i, "");
     t = t.replace(/\s+/g, " ").trim();
     if (t && t.toLowerCase() !== "documentary") return t;
   }
@@ -79,22 +80,22 @@ function rewriteCareerCopy(text, { isBlogTitle = false } = {}) {
 
   // Soft title: replace full film-subtitle branding with Golden Wings (pages)
   out = out.replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
-  out = out.replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings");
+  out = out.replace(/(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings");
 
   // Career duration → 55
-  out = out.replace(/\b53-year\b/gi, "55-year");
-  out = out.replace(/\b53 years?\b/gi, "55 years");
-  out = out.replace(/\bfifty-year\b/gi, "55-year");
-  out = out.replace(/\b50-year\b/gi, "55-year");
-  out = out.replace(/\bmore than fifty years\b/gi, "55 years");
-  out = out.replace(/\bover five decades\b/gi, "over five decades"); // leave idiom
-  out = out.replace(/\bflight attendant for more than fifty years\b/gi, "flight attendant for 55 years");
-  out = out.replace(/\b(?:her|Robyn(?:'s)?|a)\s+50-year\s+career\b/gi, (m) =>
+  out = out.replace(/53-year/gi, "55-year");
+  out = out.replace(/53 years?/gi, "55 years");
+  out = out.replace(/fifty-year/gi, "55-year");
+  out = out.replace(/50-year/gi, "55-year");
+  out = out.replace(/more than fifty years/gi, "55 years");
+  out = out.replace(/over five decades/gi, "over five decades");
+  out = out.replace(/flight attendant for more than fifty years/gi, "flight attendant for 55 years");
+  out = out.replace(/(?:her|Robyn(?:'s)?|a)\s+50-year\s+career/gi, (m) =>
     m.replace(/50-year/i, "55-year"),
   );
-  out = out.replace(/\b50 years\b/gi, "55 years");
-  out = out.replace(/\bfifty years\b/gi, "55 years");
-  out = out.replace(/\bflight attendant 50 years\b/gi, "flight attendant 55 years");
+  out = out.replace(/50 years/gi, "55 years");
+  out = out.replace(/fifty years/gi, "55 years");
+  out = out.replace(/flight attendant 50 years/gi, "flight attendant 55 years");
 
   return out;
 }
@@ -105,7 +106,6 @@ function extractH1(body) {
 }
 
 function blogSlugFromFilename(name) {
-  // indie-doc-journey__swedish-film-awards-winner.md → swedish-film-awards-winner
   const base = name.replace(/\.md$/i, "");
   if (base.startsWith("indie-doc-journey__")) {
     return base.slice("indie-doc-journey__".length);
@@ -133,8 +133,18 @@ function processMarkdown(filePath, { isBlog }) {
   }
 
   let body = content;
+  body = body.replace(/^#\s*$/gm, "");
+  body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
+
   if (isBlog) {
-    // Leave blog titles alone; still clean body career marketing + privacy typo
+    let seenH1 = false;
+    body = body.replace(/^#\s+(.+)$/gm, (_m, text) => {
+      if (!seenH1) {
+        seenH1 = true;
+        return `# ${text}`;
+      }
+      return `## ${text}`;
+    });
     body = rewriteCareerCopy(body, { isBlogTitle: false });
   } else {
     body = rewriteCareerCopy(body);
@@ -142,11 +152,11 @@ function processMarkdown(filePath, { isBlog }) {
   }
 
   let description = data.description ? String(data.description) : "";
-  if (!isBlog) {
-    description = rewriteCareerCopy(description);
-  } else {
-    description = rewriteCareerCopy(description);
-  }
+  description = rewriteCareerCopy(description);
+  description = description.replace(
+    /Sign up for the\.\s*App/gi,
+    "Sign up for the Golden Wings App",
+  );
 
   const frontmatter = {
     title,
@@ -167,8 +177,14 @@ function processMarkdown(filePath, { isBlog }) {
 }
 
 function clearMd(dir) {
-  if (!fs.existsSync(dir)) return;
-  for (const f of fs.readdirSync(dir)) {
+  let entries;
+  try {
+    entries = fs.readdirSync(dir);
+  } catch (err) {
+    if (err && err.code === "ENOENT") return;
+    throw err;
+  }
+  for (const f of entries) {
     if (f.endsWith(".md")) fs.unlinkSync(path.join(dir, f));
   }
 }
@@ -177,7 +193,17 @@ function ingest() {
   const pagesDir = path.join(MIGRATION, "pages");
   const blogDir = path.join(MIGRATION, "blog");
 
-  if (!fs.existsSync(pagesDir) || !fs.existsSync(blogDir)) {
+  const migrationPresent = (dir) => {
+    try {
+      fs.readdirSync(dir);
+      return true;
+    } catch (err) {
+      if (err && err.code === "ENOENT") return false;
+      throw err;
+    }
+  };
+
+  if (!migrationPresent(pagesDir) || !migrationPresent(blogDir)) {
     console.warn(
       `Migration content missing at ${MIGRATION}; keeping existing src/content/{pages,blog}.`,
     );

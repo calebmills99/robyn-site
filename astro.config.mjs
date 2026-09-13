@@ -1,5 +1,16 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
+import sitemap from "@astrojs/sitemap";
 
 // https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: "https://golden-wings-robyn.com",
+  integrations: [
+    sitemap({
+      serialize(item) {
+        item.lastmod = new Date();
+        return item;
+      },
+    }),
+  ],
+});

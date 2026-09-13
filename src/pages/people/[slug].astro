@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { Image } from "astro:assets";
+import { Image, getImage } from "astro:assets";
 import { getCollection, render } from "astro:content";
+import { personJsonLd } from "../../lib/seo";
 
 export async function getStaticPaths() {
   const people = await getCollection("people");
@@ -14,13 +15,27 @@ export async function getStaticPaths() {
 const { person } = Astro.props;
 const { name, role, years, lede, description, portrait, portraitAlt } = person.data;
 const { Content } = await render(person);
+
+let portraitUrl: string | undefined;
+if (portrait) {
+  const optimized = await getImage({ src: portrait, width: 720 });
+  portraitUrl = optimized.src;
+}
+
+const jsonLd = personJsonLd({
+  name,
+  description,
+  jobTitle: role,
+  url: `/people/${person.id}`,
+  image: portraitUrl,
+});
 ---
 
-<BaseLayout title={name} description={description}>
+<BaseLayout title={name} description={description} jsonLd={jsonLd}>
   <article>
     <header class:list={["person__header", { "person__header--with-portrait": portrait }]}>
       <div>
-        <p class="section__label"><a href="/people">People</a> / {role}</p>
+        <p class="section__label plate--subtitle"><a href="/people">People</a> / {role}</p>
         <h1 class="section__title">{name}</h1>
         {years && <p class="person__years mono">{years}</p>}
         <p class="person__lede">{lede}</p>

@@ -4,15 +4,30 @@ import "../styles/global.css";
 interface Props {
   title?: string;
   description?: string;
+  /** Absolute URL override; defaults to self-referencing site URL for this path. */
   canonical?: string;
   home?: boolean;
+  /** Absolute or root-relative image URL for og:image / twitter:image. */
+  ogImage?: string;
+  /** Open Graph type; default website. Use article for blog posts. */
+  ogType?: "website" | "article" | "video.other";
+  /** JSON-LD object or array of objects (Schema.org). */
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
 }
+
+const SITE = "https://golden-wings-robyn.com";
+const DEFAULT_OG_IMAGE = `${SITE}/images/title-logo.png`;
+const DEFAULT_DESCRIPTION =
+  "Golden Wings, an award-winning aviation documentary following Robyn Stewart's 55-year career as a flight attendant, told by her son Caleb Mills Stewart.";
 
 const {
   title = "Golden Wings",
-  description = "Golden Wings / Fifty Year Flight Path. A documentary about flight attendants and one American Airlines family, told across three generations.",
-  canonical,
+  description = DEFAULT_DESCRIPTION,
+  canonical: canonicalProp,
   home = false,
+  ogImage = DEFAULT_OG_IMAGE,
+  ogType = "website",
+  jsonLd,
 } = Astro.props;
 
 const pageTitle =
@@ -21,6 +36,20 @@ const pageTitle =
     : `${title} · Golden Wings`;
 
 const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
+const canonicalPath = pathname === "/" ? "/" : pathname;
+const canonical =
+  canonicalProp ||
+  (canonicalPath === "/" ? `${SITE}/` : `${SITE}${canonicalPath}`);
+
+const ogImageUrl = ogImage.startsWith("http")
+  ? ogImage
+  : `${SITE}${ogImage.startsWith("/") ? ogImage : `/${ogImage}`}`;
+
+const jsonLdBlocks = jsonLd
+  ? Array.isArray(jsonLd)
+    ? jsonLd
+    : [jsonLd]
+  : [];
 
 const nav = [
   { href: "/film", label: "Film" },
@@ -43,7 +72,29 @@ function isCurrent(href: string) {
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    {canonical && <link rel="canonical" href={canonical} />}
+    <link rel="canonical" href={canonical} />
+
+    <meta property="og:site_name" content="Golden Wings" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageUrl} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+
+    {
+      jsonLdBlocks.map((block) => (
+        <script
+          type="application/ld+json"
+          set:html={JSON.stringify(block)}
+        />
+      ))
+    }
+
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
