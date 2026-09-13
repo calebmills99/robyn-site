@@ -3,6 +3,8 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 
 const description =
   "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
+
+const year = new Date().getFullYear();
 ---
 
 <BaseLayout title="Golden Wings" description={description}>
@@ -42,7 +44,7 @@ const description =
       </p>
             <h1 class="hero__headline">
         <span class="hero__headline-line">1971: Robyn meets Destiny onboard the 747.</span>
-        <span class="hero__headline-line">2026: Still flying. Now with golden wings.</span>
+        <span class="hero__headline-line">{year}: Still flying. Now with golden wings.</span>
       </h1>
       <p class="hero__lede">
         An award-winning documentary on Robyn Stewart's 55-year career as an
