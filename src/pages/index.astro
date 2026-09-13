@@ -5,6 +5,31 @@ const description =
   "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
 
 const year = new Date().getFullYear();
+
+const posterSrc = "/images/poster/GWSSQ_Poster_2026.png";
+
+const laurels = [
+  {
+    src: "/images/laurels/Laurel_BEST_DOCUMENTARY_SHORT_CLOWN_INTERNATIONAL.png",
+    alt: "Clown International Film Festival — Best Documentary Short",
+  },
+  {
+    src: "/images/laurels/Laurel_BEST_MOBILE_SHORT_-_Independent_Shorts_Awards_-_2024.png",
+    alt: "Independent Shorts Awards — Best Mobile Short",
+  },
+  {
+    src: "/images/laurels/Laurel_BEST_SHORT_CINEMATOGRAPHY_SILICON_BEACH.png",
+    alt: "Silicon Beach Film Festival — Best Short Cinematography",
+  },
+  {
+    src: "/images/laurels/Laurel_MAGIC_FANCY_DIRECTOR.png",
+    alt: "Magic Silver Screen — Best First Time Director",
+  },
+  {
+    src: "/images/laurels/BEST_DOCUMENTARY_SHORT_-_IGFA_-_International_Guadalajara_Film_Awards_-_2024.png",
+    alt: "IGFA International Guadalajara Film Awards — Best Documentary Short",
+  },
+];
 ---
 
 <BaseLayout title="Golden Wings" description={description}>
@@ -42,9 +67,13 @@ const year = new Date().getFullYear();
           height="360"
         />
       </p>
-            <h1 class="hero__headline">
-        <span class="hero__headline-line">1971: Robyn meets Destiny onboard the 747.</span>
-        <span class="hero__headline-line">{year}: Still flying. Now with golden wings.</span>
+      <h1 class="hero__headline">
+        <span class="hero__headline-line"
+          >1971: Robyn meets Destiny onboard the 747.</span
+        >
+        <span class="hero__headline-line"
+          >{year}: Still flying. Now with golden wings.</span
+        >
       </h1>
       <p class="hero__lede">
         An award-winning documentary on Robyn Stewart's 55-year career as an
@@ -58,7 +87,53 @@ const year = new Date().getFullYear();
         <a class="btn btn--ghost" href="/people">Meet the people</a>
       </div>
     </div>
+    <div class="hero__laurels award-strip" aria-label="Festival wins">
+      {
+        laurels.map((laurel) => (
+          <img src={laurel.src} alt={laurel.alt} width="320" height="210" loading="lazy" />
+        ))
+      }
+    </div>
     <div class="hero__wing" aria-hidden="true"></div>
+  </section>
+
+  <section class="section poster-plate full-bleed-home" aria-labelledby="poster-heading">
+    <div class="poster-plate__inner">
+      <div class="poster-plate__copy">
+        <p class="section__label plate--subtitle">The film</p>
+        <h2 id="poster-heading" class="section__title">Official poster</h2>
+        <p class="poster-plate__lede">
+          Stewardess to Sky Queen. The 2026 poster for Golden Wings.
+        </p>
+        <div class="hero__ctas">
+          <a
+            class="btn btn--primary"
+            href={posterSrc}
+            download="GWSSQ_Poster_2026.png"
+            >Download poster</a
+          >
+          <a class="btn btn--ghost" href="https://gwingz.com" rel="noopener noreferrer"
+            >Watch Golden Wings</a
+          >
+        </div>
+      </div>
+      <a
+        class="poster-plate__frame"
+        href={posterSrc}
+        download="GWSSQ_Poster_2026.png"
+        aria-label="Download the official Golden Wings Stewardess to Sky Queen poster"
+      >
+        <img
+          class="poster-plate__img"
+          src={posterSrc}
+          alt="Official Golden Wings: Stewardess to Sky Queen poster, 2026"
+          width="1083"
+          height="1452"
+          loading="lazy"
+          decoding="async"
+        />
+      </a>
+    </div>
   </section>
 
   <section class="section" aria-labelledby="story-heading">
