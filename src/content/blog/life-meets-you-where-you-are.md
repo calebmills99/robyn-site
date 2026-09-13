@@ -154,7 +154,6 @@ A retro style logo featuring the film title and an AmericanAIrlines 747
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

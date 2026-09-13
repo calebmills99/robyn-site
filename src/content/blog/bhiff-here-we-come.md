@@ -65,7 +65,6 @@ As we reflect on this incredible journey, we extend our deepest gratitude to our
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

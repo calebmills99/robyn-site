@@ -26,15 +26,15 @@ Indie Doc Journey
 Dispatch № 02 · Part Two
 Summer 2026
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/pink_dico_ball.png)
+![](/blog/55a439986a20.png)
 
 The Autopsy · The Court Case · The Ball of Rights
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/digital-ball-of-rights-sparkle.png)
+![](/blog/b18adda2b7dd.png)
 
 A Funifesto
 A Facebook ban, a digital auto-autopsy, and a small-claims showdown. Plus, seven rights worth throwing a ball over. Settle in for the saga of my 381-days of exile and my hard won return to Facebook.Words & Receipts by Caleb Mills Stewart
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/06/ElevenLabs_image_gpt-image-2_Were-not-a-reg_2026-06-19T10_01_48-1.png)
+![](/blog/d66ccedaa183.png)
 
   Get in, we're going rights shopping.
 
@@ -42,7 +42,7 @@ A Facebook ban, a digital auto-autopsy, and a small-claims showdown. Plus, seven
   Editor's Note
   Missed how this nightmare started? Catch up on [Part 1: The Meta Ban Survival Playbook](https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/), the Christmas Eve Facebook ban, the cookie-theft smoking gun, and Macho Zuck himself. This is Part 2: the autopsy, the court case, and your official invite to the event of the millennium, Lady Justice's Digital Ball (not bill) of Rights.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/sparky.jpeg)
+![](/blog/c924f7020886.jpeg)
 In memoriam: my innocence, et al.
 
 In This Issue
@@ -61,7 +61,7 @@ VITRAF: The Jenna Maroney Profile28
 
 ## The land before the Facebook ban
 
-  ![](https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/FB-Land-Before-Time-1024x572.jpeg?quality=72&w=1000)
+  ![](/blog/86fabe7b5ab2.jpeg)
 
 Back in 2007, Facebook was the Digital Xanadu. It was a warm little island where normal people organized cool parties, and then the parties actually happened, like a lost season of Happy Days that somehow had Wi-Fi. People liked each other. People tagged each other. This is not nostalgia. This is an ontological fact, like gravity, or how every bar in Los Feliz has a candle that smells like "therapy."
 
@@ -74,7 +74,7 @@ Now when you scroll Facebook you'll see 900 comments that read like All in the F
 But back in 2005, you clicked "Attending" and you attended. It was like Superbad but without the third act where everyone cries and vomits behind a Honda Civic. You showed up, saw people you recognized from profile photos taken on a Motorola Razr, drank something out of a red cup, and felt briefly like your life made sense.
 
   I · Facebook Edu04
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/07/LOST_EDEN_AI.png)
+  ![](/blog/3612547eac74.png)
   A lively house party gathers around a screen displaying a Facebook invite. No Facebook ban in sight. Facebook: The Lost Eden.
 
   Reality erosion
@@ -85,7 +85,7 @@ At the center of it all was Zuckerberg, who at the time felt like Jughead. (Not 
 
 Here is my imitation of a modern Facebook post to explain:
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/zuckerjug.avif)
+![](/blog/ea1f58273e0f.avif)
 Jughead Zuckerberg, artist's rendering
 
 So Facebook was Riverdale but it was also Happy Days, a show set in an idealized 1950s. Just like Riverdale, the main character, Archie Cunningham, had a dumb best friend named Potsy.
@@ -94,7 +94,7 @@ Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archi
     Fictional Facebook Diatribe
 
   I · Facebook Edu05
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/07/boomerdome.png)
+  ![](/blog/859d5c9e8a6d.png)
   Boomer Thunderdome
 
 ## Facebook, a.k.a. the Boomer Thunderdome
@@ -107,17 +107,17 @@ Romanticizing the ex
 
 When the Facebook ban hit, I did what any sane person does when a long relationship ends. I romanticized the beginning. In my head, Facebook turned back into the 2007 version, like an ex from college. I wanted the parties. And the feeling that my life was archived somewhere safe. I did not want what Facebook is now, essentially a wasteland of angst and whatever gross AI-generated thing the algorithm coughs up to monetize the human dopamine delivery system so Meta can hit their Q3 numbers.
 
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/golden-wings-an-indie-doc-adventure-no-less-6a2c8f554478c.png?quality=72&w=1000)
+![](/blog/a1508b0cd84d.png)
 
 A Rogue's Gallery
 The worst thing about going through my Facebook autopsy report was having a look at this mug.
 
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam17-847x1024.png?ssl=1&w=600&quality=68)
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam5.png?ssl=1&w=600&quality=68)
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam7.jpg?ssl=1&w=600&quality=68)
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam14-1024x1024.jpg?ssl=1&w=600&quality=68)
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam1-1024x544.jpg?ssl=1&w=600&quality=68)
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam15-Copy-577x1024.jpg?ssl=1&w=600&quality=68)
+![](/blog/c585506923f2.png)
+![](/blog/b28792fa7d23.png)
+![](/blog/6d21d910d075.jpg)
+![](/blog/45d40d2233c4.jpg)
+![](/blog/c09f968b534c.jpg)
+![](/blog/b057074dac9d.jpg)
 
 Images found in the zip file after the Facebook ban.
 
@@ -141,7 +141,7 @@ Images found in the zip file after the Facebook ban.
 
   A full archive of your digital self.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/the-funeral.png)
+  ![](/blog/52ffb585e689.png)
   Twenty-two years of digital life, reduced to a zip file, and handed back as a corpse.
 
   II · The Investigation09
@@ -160,7 +160,7 @@ A hacker doesn't storm Meta's billion-dollar servers; they steal your wristband,
 
 As a result, my account was automatically disabled by their security systems. In other words, Facebook banned me for being the victim of a crime. Still, the real tragedy was in the content itself.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/07/yougotthisdude.avif)
+  ![](/blog/e620d50d36e2.avif)
 
   II · The Investigation11
 
@@ -186,15 +186,15 @@ Looking through that archive was like attending my own digital funeral. It was l
 
 I became what they made me become. An amateur cyber-sleuth. A Hardy Boy gone rogue. The Hardest Boy: Breaking Digital. That title is objectively stupid, which is why it is perfect, like naming your band "The Postal Service" and then being surprised the vibe is sad. I followed up again and again. Thirteen times. Which in customer-service years is infinity.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/Asset-1@2x-Recovered.avif)The Hardest Boy on the case. A board of clues, an alley, and one puppet marked permanently disabled.
+![](/blog/b0b2a7860af5.avif)The Hardest Boy on the case. A board of clues, an alley, and one puppet marked permanently disabled.
 And I know for a fact that after each of these sessions with the Meta agents, by the end of it, they were a little in love with me. You just cannot spend that much time with me one-on-one and not fall in love. Just ask every dog I have ever met. If you think that is delusional, welcome to Los Angeles, where everyone is delusional and the only difference is whether you monetize it.
 
 In the end, Meta responded with the most insidious form of apathy: banality. Emotionally, it was like being ghosted by someone you genuinely liked. Years of photos, messages, and connections locked away by an algorithm with less empathy than a stubbed toe. It was not just silence but REVERSE FLATULENCE.
 
-  ![](https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/HArdy-Boys-Final.webp?quality=72&w=1000)
+  ![](/blog/48bfdb7bf9d2.webp)
 
   II · The Investigation13
-  ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/03/zucked-1024x559.png?quality=72&w=1000)An entry for "Zucked", sudden erasure, bureaucratic limbo, and the visual aides that followed.
+  ![](/blog/48d8460ab712.png)An entry for "Zucked", sudden erasure, bureaucratic limbo, and the visual aides that followed.
 
 I shit you not. I eventually created visual aides to cut down on typing. The agents stopped telling me it was my fault after that. Hmmmm. Makes you wonder how often they see this?
 
@@ -216,7 +216,7 @@ They didn't ban the thief. They banned the victim. And kept the receipts.
 
 And the cherry on this dystopian sundae? While my personal account sat in the void, my business account kept right on running, kept right on spending, kept right on making Meta money. Cha-ching. They were happy to cash my checks while pretending I didn't exist. Twenty-two years of a person was disposable. The ad revenue was not.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/hacker_party.png)Somewhere in Romania, the lads celebrate. Pixel acquired, campaign launched, three grand of a stranger's money already spent on ads. Multumim frumos.
+![](/blog/f79426a8eecd.png)Somewhere in Romania, the lads celebrate. Pixel acquired, campaign launched, three grand of a stranger's money already spent on ads. Multumim frumos.
 
 ### Mistaking the burgled for the burglar
 
@@ -245,7 +245,7 @@ A Scholar
 
 So instead of giving up, or writing a moody indie album called Microplastics, I filed a small-claims case. That meant gathering every email, every screenshot, every scrap of evidence, and building a case thick enough to kill a spider. Sorry, Charlotte.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/losfelizhipstertrash.png)
+![](/blog/4b37d58b18c4.png)
 The legal research, meanwhile, was eye-opening. I discovered I wasn't alone: thousands of people had similar experiences with wrongful account disablements. But most gave up when faced with Meta's labyrinthine appeal process. The company seemed to rely on user exhaustion as a primary defense strategy.
 
 ### Exhausting the plaintiff
@@ -262,7 +262,7 @@ The legal research, meanwhile, was eye-opening. I discovered I wasn't alone: tho
 
 The filing fee was reasonable, and the process, while intimidating, was accessible. Then I did something truly impressive. I showed up thirty minutes early to court. At the wrong courthouse. That's not a joke. I had to scramble and beg for a continuance, which the court granted. My hearing moved from October 23, 2025, to January 8, 2026. Three more months of account purgatory.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/07/lights-camera-journey-6a4664f730740.avif)
+![](/blog/97082f138dcc.avif)
 I was crushed. But in hindsight, those extra months gave me time to strengthen my case and gather additional evidence of Meta's pattern of wrongful disablements.
 
 The false positive
@@ -275,7 +275,7 @@ I logged in. It worked. And there was nothing. No posts. No friends. No memories
 
 It was like being handed your house back after a fire and finding only the foundation, a few charred beams, and a pair of jock straps you definitely did not buy.
 
-  ![](https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/watermarked_img_7076381300635757818-1.jpg?quality=72&w=1000)
+  ![](/blog/af431502ee8a.jpg)
   Meta's idea of "restored." An empty husk where twenty-two years used to live.
 
   IV · The Trial18
@@ -283,7 +283,7 @@ It was like being handed your house back after a fire and finding only the found
 
 ## Lift the Facebook ban, or pay
 
-  ![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/Asset-4@3x-1024x768.png?quality=72&w=1000)
+  ![](/blog/aa541e8f3694.png)
 
 A hollow shell is not a restoration, so we went back to court. Caleb Stewart v. Meta Platforms, Inc., Beverly Hills Courthouse, Department 304. The only human Meta sent, the now-legendary girl-baby-voiced counsel in the red turtleneck, showed up late. Then apologized and, in the same breath, noted that I had once shown up to the wrong courthouse. She framed it like I'd stood her up for a date. Geez, Louise.
 
@@ -304,7 +304,7 @@ After 381 days in digital purgatory, my account truly rose, this time with every
 
 And what was the very first thing the resurrected timeline showed me? A memory from ten years ago that day, posted by my best friend since the eighth grade, Carolyn Jennings Brown: Edina Monsoon and Patsy Stone, raising a glass.
 
-  ![](https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/Cheers-Meta-935x1024.png?quality=72&w=1000)The first thing waiting in the restored timeline: "Cheers, sweetie."
+  ![](/blog/9c71035818f6.png)The first thing waiting in the restored timeline: "Cheers, sweetie."
 
   IV · The Trial20
 
@@ -334,8 +334,8 @@ Now the same surveillance is sold to us as connection. It is packaged as "stay i
 
 The sick part is that you can turn some of it off. Go straight to your Accounts Center and dig into your Off-Facebook Activity settings. I did it, and it felt less like self-care and more like finally changing the locks after a breakup. The story was not "I lost Facebook." It was "Facebook had been living inside my life like a squatter, and I finally caught it on camera."
 
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/special-bulletin_head.png?quality=72&w=1000)BEFORE
-![](https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-1-2026-10_16_30-AM-Copy.png?quality=72&w=1000)AFTER
+![](/blog/12b513f87438.png)BEFORE
+![](/blog/d4c270ec5515.png)AFTER
 
 This is the project that made me decide to sue. That's Sassy McGraw at the bulletin desk; she returns on page 28.
 
@@ -366,7 +366,7 @@ I just hope I'm talking to a human being right now. I hope a human being is read
 ## The Digital
 Ball of Rights
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/06/Lady-J-Final.-2.avif)
+  ![](/blog/a6d12b25a843.avif)
   Lady Justice's Digital Ball of Rights, drafted for the Facebook banned. Blind, fabulous, and weighing your data against a disco ball.
 
   V · The Digital Ball of Rights24
@@ -408,7 +408,7 @@ Inside Jenna Maroney's bravest comeback.
 
 Interview by Sassy McGraw · First female anchor, KDFW
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/07/jenna_traf-edited-1-1-Large.avif)
+  ![](/blog/82ab67f94fe0.avif)
   The author's Facebook ban is being adapted into a 90-second-per-episode vertical drama, Reverse Flatulence: A Brown Note Singalong, a Maroney Method Production. Beloved icon Jenna Maroney, who plays the filmmaker, granted us this profile between fittings. We coaxed Sassy McGraw, first female anchor at KDFW, out of retirement to conduct it. Jenna was brave throughout. Sassy brought her own questions.
 
   VI · The Profile29
@@ -467,7 +467,6 @@ Jenna Maroney (calling after us across the parking structure): "Sign his little 
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

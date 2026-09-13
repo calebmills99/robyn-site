@@ -83,7 +83,6 @@ You can find Janice Engel on [Twitter](https://x.com/janiceengel).
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

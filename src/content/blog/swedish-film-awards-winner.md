@@ -32,7 +32,7 @@ The first shot of my documentary features my mother getting ready for a flight i
 
 When I clicked the [March 2025 Winners page](https://www.thesiff.com/march-march-2025/), I realized something I hadn't seen before. In that same frame, placed just below the mirror, is the prayer card from my father's funeral.
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/image-1-1-1.png)
+  ![](/blog/c901c08373b8.png)
 
 Without knowing it, I had opened the film with a quiet altar to grief, dedication, and memory. They featured that exact frame on their winners page. When I noticed it, I got goosebumps and my eyes instantly welled up with tears. I was thankful not only for the award but for the self-realization.
 
@@ -40,7 +40,7 @@ Without knowing it, I had opened the film with a quiet altar to grief, dedicatio
 
 A woman and the man who stood beside her for decades. He was still there, frozen in time and watching her get ready. He's been doing that for every flight in the decade since his return to Valhalla. (sorry, I had to)
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/8917807d-d16a-400a-9305-6ad8092fc7b3-1.png)
+  ![](/blog/a0b185bf67fe.png)
 
 In that moment of revelation, I imagined the Viking god [Bragi](https://en.wikipedia.org/wiki/Bragi). There he was with his golden-winged helmet and mighty harp squeezed into a middle seat on a transatlantic flight. He would be there grumpy but he would still [serenade his new travel buddies](https://youtu.be/pdPM6j1Q4sg?si=L25GngBZ0UzJXlpA&t=6). I envisioned him guffawing at my accidental symbolism and blessing the whole thing with a nod.
 
@@ -50,7 +50,7 @@ The day we filmed something in my gut kept telling me I needed to get this shot.
 
 Filmmaking (if you are lucky) is essentially a medium of accidents. Sometimes they kill your production, other times they are happy ones that reveal the duplicitous nature of this art form.
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/screenshot-2025-07-10-111854-1.png)
+  ![](/blog/c1fe7f425374.png)
 
 This film is still coming together and I continue to make happy accidents. As my mom approaches her 75th birthday and 55th year in the sky...
 
@@ -60,7 +60,7 @@ He's quietly keeping watch over me just like he does for my mom.
 
 Not to put too fine a point on this ghost dad helps his son make a film thing but about 2 minutes after I sent Anne my email I got this response:
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/screenshot-2025-07-10-111930-1.png)
+  ![](/blog/d90e0d6671a6.png)
 
   This film touches the hearts of many. It creates joy and happiness. This resonates with audiences from all walks of life. It's making people's days one heart at a time, reminding us of the power of kindness, love, and togetherness. Merry Christmas in July everybody!!!
 
@@ -76,27 +76,27 @@ Not to put too fine a point on this ghost dad helps his son make a film thing bu
 
 ## Bragi Q&A — Sundance Meets Runetech
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/bragi-premiere-1.png)
+  ![](/blog/4f62c9fcfb04.png)
 
   ❓What is the meaning behind the title Golden Wings?
 Bragi: Golden wings are not merely for gods or Valkyries... A title worthy of saga.
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/bragi-vogue-1-1.png)
+  ![](/blog/6843ca10a4f5.png)
 
   ❓Why are you, a Norse god, answering these documentary film questions?
 Bragi: The filmmaker, though mortal, composed a ballad through his lens. So yes, I flew coach—harp and all—to attend.
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/bragi_interview-1.png)
+  ![](/blog/83b043efaf5a.png)
 
   ❓What is cinema vérité and why was it used?
 Bragi: Cinema vérité is the forge of truth. No illusions—just real life.
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/bragi-cofee-1-1.png)
+  ![](/blog/e56f075c7229.png)
 
   ❓Why was the prayer card below the mirror so meaningful?
 Bragi: It is an altar of memory. Not a prop—but poetry.
 
-  ![](https://indiedocjourney.wordpress.com/wp-content/uploads/2025/07/bragi-bar-1-1.png)
+  ![](/blog/6ae3ea46640a.png)
 
   ❓Is grief a kind of storytelling?
 Bragi: Aye. Grief sings the deepest notes. The film? A hymn for those who remain.
@@ -107,7 +107,6 @@ Bragi: Aye. Grief sings the deepest notes. The film? A hymn for those who remain
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

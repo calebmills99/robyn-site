@@ -93,7 +93,6 @@ Join MeI’d love to hear your stories or answer any questions you might have. S
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

@@ -126,7 +126,6 @@ Everyone will be envious of your middle seat
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

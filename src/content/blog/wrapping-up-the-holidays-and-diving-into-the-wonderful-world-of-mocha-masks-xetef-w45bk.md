@@ -84,7 +84,6 @@ https://bit.ly/indiedocjourney
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

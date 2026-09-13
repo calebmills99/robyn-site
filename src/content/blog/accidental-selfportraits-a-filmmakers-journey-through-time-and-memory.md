@@ -150,7 +150,6 @@ A: Easy—[gwingz.com](https://www.gwingz.com). It's up and streaming for the wo
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

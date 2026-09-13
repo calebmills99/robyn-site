@@ -234,7 +234,6 @@ P.P.S. My favorite song in the show is "Stool Boom" 💺💩
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

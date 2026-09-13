@@ -51,7 +51,6 @@ Please stay tuned for more updates as we continue to work on making Golden Wings
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

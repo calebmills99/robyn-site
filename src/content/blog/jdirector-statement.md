@@ -81,7 +81,6 @@ What does legacy mean to you as a filmmaker? Legacy is about the impact we leave
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

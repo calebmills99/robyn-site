@@ -103,7 +103,6 @@ Stay tuned for this in-depth look at the intersection of nostalgia, professional
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

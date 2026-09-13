@@ -61,7 +61,6 @@ Filming a documentary with no budget presents numerous challenges, but it also o
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

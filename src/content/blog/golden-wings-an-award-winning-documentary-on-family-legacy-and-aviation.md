@@ -81,7 +81,6 @@ Join us on the journey of Golden Wings as we continue to share this story with a
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

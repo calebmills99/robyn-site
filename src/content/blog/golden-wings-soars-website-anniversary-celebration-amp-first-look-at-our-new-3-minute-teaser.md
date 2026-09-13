@@ -95,7 +95,6 @@ The first three minutes of the latest cut
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

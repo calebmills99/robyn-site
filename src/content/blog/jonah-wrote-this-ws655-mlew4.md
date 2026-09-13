@@ -168,7 +168,6 @@ A funco pop of schlurp-B
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 

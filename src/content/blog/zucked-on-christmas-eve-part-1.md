@@ -35,7 +35,7 @@ Christmas Eve
 My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
 Words & Receipts by Caleb Mills Stewart
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
+![](/blog/7f3d7c7a95c0.jpg)
 
   Poof. Gone.
 
@@ -58,7 +58,7 @@ VAn FAQ with Macho Mark Z16
 
 ## Poof. Gone.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
+  ![](/blog/7f3d7c7a95c0.jpg)
 
 Picture this. It's Christmas Eve, and instead of a warm mug of cocoa, you get a piping hot notice that twenty-two years of your digital life just went poof, gone, like the last donut at a morning meeting. That's what happened to me.
 
@@ -79,10 +79,10 @@ And it was gone in an instant. The timing felt particularly cruel. Christmas Eve
 
 I'd been using Facebook since 2004, back when you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die. I dropped Myspace Tom faster than a three-day-old "Top 8 Friends" list.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png)
+![](/blog/41f610d219a0.png)
 Caleb throws Myspace Tom into the trash. I'd survived every privacy scandal, every algorithm change, every redesign, two decades of loyal participation in this odd social experiment. Now I was being kicked out without so much as a "bye bitch."
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/Firefly_Gemini-Flash-2-579x1024.png)
+  ![](/blog/c045dcbfe76b.png)
   A dramatic reimagining of my ten-year high school reunion, crowned "Biggest Social Media Oversharer," Class of '99.
 
   I · The Digital Death Sentence06
@@ -96,10 +96,10 @@ It's the digital equivalent of being kicked off the party bus. Except the party 
 
 Dopamine withdrawals are a real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents. My repository of old photos. A primary news source. Even my method of remembering birthdays. All of it disappeared faster than a one-night stand after the booze wears off.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg)
+![](/blog/ac80ee37260d.jpg)
 A cartoonish take on the Facebook logo, sticking its tongue out, the company's controversial nature, distilled.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/3bf199b0-7160-42b5-8560-d4af0bcff7db-2026-03-27-535x1024.png)
+  ![](/blog/a6941c053ad9.png)
 
   II · Into the Appeal Abyss08
 
@@ -115,7 +115,7 @@ You know me, I'm gay and stubborn. I also love tea parties. So I said nope to gi
 
 "Caleb in Metaland"
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/download-890x1024.png)
+  ![](/blog/46230eb328fe.png)
 
   II · Into the Appeal Abyss10
 
@@ -127,7 +127,7 @@ Then comes the waiting. Days turn into weeks. Weeks turn into months. The automa
 
 The most infuriating part was the gas-lighting. The responses would reference "community standards" violations without citing which standards or what content. It was like being told you failed a test but not being allowed to see the questions or your answers. The platform seemed designed not to resolve issues but to exhaust you into acceptance.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/didntdoshit-1024x559.png)The appeal form's violation menu, frustration, highlighted. None of the options fit "I didn't do anything."
+  ![](/blog/d1f24788929c.png)The appeal form's violation menu, frustration, highlighted. None of the options fit "I didn't do anything."
 
   III · The Smoking Gun12
 
@@ -146,7 +146,7 @@ It was dismissive. Infantilizing. It made me feel like a bad dog who'd chewed up
 "Your account was disabled because you are a bad person."
 An actual Meta Verified agent
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/banged-584x1024.png)
+  ![](/blog/c3d84643790c.png)
   The Meta support floor, reimagined: "Your account was disabled because you are a bad person."
 
   III · The Smoking Gun13
@@ -164,7 +164,7 @@ This was my smoking gun. Facebook's own system informed me my account had been c
 The real fight, and the gut-wrenching digital autopsy, was still ahead.
 To be continued in Part 2
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/image-572x1024.png)
+  ![](/blog/b46f4c47d9a0.png)
   How cookie theft works, the login, the steal, the consequences, and why two-factor never fires.
 
   IV · The Survival Kit15
@@ -193,7 +193,7 @@ Macho Mark Z
 
     Direct from the Digital Tyrant's Seat.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/ZONKED-1024x559.png)
+  ![](/blog/43509637bfd0.png)
   A muscular Mark Zuckerberg on a throne marked "ZUCK'D," gold chain catching the light, flanked by two golden Oscars, a glowing Facebook logo, and a burning trash bin. We asked the man himself.
 
   V · The FAQ17
@@ -245,7 +245,7 @@ Christmas Eve
 My 22-year Facebook account, gone in an instant, and the year-long fight to prove I was hacked, not guilty.
 Words & Receipts by Caleb Mills Stewart
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
+![](/blog/7f3d7c7a95c0.jpg)
 
   Poof. Gone.
 
@@ -268,7 +268,7 @@ VAn FAQ with Macho Mark Z16
 
 ## Poof. Gone.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/dumpster-1.jpg)
+  ![](/blog/7f3d7c7a95c0.jpg)
 
 Picture this. It's Christmas Eve, and instead of a warm mug of cocoa, you get a piping hot notice that twenty-two years of your digital life just went poof, gone, like the last donut at a morning meeting. That's what happened to me.
 
@@ -289,10 +289,10 @@ And it was gone in an instant. The timing felt particularly cruel. Christmas Eve
 
 I'd been using Facebook since 2004, back when you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die. I dropped Myspace Tom faster than a three-day-old "Top 8 Friends" list.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png)
+![](/blog/41f610d219a0.png)
 Caleb throws Myspace Tom into the trash. I'd survived every privacy scandal, every algorithm change, every redesign, two decades of loyal participation in this odd social experiment. Now I was being kicked out without so much as a "bye bitch."
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/Firefly_Gemini-Flash-2-579x1024.png)
+  ![](/blog/c045dcbfe76b.png)
   A dramatic reimagining of my ten-year high school reunion, crowned "Biggest Social Media Oversharer," Class of '99.
 
   I · The Digital Death Sentence06
@@ -306,10 +306,10 @@ It's the digital equivalent of being kicked off the party bus. Except the party 
 
 Dopamine withdrawals are a real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents. My repository of old photos. A primary news source. Even my method of remembering birthdays. All of it disappeared faster than a one-night stand after the booze wears off.
 
-![](https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg)
+![](/blog/ac80ee37260d.jpg)
 A cartoonish take on the Facebook logo, sticking its tongue out, the company's controversial nature, distilled.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/3bf199b0-7160-42b5-8560-d4af0bcff7db-2026-03-27-535x1024.png)
+  ![](/blog/a6941c053ad9.png)
 
   II · Into the Appeal Abyss08
 
@@ -325,7 +325,7 @@ You know me, I'm gay and stubborn. I also love tea parties. So I said nope to gi
 
 "Caleb in Metaland"
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/download-890x1024.png)
+  ![](/blog/46230eb328fe.png)
 
   II · Into the Appeal Abyss10
 
@@ -337,7 +337,7 @@ Then comes the waiting. Days turn into weeks. Weeks turn into months. The automa
 
 The most infuriating part was the gas-lighting. The responses would reference "community standards" violations without citing which standards or what content. It was like being told you failed a test but not being allowed to see the questions or your answers. The platform seemed designed not to resolve issues but to exhaust you into acceptance.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/didntdoshit-1024x559.png)The appeal form's violation menu, frustration, highlighted. None of the options fit "I didn't do anything."
+  ![](/blog/d1f24788929c.png)The appeal form's violation menu, frustration, highlighted. None of the options fit "I didn't do anything."
 
   III · The Smoking Gun12
 
@@ -356,7 +356,7 @@ It was dismissive. Infantilizing. It made me feel like a bad dog who'd chewed up
 "Your account was disabled because you are a bad person."
 An actual Meta Verified agent
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/banged-584x1024.png)
+  ![](/blog/c3d84643790c.png)
   The Meta support floor, reimagined: "Your account was disabled because you are a bad person."
 
   III · The Smoking Gun13
@@ -374,7 +374,7 @@ This was my smoking gun. Facebook's own system informed me my account had been c
 The real fight, and the gut-wrenching digital autopsy, was still ahead.
 To be continued in Part 2
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/image-572x1024.png)
+  ![](/blog/b46f4c47d9a0.png)
   How cookie theft works, the login, the steal, the consequences, and why two-factor never fires.
 
   IV · The Survival Kit15
@@ -403,7 +403,7 @@ Macho Mark Z
 
     Direct from the Digital Tyrant's Seat.
 
-  ![](https://indiedocjourney.com/wp-content/uploads/2026/03/ZONKED-1024x559.png)
+  ![](/blog/43509637bfd0.png)
   A muscular Mark Zuckerberg on a throne marked "ZUCK'D," gold chain catching the light, flanked by two golden Oscars, a glowing Facebook logo, and a burning trash bin. We asked the man himself.
 
   V · The FAQ17
@@ -443,7 +443,6 @@ To be continued in Part 2
 
 
 
-![](/blog/37f4a011444f.bin)
 
   Caleb Stewart
 
