@@ -936,15 +936,31 @@ a:hover {
 
 .contact-panel a.mailto {
   font-family: var(--font-display);
-  font-size: clamp(var(--fs-md), 2.2vw, var(--fs-xl));
+  font-size: clamp(var(--fs-sm), 2vw, var(--fs-lg));
   letter-spacing: var(--ls-normal);
   text-decoration: none;
   color: var(--gw-red);
   text-transform: uppercase;
-  overflow-wrap: break-word;
+  overflow-wrap: normal;
   word-break: normal;
+  white-space: nowrap;
   display: inline-block;
   max-width: 100%;
+}
+
+.contact-panel a.mailto .mailto__host {
+  white-space: nowrap;
+}
+
+@media (max-width: 420px) {
+  .contact-panel a.mailto {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .contact-panel a.mailto .mailto__host {
+    white-space: normal;
+  }
 }
 
 .optin-box {
