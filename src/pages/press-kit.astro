@@ -1,0 +1,121 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { webPageJsonLd } from "../lib/seo";
+
+const description =
+  "Press kit for Golden Wings: Stewardess to Sky Queen. Synopsis, credits, festival laurels, stills, key art, and the Robyn Stewart Legacy Producer announcement.";
+
+const laurels = [
+  { festival: "International Guadalajara Film Awards", award: "Best Short Documentary", year: "2024" },
+  { festival: "Swedish International Film Festival", award: "Best Short Documentary", year: "2024" },
+  { festival: "Silicon Beach Film Festival", award: "Best Short Cinematography", meta: "TCL Chinese Theatre, Los Angeles", year: "2024" },
+  { festival: "NewsFest", award: "Most Outstanding", year: "2025" },
+  { festival: "NewsFest", award: "Most Inspiring", year: "2025" },
+  { festival: "NewsFest", award: "Best Trailer", year: "2025" },
+];
+const crew = [
+  ["Director", "Caleb Mills Stewart"],
+  ["Legacy Producer", "Robyn Stewart"],
+  ["Production company", "Gwingz Studios"],
+  ["Based on", "Golden Wings: Fifty Year Flight Path (short)"],
+];
+const stills = [
+  { src: "/images/press/robyn-wings-1971.jpg", caption: "Robyn Stewart receives her wings, 1971. Restored family print." },
+  { src: "/images/press/robyn-graduation-hug-1971.jpg", caption: "Stewardess College graduation day, 1971." },
+  { src: "/images/press/graduation-1971.jpg", caption: "Graduating class, American Airlines Stewardess College, 1971." },
+  { src: "/images/press/robyn-headshot.jpg", caption: "Robyn Stewart, 2026." },
+  { src: "/images/press/archive-01.jpg", caption: "From the Stewart family archive." },
+  { src: "/images/press/archive-02.jpg", caption: "From the Stewart family archive." },
+];
+const posters = ["homage-02.png","homage-03.png","homage-04.jpg","homage-05.jpg","homage-06.jpg","homage-07.png","homage-08.png","homage-09.jpg","homage-11.png","homage-12.png","homage-13.png","homage-14.jpg","homage-15.png","homage-16.png","homage-17.png","homage-18.png","toy-story.jpg"];
+---
+
+<BaseLayout title="Press Kit" description={description} jsonLd={webPageJsonLd({ name: "Press Kit", description, url: "/press-kit" })}>
+  <p class="section__label plate--subtitle">For media</p>
+  <h1 class="section__title">Press kit</h1>
+  <p class="prose" style="margin-bottom:1.5rem">Everything for coverage of <em>Golden Wings: Stewardess to Sky Queen</em>. Synopsis, credits, laurels, stills, key art, and the Legacy Producer announcement.</p>
+  <div class="hero__ctas">
+    <a class="btn btn--primary" href="/contact">Request screener</a>
+    <a class="btn btn--ghost" href="mailto:info@golden-wings-robyn.com?subject=EPK%20request">Request EPK (PDF)</a>
+  </div>
+
+  <section class="section" aria-labelledby="pr-heading">
+    <div class="pk-grid-2">
+      <div>
+        <p class="section__label plate--subtitle">Press release · DFW, Texas</p>
+        <h2 id="pr-heading" class="section__title">Robyn Stewart named Legacy Producer</h2>
+        <p class="prose">The flight attendant at the center of the award-winning documentary joins its feature expansion with a producer credit she has already earned.</p>
+        <p style="display:flex;gap:.5rem;flex-wrap:wrap"><span class="badge">Legacy Producer</span><span class="badge badge--outline">55 years</span><span class="badge badge--outline">Since 1971</span></p>
+      </div>
+      <div class="prose">
+        <p>Gwingz Studios today announced that Robyn Stewart, an American Airlines flight attendant since 1971, has been named Legacy Producer on <em>Golden Wings: Stewardess to Sky Queen</em>, the feature-length expansion of the award-winning documentary short about her career and her family's three generations in commercial aviation.</p>
+        <p>The credit is not a courtesy. Stewart located Jock Bethune, the longtime "voice of American Airlines" who worked alongside her father on the 747 training program, and brought him to the film. She pointed the production toward Millie Alford, founder of the American Airlines Stewardess College, where Stewart herself trained in 1971.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="band-dark full-bleed-home" aria-label="Quotes">
+    <div style="max-width:var(--max);margin-inline:auto;padding-inline:var(--gutter);display:grid;gap:var(--sp-7)">
+      <blockquote class="quote"><div><p>When she said 'you should talk to Jock,' she was not making a suggestion, she was producing. The credit just makes it official.</p><footer>— Caleb Mills Stewart, Director</footer></div></blockquote>
+      <blockquote class="quote"><div><p>Fifty-five years and I still get on the airplane. Millie Alford pinned wings on girls like me and sent us out into the world. Jock worked beside my father. I have been carrying these people with me my whole career. Now they get to be on screen, and I get a say in how.</p><footer>— Robyn Stewart, Legacy Producer</footer></div></blockquote>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="credits-heading">
+    <p class="section__label plate--subtitle">Credits</p>
+    <h2 id="credits-heading" class="section__title">Key subjects &amp; crew</h2>
+    <div class="pk-grid-2">
+      <div class="prose">
+        <p><strong>Robyn Stewart</strong> <span class="badge">Legacy Producer</span><br />American Airlines flight attendant since 1971. Trained under Millie Alford; among the first flight attendants trained to fly the 747. Marked 55 years of service in July 2026.</p>
+        <p><strong>Jock Bethune</strong><br />Longtime "voice of American Airlines." Worked alongside Jay R. Ricks on the 747 training program; his interview at the C.R. Smith Museum anchors the feature.</p>
+        <p><strong>Jay R. Ricks</strong><br />WWII navigator, American Airlines flight engineer. Helped build the airline's 747 training program. Robyn Stewart's father.</p>
+        <p><strong>Caleb Mills Stewart</strong><br />Director. Began Golden Wings as a student project at Academy of Art University, shot on a smartphone. Robyn Stewart's son.</p>
+      </div>
+      <div>{crew.map(([r, n]) => <div class="crew-row"><span>{r}</span><span>{n}</span></div>)}</div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="laurels-heading">
+    <p class="section__label plate--subtitle">Festival laurels</p>
+    <h2 id="laurels-heading" class="section__title">More than a dozen awards</h2>
+    <p class="prose" style="margin-bottom:1.5rem">The short began as a student project at Academy of Art University, was shot on a smartphone, and premiered at the TCL Chinese Theatre in Los Angeles.</p>
+    <div class="pk-grid-3">
+      {laurels.map((l) => (
+        <div class="laurel-card">
+          <div style="display:flex;justify-content:space-between;align-items:center"><span class="badge">Award</span><span class="laurel-card__meta">{l.year}</span></div>
+          <div class="laurel-card__award">{l.award}</div>
+          <div class="laurel-card__fest">{l.festival}</div>
+          {l.meta && <div class="laurel-card__meta">{l.meta}</div>}
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="stills-heading">
+    <p class="section__label plate--subtitle">Press assets</p>
+    <h2 id="stills-heading" class="section__title">Stills &amp; downloads</h2>
+    <p class="prose" style="margin-bottom:1.5rem">Provided for editorial use only. Credit © Gwingz Studios unless otherwise noted.</p>
+    <div class="pk-grid-3">
+      {stills.map((s) => (
+        <figure class="still-card">
+          <img src={s.src} alt={s.caption} loading="lazy" />
+          <figcaption><span>{s.caption}</span><span class="still-card__credit"><span>© Gwingz Studios</span><a href={s.src} download>↓ Download</a></span></figcaption>
+        </figure>
+      ))}
+    </div>
+    <div class="pk-grid-3" style="margin-top:var(--sp-5)">
+      <div class="dl-card"><p class="section__label">Film poster</p><div class="dl-card__title">2026 key art</div><p class="dl-card__note">PNG · portrait</p><a class="btn btn--primary" href="/images/poster/GWSSQ_Poster_2026.png" download>Download</a></div>
+      <div class="dl-card"><p class="section__label">Title logo</p><div class="dl-card__title">Golden Wings 2026</div><p class="dl-card__note">PNG · transparent</p><a class="btn btn--primary" href="/images/brand/title-logo-2026.png" download>Download</a></div>
+      <div class="dl-card"><p class="section__label">Electronic press kit</p><div class="dl-card__title">Full EPK (PDF)</div><p class="dl-card__note">Available on request</p><a class="btn btn--ghost" href="/contact">Request</a></div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="posters-heading">
+    <p class="section__label plate--subtitle">Teaser art</p>
+    <h2 id="posters-heading" class="section__title">One film, every genre</h2>
+    <p class="prose" style="margin-bottom:1.5rem">A running series of homage posters made for the film's social channels. Same title, same 747, same two faces; a different movie every time.</p>
+    <div class="poster-gallery">
+      {posters.map((p) => <a href={`/images/posters/${p}`} target="_blank" rel="noopener"><img src={`/images/posters/${p}`} alt="Golden Wings homage poster" loading="lazy" /></a>)}
+    </div>
+  </section>
+</BaseLayout>
