@@ -7,6 +7,12 @@ const pagesDir = path.join(presskit, 'robyn-site/src/content/pages');
 const migBlog = path.join(presskit, 'migration/content/blog');
 const migPages = path.join(presskit, 'migration/content/pages');
 const outDir = path.join(presskit, 'robyn-site/public/blog');
+
+if (!fs.existsSync(mapPath)) {
+  console.warn(`Asset map missing at ${mapPath}; skipping blog CDN mirror.`);
+  process.exit(0);
+}
+
 fs.mkdirSync(outDir, { recursive: true });
 
 const map = JSON.parse(fs.readFileSync(mapPath, 'utf8'));
