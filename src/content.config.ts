@@ -14,6 +14,8 @@ const pageSchema = z.object({
 
 const blogSchema = pageSchema.extend({
   slug: z.string().optional(),
+  /** Curated card/article cover under /public/blog (restored from Squarespace featured art). */
+  cover: z.string().optional(),
 });
 
 const pages = defineCollection({

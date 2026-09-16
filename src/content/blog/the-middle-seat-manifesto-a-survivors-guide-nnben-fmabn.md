@@ -12,6 +12,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:30:12.508Z'
 reason: blog post
 slug: the-middle-seat-manifesto-a-survivors-guide-nnben-fmabn
+cover: /blog/f317cc1170b4.png
 ---
 
 # THE MIDDLE SEAT MANIFESTO: A SURVIVOR'S GUIDE

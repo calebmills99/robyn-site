@@ -11,6 +11,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:28:55.446Z'
 reason: blog post
 slug: zucked-on-christmas-eve-part-1
+cover: /blog/3ceabce2f89b.jpg
 ---
 
 # Zucked on Christmas Eve:                              My Facebook ban survival story (part 1)

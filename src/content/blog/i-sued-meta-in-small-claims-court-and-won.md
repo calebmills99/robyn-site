@@ -12,6 +12,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:28:54.229Z'
 reason: blog post
 slug: i-sued-meta-in-small-claims-court-and-won
+cover: /blog/875e5d99b75b.png
 ---
 
 # I sued Meta in small claims court and got my life back

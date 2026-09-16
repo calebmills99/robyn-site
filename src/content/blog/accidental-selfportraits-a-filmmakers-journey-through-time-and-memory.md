@@ -10,6 +10,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:28:58.243Z'
 reason: blog post
 slug: accidental-selfportraits-a-filmmakers-journey-through-time-and-memory
+cover: /blog/c21c10513851.jpg
 ---
 
 # Official Selection: Palma Film Festival and An Accidental Revelation

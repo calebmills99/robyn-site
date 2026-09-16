@@ -17,7 +17,10 @@ scrapedAt: '2026-07-21T15:31:12.041Z'
 reason: blog post
 slug: >-
   golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards
+cover: /blog/660851489bb1.jpg
 ---
+
+![Curated cover](/blog/660851489bb1.jpg)
 
 # "Golden Wings" Takes Flight: Celebrating Wins at Clown International and Independent Shorts Awards!
 
