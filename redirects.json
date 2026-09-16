@@ -116,7 +116,7 @@
     "status": 301
   },
   "/indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards": {
-    "target": "/indie-doc-journey/golden-wings-an-award-winning-documentary-on-family-legacy-and-aviation",
+    "target": "/indie-doc-journey/golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy",
     "status": 301
   },
   "/indie-doc-journey/lessons-learned-from-a-virtual-screening-and-from-lifehttps/wwwgolden-wings-robyncom/blog-page-url/new-post-title": {
@@ -322,5 +322,9 @@
   "/watch": {
     "target": "https://gwingz.com",
     "status": 302
+  },
+  "/indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards/": {
+    "target": "/indie-doc-journey/golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy",
+    "status": 301
   }
 }
