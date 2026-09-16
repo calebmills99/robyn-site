@@ -51,7 +51,7 @@ const jsonLd = collectionPageJsonLd({
               <Image
                 class="people-card__img"
                 src={person.data.portrait}
-                alt=""
+                alt={person.data.portraitAlt ?? ""}
                 widths={[240, 480]}
                 sizes="(max-width: 720px) 90vw, 16rem"
               />

@@ -55,6 +55,11 @@ const PAGE_TITLES = {
   "stewardess-college-1968": "Stewardess College 1968",
 };
 
+/** Public-face ban: never ingest these blog slugs (redirects handle old URLs). */
+const BLOG_PUBLIC_BAN = new Set([
+  "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+]);
+
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
 }
@@ -271,6 +276,10 @@ function ingest() {
 
   for (const f of fs.readdirSync(blogDir).filter((x) => x.endsWith(".md"))) {
     const { slug, yaml } = processMarkdown(path.join(blogDir, f), { isBlog: true });
+    if (BLOG_PUBLIC_BAN.has(slug)) {
+      console.warn(`Skipping public-banned blog slug: ${slug}`);
+      continue;
+    }
     fs.writeFileSync(path.join(DEST_BLOG, `${slug}.md`), yaml, "utf8");
     blogCount++;
   }
