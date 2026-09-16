@@ -15,6 +15,26 @@ const MIGRATION = path.resolve(ROOT, "../migration/content");
 const DEST_PAGES = path.join(ROOT, "src/content/pages");
 const DEST_BLOG = path.join(ROOT, "src/content/blog");
 
+/** Posts that shipped with zero body images; inject curated cover into the article body. */
+const EMPTY_BODY_COVER_SLUGS = new Set([
+  "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+  "making-a-no-budget-documentary",
+  "janice-engel-mentor-documentary",
+]);
+
+const blogCoverBySlug = (() => {
+  const mapPath = path.join(ROOT, "scripts/cover-restore-map.json");
+  try {
+    const entries = JSON.parse(fs.readFileSync(mapPath, "utf8"));
+    return new Map(
+      entries.map((e) => [e.slug, `/blog/${path.basename(e.local)}`]),
+    );
+  } catch (err) {
+    if (err && err.code === "ENOENT") return new Map();
+    throw err;
+  }
+})();
+
 const PAGE_TITLES = {
   home: "Golden Wings",
   "about-the-film": "About the Film",
@@ -186,6 +206,15 @@ function processMarkdown(filePath, { isBlog }) {
 
   if (isBlog) {
     frontmatter.slug = slug;
+    // Preserve curated Squarespace featured covers across ingest (see cover-restore-map.json).
+    const cover = blogCoverBySlug.get(slug);
+    if (cover) {
+      frontmatter.cover = cover;
+      const marker = `![Curated cover](${cover})`;
+      if (EMPTY_BODY_COVER_SLUGS.has(slug) && !body.includes(`](${cover})`)) {
+        body = `\n${marker}\n` + body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n");
+      }
+    }
   }
 
   const yaml = matter.stringify(body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"), frontmatter);

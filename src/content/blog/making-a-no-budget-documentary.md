@@ -9,7 +9,10 @@ canonical: >-
 scrapedAt: '2026-07-21T15:31:36.239Z'
 reason: blog post
 slug: making-a-no-budget-documentary
+cover: /blog/a6b103a4b6ac.jpg
 ---
+
+![Curated cover](/blog/a6b103a4b6ac.jpg)
 
 # The Challenges of Filming a Documentary with No Budget
 

@@ -16,6 +16,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:29:18.190Z'
 reason: blog post
 slug: swedish-film-awards-winner
+cover: /blog/6cf8d8d8fb9e.png
 ---
 
 # A Win in Sweden: Norse Gods and Hot Rollers

@@ -18,6 +18,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:29:07.912Z'
 reason: blog post
 slug: life-meets-you-where-you-are
+cover: /blog/8338ec7cf2d3.png
 ---
 
 # When Life Meets You at the Wrong Courthouse: A Tribute to Speech Coach Mr. Burns
