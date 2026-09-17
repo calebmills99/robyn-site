@@ -33,4 +33,7 @@ Golden Wings draws on decades of home video and archival footage. Jay R. Ricks c
 
 ### TRAILER
 
-![](/blog/a6b103a4b6ac.jpg)
+<video class="film-trailer" controls preload="metadata" playsinline poster="/blog/a6b103a4b6ac.jpg" aria-label="Golden Wings trailer" width="1920" height="1080">
+  <source src="/videos/golden-wings-trailer.mp4" type="video/mp4" />
+  <a href="/videos/golden-wings-trailer.mp4">Play the Golden Wings trailer</a>
+</video>
