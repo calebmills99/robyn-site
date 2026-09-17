@@ -50,12 +50,7 @@ export function homeJsonLd(description: string) {
   ];
 }
 
-export function movieJsonLd(description: string, image?: string) {
-  const imageUrl = image
-    ? image.startsWith("http")
-      ? image
-      : absoluteUrl(image)
-    : DEFAULT_OG_IMAGE;
+export function movieJsonLd(description: string) {
   return {
     "@context": "https://schema.org",
     "@type": "Movie",
@@ -63,7 +58,7 @@ export function movieJsonLd(description: string, image?: string) {
     alternateName: FILM_SHORT,
     url: absoluteUrl("/film"),
     description,
-    image: imageUrl,
+    image: DEFAULT_OG_IMAGE,
     genre: ["Documentary", "Biography"],
     director: DIRECTOR,
   };

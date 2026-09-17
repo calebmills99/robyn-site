@@ -6,8 +6,6 @@ const description =
   "Indie Doc Journey Special Dispatches: field reports from the grind, starting with the Facebook ban survival map.";
 /** Live hub URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
 const canonical = "https://golden-wings-robyn.com/special-dispatch/";
-/** Curated Dispatch № 01 art (same asset as Journey honeypot; not the film poster). */
-const ogImage = "/blog/special-dispatch-banned.jpg";
 
 const dispatches = [
   {
@@ -16,8 +14,6 @@ const dispatches = [
     href: "/special-dispatch/facebook-banned-on-christmas-eve/",
     description:
       "Hacked, banned, and stuck in Meta's appeal maze? Christmas Eve ban, smoking gun, and the small-claims win.",
-    thumb: "/blog/special-dispatch-banned.jpg",
-    thumbAlt: "Special Dispatch № 01 — Banned on Christmas Eve",
   },
 ];
 
@@ -37,7 +33,6 @@ const jsonLd = collectionPageJsonLd({
   title="Special Dispatch"
   description={description}
   canonical={canonical}
-  ogImage={ogImage}
   jsonLd={jsonLd}
 >
   <p class="section__label plate--subtitle">Indie Doc Journey</p>
@@ -47,30 +42,16 @@ const jsonLd = collectionPageJsonLd({
     fights worth documenting. Start with № 01.
   </p>
 
-  <ul class="post-grid">
+  <ul class="post-list">
     {
       dispatches.map((d) => (
         <li>
-          <a class="post-card" href={d.href}>
-            <div class="post-card__thumb">
-              <img
-                src={d.thumb}
-                alt={d.thumbAlt}
-                loading="lazy"
-                width="1200"
-                height="630"
-              />
-            </div>
-            <div class="post-card__body">
-              <span
-                class="badge"
-                style="background:var(--gw-red);border-color:var(--gw-red);color:var(--gw-cream)"
-                >Special Dispatch № {d.num}</span
-              >
-              <h2 class="post-card__title">{d.title}</h2>
-              <p class="post-card__desc">{d.description}</p>
-              <span class="post-card__more">Read →</span>
-            </div>
+          <a href={d.href}>
+            <p class="section__label" style="margin-bottom: 0.35rem;">
+              Special Dispatch № {d.num}
+            </p>
+            <h2 class="post-list__title">{d.title}</h2>
+            <p class="post-list__desc">{d.description}</p>
           </a>
         </li>
       ))

@@ -11,10 +11,8 @@ const canonical =
   "https://golden-wings-robyn.com/special-dispatch/facebook-banned-on-christmas-eve/";
 const metaTitle =
   "Banned on Christmas Eve | Facebook Ban Survival + Meta Small Claims";
-/** Mirrored Part 1 featured art (not the film poster). */
-const ogImage = "/images/special-dispatch/dumpster-featured.png";
-const featuredImage = ogImage;
-const featuredAlt = "Special Dispatch № 01 — Banned on Christmas Eve";
+/** Existing poster asset beats the generic title-logo for share cards. */
+const ogImage = "/images/poster/GWSSQ_Poster_2026.png";
 
 /** Magazine PDF download only (not the HTML body). */
 const pdfHref =
@@ -57,18 +55,6 @@ const part2Exists = true;
     </p>
 
     <h1>{h1}</h1>
-
-    <figure style="margin: 1.25rem 0 1.75rem;">
-      <img
-        src={featuredImage}
-        alt={featuredAlt}
-        width="1024"
-        height="768"
-        loading="eager"
-        decoding="async"
-        style="width: 100%; height: auto; display: block;"
-      />
-    </figure>
 
     <p>
       My 22-year Facebook account, gone in an instant, and the year-long fight to
