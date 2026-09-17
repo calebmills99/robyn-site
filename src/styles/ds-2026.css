@@ -101,3 +101,23 @@
 .poster-gallery { display: grid; gap: var(--sp-4); grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr)); }
 .poster-gallery a { display: block; border: var(--bw-thick) solid var(--gw-gold-deep); box-shadow: var(--shadow-plate); }
 .poster-gallery img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
+/* Departures route board */
+.departures-stub {
+  margin: 0 0 var(--sp-5);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.post-card__flight {
+  margin: 0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: var(--fs-xs);
+  font-weight: var(--fw-bold);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--gw-red);
+}
+
