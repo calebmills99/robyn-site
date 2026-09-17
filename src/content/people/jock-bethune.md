@@ -16,4 +16,4 @@ Jock is the film's witness to Jay's work. "He was in charge of that development,
 
 His voice shakes when he talks about the job. "I am proud," he says. "I've spent my career with American Airlines. They call me Mister American Airlines." Through that career he came to know Robyn: "Because of my time there I have met people like your mom."
 
-In the narration, Caleb calls Jock a keeper of the flame for American Airlines' most transformative era.
+In the narration, Caleb turns to Jock for the record of how American trained its first 747 crews.
