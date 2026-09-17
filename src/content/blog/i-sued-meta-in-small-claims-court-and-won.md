@@ -463,7 +463,7 @@ Jenna Maroney (calling after us across the parking structure): "Sign his little 
 
 [Add your autograph →](https://c.org/sdcmBMtQkN)
 
-[More dispatches from the Indie Doc Journey →](https://indiedocjourney.com/blog)
+[More dispatches from the Indie Doc Journey](/indie-doc-journey/)
 💋
 
 
@@ -473,3 +473,5 @@ Jenna Maroney (calling after us across the parking structure): "Sign his little 
 
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)
+
+Also filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the Christmas Eve ban timeline and recovery notes).

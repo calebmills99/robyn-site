@@ -55,7 +55,50 @@ const PAGE_TITLES = {
   "stewardess-college-1968": "Stewardess College 1968",
 };
 
+/** Durable SEO inlinks (survive re-ingest from migration scrape). */
+const BLOG_SEO_INLINKS = {
+  "zucked-on-christmas-eve-part-1": {
+    replace: [
+      [
+        /\[Part 2, the autopsy & the court case, continues the story.\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
+        "[Part 2, the autopsy & the court case, continues the story.](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)",
+      ],
+      [
+        /\[The Autopsy & the Court Case[^\]]*\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
+        "[The Autopsy & the Court Case](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)",
+      ],
+    ],
+    appendIfMissing:
+      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the full timeline, recovery steps, and what Meta would not say).\n",
+  },
+  "i-sued-meta-in-small-claims-court-and-won": {
+    replace: [
+      [
+        /\[More dispatches from the Indie Doc Journey[^\]]*\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
+        "[More dispatches from the Indie Doc Journey](/indie-doc-journey/)",
+      ],
+    ],
+    appendIfMissing:
+      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the Christmas Eve ban timeline and recovery notes).\n",
+  },
+};
+
+function applyBlogSeoInlinks(slug, body) {
+  const spec = BLOG_SEO_INLINKS[slug];
+  if (!spec) return body;
+  let out = body;
+  for (const [re, to] of spec.replace || []) {
+    out = out.replace(re, to);
+  }
+  const needle = "/special-dispatch/facebook-banned-on-christmas-eve/";
+  if (spec.appendIfMissing && !out.includes(needle)) {
+    out = out.replace(/\s*$/, "") + spec.appendIfMissing;
+  }
+  return out;
+}
+
 /** Public-face ban: never ingest these blog slugs (redirects handle old URLs). */
+
 const BLOG_PUBLIC_BAN = new Set([
   "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
 ]);
@@ -220,6 +263,10 @@ function processMarkdown(filePath, { isBlog }) {
         body = `\n${marker}\n` + body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n");
       }
     }
+  }
+
+  if (isBlog) {
+    body = applyBlogSeoInlinks(slug, body);
   }
 
   const yaml = matter.stringify(body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"), frontmatter);
