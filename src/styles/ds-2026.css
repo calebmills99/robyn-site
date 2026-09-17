@@ -1,4 +1,4 @@
-/* Golden Wings — 2026 additions. Import AFTER global.css (or append to it). */
+/* Golden Wings  -  2026 additions. Import AFTER global.css (or append to it). */
 
 /* Header: image logo replaces script text */
 .brand--logo { display: flex; align-items: center; gap: var(--sp-3); }
