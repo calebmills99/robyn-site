@@ -286,8 +286,11 @@ function processMarkdown(filePath, { isBlog }) {
     body = applyBlogSeoInlinks(slug, body);
   }
 
-  const yaml = matter.stringify(body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"), frontmatter);
-  return { slug, yaml, title };
+  const markdown = matter.stringify(
+    body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"),
+    frontmatter,
+  );
+  return { slug, markdown, title };
 }
 
 function clearMd(dir) {
@@ -306,8 +309,8 @@ function clearMd(dir) {
 function refreshExistingPage(slug) {
   const filePath = path.join(DEST_PAGES, `${slug}.md`);
   if (!fs.existsSync(filePath)) return false;
-  const { yaml } = processMarkdown(filePath, { isBlog: false });
-  fs.writeFileSync(filePath, yaml, "utf8");
+  const { markdown } = processMarkdown(filePath, { isBlog: false });
+  fs.writeFileSync(filePath, markdown, "utf8");
   return true;
 }
 
@@ -342,18 +345,18 @@ function ingest() {
   let blogCount = 0;
 
   for (const f of fs.readdirSync(pagesDir).filter((x) => x.endsWith(".md"))) {
-    const { slug, yaml } = processMarkdown(path.join(pagesDir, f), { isBlog: false });
-    fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), yaml, "utf8");
+    const { slug, markdown } = processMarkdown(path.join(pagesDir, f), { isBlog: false });
+    fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), markdown, "utf8");
     pageCount++;
   }
 
   for (const f of fs.readdirSync(blogDir).filter((x) => x.endsWith(".md"))) {
-    const { slug, yaml } = processMarkdown(path.join(blogDir, f), { isBlog: true });
+    const { slug, markdown } = processMarkdown(path.join(blogDir, f), { isBlog: true });
     if (BLOG_PUBLIC_BAN.has(slug)) {
       console.warn(`Skipping public-banned blog slug: ${slug}`);
       continue;
     }
-    fs.writeFileSync(path.join(DEST_BLOG, `${slug}.md`), yaml, "utf8");
+    fs.writeFileSync(path.join(DEST_BLOG, `${slug}.md`), markdown, "utf8");
     blogCount++;
   }
 
