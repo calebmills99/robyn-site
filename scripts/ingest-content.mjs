@@ -309,7 +309,17 @@ function clearMd(dir) {
 function refreshExistingPage(slug) {
   const filePath = path.join(DEST_PAGES, `${slug}.md`);
   if (!fs.existsSync(filePath)) return false;
-  const { markdown } = processMarkdown(filePath, { isBlog: false });
+  const override = PAGE_COPY_OVERRIDES[slug];
+  if (!override) return false;
+  const raw = fs.readFileSync(filePath, "utf8");
+  const { data, content } = matter(raw);
+  const markdown = matter.stringify(
+    (override.body ?? content).replace(/^\uFEFF/, "").replace(/^\n+/, "\n"),
+    {
+      ...data,
+      description: override.description ?? data.description ?? "",
+    },
+  );
   fs.writeFileSync(filePath, markdown, "utf8");
   return true;
 }
