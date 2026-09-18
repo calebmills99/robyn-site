@@ -3,12 +3,12 @@ name: Robyn Stewart
 role: The flight attendant
 order: 1
 lede: American Airlines flight attendant since 1971, and the reason this film exists.
-description: Robyn Stewart has flown for American Airlines since 1971. Golden Wings, directed by her son Caleb Mills Stewart, follows her from stewardess college through 9/11.
+description: Robyn Stewart has flown for American Airlines since 1971. Golden Wings, directed by her son Caleb Mills Stewart, follows her from stewardess college through 9/11 and beyond.
 portrait: ../../assets/people/robyn-stewart.jpg
 portraitAlt: Robyn Stewart smiling in a bright patterned jacket against a teal and orange backdrop (presskit precleared).
 ---
 
-Robyn Stewart started American Airlines Stewardess College on June 24, 1971. She figured she would fly for two to five years. As of 2026, she has flown for 55.
+Robyn Stewart started American Airlines Stewardess College on June 24, 1971. She figured she would fly for two to five years. As of 2026, she has flown for 55 years.
 
 She took the job for the travel. Her father, Jay R. Ricks, was an American Airlines flight engineer, and Robyn grew up taking family trips on his flight benefits. "I wanted to become a flight attendant because I wanted to fly free," she says in the film.
 
@@ -24,7 +24,7 @@ The stewardess manual she got at graduation did not last either. American had me
 
 Robyn trained on the 747 in Dallas, on the airplane her father had worked on, and flew it out of JFK to San Juan. "A great experience," she says, "and to go back and train out on the airplane that my father had been so involved with."
 
-Her seniority lets her pick her trips now, Rome and Tokyo among them.
+Her seniority lets her pick trips now, including Rome and Tokyo.
 
 ## After 9/11
 

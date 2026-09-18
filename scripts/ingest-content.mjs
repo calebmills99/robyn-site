@@ -7,6 +7,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
+import { PAGE_COPY_OVERRIDES } from "./page-copy-overrides.mjs";
 import { cleanScrapedMarkdown } from "./rescue-indented-image-blocks.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -14,6 +15,7 @@ const ROOT = path.resolve(__dirname, "..");
 const MIGRATION = path.resolve(ROOT, "../migration/content");
 const DEST_PAGES = path.join(ROOT, "src/content/pages");
 const DEST_BLOG = path.join(ROOT, "src/content/blog");
+const GENERATED_PAGES_MANIFEST = path.join(DEST_PAGES, ".generated-pages.json");
 
 /** Posts that shipped with zero body images; inject curated cover into the article body. */
 const EMPTY_BODY_COVER_SLUGS = new Set([
@@ -172,6 +174,17 @@ function rewriteCareerCopy(text, { isBlogTitle = false } = {}) {
   return out;
 }
 
+function applyPageCopyPolish({ slug, title, description, body }) {
+  const override = PAGE_COPY_OVERRIDES[slug];
+  if (!override) return { slug, title, description, body };
+  return {
+    slug,
+    title,
+    description: override.description ?? description,
+    body: override.body ?? body,
+  };
+}
+
 function extractH1(body) {
   const m = body.match(/^#\s+(.+)$/m);
   return m ? m[1].trim() : null;
@@ -236,10 +249,20 @@ function processMarkdown(filePath, { isBlog }) {
     /Sign up for the\.\s*App/gi,
     "Sign up for the Golden Wings App",
   );
+  description = description.trim();
+
+  if (!isBlog) {
+    ({ title, description, body } = applyPageCopyPolish({
+      slug,
+      title,
+      description,
+      body,
+    }));
+  }
 
   const frontmatter = {
     title,
-    description: description.trim(),
+    description,
     path: data.path || (isBlog ? `/indie-doc-journey/${slug}` : `/${slug === "home" ? "" : slug}`),
     sourceUrl: data.sourceUrl || "",
     canonical: data.canonical || "",
@@ -264,8 +287,11 @@ function processMarkdown(filePath, { isBlog }) {
     body = applyBlogSeoInlinks(slug, body);
   }
 
-  const yaml = matter.stringify(body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"), frontmatter);
-  return { slug, yaml, title };
+  const markdown = matter.stringify(
+    body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"),
+    frontmatter,
+  );
+  return { slug, markdown, title };
 }
 
 function clearMd(dir) {
@@ -279,6 +305,50 @@ function clearMd(dir) {
   for (const f of entries) {
     if (f.endsWith(".md")) fs.unlinkSync(path.join(dir, f));
   }
+}
+
+function clearGeneratedPages(slugs) {
+  for (const slug of slugs) {
+    const filePath = path.join(DEST_PAGES, `${slug}.md`);
+    if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+  }
+}
+
+function readGeneratedPageSlugs() {
+  try {
+    return JSON.parse(fs.readFileSync(GENERATED_PAGES_MANIFEST, "utf8"));
+  } catch (err) {
+    if (err && err.code === "ENOENT") return [];
+    throw err;
+  }
+}
+
+function writeGeneratedPageSlugs(slugs) {
+  fs.writeFileSync(
+    GENERATED_PAGES_MANIFEST,
+    `${JSON.stringify([...new Set(slugs)].sort(), null, 2)}\n`,
+    "utf8",
+  );
+}
+
+function refreshExistingPage(slug) {
+  const override = PAGE_COPY_OVERRIDES[slug];
+  if (!override) return null;
+  const filePath = path.join(DEST_PAGES, `${slug}.md`);
+  const hasFile = fs.existsSync(filePath);
+  const { data, content } = hasFile
+    ? matter(fs.readFileSync(filePath, "utf8"))
+    : { data: {}, content: "" };
+  const markdown = matter.stringify(
+    (override.body ?? content).replace(/^\uFEFF/, "").replace(/^\n+/, "\n"),
+    {
+      ...data,
+      ...(override.frontmatter ?? {}),
+      description: override.description ?? data.description ?? "",
+    },
+  );
+  fs.writeFileSync(filePath, markdown, "utf8");
+  return hasFile ? "refreshed" : "created";
 }
 
 function ingest() {
@@ -295,39 +365,54 @@ function ingest() {
     }
   };
 
-  if (!migrationPresent(pagesDir) || !migrationPresent(blogDir)) {
-    console.warn(
-      `Migration content missing at ${MIGRATION}; keeping existing src/content/{pages,blog}.`,
-    );
-    return;
-  }
-
   ensureDir(DEST_PAGES);
   ensureDir(DEST_BLOG);
-  clearMd(DEST_PAGES);
-  clearMd(DEST_BLOG);
 
   let pageCount = 0;
   let blogCount = 0;
+  const hasPagesMigration = migrationPresent(pagesDir);
+  const hasBlogMigration = migrationPresent(blogDir);
 
-  for (const f of fs.readdirSync(pagesDir).filter((x) => x.endsWith(".md"))) {
-    const { slug, yaml } = processMarkdown(path.join(pagesDir, f), { isBlog: false });
-    fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), yaml, "utf8");
-    pageCount++;
-  }
-
-  for (const f of fs.readdirSync(blogDir).filter((x) => x.endsWith(".md"))) {
-    const { slug, yaml } = processMarkdown(path.join(blogDir, f), { isBlog: true });
-    if (BLOG_PUBLIC_BAN.has(slug)) {
-      console.warn(`Skipping public-banned blog slug: ${slug}`);
-      continue;
+  if (hasPagesMigration) {
+    const pageFiles = fs.readdirSync(pagesDir).filter((x) => x.endsWith(".md"));
+    clearGeneratedPages(readGeneratedPageSlugs());
+    for (const f of pageFiles) {
+      const { slug, markdown } = processMarkdown(path.join(pagesDir, f), { isBlog: false });
+      fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), markdown, "utf8");
+      pageCount++;
     }
-    fs.writeFileSync(path.join(DEST_BLOG, `${slug}.md`), yaml, "utf8");
-    blogCount++;
+    for (const slug of Object.keys(PAGE_COPY_OVERRIDES)) {
+      refreshExistingPage(slug);
+    }
+    writeGeneratedPageSlugs([
+      ...pageFiles.map((f) => f.replace(/\.md$/i, "")),
+      ...Object.keys(PAGE_COPY_OVERRIDES),
+    ]);
+    console.log(`Ingested ${pageCount} pages → src/content/pages`);
+  } else {
+    const aboutPageStatus = refreshExistingPage("about-the-film");
+    console.warn(
+      aboutPageStatus
+        ? `Migration pages missing at ${pagesDir}; ${aboutPageStatus} about-the-film from shared overrides and kept existing src/content/pages.`
+        : `Migration pages missing at ${pagesDir}; keeping existing src/content/pages.`,
+    );
   }
 
-  console.log(`Ingested ${pageCount} pages → src/content/pages`);
-  console.log(`Ingested ${blogCount} posts → src/content/blog`);
+  if (hasBlogMigration) {
+    clearMd(DEST_BLOG);
+    for (const f of fs.readdirSync(blogDir).filter((x) => x.endsWith(".md"))) {
+      const { slug, markdown } = processMarkdown(path.join(blogDir, f), { isBlog: true });
+      if (BLOG_PUBLIC_BAN.has(slug)) {
+        console.warn(`Skipping public-banned blog slug: ${slug}`);
+        continue;
+      }
+      fs.writeFileSync(path.join(DEST_BLOG, `${slug}.md`), markdown, "utf8");
+      blogCount++;
+    }
+    console.log(`Ingested ${blogCount} posts → src/content/blog`);
+  } else {
+    console.warn(`Migration blog missing at ${blogDir}; keeping existing src/content/blog.`);
+  }
 }
 
 ingest();
