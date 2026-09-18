@@ -191,16 +191,20 @@ function applyPageCopyPolish({ slug, title, description, body }) {
         "Golden Wings: Stewardess to Sky Queen is a documentary by Caleb Mills Stewart about his mother, American Airlines flight attendant Robyn Stewart, and three generations of one family at American Airlines.",
       body: body
         .replace(
-          "Robyn Stewart has flown for American Airlines for 55 years. She began before the Boeing 747's first commercial flight and stayed through deregulation, the boom years that followed, and September 11. She buried her husband Henry in Frankfurt, went through rehab, and returned to the job.",
-          "Robyn Stewart has flown for American Airlines for 55 years. She began before the Boeing 747's first commercial flight and stayed through deregulation and September 11. She buried her husband Henry in Frankfurt, went through rehab, and returned to flying.",
+          ", the boom years that followed, and September 11.",
+          " and September 11.",
         )
         .replace(
-          "Robyn's parents, Jay and Maxine Ricks, raised her son Caleb while she flew. He called them Papa and Nana. Caleb shot the first version as a nine-minute college project. He expanded that cut into Golden Wings.",
-          "Robyn's parents, Jay and Maxine Ricks, raised her son Caleb while she flew. He called them Papa and Nana. Caleb first made the story as a nine-minute college project, then expanded it into Golden Wings.",
+          "returned to the job.",
+          "returned to flying.",
         )
         .replace(
-          "The film draws on decades of home video and archival footage. Jay R. Ricks built American Airlines' 747 pilot training program. Jock Bethune, whose department produced the 35mm slides for that program, appears on camera to describe what Jay did. Three generations of one family worked for the same airline.",
-          "The film draws on decades of home video and archival footage. Jay R. Ricks built American Airlines' 747 pilot training program. Jock Bethune, whose department produced the 35mm slides for that program, appears on camera to describe Jay's work. Three generations of one family worked for the same airline.",
+          "Caleb shot the first version as a nine-minute college project. He expanded that cut into Golden Wings.",
+          "Caleb first made the story as a nine-minute college project, then expanded it into Golden Wings.",
+        )
+        .replace(
+          "appears on camera to describe what Jay did.",
+          "appears on camera to describe Jay's work.",
         ),
     };
   }
