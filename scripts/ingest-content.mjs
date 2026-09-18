@@ -308,7 +308,7 @@ function clearMd(dir) {
 
 function refreshExistingPage(slug) {
   const override = PAGE_COPY_OVERRIDES[slug];
-  if (!override) return false;
+  if (!override) return null;
   const filePath = path.join(DEST_PAGES, `${slug}.md`);
   const hasFile = fs.existsSync(filePath);
   const { data, content } = hasFile
@@ -323,7 +323,7 @@ function refreshExistingPage(slug) {
     },
   );
   fs.writeFileSync(filePath, markdown, "utf8");
-  return true;
+  return hasFile ? "refreshed" : "created";
 }
 
 function ingest() {
@@ -357,9 +357,11 @@ function ingest() {
     }
     console.log(`Ingested ${pageCount} pages → src/content/pages`);
   } else {
-    refreshExistingPage("about-the-film");
+    const aboutPageStatus = refreshExistingPage("about-the-film");
     console.warn(
-      `Migration pages missing at ${pagesDir}; refreshed about-the-film from shared overrides and kept existing src/content/pages.`,
+      aboutPageStatus
+        ? `Migration pages missing at ${pagesDir}; ${aboutPageStatus} about-the-film from shared overrides and kept existing src/content/pages.`
+        : `Migration pages missing at ${pagesDir}; keeping existing src/content/pages.`,
     );
   }
 
