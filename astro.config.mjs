@@ -10,20 +10,13 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter(page) {
-        // Public-face ban: Clown International Journey post (301 elsewhere).
         return !page.includes(
           "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
         );
       },
-      serialize(item) {
-        item.lastmod = new Date();
-        return item;
-      },
     }),
   ],
   markdown: {
-    // Astro 7 defaults to Sätteri (no remark). Use unified so the rescue plugin
-    // still catches any scrape indent that survives ingest.
     processor: unified({
       remarkPlugins: [remarkRescueIndentedImages],
     }),
