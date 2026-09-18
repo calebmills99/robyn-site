@@ -15,6 +15,7 @@ const ROOT = path.resolve(__dirname, "..");
 const MIGRATION = path.resolve(ROOT, "../migration/content");
 const DEST_PAGES = path.join(ROOT, "src/content/pages");
 const DEST_BLOG = path.join(ROOT, "src/content/blog");
+const GENERATED_PAGES_MANIFEST = path.join(DEST_PAGES, ".generated-pages.json");
 
 /** Posts that shipped with zero body images; inject curated cover into the article body. */
 const EMPTY_BODY_COVER_SLUGS = new Set([
@@ -306,12 +307,28 @@ function clearMd(dir) {
   }
 }
 
-function clearGeneratedPages(files) {
-  for (const f of files) {
-    const slug = f.replace(/\.md$/i, "");
+function clearGeneratedPages(slugs) {
+  for (const slug of slugs) {
     const filePath = path.join(DEST_PAGES, `${slug}.md`);
     if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
   }
+}
+
+function readGeneratedPageSlugs() {
+  try {
+    return JSON.parse(fs.readFileSync(GENERATED_PAGES_MANIFEST, "utf8"));
+  } catch (err) {
+    if (err && err.code === "ENOENT") return [];
+    throw err;
+  }
+}
+
+function writeGeneratedPageSlugs(slugs) {
+  fs.writeFileSync(
+    GENERATED_PAGES_MANIFEST,
+    `${JSON.stringify([...new Set(slugs)].sort(), null, 2)}\n`,
+    "utf8",
+  );
 }
 
 function refreshExistingPage(slug) {
@@ -358,7 +375,7 @@ function ingest() {
 
   if (hasPagesMigration) {
     const pageFiles = fs.readdirSync(pagesDir).filter((x) => x.endsWith(".md"));
-    clearGeneratedPages(pageFiles);
+    clearGeneratedPages(readGeneratedPageSlugs());
     for (const f of pageFiles) {
       const { slug, markdown } = processMarkdown(path.join(pagesDir, f), { isBlog: false });
       fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), markdown, "utf8");
@@ -367,6 +384,10 @@ function ingest() {
     for (const slug of Object.keys(PAGE_COPY_OVERRIDES)) {
       refreshExistingPage(slug);
     }
+    writeGeneratedPageSlugs([
+      ...pageFiles.map((f) => f.replace(/\.md$/i, "")),
+      ...Object.keys(PAGE_COPY_OVERRIDES),
+    ]);
     console.log(`Ingested ${pageCount} pages → src/content/pages`);
   } else {
     const aboutPageStatus = refreshExistingPage("about-the-film");
