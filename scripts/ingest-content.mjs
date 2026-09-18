@@ -172,6 +172,42 @@ function rewriteCareerCopy(text, { isBlogTitle = false } = {}) {
   return out;
 }
 
+function applyPageCopyPolish({ slug, title, description, body }) {
+  if (slug === "film") {
+    return {
+      slug,
+      title,
+      description:
+        "Golden Wings is a documentary about Robyn Stewart's 55-year American Airlines career and the family history around it.",
+      body,
+    };
+  }
+
+  if (slug === "about-the-film") {
+    return {
+      slug,
+      title,
+      description:
+        "Golden Wings: Stewardess to Sky Queen is a documentary by Caleb Mills Stewart about his mother, American Airlines flight attendant Robyn Stewart, and three generations of one family at American Airlines.",
+      body: body
+        .replace(
+          "Robyn Stewart has flown for American Airlines for 55 years. She began before the Boeing 747's first commercial flight and stayed through deregulation, the boom years that followed, and September 11. She buried her husband Henry in Frankfurt, went through rehab, and returned to the job.",
+          "Robyn Stewart has flown for American Airlines for 55 years. She began before the Boeing 747's first commercial flight and stayed through deregulation and September 11. She buried her husband Henry in Frankfurt, went through rehab, and returned to flying.",
+        )
+        .replace(
+          "Robyn's parents, Jay and Maxine Ricks, raised her son Caleb while she flew. He called them Papa and Nana. Caleb shot the first version as a nine-minute college project. He expanded that cut into Golden Wings.",
+          "Robyn's parents, Jay and Maxine Ricks, raised her son Caleb while she flew. He called them Papa and Nana. Caleb first made the story as a nine-minute college project, then expanded it into Golden Wings.",
+        )
+        .replace(
+          "The film draws on decades of home video and archival footage. Jay R. Ricks built American Airlines' 747 pilot training program. Jock Bethune, whose department produced the 35mm slides for that program, appears on camera to describe what Jay did. Three generations of one family worked for the same airline.",
+          "The film draws on decades of home video and archival footage. Jay R. Ricks built American Airlines' 747 pilot training program. Jock Bethune, whose department produced the 35mm slides for that program, appears on camera to describe Jay's work. Three generations of one family worked for the same airline.",
+        ),
+    };
+  }
+
+  return { slug, title, description, body };
+}
+
 function extractH1(body) {
   const m = body.match(/^#\s+(.+)$/m);
   return m ? m[1].trim() : null;
@@ -236,6 +272,15 @@ function processMarkdown(filePath, { isBlog }) {
     /Sign up for the\.\s*App/gi,
     "Sign up for the Golden Wings App",
   );
+
+  if (!isBlog) {
+    ({ title, description, body } = applyPageCopyPolish({
+      slug,
+      title,
+      description: description.trim(),
+      body,
+    }));
+  }
 
   const frontmatter = {
     title,
