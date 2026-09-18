@@ -13,6 +13,8 @@ interface Props {
 }
 
 const SITE = "https://golden-wings-robyn.com";
+/** Query bust so Chrome drops a cached Astro default favicon. */
+const FAVICON_CACHE = "a1ace0d"; // sha1[0:7] of public/favicon.ico
 const DEFAULT_OG_IMAGE = `${SITE}/images/brand/title-logo-2026.png`;
 const DEFAULT_DESCRIPTION =
   "Golden Wings, an award-winning aviation documentary following Robyn Stewart's 55-year career as a flight attendant, told by her son Caleb Mills Stewart.";
@@ -88,9 +90,9 @@ function isCurrent(href: string) {
     {jsonLdBlocks.map((block) => (
       <script type="application/ld+json" set:html={JSON.stringify(block)} />
     ))}
-    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" href={"/favicon.ico?v=" + FAVICON_CACHE} sizes="any" />
     <link rel="preload" href="/fonts/Airstream.woff2" as="font" type="font/woff2" crossorigin />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href={"/favicon.svg?v=" + FAVICON_CACHE} />
     <title>{pageTitle}</title>
   </head>
   <body>
