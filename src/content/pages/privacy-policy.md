@@ -11,8 +11,6 @@ scrapedAt: '2026-07-21T15:32:42.512Z'
 reason: core v1
 ---
 
-# Privacy Policy
-
 Effective Date: March 9, 2025
 
 1. Introduction

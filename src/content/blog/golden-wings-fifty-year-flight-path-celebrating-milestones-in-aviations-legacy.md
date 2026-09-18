@@ -13,6 +13,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:30:51.294Z'
 reason: blog post
 slug: golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy
+cover: /blog/89e49287a9b5.jpg
 ---
 
 # Golden Wings – Celebrating Milestones in Aviation’s Legacy

@@ -13,6 +13,7 @@ canonical: 'https://www.golden-wings-robyn.com/indie-doc-journey/bhiff-here-we-c
 scrapedAt: '2026-07-21T15:30:00.152Z'
 reason: blog post
 slug: bhiff-here-we-come
+cover: /blog/a83c3163dedb.png
 ---
 
 # BHIFF here we come!!!!!

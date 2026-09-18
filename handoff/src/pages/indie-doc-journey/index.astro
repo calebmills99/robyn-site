@@ -1,0 +1,63 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from "astro:content";
+import { collectionPageJsonLd } from "../../lib/seo";
+
+function displayTitle(raw: string) {
+  return String(raw)
+    .replace(/\s*\(Copy\)\s*$/i, "")
+    .replace(/Golden Wings:\s*(Fifty|50)\s*Year\s*Flight\s*Path/gi, "Golden Wings")
+    .replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings")
+    .trim();
+}
+/** First image in the post body, if any, for the card thumbnail. */
+function firstImage(body: string | undefined) {
+  const m = body?.match(/!\[[^\]]*\]\(([^)\s]+)/) || body?.match(/<img[^>]+src=["']([^"']+)/i);
+  return m ? m[1] : null;
+}
+
+const posts = (await getCollection("blog")).sort((a, b) =>
+  displayTitle(a.data.title).localeCompare(displayTitle(b.data.title)),
+);
+const description =
+  "Behind-the-scenes notes from making Golden Wings - festival strategy, craft, and the indie documentary grind.";
+const jsonLd = collectionPageJsonLd({
+  name: "Indie Doc Journey", description, url: "/indie-doc-journey",
+  items: [
+    { name: "Special Dispatch № 01: Banned on Christmas Eve", url: "/special-dispatch/facebook-banned-on-christmas-eve/", description: "Christmas Eve ban survival map, smoking gun, and Meta small-claims win." },
+    ...posts.map((post) => ({ name: displayTitle(post.data.title), url: `/indie-doc-journey/${post.id}`, description: post.data.description || undefined })),
+  ],
+});
+---
+
+<BaseLayout title="Indie Doc Journey" description={description} jsonLd={jsonLd}>
+  <p class="section__label plate--subtitle">Companion blog</p>
+  <h1 class="section__title" style="display:inline-flex;align-items:center;gap:1rem">Indie Doc Journey <img src="/images/brand/logo-mark-wink.png" alt="" style="height:1.6em;width:auto" /></h1>
+  <p class="prose" style="margin-bottom: 2rem;">Festival lessons, craft notes, and the long road of an independent aviation documentary.</p>
+
+  <ul class="post-grid">
+    <li>
+      <a class="post-card" href="/special-dispatch/facebook-banned-on-christmas-eve/">
+        <div class="post-card__thumb"><span class="post-card__thumb--empty">Special Dispatch</span></div>
+        <div class="post-card__body">
+          <span class="badge" style="background:var(--gw-red);border-color:var(--gw-red);color:var(--gw-cream)">Special Dispatch № 01</span>
+          <h2 class="post-card__title">Banned on Christmas Eve</h2>
+          <p class="post-card__desc">Survival map, smoking gun, and the Meta small-claims win. With a magazine PDF download.</p>
+          <span class="post-card__more">Read →</span>
+        </div>
+      </a>
+    </li>
+    {posts.map((post) => { const img = firstImage(post.body); return (
+      <li>
+        <a class="post-card" href={`/indie-doc-journey/${post.id}`}>
+          <div class="post-card__thumb">{img ? <img src={img} alt="" loading="lazy" /> : <span class="post-card__thumb--empty">Golden Wings</span>}</div>
+          <div class="post-card__body">
+            <h2 class="post-card__title">{displayTitle(post.data.title)}</h2>
+            {post.data.description && <p class="post-card__desc">{post.data.description}</p>}
+            <span class="post-card__more">Read →</span>
+          </div>
+        </a>
+      </li>
+    ); })}
+  </ul>
+</BaseLayout>

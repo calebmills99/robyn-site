@@ -11,6 +11,7 @@ canonical: 'https://www.golden-wings-robyn.com/indie-doc-journey/jdirector-state
 scrapedAt: '2026-07-21T15:31:18.150Z'
 reason: blog post
 slug: jdirector-statement
+cover: /blog/71ce094a232e.jpeg
 ---
 
 # Director’s Statement for Caleb Stewart

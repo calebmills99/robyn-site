@@ -3,22 +3,25 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { movieJsonLd } from "../lib/seo";
 
 const description =
-  "Golden Wings - the award-winning aviation documentary on Robyn Stewart's 55-year career.";
+  "Golden Wings follows American Airlines flight attendant Robyn Stewart across 55 years on the job.";
+/** Official 2026 key art — also the Film page OG image. */
+const posterSrc = "/images/poster/GWSSQ_Poster_2026.png";
 ---
 
 <BaseLayout
   title="Film"
   description={description}
   ogType="video.other"
-  jsonLd={movieJsonLd(description)}
+  ogImage={posterSrc}
+  jsonLd={movieJsonLd(description, posterSrc)}
 >
   <section class="hero" aria-label="Film">
     <h1 class="hero__headline">The film</h1>
     <p class="script page-motto">Find Your Wings</p>
     <p class="hero__lede">
-      A cinematic tribute to aviation history and generational legacy - five
-      decades of flight through the life of American Airlines flight attendant
-      Robyn Stewart, directed by Caleb Mills Stewart.
+      Robyn Stewart has flown for American Airlines for 55 years. Her son, Caleb
+      Mills Stewart, directed this documentary from phone footage, home video,
+      and archival material.
     </p>
     <div class="hero__ctas">
       <a class="btn btn--primary" href="/about-the-film">Full story</a>
@@ -27,22 +30,54 @@ const description =
     <div class="hero__wing" aria-hidden="true"></div>
   </section>
 
+  <section class="section poster-plate" aria-labelledby="film-poster-heading">
+    <div class="poster-plate__inner">
+      <div class="poster-plate__copy">
+        <p class="section__label plate--subtitle">Key art</p>
+        <h2 id="film-poster-heading" class="section__title">Official poster</h2>
+        <p class="poster-plate__lede">
+          Stewardess to Sky Queen. The 2026 poster for Golden Wings.
+        </p>
+        <div class="hero__ctas">
+          <a class="btn btn--primary" href={posterSrc} download="GWSSQ_Poster_2026.png"
+            >Download poster</a
+          >
+          <a class="btn btn--ghost" href="/press-kit">Press kit</a>
+        </div>
+      </div>
+      <a
+        class="poster-plate__frame"
+        href={posterSrc}
+        download="GWSSQ_Poster_2026.png"
+        aria-label="Download the official poster"
+      >
+        <img
+          class="poster-plate__img"
+          src={posterSrc}
+          alt="Official Golden Wings: Stewardess to Sky Queen poster, 2026"
+          width="1083"
+          height="1452"
+          loading="eager"
+          decoding="async"
+        />
+      </a>
+    </div>
+  </section>
+
   <section class="section">
     <p class="section__label plate--subtitle">Synopsis</p>
-    <h2 class="section__title">Keep going</h2>
+    <h2 class="section__title">Fifty-five years</h2>
     <div class="prose">
       <p>
-        Robyn Stewart has been a flight attendant for 55 years - a living bridge
-        between aviation’s past and present. She began flying before the Boeing
-        747’s first commercial flight and stayed aloft through deregulation, the
-        industry’s golden age and its hangover, and the trauma of September 11th.
+        Robyn Stewart has been a flight attendant for 55 years. She began flying
+        before the Boeing 747’s first commercial flight and stayed through
+        deregulation, the boom that followed, and September 11.
       </p>
       <p>
-        Her son Caleb grew up in airport terminals and hotel lobbies. What began
-        as a nine-minute college film became Golden Wings: a deeply human
-        chronicle of family, career, and the instinct to keep going - assembled
-        from home video, rare archival footage, and candid interviews with
-        aviation insiders.
+        Her son Caleb grew up in airport terminals and hotel lobbies. A
+        nine-minute college film became Golden Wings: family, career, and the
+        choice to keep flying, cut from home video, archival footage, and
+        interviews with people who worked beside her.
       </p>
     </div>
   </section>

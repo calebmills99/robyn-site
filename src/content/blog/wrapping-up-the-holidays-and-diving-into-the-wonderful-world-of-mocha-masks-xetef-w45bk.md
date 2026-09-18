@@ -16,6 +16,7 @@ scrapedAt: '2026-07-21T15:30:33.738Z'
 reason: blog post
 slug: >-
   wrapping-up-the-holidays-and-diving-into-the-wonderful-world-of-mocha-masks-xetef-w45bk
+cover: /blog/4e15693c2610.png
 ---
 
 # Wrapping Up the Holidays and Soaring into New Beginnings: A Sneak Peek into Our Next Big Adventure

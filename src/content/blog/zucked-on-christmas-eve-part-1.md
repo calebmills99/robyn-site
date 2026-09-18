@@ -11,6 +11,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:28:55.446Z'
 reason: blog post
 slug: zucked-on-christmas-eve-part-1
+cover: /blog/3ceabce2f89b.jpg
 ---
 
 # Zucked on Christmas Eve:                              My Facebook ban survival story (part 1)
@@ -41,7 +42,7 @@ Words & Receipts by Caleb Mills Stewart
 
   Indie Doc Journey · Part One02
   Editor's Note
-  It's Christmas Eve, and instead of cocoa you get a notice that twenty-two years of your digital life just went poof. No warning, no explanation, just a message as cheerful as a tax audit. This is Part 1: the ban, the gas-lit appeal abyss, and the smoking gun hiding in Meta's own URL. [Part 2, the autopsy & the court case, continues the story.](https://indiedocjourney.com/blog)
+  It's Christmas Eve, and instead of cocoa you get a notice that twenty-two years of your digital life just went poof. No warning, no explanation, just a message as cheerful as a tax audit. This is Part 1: the ban, the gas-lit appeal abyss, and the smoking gun hiding in Meta's own URL. [Part 2, the autopsy & the court case, continues the story.](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)
 
 In This Issue
 
@@ -225,7 +226,7 @@ Q. Any final advice from the guy actually running the platform?
 Macho Zuck (standing, double-bicep flex so the gold chain bounces): Back up your memories off-platform, use real 2FA, and don't put your whole life in one app. Me? I'm building the future, rolling on the mats, and collecting chains. You got Zucked? Dust off, touch grass, and come back stronger. The algorithm doesn't miss you… much.
 
 To be continued in Part 2
-[The Autopsy & the Court Case →](https://indiedocjourney.com/blog)
+[The Autopsy & the Court Case](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)
 
   Indie Doc Journey · Dispatch № 01
   Banned on Christmas Eve
@@ -251,7 +252,7 @@ Words & Receipts by Caleb Mills Stewart
 
   Indie Doc Journey · Part One02
   Editor's Note
-  It's Christmas Eve, and instead of cocoa you get a notice that twenty-two years of your digital life just went poof. No warning, no explanation, just a message as cheerful as a tax audit. This is Part 1: the ban, the gas-lit appeal abyss, and the smoking gun hiding in Meta's own URL. [Part 2, the autopsy & the court case, continues the story.](https://indiedocjourney.com/blog)
+  It's Christmas Eve, and instead of cocoa you get a notice that twenty-two years of your digital life just went poof. No warning, no explanation, just a message as cheerful as a tax audit. This is Part 1: the ban, the gas-lit appeal abyss, and the smoking gun hiding in Meta's own URL. [Part 2, the autopsy & the court case, continues the story.](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)
 
 In This Issue
 
@@ -435,7 +436,7 @@ Q. Any final advice from the guy actually running the platform?
 Macho Zuck (standing, double-bicep flex so the gold chain bounces): Back up your memories off-platform, use real 2FA, and don't put your whole life in one app. Me? I'm building the future, rolling on the mats, and collecting chains. You got Zucked? Dust off, touch grass, and come back stronger. The algorithm doesn't miss you… much.
 
 To be continued in Part 2
-[The Autopsy & the Court Case →](https://indiedocjourney.com/blog)
+[The Autopsy & the Court Case](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)
 
   Indie Doc Journey · Dispatch № 01
   Banned on Christmas Eve
@@ -448,3 +449,5 @@ To be continued in Part 2
 
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)
+
+Also filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the full timeline, recovery steps, and what Meta would not say).

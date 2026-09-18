@@ -11,8 +11,6 @@ scrapedAt: '2026-07-21T15:32:44.066Z'
 reason: core v1
 ---
 
-# Terms of Use
-
 ## Introduction
 
 Welcome to Golden Wings the Documentary! We’re thrilled to have you here. To ensure a safe, enjoyable, and informative experience, we’ve outlined our Terms of Use. These terms are essential in guiding your interactions on our site, protecting both your rights and ours.

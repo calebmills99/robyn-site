@@ -3,9 +3,11 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { collectionPageJsonLd } from "../../lib/seo";
 
 const description =
-  "Indie Doc Journey Special Dispatches: field reports from the grind, starting with the Facebook ban survival map.";
+  "Facebook ban and hacked-account field reports from Indie Doc Journey. Start with Special Dispatch №01: Banned on Christmas Eve.";
 /** Live hub URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
 const canonical = "https://golden-wings-robyn.com/special-dispatch/";
+/** Curated Dispatch № 01 art (same asset as Journey honeypot; not the film poster). */
+const ogImage = "/blog/special-dispatch-banned.jpg";
 
 const dispatches = [
   {
@@ -14,6 +16,8 @@ const dispatches = [
     href: "/special-dispatch/facebook-banned-on-christmas-eve/",
     description:
       "Hacked, banned, and stuck in Meta's appeal maze? Christmas Eve ban, smoking gun, and the small-claims win.",
+    thumb: "/blog/special-dispatch-banned.jpg",
+    thumbAlt: "Special Dispatch № 01  -  Banned on Christmas Eve",
   },
 ];
 
@@ -33,25 +37,39 @@ const jsonLd = collectionPageJsonLd({
   title="Special Dispatch"
   description={description}
   canonical={canonical}
+  ogImage={ogImage}
   jsonLd={jsonLd}
 >
   <p class="section__label plate--subtitle">Indie Doc Journey</p>
   <h1 class="section__title">Special Dispatch</h1>
-  <p class="prose" style="margin-bottom: 2rem;">
-    Field reports from the Indie Doc Journey: the bans, the receipts, and the
-    fights worth documenting. Start with № 01.
+    <p class="prose" style="margin-bottom: 2rem;">
+    Special Dispatch is the Indie Doc Journey lane for Facebook ban and hacked-account recovery: the receipts, the appeal maze, and what actually moved the needle. Start with № 01, Banned on Christmas Eve, for the Christmas Eve exile, the smoking-gun login log, and the path that led to small claims.
   </p>
 
-  <ul class="post-list">
+  <ul class="post-grid">
     {
       dispatches.map((d) => (
         <li>
-          <a href={d.href}>
-            <p class="section__label" style="margin-bottom: 0.35rem;">
-              Special Dispatch № {d.num}
-            </p>
-            <h2 class="post-list__title">{d.title}</h2>
-            <p class="post-list__desc">{d.description}</p>
+          <a class="post-card" href={d.href}>
+            <div class="post-card__thumb">
+              <img
+                src={d.thumb}
+                alt={d.thumbAlt}
+                loading="lazy"
+                width="1200"
+                height="630"
+              />
+            </div>
+            <div class="post-card__body">
+              <span
+                class="badge"
+                style="background:var(--gw-red);border-color:var(--gw-red);color:var(--gw-cream)"
+                >Special Dispatch № {d.num}</span
+              >
+              <h2 class="post-card__title">{d.title}</h2>
+              <p class="post-card__desc">{d.description}</p>
+              <span class="post-card__more">Read →</span>
+            </div>
           </a>
         </li>
       ))

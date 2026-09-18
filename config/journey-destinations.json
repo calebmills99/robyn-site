@@ -1,0 +1,36 @@
+{
+  "chrome": {
+    "label": "Departures",
+    "h1": "Indie Doc Journey",
+    "dek": "Destinations along the making of Golden Wings.",
+    "stubLine": "GW · 18 STOPS · SPECIAL DISPATCH PRIORITY"
+  },
+  "specialDispatch": {
+    "destination": "Christmas Eve Ban",
+    "code": "DISP · 01",
+    "gateNote": "Survival map, smoking gun, Meta small-claims win.",
+    "cta": "BOARD",
+    "cover": "/blog/special-dispatch-banned.jpg",
+    "href": "/special-dispatch/facebook-banned-on-christmas-eve/"
+  },
+  "posts": [
+    {"id": "jonah-wrote-this-ws655-mlew4", "destination": "Star Wingz", "code": "GW · 01", "gateNote": "Regal DMs and a hard drive that said nope."},
+    {"id": "10-documentaries-that-will-inspire-and-transform-you", "destination": "Ten Docs", "code": "GW · 02", "gateNote": "Films that change how you look at people."},
+    {"id": "swedish-film-awards-winner", "destination": "Stockholm", "code": "GW · 03", "gateNote": "Hot rollers, Norse gods, Swedish laurels."},
+    {"id": "bhiff-here-we-come", "destination": "Beverly Hills", "code": "GW · 04", "gateNote": "BHIFF ticket in hand."},
+    {"id": "jdirector-statement", "destination": "Director's Desk", "code": "GW · 05", "gateNote": "Why this story stays airborne."},
+    {"id": "from-nickelodeon-to-the-sky-crafting-the-opening-for-golden-wings-documentary", "destination": "Nickelodeon Sky", "code": "GW · 06", "gateNote": "Opening sequence takes flight."},
+    {"id": "golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy", "destination": "NewsFest", "code": "GW · 07", "gateNote": "Milestones on the fifty-year path."},
+    {"id": "golden-wings-soars-website-anniversary-celebration-amp-first-look-at-our-new-3-minute-teaser", "destination": "Anniversary Marquee", "code": "GW · 08", "gateNote": "One year live. New teaser."},
+    {"id": "golden-wings-an-award-winning-documentary-on-family-legacy-and-aviation", "destination": "Laurels", "code": "GW · 09", "gateNote": "Family legacy, aviation, awards."},
+    {"id": "i-sued-meta-in-small-claims-court-and-won", "destination": "Meta Courthouse", "code": "GW · 10", "gateNote": "Small claims. Account back."},
+    {"id": "weight-loss-journey-golden-wings-documentary", "destination": "Student Project", "code": "GW · 11", "gateNote": "Class assignment becomes the film."},
+    {"id": "accidental-selfportraits-a-filmmakers-journey-through-time-and-memory", "destination": "Palma", "code": "GW · 12", "gateNote": "Official selection and accidental portraits."},
+    {"id": "making-a-no-budget-documentary", "destination": "No Budget", "code": "GW · 13", "gateNote": "Tripod, ring light, CR Smith Museum."},
+    {"id": "janice-engel-mentor-documentary", "destination": "Janice Engel", "code": "GW · 14", "gateNote": "Mentor who forced the ten-minute cut."},
+    {"id": "the-middle-seat-manifesto-a-survivors-guide-nnben-fmabn", "destination": "Middle Seat", "code": "GW · 15", "gateNote": "Survivor's guide to the worst seat."},
+    {"id": "life-meets-you-where-you-are", "destination": "Wrong Courthouse", "code": "GW · 16", "gateNote": "Tribute to speech coach Mr. Burns."},
+    {"id": "wrapping-up-the-holidays-and-diving-into-the-wonderful-world-of-mocha-masks-xetef-w45bk", "destination": "Mocha Masks", "code": "GW · 17", "gateNote": "Holidays end. Next adventure."},
+    {"id": "zucked-on-christmas-eve-part-1", "destination": "Zucked", "code": "GW · 18", "gateNote": "Facebook ban survival, part one."}
+  ]
+}

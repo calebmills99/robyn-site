@@ -1,0 +1,28 @@
+{
+  "$schema": "./watch-page.config.schema.json",
+  "slug": "stewardess-college-1968",
+  "path": "/stewardess-college-1968",
+  "title": "Stewardess College 1968",
+  "description": "Restored 1968 archival footage from American Airlines Stewardess College, the Fort Worth training world Robyn Stewart entered in 1971.",
+  "h1": "American Airlines Stewardess College",
+  "eyebrow": "Archive · 1968",
+  "body": "Robyn's training world: weight checks, girdle rules, the machine that made cabin crews. Shown through restored college footage from 1968.",
+  "video": {
+    "contentUrl": "/videos/archive/stewardess-college-1968.mp4",
+    "posterUrl": "/images/archive/GW50YFP_still_Stewardess_College_Footage_1968.png",
+    "mediaAlt": "Restored 1968 archival footage from American Airlines Stewardess College training in Fort Worth",
+    "uploadDate": "2026-09-13",
+    "duration": "PT0M36S",
+    "name": "American Airlines Stewardess College: restored 1968 archival footage",
+    "autoplay": false,
+    "muted": false,
+    "loop": false,
+    "controls": true
+  },
+  "ctas": [
+    { "label": "Millie Alford", "href": "/people/millie-alford", "style": "primary" },
+    { "label": "Robyn Stewart", "href": "/people/robyn-stewart", "style": "ghost" }
+  ],
+  "noWatchFilmCta": true,
+  "notes": "Google watch-page template. Primary purpose of the page = watch this one video. Drop media into public/videos and public/images, edit this JSON, copy the .astro template into src/pages/<slug>.astro (or generate from config)."
+}

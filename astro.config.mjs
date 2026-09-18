@@ -9,6 +9,12 @@ export default defineConfig({
   site: "https://golden-wings-robyn.com",
   integrations: [
     sitemap({
+      filter(page) {
+        // Public-face ban: Clown International Journey post (301 elsewhere).
+        return !page.includes(
+          "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+        );
+      },
       serialize(item) {
         item.lastmod = new Date();
         return item;

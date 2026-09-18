@@ -26,4 +26,4 @@ Millie graduated from the University of Montevallo in 1942, and the school gave 
 
 Robyn started Stewardess College on June 24, 1971. In her memory, Millie was more administrator than classroom teacher, and she handpicked the instructors who ran the school's interviews. Robyn remembers her as warm. Millie called the trainees "her girls" and came to every graduation, Robyn's included. She stood at the bottom of the staircase for the class photo, and that staircase is gone now.
 
-Millie's story is a Golden Wings segment in development and isn't in the current cut of the film.
+Millie's story is a Golden Wings segment in development and is not in the current cut of the film.
