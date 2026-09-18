@@ -303,6 +303,14 @@ function clearMd(dir) {
   }
 }
 
+function refreshExistingPage(slug) {
+  const filePath = path.join(DEST_PAGES, `${slug}.md`);
+  if (!fs.existsSync(filePath)) return false;
+  const { yaml } = processMarkdown(filePath, { isBlog: false });
+  fs.writeFileSync(filePath, yaml, "utf8");
+  return true;
+}
+
 function ingest() {
   const pagesDir = path.join(MIGRATION, "pages");
   const blogDir = path.join(MIGRATION, "blog");
@@ -318,6 +326,7 @@ function ingest() {
   };
 
   if (!migrationPresent(pagesDir) || !migrationPresent(blogDir)) {
+    refreshExistingPage("about-the-film");
     console.warn(
       `Migration content missing at ${MIGRATION}; keeping existing src/content/{pages,blog}.`,
     );
