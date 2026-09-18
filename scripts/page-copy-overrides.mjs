@@ -1,7 +1,7 @@
 export const PAGE_COPY_OVERRIDES = {
   film: {
     description:
-      "Golden Wings is a documentary about Robyn Stewart's 55-year American Airlines career and the family history around it.",
+      "Golden Wings is a documentary about Robyn Stewart's American Airlines career since 1971 and the family history around it.",
   },
   "about-the-film": {
     description:
