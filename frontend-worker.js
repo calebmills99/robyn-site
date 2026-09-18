@@ -36,6 +36,11 @@ export default {
     const url = new URL(request.url)
     const path = normalizePath(url.pathname)
 
+    // Parity Studio is local-dev only (Vite middleware). Never serve it from Workers.
+    if (path === '/__parity' || path.startsWith('/__parity/') || path === '/parity-studio' || path.startsWith('/parity-studio/')) {
+      return new Response('Not Found', { status: 404 })
+    }
+
     if (request.method === 'OPTIONS' && path.startsWith('/fonts/')) {
       return new Response(null, {
         status: 204,
