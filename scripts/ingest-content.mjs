@@ -317,8 +317,8 @@ function refreshExistingPage(slug) {
   const markdown = matter.stringify(
     (override.body ?? content).replace(/^\uFEFF/, "").replace(/^\n+/, "\n"),
     {
-      ...(override.frontmatter ?? {}),
       ...data,
+      ...(override.frontmatter ?? {}),
       description: override.description ?? data.description ?? "",
     },
   );
