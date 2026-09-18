@@ -21,7 +21,7 @@ BEHIND THE STORY
 
 ### History of our film
 
-Robyn Stewart has flown for American Airlines for 55 years. She began before the Boeing 747's first commercial flight and stayed through deregulation and September 11. She buried her husband Henry in Frankfurt, went through rehab, and returned to flying.
+Robyn Stewart has flown for American Airlines since 1971. She began before the Boeing 747's first commercial flight and stayed through deregulation and September 11. She buried her husband Henry in Frankfurt, went through rehab, and returned to flying.
 
 Robyn's parents, Jay and Maxine Ricks, raised her son Caleb while she flew. He called them Papa and Nana. Caleb first made the story as a nine-minute college project, then expanded it into Golden Wings.
 
