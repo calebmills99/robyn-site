@@ -272,19 +272,20 @@ function processMarkdown(filePath, { isBlog }) {
     /Sign up for the\.\s*App/gi,
     "Sign up for the Golden Wings App",
   );
+  description = description.trim();
 
   if (!isBlog) {
     ({ title, description, body } = applyPageCopyPolish({
       slug,
       title,
-      description: description.trim(),
+      description,
       body,
     }));
   }
 
   const frontmatter = {
     title,
-    description: description.trim(),
+    description,
     path: data.path || (isBlog ? `/indie-doc-journey/${slug}` : `/${slug === "home" ? "" : slug}`),
     sourceUrl: data.sourceUrl || "",
     canonical: data.canonical || "",
