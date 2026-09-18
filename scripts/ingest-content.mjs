@@ -355,6 +355,9 @@ function ingest() {
       fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), markdown, "utf8");
       pageCount++;
     }
+    for (const slug of Object.keys(PAGE_COPY_OVERRIDES)) {
+      refreshExistingPage(slug);
+    }
     console.log(`Ingested ${pageCount} pages → src/content/pages`);
   } else {
     const aboutPageStatus = refreshExistingPage("about-the-film");
