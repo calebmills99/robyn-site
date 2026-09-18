@@ -307,15 +307,17 @@ function clearMd(dir) {
 }
 
 function refreshExistingPage(slug) {
-  const filePath = path.join(DEST_PAGES, `${slug}.md`);
-  if (!fs.existsSync(filePath)) return false;
   const override = PAGE_COPY_OVERRIDES[slug];
   if (!override) return false;
-  const raw = fs.readFileSync(filePath, "utf8");
-  const { data, content } = matter(raw);
+  const filePath = path.join(DEST_PAGES, `${slug}.md`);
+  const hasFile = fs.existsSync(filePath);
+  const { data, content } = hasFile
+    ? matter(fs.readFileSync(filePath, "utf8"))
+    : { data: {}, content: "" };
   const markdown = matter.stringify(
     (override.body ?? content).replace(/^\uFEFF/, "").replace(/^\n+/, "\n"),
     {
+      ...(override.frontmatter ?? {}),
       ...data,
       description: override.description ?? data.description ?? "",
     },

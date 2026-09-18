@@ -1,5 +1,11 @@
 export const PAGE_COPY_OVERRIDES = {
   "about-the-film": {
+    frontmatter: {
+      title: "About the Film",
+      path: "/about-the-film",
+      sourceUrl: "https://www.golden-wings-robyn.com/about-the-film",
+      canonical: "https://www.golden-wings-robyn.com/about-the-film",
+    },
     description:
       "Golden Wings: Stewardess to Sky Queen is a documentary by Caleb Mills Stewart about his mother, American Airlines flight attendant Robyn Stewart, and three generations of one family at American Airlines.",
     body: `
