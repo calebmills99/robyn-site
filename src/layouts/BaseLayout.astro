@@ -36,10 +36,12 @@ const pageTitle =
     : `${title} | Golden Wings`);
 
 const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
-const canonicalPath = pathname === "/" ? "/" : pathname;
+/** Prefer trailing slash to match live URLs + sitemap. */
+const withSlash = (path: string) =>
+  path === "/" ? "/" : path.endsWith("/") ? path : `${path}/`;
 const canonical =
   canonicalProp ||
-  (canonicalPath === "/" ? `${SITE}/` : `${SITE}${canonicalPath}`);
+  (pathname === "/" ? `${SITE}/` : `${SITE}${withSlash(pathname)}`);
 
 const ogImageUrl = ogImage.startsWith("http")
   ? ogImage

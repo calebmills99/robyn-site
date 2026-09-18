@@ -20,11 +20,14 @@ const title = String(post.data.title)
   .replace(/\b(Fifty|50)\s*Year\s*Flight\s*Path\b/gi, "Golden Wings")
   .trim();
 const description = (post.data.description || title).trim();
-const path = `/indie-doc-journey/${post.id}`;
+const path = `/indie-doc-journey/${post.id}/`;
+/** Exact SERP title when migration already includes brand suffix. */
+const fullTitle = /\|/.test(title) ? title : undefined;
 ---
 
 <BaseLayout
   title={title}
+  fullTitle={fullTitle}
   description={description}
   ogType="article"
   jsonLd={blogPostingJsonLd({ title, description, url: path })}
