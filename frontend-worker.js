@@ -1,5 +1,5 @@
 /**
- * Golden Wings Robyn — static asset Worker + Phase 3 redirects.
+ * Golden Wings Robyn - static asset Worker + Phase 3 redirects.
  * Redirect map is DRY-RUN / staging until Phase 4 Bulk Redirect apply.
  */
 import redirects from './redirects.json'
@@ -18,15 +18,46 @@ function resolveTarget(requestUrl, target) {
   return u.toString()
 }
 
+function withFontCors(response) {
+  const headers = new Headers(response.headers)
+  headers.set('Access-Control-Allow-Origin', '*')
+  headers.set('Access-Control-Allow-Methods', 'GET, HEAD, OPTIONS')
+  headers.set('Cross-Origin-Resource-Policy', 'cross-origin')
+  headers.set('Cache-Control', 'public, max-age=31536000, immutable')
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  })
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url)
     const path = normalizePath(url.pathname)
+
+    if (request.method === 'OPTIONS' && path.startsWith('/fonts/')) {
+      return new Response(null, {
+        status: 204,
+        headers: {
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Methods': 'GET, HEAD, OPTIONS',
+          'Access-Control-Allow-Headers': '*',
+          'Access-Control-Max-Age': '86400',
+        },
+      })
+    }
+
     const rule = redirects[path]
     if (rule) {
       const location = resolveTarget(request.url, rule.target)
       return Response.redirect(location, rule.status || 301)
     }
-    return env.ASSETS.fetch(request)
-  }
+
+    const asset = await env.ASSETS.fetch(request)
+    if (path.startsWith('/fonts/')) {
+      return withFontCors(asset)
+    }
+    return asset
+  },
 }

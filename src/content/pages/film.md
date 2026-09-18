@@ -1,6 +1,6 @@
 ---
 title: Film
-description: '"Explore Golden Wings, a documentary about Robyn Stewart'
+description: Golden Wings, a documentary about Robyn Stewart's 55 years as an American Airlines flight attendant.
 path: /film
 sourceUrl: 'https://www.golden-wings-robyn.com/film'
 canonical: 'https://www.golden-wings-robyn.com/film'

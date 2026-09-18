@@ -1,23 +1,52 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { getEntry, render } from "astro:content";
+import { webPageJsonLd } from "../lib/seo";
 
-const entry = await getEntry("pages", "optin");
-if (!entry) throw new Error("Missing content: pages/optin");
-const { Content } = await render(entry);
+const description =
+  "Find Your Wings. Join the Golden Wings list on gwingz.com, or email us for updates.";
 ---
 
 <BaseLayout
-  title={entry.data.title}
-  description={entry.data.description || "SMS opt-in for Golden Wings updates."}
+  title="Sign Up"
+  description={description}
+  jsonLd={webPageJsonLd({
+    name: "Sign Up",
+    description,
+    url: "/optin",
+  })}
 >
-  <article class="prose optin-box">
-    <Content />
-  </article>
-  <div class="hero__ctas" style="margin-top: 2rem;">
-    <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
-      >Continue to gwingz.com</a
-    >
-    <a class="btn btn--ghost" href="/privacy-policy">Privacy Policy</a>
-  </div>
+  <section class="optin-box">
+    <h1 class="section__title">Join the list</h1>
+    <p class="script page-motto">Find Your Wings</p>
+    <p class="prose">
+      Screening and updates live on gwingz.com. Prefer email? Write
+      info@golden-wings-robyn.com and we will get back to you.
+    </p>
+    <div class="hero__ctas" style="margin-top: 1.75rem;">
+      <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
+        >Continue to gwingz.com</a
+      >
+      <a class="btn btn--ghost" href="mailto:info@golden-wings-robyn.com"
+        >Email us</a
+      >
+    </div>
+
+    <div class="prose" style="margin-top: 2.5rem;">
+      <h2>SMS updates</h2>
+      <p>
+        If you opt in to texts from Golden Wings, you consent to receive
+        automated messages about screenings and special events at the number you
+        provide. Message frequency may vary. Message and data rates may apply.
+      </p>
+      <ul>
+        <li>Reply STOP to cancel anytime.</li>
+        <li>Reply HELP or call 562-523-9620 for help.</li>
+        <li>
+          We do not sell your information. See our
+          <a href="/privacy-policy">Privacy Policy</a> and
+          <a href="/terms-of-use">Terms of Use</a>.
+        </li>
+      </ul>
+    </div>
+  </section>
 </BaseLayout>

@@ -1,0 +1,76 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { webPageJsonLd } from "../lib/seo";
+
+const title = "Stewardess College 1968";
+const description =
+  "Restored 1968 archival footage from American Airlines Stewardess College, the Fort Worth training world Robyn Stewart entered in 1971.";
+const path = "/stewardess-college-1968";
+
+const collegePoster =
+  "/images/archive/GW50YFP_still_Stewardess_College_Footage_1968.png";
+const collegeVideo = "/videos/archive/stewardess-college-1968.mp4";
+const collegeMediaAlt =
+  "Restored 1968 archival footage from American Airlines Stewardess College training in Fort Worth";
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  ogImage={collegePoster}
+  jsonLd={webPageJsonLd({
+    name: title,
+    description,
+    url: path,
+    about: {
+      "@type": "Movie",
+      name: "Golden Wings: Stewardess to Sky Queen",
+      alternateName: "Golden Wings",
+    },
+  })}
+>
+  <section class="section" aria-labelledby="college-page-heading">
+    <p class="section__label plate--subtitle">Archive · 1968</p>
+    <h1 id="college-page-heading" class="section__title">
+      American Airlines Stewardess College
+    </h1>
+    <div class="prose" style="margin-top: 1.25rem;">
+      <p>
+        Robyn's training world: weight checks, girdle rules, the machine that
+        made cabin crews. Shown through restored college footage from 1968.
+      </p>
+    </div>
+
+    <div class="archive-plate__frame archive-plate__frame--page">
+      <div class="archive-plate__media">
+        <video
+          class="archive-plate__video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster={collegePoster}
+          aria-label={collegeMediaAlt}
+          controls
+        >
+          <source src={collegeVideo} type="video/mp4" />
+        </video>
+        <img
+          class="archive-plate__poster"
+          src={collegePoster}
+          alt={collegeMediaAlt}
+          width="1635"
+          height="925"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+
+    <div class="hero__ctas" style="margin-top: 2rem;">
+      <a class="btn btn--primary" href="/people/millie-alford">Millie Alford</a>
+      <a class="btn btn--ghost" href="/people/robyn-stewart">Robyn Stewart</a>
+    </div>
+  </section>
+</BaseLayout>

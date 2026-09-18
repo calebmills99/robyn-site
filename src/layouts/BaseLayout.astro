@@ -1,8 +1,10 @@
 ---
 import "../styles/global.css";
+import "../styles/ds-2026.css";
 
 interface Props {
   title?: string;
+  fullTitle?: string;
   description?: string;
   /** Absolute URL override; defaults to self-referencing site URL for this path. */
   canonical?: string;
@@ -16,12 +18,14 @@ interface Props {
 }
 
 const SITE = "https://golden-wings-robyn.com";
+const FAVICON_CACHE = "a1ace0d";
 const DEFAULT_OG_IMAGE = `${SITE}/images/title-logo.png`;
 const DEFAULT_DESCRIPTION =
   "Golden Wings, an award-winning aviation documentary following Robyn Stewart's 55-year career as a flight attendant, told by her son Caleb Mills Stewart.";
 
 const {
   title = "Golden Wings",
+  fullTitle,
   description = DEFAULT_DESCRIPTION,
   canonical: canonicalProp,
   home = false,
@@ -31,9 +35,10 @@ const {
 } = Astro.props;
 
 const pageTitle =
-  title === "Golden Wings"
+  fullTitle ||
+  (title === "Golden Wings"
     ? "Golden Wings / Fifty Year Flight Path"
-    : `${title} · Golden Wings`;
+    : `${title} · Golden Wings`);
 
 const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
 const canonicalPath = pathname === "/" ? "/" : pathname;
@@ -45,22 +50,27 @@ const ogImageUrl = ogImage.startsWith("http")
   ? ogImage
   : `${SITE}${ogImage.startsWith("/") ? ogImage : `/${ogImage}`}`;
 
-const jsonLdBlocks = jsonLd
-  ? Array.isArray(jsonLd)
-    ? jsonLd
-    : [jsonLd]
-  : [];
+const jsonLdBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
 
 const nav = [
   { href: "/film", label: "Film" },
   { href: "/about-the-film", label: "About" },
   { href: "/people", label: "People" },
   { href: "/indie-doc-journey", label: "Journey" },
+  { href: "/press-kit", label: "Press Kit" },
   { href: "/contact", label: "Contact" },
 ];
 
 function isCurrent(href: string) {
   if (href === "/") return pathname === "/";
+  if (href === "/indie-doc-journey") {
+    return (
+      pathname === href ||
+      pathname.startsWith(href + "/") ||
+      pathname === "/special-dispatch" ||
+      pathname.startsWith("/special-dispatch/")
+    );
+  }
   return pathname === href || pathname.startsWith(href + "/");
 }
 ---
@@ -86,17 +96,13 @@ function isCurrent(href: string) {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImageUrl} />
 
-    {
-      jsonLdBlocks.map((block) => (
-        <script
-          type="application/ld+json"
-          set:html={JSON.stringify(block)}
-        />
-      ))
-    }
+    {jsonLdBlocks.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
 
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" href={"/favicon.ico?v=" + FAVICON_CACHE} sizes="any" />
+    <link rel="icon" type="image/svg+xml" href={"/favicon.svg?v=" + FAVICON_CACHE} />
+    <link rel="preload" href="/fonts/Airstream.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -115,25 +121,15 @@ function isCurrent(href: string) {
         </a>
         <nav aria-label="Primary">
           <ul class="nav">
-            {
-              nav.map((item) => (
-                <li>
-                  <a
-                    href={item.href}
-                    aria-current={isCurrent(item.href) ? "page" : undefined}
-                  >
-                    {item.label}
-                  </a>
-                </li>
-              ))
-            }
+            {nav.map((item) => (
+              <li>
+                <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>
+                  {item.label}
+                </a>
+              </li>
+            ))}
             <li>
-              <a
-                class="nav-cta"
-                href="https://gwingz.com"
-                rel="noopener noreferrer"
-                >Watch</a
-              >
+              <a class="nav-cta" href="https://gwingz.com" rel="noopener noreferrer">Watch</a>
             </li>
           </ul>
         </nav>
@@ -149,11 +145,10 @@ function isCurrent(href: string) {
         <div class="site-footer__brand">
           <p class="site-footer__title">Golden Wings</p>
           <p class="site-footer__sub">Fifty Year Flight Path</p>
-          <p class="site-footer__copy">
-            © 2026 Get Booked Studio / Gwingz
-          </p>
+          <p class="site-footer__copy">© 2026 Get Booked Studio / Gwingz</p>
         </div>
         <nav aria-label="Contact and legal" class="site-footer__nav">
+          <a href="/press-kit">Press Kit</a>
           <a href="mailto:caleb@golden-wings-robyn.com">caleb@golden-wings-robyn.com</a>
           <a href="mailto:info@golden-wings-robyn.com">info@golden-wings-robyn.com</a>
           <a href="/privacy-policy">Privacy</a>

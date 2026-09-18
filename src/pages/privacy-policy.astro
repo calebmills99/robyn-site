@@ -1,15 +1,24 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getEntry, render } from "astro:content";
+import { webPageJsonLd } from "../lib/seo";
 
 const entry = await getEntry("pages", "privacy-policy");
 if (!entry) throw new Error("Missing content: pages/privacy-policy");
 const { Content } = await render(entry);
+
+const description =
+  entry.data.description || "Privacy Policy for Golden Wings.";
 ---
 
 <BaseLayout
   title={entry.data.title}
-  description={entry.data.description || "Privacy Policy for Golden Wings."}
+  description={description}
+  jsonLd={webPageJsonLd({
+    name: entry.data.title,
+    description,
+    url: "/privacy-policy",
+  })}
 >
   <article class="prose">
     <Content />

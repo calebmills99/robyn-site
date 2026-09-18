@@ -1,0 +1,461 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800;900&amp;family=Lato:wght@400;700;900&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<style>
+.dbor-magazine{box-sizing:border-box;-webkit-font-smoothing:antialiased;font-size:16px !important;line-height:1.6 !important;max-width:100% !important;}
+.dbor-magazine *{box-sizing:border-box;}
+.dbor-magazine a{color:inherit;}
+.dbor-magazine ::selection{background:#eb19cc;color:#fff;}
+.dbor-magazine em,.dbor-magazine i{font-style:normal;font-weight:600;}
+.dbor-magazine p{margin:0;}
+.dbor-magazine p:not([style*="font-size"]),.dbor-magazine li:not([style*="font-size"]),.dbor-magazine blockquote:not([style*="font-size"]),.dbor-magazine figcaption:not([style*="font-size"]){font-size:inherit !important;line-height:inherit !important;}
+.dbor-magazine [style*="italic"]{font-style:normal !important;}
+@font-face{font-family:'Akira Expanded';src:url('https://indiedocjourney.com/wp-content/uploads/2026/07/Akira-Expanded-Super-Bold.woff') format('woff');font-weight:400 900;font-display:swap;}
+@media (max-width:859px){.dbor-magazine{zoom:.7;zoom:calc(100vw / 816);}}
+@media (max-width:600px){.dbor-magazine{zoom:.5;zoom:calc(100vw / 816);}}
+@media (min-width:1080px){.dbor-magazine{zoom:1.25;position:relative;left:50%;transform:translateX(-50%);margin-left:0 !important;max-width:none !important;}}
+@media print{.dbor-magazine{margin:0 !important;box-shadow:none !important;}}
+</style>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;flex-direction:column;overflow:hidden;">
+  <div style="display:flex;justify-content:space-between;align-items:center;padding:18px 36px;border-bottom:1px solid rgba(244,238,225,.22);font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;">
+    <span>Indie Doc Journey</span>
+    <span style="color:#f5c518;">Dispatch № 02 · Part Two</span>
+    <span>Summer 2026</span>
+  </div>
+  <div style="background:linear-gradient(180deg, rgba(255,250,235,.20), rgba(108,70,0,.22)), url('https://indiedocjourney.com/wp-content/uploads/2026/07/gold-leaf.png') center/cover no-repeat;position:relative;z-index:1;padding:46px 40px 40px;overflow:hidden;flex:1;display:flex;flex-direction:column;">
+    <img src="https://indiedocjourney.com/wp-content/uploads/2026/07/pink_dico_ball.png" alt="Pink disco ball glowing over the cover" style="position: absolute; top: -22px; right: 2px; width: 280px; height: auto; z-index: 0; filter: drop-shadow(rgba(235, 25, 204, 0.65) 0px 0px 26px) drop-shadow(rgba(235, 25, 204, 0.4) 0px 0px 70px); pointer-events: none;">
+    
+    <div style="position:relative;z-index:2;max-width:560px;">
+      <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#06297a;text-shadow:0 1px 3px rgba(0,0,0,.4);margin-bottom:18px;">The Autopsy · The Court Case · The Ball of Rights</div>
+      <div style="box-sizing: border-box; display: flex; flex-direction: column; gap: 12px"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/digital-ball-of-rights-sparkle.png" alt="Digital Ball of Rights" style="display: block; width: 100%; max-width: 540px; height: auto; margin: 0; border: 3px solid rgba(255,255,255,.55); box-shadow: 0 8px 26px rgba(0,0,0,.32)"></div>
+      
+      <div style="font-family: 'Akira Expanded', sans-serif; font-weight: 900; font-size: 46px; line-height: 1; letter-spacing: 0; color: #5651ff; margin: 22px 0 0; text-shadow: 0px 2px 4px #000000; height: auto">A Funifesto</div>
+      <div style="font-family: 'Lato',sans-serif; font-size: 23px; color: #231a05; margin-top: 18px; max-width: 500px; position: relative"><b style="color: #dbe6ff; font-family: Montserrat; text-shadow: 0 2px 4px rgba(0,0,0,.55); top: 198px; left: 11px">A Facebook ban, a digital auto-autopsy, and a small-claims showdown. Plus, seven rights worth throwing a ball over. Settle in for the saga of my 381-days of exile and my hard won return to Facebook.</b></div><div style="display:inline-block;font-family:'Archivo',sans-serif;font-size:11px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#2a1414;text-shadow:0 1px 2px rgba(0,0,0,.3);background:linear-gradient(90deg,#c8a1a0,rgba(200,161,160,.35));padding:8px 14px;margin-top:26px;">Words &amp; Receipts by Caleb Mills Stewart</div>
+    </div><div style="position:relative;z-index:2;margin-top:auto;padding-top:30px;">
+      <div style="background:#041d5c;box-shadow:0 8px 24px rgba(0,0,0,.3);"><img src="https://indiedocjourney.com/wp-content/uploads/2026/06/ElevenLabs_image_gpt-image-2_Were-not-a-reg_2026-06-19T10_01_48-1.png" alt="Friends toasting a laptop, because we're not a regular blog, we're a cool blog" style="width:100%;display:block;"></div>
+    </div>
+  </div>
+  <div style="background:#f5c518;color:#06297a;text-align:center;padding:18px 24px;font-family:'Archivo',sans-serif;font-weight:900;font-size:32px;letter-spacing:.02em;text-transform:uppercase;">Get in, we're going rights shopping.</div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:60px 64px 70px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:40px;"><span>Indie Doc Journey · Part Two</span><span>02</span></div>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;margin-bottom:16px;">Editor's Note</div>
+  <p style="font-family:'Roboto',sans-serif;font-weight:500;font-size:21px;line-height:1.62;color:#231a05;margin:0 0 36px;">Missed how this nightmare started? Catch up on <a href="https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/" style="color:#06297a;">Part 1: The Meta Ban Survival Playbook</a>, the Christmas Eve Facebook ban, the cookie-theft smoking gun, and Macho Zuck himself. This is Part 2: the autopsy, the court case, and your official invite to the event of the millennium, Lady Justice's Digital Ball (not bill) of Rights.</p>
+  <figure style="margin:0 0 32px;display:flex;flex-direction:column;align-items:center;gap:12px;">
+    <img src="https://indiedocjourney.com/wp-content/uploads/2026/03/sparky.jpeg" alt="Sparky, last seen in Part 1" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:210px;">
+    <figcaption style="font-family:'Archivo',sans-serif;font-size:11px;font-weight:800;letter-spacing:.2em;text-transform:uppercase;color:#9a917c;text-align:center;">In memoriam: my innocence, et al.</figcaption>
+  </figure>
+  <div style="border-top:2px solid #06297a;padding-top:26px;">
+    <div style="font-family:'Lato',sans-serif;font-weight:900;font-size:30px;color:#06297a;margin-bottom:24px;">In This Issue</div>
+    <div style="display:grid;grid-template-columns:auto 1fr auto;gap:14px 18px;font-family:'Archivo',sans-serif;font-size:15px;align-items:baseline;">
+      <span style="color:#eb19cc;font-weight:800;">I</span><span style="font-weight:700;color:#06297a;">Facebook Edu: The Land Before the Ban</span><span style="color:#9a917c;">03</span>
+      <span style="color:#eb19cc;font-weight:800;">II</span><span style="font-weight:700;color:#06297a;">A Digital Autopsy</span><span style="color:#9a917c;">08</span>
+      <span style="color:#eb19cc;font-weight:800;">III</span><span style="font-weight:700;color:#06297a;">David v. Digital Goliath</span><span style="color:#9a917c;">13</span>
+      <span style="color:#eb19cc;font-weight:800;">IV</span><span style="font-weight:700;color:#06297a;">The Trial &amp; Zucked Back to Life</span><span style="color:#9a917c;">18</span>
+      <span style="color:#eb19cc;font-weight:800;">V</span><span style="font-weight:700;color:#06297a;">The Digital Ball of Rights</span><span style="color:#9a917c;">24</span>
+      <span style="color:#eb19cc;font-weight:800;">VI</span><span style="font-weight:700;color:#06297a;">TRAF: The Jenna Maroney Profile</span><span style="color:#9a917c;">28</span>
+    </div>
+  </div>
+  <p style="font-family:'Lato',sans-serif;font-size:22px;color:#7a6a45;margin:auto 0 0;text-align:center;">"Blind, fabulous, and weighing your data against a disco ball."</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>I · Facebook Edu</span><span>03</span></div>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;margin-bottom:10px;">Facebook edu</div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:46px;line-height:1.02;letter-spacing:-.01em;color:#06297a;margin:0 0 22px;">The land before the Facebook ban</h2>
+  <div style="background:#06297a;overflow:hidden;margin-bottom:24px;"><img src="https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/FB-Land-Before-Time-1024x572.jpeg?quality=72&amp;w=1000" alt="Dinosaurs gathered at a glowing portal, the land before the Facebook ban" loading="lazy" style="width:100%;display:block;"></div>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;"><span style="float:left;font-family:'Lato',sans-serif;font-weight:900;font-size:64px;line-height:.72;padding:6px 10px 0 0;color:#eb19cc;">B</span>ack in 2007, Facebook was the Digital Xanadu. It was a warm little island where normal people organized cool parties, and then the parties actually happened, like a lost season of <em>Happy Days</em> that somehow had Wi-Fi. People liked each other. People tagged each other. This is not nostalgia. This is an ontological fact, like gravity, or how every bar in Los Feliz has a candle that smells like "therapy."</p>
+    <p style="margin:0 0 16px;">Facebook Events used to mean one thing. Party. Now "FB Event" conjures images of crisis management, Amway and militia recruitment. Right now most of them are like this:</p>
+    <p style="margin:0 0 16px;font-family:'Roboto',sans-serif;font-size:18px;line-height:1.4;color:#9c1f8e;border-left:4px solid #eb19cc;padding-left:16px;">"Come to my cousin's live stream where he explains the ties between nootropics and homosexual amphibians."</p>
+    <p style="margin:0 0 16px;">Now when you scroll Facebook you'll see 900 comments that read like <em>All in the Family</em> got trapped inside an iPad with Russian-bot Al Bundy and the next Ted Bundy.</p>
+    <p style="margin:0;">But back in 2005, you clicked "Attending" and you attended. It was like <em>Superbad</em> but without the third act where everyone cries and vomits behind a Honda Civic. You showed up, saw people you recognized from profile photos taken on a Motorola Razr, drank something out of a red cup, and felt briefly like your life made sense.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>I · Facebook Edu</span><span>04</span></div>
+  <div style="background:#06297a;overflow:hidden;margin-bottom:12px;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/LOST_EDEN_AI.png" alt="House party from the 2007 Facebook era, before the ban" loading="lazy" style="width:100%;max-height:280px;object-fit:cover;display:block;"></div>
+  <p style="font-family:'Archivo',sans-serif;font-size:11.5px;line-height:1.4;color:#6b6450;margin:0 0 26px;">A lively house party gathers around a screen displaying a Facebook invite. No Facebook ban in sight. <strong style="color:#06297a;">Facebook: The Lost Eden.</strong></p>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;margin-bottom:10px;">Reality erosion</div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:1.05;color:#06297a;margin:0 0 20px;">Jughead Zuckerberg &amp; the signs of reality erosion</h2>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">At the center of it all was Zuckerberg, who at the time felt like Jughead. (Not from the comic, from the cool teen melodrama <em>Riverdale</em>.) Socially odd, weirdly earnest, constantly hungry: for more sign-ups to his Social Network, the same network that would, two decades later, <a href="https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/" style="color:#9c1f8e;text-decoration:underline;">permanently disable my 22-year-old account on Christmas Eve</a>.</p>
+    <p style="margin:0;">Here is my imitation of a modern Facebook post to explain:</p>
+  </div>
+  <figure style="margin:24px 0 0;background:#06297a;color:#f5c518;padding:20px 24px 16px;display:flex;gap:22px;align-items:stretch;">
+    <div style="flex:0 0 185px;display:flex;flex-direction:column;gap:8px;">
+      <div style="flex:1;min-height:0;background:#04205f;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/zuckerjug.avif" alt="Jughead Zuckerberg" loading="lazy" style="width:100%;height:100%;object-fit:contain;display:block;"></div>
+      <div style="font-family:'Archivo',sans-serif;font-size:10px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#9fb4e8;">Jughead Zuckerberg, artist's rendering</div>
+    </div>
+    <div style="flex:1;min-width:0;display:flex;flex-direction:column;justify-content:space-between;">
+    <blockquote style="margin:0;font-family:'Roboto',sans-serif;font-size:15px;line-height:1.45;color:#f4eee1;">So Facebook was Riverdale but it was also Happy Days, a show set in an idealized 1950s. Just like Riverdale, the main character, Archie Cunningham, had a dumb best friend named Potsy.<br><br>Potsy is a low-rent Jughead, by the way, and Archie Cunningham being named Archie was the first sign of reality erosion. That redundancy was the first little hairline crack, like when your funny friend Manny starts insisting he has always been called Lenny and suddenly you are not in a memory. You are in the Mandela Effect with a two-drink minimum and an unshakable feeling the timeline has been edited by a Bearenstain (stein?) Bear.</blockquote>
+    <figcaption style="font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#c2f104;margin-top:14px;">Fictional Facebook Diatribe</figcaption>
+    </div>
+  </figure>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>I · Facebook Edu</span><span>05</span></div>
+  <div style="background:#06297a;overflow:hidden;margin-bottom:26px;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/boomerdome.png" alt="Boomer Thunderdome, an arena built from Facebook arguments" loading="lazy" style="width:100%;display:block;"></div>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;margin-bottom:10px;">Boomer Thunderdome</div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:1.05;color:#06297a;margin:0 0 20px;">Facebook, a.k.a. the Boomer Thunderdome</h2>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">That is how it goes. First the names get slippery. Then the vibes get slippery. Then your grandparents join. Presently, Facebook is the place you go to watch Boomers scream at everybody and no one. In reality, they are screaming at themselves. It's like <em>Who's Afraid of Virginia Woolf?</em> except the set is a comment section under a local news story about a sinkhole.</p>
+    <p style="margin:0 0 16px;">I have a theory: Boomers missed their own online cringe era. Nobody archived their AIM away-message poetry. Nobody ratioed their "I'm just being honest" phase. So now they are doing it at 67, in public, with the confidence of a person who has never been screenshot by a goth furry and does not know that is a thing that happens.</p>
+    <p style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">Romanticizing the ex</p>
+    <p style="margin:0;">When the Facebook ban hit, I did what any sane person does when a long relationship ends. I romanticized the beginning. In my head, Facebook turned back into the 2007 version, like an ex from college. I wanted the parties. And the feeling that my life was archived somewhere safe. I did not want what Facebook is now, essentially a wasteland of angst and whatever gross AI-generated thing the algorithm coughs up to monetize the human dopamine delivery system so Meta can hit their Q3 numbers.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;flex-direction:column;overflow:hidden;">
+  <div style="position:relative;">
+    <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/golden-wings-an-indie-doc-adventure-no-less-6a2c8f554478c.png?quality=72&amp;w=1000" alt="Lady Justice in a gold gown weighing disco balls" loading="lazy" style="width:100%;display:block;max-height:500px;object-fit:cover;object-position:center 22%;">
+    <div style="position:absolute;left:0;right:0;bottom:0;padding:30px 40px;background:linear-gradient(0deg,rgba(6,41,122,.94),transparent);">
+      <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#c2f104;">A Rogue's Gallery</div>
+      <p style="font-family:'Roboto',sans-serif;font-size:20px;margin:8px 0 0;color:#e9e3d2;">The worst thing about going through my Facebook autopsy report was having a look at this mug.</p>
+    </div>
+  </div>
+  <div style="padding:30px 40px 40px;flex:1;display:flex;flex-direction:column;justify-content:center;">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:12px;">
+      <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam17-847x1024.png?ssl=1&amp;w=600&amp;quality=68" alt="Fancam still from the Facebook ban saga" loading="lazy" style="width:100%;height:150px;object-fit:cover;filter:sepia(.25) contrast(1.05);">
+      <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam5.png?ssl=1&amp;w=600&amp;quality=68" alt="Fancam still from the saga" loading="lazy" style="width:100%;height:150px;object-fit:cover;filter:sepia(.25) contrast(1.05);">
+      <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam7.jpg?ssl=1&amp;w=600&amp;quality=68" alt="Fancam still from the saga" loading="lazy" style="width:100%;height:150px;object-fit:cover;filter:sepia(.25) contrast(1.05);">
+      <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam14-1024x1024.jpg?ssl=1&amp;w=600&amp;quality=68" alt="Fancam still from the Facebook ban saga" loading="lazy" style="width:100%;height:150px;object-fit:cover;filter:sepia(.25) contrast(1.05);">
+      <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam1-1024x544.jpg?ssl=1&amp;w=600&amp;quality=68" alt="Fancam still from the saga" loading="lazy" style="width:100%;height:150px;object-fit:cover;filter:sepia(.25) contrast(1.05);">
+      <img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/fancam15-Copy-577x1024.jpg?ssl=1&amp;w=600&amp;quality=68" alt="Fancam still from the saga" loading="lazy" style="width:100%;height:150px;object-fit:cover;filter:sepia(.25) contrast(1.05);">
+    </div>
+    <p style="font-family:'Lato',sans-serif;font-size:22px;text-align:center;color:#f5c518;margin:26px 0 0;">Images found in the zip file after the Facebook ban.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:60px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:48px;"><span>II · The Investigation</span><span>08</span></div>
+  <div style="text-align:center;margin-bottom:40px;">
+    <div style="font-family:'Archivo',sans-serif;font-size:13px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:#b3850a;margin-bottom:16px;">The Investigation</div>
+    <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:62px;line-height:.98;color:#06297a;margin:0;">A Digital Autopsy</h2>
+  </div>
+  <p style="font-size:18px;line-height:1.62;margin:0 0 20px;">Here's where Meta accidentally does something useful.</p>
+  <p style="font-size:18px;line-height:1.62;margin:0 0 18px;">When your account is disabled, they let you keep the corpse. Yes. They deliver your lifeless digital identity back to you in the form of a zip file. Inside it is everything.</p>
+  <ul style="font-size:18px;line-height:1.5;margin:0 0 22px;padding-left:0;list-style:none;">
+    <li style="padding:9px 0 9px 26px;border-bottom:1px solid #e1d8c2;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Every post.</li>
+    <li style="padding:9px 0 9px 26px;border-bottom:1px solid #e1d8c2;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Every comment.</li>
+    <li style="padding:9px 0 9px 26px;border-bottom:1px solid #e1d8c2;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Every picture / video.</li>
+    <li style="padding:9px 0 9px 26px;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Every poke (remember those?).</li>
+  </ul>
+  <p style="font-family:'Lato',sans-serif;font-size:30px;line-height:1.2;color:#06297a;margin:auto 0 0;">A full archive of your digital self.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:50px 50px;">
+  <img src="https://indiedocjourney.com/wp-content/uploads/2026/03/the-funeral.png" alt="Funeral procession for a banned Facebook account" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:880px;">
+  <p style="font-family:'Archivo',sans-serif;font-size:12px;letter-spacing:.04em;color:#a9b6e0;margin:24px 0 0;text-align:center;max-width:560px;">Twenty-two years of digital life, reduced to a zip file, and handed back as a corpse.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>II · The Investigation</span><span>09</span></div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:1.05;color:#06297a;margin:0 0 22px;">The smoking gun was the login log</h2>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">More importantly, they include a detailed log of every time you've ever logged in. They also show the IP addresses linked to those logins.</p>
+    <p style="margin:0 0 16px;">That file was the smoking gun. Buried in the login data was clear evidence of unauthorized access. IP addresses from locations I'd never been. Login times when I was provably elsewhere. Geographic impossibilities that would have required me to teleport between continents.</p>
+    <p style="margin:0 0 16px;">So the data told a clear story. Someone had gained unauthorized access through <a href="https://owasp.org/www-community/attacks/Session_hijacking_attack" style="color:#9c1f8e;text-decoration:underline;">session-token theft</a>, the same stolen-credentials horror show I unpacked in <a href="https://indiedocjourney.com/2025/02/17/ghosting-and-passwords-a-modern-tale/" style="color:#9c1f8e;text-decoration:underline;">my modern tale of ghosting and passwords</a>.</p>
+    <p style="margin:0 0 16px;">Here's how cookie theft actually works, minus the jargon. When you log in, the site hands your browser a little cryptographic file, a session cookie, that works like the VIP wristband you get after the bouncer checks your ID. Every time you click around, the site just glances at the wristband instead of asking for your password again.</p>
+    <p style="margin:0 0 16px;">A hacker doesn't storm Meta's billion-dollar servers; they steal <em>your</em> wristband, usually through something dumb like a sketchy "dark mode" browser extension that quietly copies your cookies and ships them overseas. Then they paste it into their own browser, Facebook sees a valid wristband, and waves them past your password <em>and</em> your two-factor. That's why 2FA didn't save me: it guards the front door, and the thief climbed in through a window I didn't know was open.</p>
+    <p style="margin:0;">As a result, my account was automatically disabled by their security systems. In other words, Facebook banned me for being the victim of a crime. Still, the real tragedy was in the content itself.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:50px;">
+  <img src="https://indiedocjourney.com/wp-content/uploads/2026/07/yougotthisdude.avif" alt="You got this, dude" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:900px;">
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>II · The Investigation</span><span>11</span></div>
+  <h3 style="font-family:'Lato',sans-serif;font-size:24px;line-height:1.25;color:#06297a;margin:0 0 22px;;font-weight:400">Twenty-two years of digital life, reduced to a zip file.</h3>
+  <ul style="font-size:16px;line-height:1.45;margin:0 0 22px;padding-left:0;list-style:none;column-count:2;column-gap:38px;">
+    <li style="padding:7px 0 7px 22px;position:relative;break-inside:avoid;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>My first pictures with my nieces and nephews.</li>
+    <li style="padding:7px 0 7px 22px;position:relative;break-inside:avoid;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Messages of support during my darkest moments of addiction recovery.</li>
+    <li style="padding:7px 0 7px 22px;position:relative;break-inside:avoid;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Congratulations on career milestones.</li>
+    <li style="padding:7px 0 7px 22px;position:relative;break-inside:avoid;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Condolences after my dad passed away in 2014.</li>
+    <li style="padding:7px 0 7px 22px;position:relative;break-inside:avoid;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>The digital breadcrumbs of a life lived online.</li>
+  </ul>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">Looking through that archive was like attending my own digital funeral. It was like none of that mattered anymore. Ghosts in the algorithm. I poured one out for my digital homies. No homo.</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">Your brain, outsourced</h3>
+    <p style="margin:0 0 16px;">There's a name for what makes this cut so deep: <em>transactive memory</em>, the way we offload remembering onto other people and, now, onto databases. We don't keep our own milestones anymore; we let the platform tap us on the shoulder and say "here's a memory from eight years ago today." So when the archive vanishes, it isn't just files that are gone. It's an outsourced piece of your own mind.</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">Becoming the Hardest Boy</h3>
+    <p style="margin:0 0 16px;">I became what they made me become. An amateur cyber-sleuth. A Hardy Boy gone rogue. <em>The Hardest Boy: Breaking Digital.</em> That title is objectively stupid, which is why it is perfect, like naming your band "The Postal Service" and then being surprised the vibe is sad. I followed up again and again. Thirteen times. Which in customer-service years is infinity.</p>
+    <figure style="margin:18px 0;break-inside:avoid;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/Asset-1@2x-Recovered.avif" alt="Two investigators work the User Ban case board in a dark alley" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:380px;margin:0 auto;"><figcaption style="margin-top:10px;font-family:'Archivo',sans-serif;font-size:11.5px;line-height:1.5;color:#6b6350;padding-left:10px;border-left:3px solid #e3a008;">The Hardest Boy on the case. A board of clues, an alley, and one puppet marked permanently disabled.</figcaption></figure>
+    <p style="margin:0 0 16px;">And I know for a fact that after each of these sessions with the Meta agents, by the end of it, they were a little in love with me. You just cannot spend that much time with me one-on-one and not fall in love. Just ask every dog I have ever met. If you think that is delusional, welcome to Los Angeles, where everyone is delusional and the only difference is whether you monetize it.</p>
+    <p style="margin:0;">In the end, Meta responded with the most insidious form of apathy: banality. Emotionally, it was like being ghosted by someone you genuinely liked. Years of photos, messages, and connections locked away by an algorithm with less empathy than a stubbed toe. It was not just silence but REVERSE FLATULENCE.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;align-items:center;justify-content:center;padding:50px;">
+  <img src="https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/HArdy-Boys-Final.webp?quality=72&amp;w=1000" alt="The Hardest Boy, amateur cyber-sleuth at work" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:920px;">
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:24px;"><span>II · The Investigation</span><span>13</span></div>
+  <figure style="margin:0 0 22px;"><div style="background:#06297a;overflow:hidden;"><img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/03/zucked-1024x559.png?quality=72&amp;w=1000" alt="Dictionary entry for Zucked, the sudden Facebook ban erasure" loading="lazy" style="width:100%;display:block;"></div><figcaption style="font-family:'Archivo',sans-serif;font-size:11.5px;color:#6b6450;margin-top:9px;padding-left:10px;border-left:3px solid #e3a008;">An entry for "Zucked", sudden erasure, bureaucratic limbo, and the visual aides that followed.</figcaption></figure>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">I shit you not. I eventually created visual aides to cut down on typing. The agents stopped telling me it was my fault after that. Hmmmm. Makes you wonder how often they see this?</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">The motive</h3>
+    <h3 style="margin:0 0 16px;font-family:'Lato',sans-serif;font-weight:900;font-size:24px;line-height:1.08;color:#06297a;">Why me? The Meta Pixel was the prize.</h3>
+    <p style="margin:0 0 16px;">Here is the part that turned a random tragedy into a targeted one. I had a Meta Pixel on my website. To a normal human, that is a boring little tracking snippet. But to an ad-fraud ring, it is a loaded weapon: an aged, trusted account wired to a real ad account, a saved payment method, and pre-built audiences. That is not something they steal by accident. That is the whole reason they came for me.</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">The $3,000 joyride</h3>
+    <p style="margin:0;">So they cookie-jacked the account, seized the ad account the pixel was attached to, and ran up <strong>more than $3,000 in fraudulent ads on some poor stranger's debit card</strong>, a card belonging to someone in China who had no idea. When that cardholder reported the charges as fraud, Meta's security system did the insane thing: it nuked <em>my</em> account. I was not the criminal. I was the crime scene. And they arrested the building.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>III · David v. Digital Goliath</span><span>14</span></div>
+  <figure style="margin:0 0 26px;background:#d2342b;color:#fff;padding:34px 38px;">
+    <blockquote style="margin:0;font-family:'Lato',sans-serif;font-weight:700;font-size:30px;line-height:1.12;">They didn't ban the thief. They banned the victim. And kept the receipts.</blockquote>
+  </figure>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">The checks kept clearing</h3>
+    <p style="margin:0 0 16px;">And the cherry on this dystopian sundae? While my <em>personal</em> account sat in the void, my <em>business</em> account kept right on running, kept right on spending, kept right on making Meta money. Cha-ching. They were happy to cash my checks while pretending I didn't exist. Twenty-two years of a person was disposable. The ad revenue was not.</p>
+    <figure style="margin:6px 0 16px;break-inside:avoid;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/hacker_party.png" alt="Romanian hackers celebrate the stolen Meta Pixel in party mode" loading="lazy" style="display:block;width:100%;"><figcaption style="font-family:'Archivo',sans-serif;font-size:11.5px;line-height:1.5;color:#a9b6e0;border-left:3px solid #e3a008;padding-left:10px;margin-top:8px;">Somewhere in Romania, the lads celebrate. Pixel acquired, campaign launched, three grand of a stranger's money already spent on ads. Multumim frumos.</figcaption></figure>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">Mistaking the burgled for the burglar</h3>
+    <p style="margin:0 0 16px;">It also explains why the Meta Verified agents came out swinging, "you know what you did," "your account was disabled because you are a bad person." From the algorithm's seat, my account had just laundered thousands of dollars in scam ads on a stolen card. To them I was not a victim filing an appeal. I was the perp strolling back to the scene of the crime. The accusation was never personal. It was a system mistaking the burgled for the burglar, then doubling down for ten months rather than admit the mix-up.</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">David v. Digital Goliath</h3>
+    <p style="margin:0 0 14px;font-family:'Lato',sans-serif;font-weight:900;font-size:24px;line-height:1.08;color:#06297a;">Legal action against a trillion-dollar wall</p>
+    <p style="margin:0 0 10px;">From that point on, every interaction with Meta involved:</p>
+    <p style="margin:0 0 6px;padding-left:18px;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Explaining account breach via cookie theft.</p>
+    <p style="margin:0 0 6px;padding-left:18px;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Explaining IP location discrepancies.</p>
+    <p style="margin:0 0 6px;padding-left:18px;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Explaining how session tokens work.</p>
+    <p style="margin:0;padding-left:18px;position:relative;"><span style="position:absolute;left:0;color:#eb19cc;font-weight:800;">›</span>Explaining why their own link redirects proved I was innocent.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:24px;"><span>III · David v. Digital Goliath</span><span>15</span></div>
+  <figure style="margin:0 0 24px;border-top:3px solid #06297a;border-bottom:3px solid #06297a;padding:22px 0;">
+    <blockquote style="margin:0;font-family:'Roboto',sans-serif;font-size:19px;line-height:1.4;color:#1b2647;"><strong style="font-weight:600;">"Reverse Flatulence"</strong>, a metaphorical term for the absolute, deafening silence and apathy of a massive corporation's automated support system when a user's digital identity is suddenly erased.</blockquote>
+    <figcaption style="font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#b3850a;margin-top:12px;">A Scholar</figcaption>
+  </figure>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">Taking the Facebook ban to small claims</h3>
+    <p style="margin:0 0 16px;">So instead of giving up, or writing a moody indie album called <em>Microplastics</em>, I filed a small-claims case. That meant gathering every email, every screenshot, every scrap of evidence, and building a case thick enough to kill a spider. Sorry, Charlotte.</p>
+    <figure style="margin:6px 0 16px;break-inside:avoid;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/losfelizhipstertrash.png" alt="Cover art for Microplastics" loading="lazy" style="display:block;width:100%;max-width:240px;margin:0 auto;"></figure>
+    <p style="margin:0 0 16px;">The legal research, meanwhile, was eye-opening. I discovered I wasn't alone: thousands of people had similar experiences with wrongful account disablements. But most gave up when faced with Meta's labyrinthine appeal process. The company seemed to rely on user exhaustion as a primary defense strategy.</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">Exhausting the plaintiff</h3>
+    <p style="margin:0 0 16px;">This isn't incompetence; it's a strategy with a name. Lawyers call it <em>exhausting the plaintiff</em>: make the maze confusing enough, the replies demoralizing enough, and the timeline long enough that ninety-nine percent of people quit. Meta's appeal process isn't broken. It's working exactly as designed, on everyone who gives up before a courtroom gets involved.</p>
+    <h3 style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">The arbitration loophole</h3>
+    <p style="margin:0;">"But didn't you click 'agree' to forced arbitration?" Sure. Here's the loophole: those terms shove you into private arbitration that favors the company, but many jurisdictions specifically <em>exempt small-claims court</em> from those clauses. Nothing on Earth rattles a trillion-dollar company like an ordinary person walking into a municipal courthouse with a stapler and a folder marked EVIDENCE.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>IV · The Trial</span><span>16</span></div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:1.05;color:#06297a;margin:0 0 22px;">Thirty minutes early, at the wrong courthouse</h2>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">The filing fee was reasonable, and the process, while intimidating, was accessible. Then I did something truly impressive. I showed up thirty minutes early to court. At the wrong courthouse. That's not a joke. I had to scramble and beg for a continuance, which the court granted. My hearing moved from October 23, 2025, to January 8, 2026. Three more months of account purgatory.</p>
+    <figure style="margin:6px 0 16px;break-inside:avoid;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/lights-camera-journey-6a4664f730740.avif" alt="Lights Camera Journey" loading="lazy" style="display:block;width:100%;"></figure>
+    <p style="margin:0 0 16px;">I was crushed. But in hindsight, those extra months gave me time to strengthen my case and gather additional evidence of Meta's pattern of wrongful disablements.</p>
+    <p style="margin:0 0 6px;font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;">The false positive</p>
+    <p style="margin:0 0 14px;font-family:'Lato',sans-serif;font-weight:900;font-size:24px;line-height:1.08;color:#06297a;">Restored, then robbed</p>
+    <p style="margin:0 0 16px;">In the window between the first court date and the continuance, Meta finally tried to fix it. They reached out, in writing, and admitted the disabling had been a "false positive." In writing. A miracle. They told me my account had been restored.</p>
+    <p style="margin:0;">I logged in. It worked. And there was nothing. No posts. No friends. No memories. Their idea of "restored" was a digital husk: the account shell handed back with twenty-two years scooped out of it. A practical joke played by fate, and a technicality played by Meta.</p>
+  </div>
+  <figure style="margin:24px 0 0;background:#d2342b;color:#fff;padding:28px 32px;">
+    <blockquote style="margin:0;font-family:'Lato',sans-serif;font-weight:600;font-size:22px;line-height:1.22;">It was like being handed your house back after a fire and finding only the foundation, a few charred beams, and a pair of jock straps you definitely did not buy.</blockquote>
+  </figure>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:50px;">
+  <img src="https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/watermarked_img_7076381300635757818-1.jpg?quality=72&amp;w=1000" alt="From the small-claims fight over the Facebook ban" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:880px;">
+  <p style="font-family:'Archivo',sans-serif;font-size:12px;color:#a9b6e0;margin:22px 0 0;text-align:center;max-width:560px;">Meta's idea of "restored." An empty husk where twenty-two years used to live.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:24px;"><span>IV · The Trial</span><span>18</span></div>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;margin-bottom:10px;">The trial</div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:1.05;color:#06297a;margin:0 0 18px;">Lift the Facebook ban, or pay</h2>
+  <figure style="margin:0 0 20px;"><div style="background:#06297a;overflow:hidden;"><img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/Asset-4@3x-1024x768.png?quality=72&amp;w=1000" alt="Exhibit from the case file" loading="lazy" style="width:100%;max-height:205px;object-fit:cover;object-position:center 28%;display:block;"></div></figure>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">A hollow shell is not a restoration, so we went back to court. <em>Caleb Stewart v. Meta Platforms, Inc.</em>, Beverly Hills Courthouse, Department 304. The only human Meta sent, the now-legendary girl-baby-voiced counsel in the red turtleneck, showed up <strong>late.</strong> Then apologized and, in the same breath, noted that <em>I</em> had once shown up to the wrong courthouse. She framed it like I'd stood her up for a date. Geez, Louise.</p>
+    <p style="margin:0 0 16px;">And the evidence Meta submitted? The sum total of their defense, from a trillion-dollar company with infinite lawyers, was a single document: <strong>a copy of their Terms of Service.</strong> No logs. No breach analysis. No explanation of the false positive they'd already admitted in writing.</p>
+    <p style="margin:0;">Small-claims judges are pragmatic. The bar is <em>reasonableness.</em> No clause buried in paragraph 38 lets a company vaporize twenty-two years of someone's life over its own false positive and call it consent. So the court set terms: Meta would get one final window to <em>actually</em> restore the account, contents and all. If they failed, judgment for me, <strong>$179.88 plus costs.</strong> February 18, 2026, 8:30 AM, Department 304.</p>
+  </div>
+  <figure style="margin:22px 0 0;background:#d2342b;color:#fff;padding:26px 32px;">
+    <blockquote style="margin:0;font-family:'Lato',sans-serif;font-weight:700;font-size:24px;line-height:1.14;">It was never about the $179.88. It was about dignity, data, and the right not to be erased by a bot.</blockquote>
+  </figure>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>IV · The Trial</span><span>19</span></div>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b3850a;margin-bottom:10px;">Resurrection</div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:1.05;color:#06297a;margin:0 0 20px;">Zucked back to life</h2>
+  <div style="column-count:2;column-gap:38px;font-size:16px;line-height:1.6;">
+    <p style="margin:0 0 16px;">Here is the part the system is engineered to prevent: the moment a judge was watching, the machine suddenly found a human. The same red-turtleneck counsel had to log in and catch up in real time. A year of automated silence undone the instant a courtroom was in the room.</p>
+    <p style="margin:0 0 16px;">After <strong>381 days</strong> in digital purgatory, my account truly rose, this time with everything inside it. Wrongfully disabled on Christmas Eve 2024 (ho, ho, hell no). Ignored for nearly a year. Gaslit with claims of "reactivation" while the login screen still read "you cannot request another review." And then, at last, the real thing: twenty-two years of grief, joy, friendships, memes, and frankly too much oversharing, handed back whole.</p>
+    <p style="margin:0;">And what was the very first thing the resurrected timeline showed me? A memory from ten years ago that day, posted by my best friend since the eighth grade, Carolyn Jennings Brown: Edina Monsoon and Patsy Stone, raising a glass.</p>
+  </div>
+  <figure style="margin:auto 0 0;background:#06297a;padding:30px;text-align:center;"><img src="https://i0.wp.com/staging-131e-indiedocjourney.wpcomstaging.com/wp-content/uploads/2026/06/Cheers-Meta-935x1024.png?quality=72&amp;w=1000" alt="Court filing with the Cheers Sweetie evidence photo" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:420px;margin:0 auto;"><figcaption style="font-family:'Archivo',sans-serif;font-size:11.5px;color:#a9b6e0;margin-top:14px;">The first thing waiting in the restored timeline: "Cheers, sweetie."</figcaption></figure>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:26px;"><span>IV · The Trial</span><span>20</span></div>
+  <figure style="margin:0 0 26px;background:#d2342b;color:#fff;padding:36px;text-align:center;">
+    <blockquote style="margin:0;font-family:'Lato',sans-serif;font-weight:700;font-size:34px;line-height:1.08;">"Cheers, sweetie." Cosmic. Poetic. Slightly drunk, with power.</blockquote>
+  </figure>
+  <div style="background:#06297a;color:#f4eee1;padding:26px 30px;margin:0 0 26px;">
+    <h4 style="font-family:'Lato',sans-serif;font-weight:900;font-size:22px;color:#c2f104;margin:0 0 16px;">What I'd tell anyone still stuck in the void</h4>
+    <ul style="margin:0;padding:0;list-style:none;font-family:'Archivo',sans-serif;font-size:15px;font-weight:600;">
+      <li style="padding:8px 0;border-bottom:1px solid rgba(244,238,225,.2);">01: Keep the receipts.</li>
+      <li style="padding:8px 0;border-bottom:1px solid rgba(244,238,225,.2);">02: Stay factual.</li>
+      <li style="padding:8px 0;border-bottom:1px solid rgba(244,238,225,.2);">03: Be dramatic, but never messy.</li>
+      <li style="padding:8px 0;border-bottom:1px solid rgba(244,238,225,.2);">04: If they force your hand, force the question.</li>
+      <li style="padding:8px 0;">05: Restore it, or pay.</li>
+    </ul>
+  </div>
+  <p style="font-size:16px;line-height:1.6;margin:0;">This case was never about money. It was about dignity, data, and the right not to be erased by a bot. Now, if you'll excuse me, I have <a href="https://indiedocjourney.com/2026/02/15/how-a-gatekeepers-no-led-me-to-the-future-of-documentary-filmmaking/" style="color:#9c1f8e;text-decoration:underline;">a documentary to finish</a> and a timeline to reintroduce myself to. <strong style="color:#9c1f8e;">#Restored #ZuckedBackToLife #DigitalBallOfRights</strong></p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#f4eee1;color:#1b2647;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 66px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#9a917c;border-bottom:1px solid #d9cfb6;padding-bottom:12px;margin-bottom:24px;"><span>IV · The Trial</span><span>21</span></div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:30px;line-height:1.06;color:#06297a;margin:0 0 18px;">Why fighting a Facebook ban still matters</h2>
+  <div style="column-count:2;column-gap:38px;font-size:15.5px;line-height:1.58;">
+    <p style="margin:0 0 14px;">I fought for it anyway, because I still need it as a tool. If I want to do a fundraiser, a Kickstarter, or rally people around a documentary screening, Facebook is still a lever. Not a home, not a community. Even so, it is a janky Swiss Army knife that still opens cans, like <em>MacGyver</em> if MacGyver had to subscribe for $15 a month to access the blade. I was not trying to return because I love it. I was trying to get the Facebook ban lifted because the account holds my stuff, and because it is still the fastest way to reach certain people, including relatives who treat Facebook as the only news outlet they trust.</p>
+    <p style="margin:0 0 14px;">Now the same surveillance is sold to us as connection. It is packaged as "stay in touch with your relatives." It is marketed like a Hallmark movie, but the engine underneath is running <em>Minority Report</em> with less Tom Cruise and more ads for orthopedic shoes. When I opened that login folder and saw the trail, I had that cold little moment of stunned clarity, like the end of <em>The Sixth Sense</em>, except the ghost is your browser history and the twist is the company was never your friend.</p>
+    <p style="margin:0;">The sick part is that you can turn some of it off. Go straight to your Accounts Center and dig into your Off-Facebook Activity settings. I did it, and it felt less like self-care and more like finally changing the locks after a breakup. The story was not "I lost Facebook." It was "Facebook had been living inside my life like a squatter, and I finally caught it on camera."</p>
+  </div>
+  <figure style="margin:24px 0 0;">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:4px;background:#06297a;">
+      <div style="position:relative;"><img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/special-bulletin_head.png?quality=72&amp;w=1000" alt="Sassy McGraw anchors the special bulletin announcing the Facebook ban" loading="lazy" style="width:100%;display:block;"><span style="position:absolute;top:10px;left:10px;background:#06297a;color:#f5c518;font-family:'Archivo',sans-serif;font-size:10px;font-weight:800;letter-spacing:.18em;padding:4px 8px;">BEFORE</span></div>
+      <div style="position:relative;"><img src="https://i0.wp.com/indiedocjourney.com/wp-content/uploads/2026/06/ChatGPT-Image-Jun-1-2026-10_16_30-AM-Copy.png?quality=72&amp;w=1000" alt="Celebration after the account came back" loading="lazy" style="width:100%;display:block;"><span style="position:absolute;top:10px;left:10px;background:#eb19cc;color:#fff;font-family:'Archivo',sans-serif;font-size:10px;font-weight:800;letter-spacing:.18em;padding:4px 8px;">AFTER</span></div>
+    </div>
+    <figcaption style="font-family:'Archivo',sans-serif;font-size:11.5px;color:#6b6450;margin-top:10px;">This is the project that made me decide to sue. That's Sassy McGraw at the bulletin desk; she returns on page 28.</figcaption>
+  </figure>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#0c1733;color:#e9e3d2;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:60px 64px 66px;display:flex;flex-direction:column;">
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:#a9b6e0;text-align:center;margin-bottom:14px;">Off the record</div>
+  <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:38px;line-height:1.04;color:#f4eee1;text-align:center;margin:0 0 26px;">Let me drop the act for a second</h2>
+  <p style="font-size:16px;line-height:1.6;margin:0 0 22px;color:#c9d0e6;">On February 5th, 2025, somewhere in the acceptance stage of this stupid grief, I sat down and recorded myself talking about the Facebook ban to whatever human being might one day read my appeal. Not a bit. Not a character. Just me, at my wit's end, into a microphone. Here is most of what I said, unedited:</p>
+  <div style="background:#16255a;border:1px solid rgba(245,197,24,.4);padding:20px 24px;margin:0 0 24px;">
+    <div style="font-family:'Archivo',sans-serif;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#f5c518;margin-bottom:12px;">The actual recording &middot; Feb 5, 2025</div>
+    <h3 style="font-family:'Lato',sans-serif;font-weight:900;font-size:19px;color:#f4eee1;margin-bottom:14px;;margin-top:0">Let me be real for a second</h3>
+    <audio controls preload="metadata" src="https://indiedocjourney.com/wp-content/uploads/2026/07/let-me-be-real.mp3" style="width:100%;display:block;"></audio>
+  </div>
+  <div style="border-left:3px solid #f5c518;padding-left:22px;font-family:'Roboto',sans-serif;font-size:16.5px;line-height:1.58;color:#e9e3d2;column-count:2;column-gap:38px;">
+    <p style="margin:0 0 14px;">This whole thing has felt like a bad breakup. A messy divorce. All of a sudden it's gone. The person you knew, that you loved, that you cared about. Just gone. There's no getting back in.</p>
+    <p style="margin:0 0 14px;">Facebook saw me live in Spain for three years. It saw my boyfriends. Then it saw my friends get married, and my sister and brother get married and have kids, my nieces and nephews being born. When my father died, I went to Facebook for condolences, to feel better. And it really did.</p>
+    <p style="margin:0 0 14px;">It saw me move to L.A. Later it saw me make my first web series out of thin air with a really great friend. It saw me get sober, get my life together, graduate from grad school, and become a film director. And it saw me make a documentary about my mom that's doing really great. I had all these great little things planned to post for the holidays.</p>
+    <p style="margin:0 0 14px;">And then, on Christmas Eve, the Facebook ban took it all away.</p>
+    <p style="margin:0;">I just hope I'm talking to a human being right now. I hope a human being is reading this, and understands my situation. This probably won't work. It's my Hail Mary, though. So… hi. How are you doing?</p>
+  </div>
+  <p style="font-size:16px;line-height:1.6;margin:24px 0 0;color:#c9d0e6;">No one was reading it. That's the whole problem. That recording was a message in a bottle thrown into a system built so that no human would ever pick it up. So I stopped writing letters to a machine and started writing rights instead.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);display:flex;flex-direction:column;justify-content:center;overflow:hidden;">
+  <div style="text-align:center;padding:0 40px 30px;">
+    <div style="font-family:'Archivo',sans-serif;font-size:13px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:#c2f104;margin-bottom:16px;">The Faboosh Edition</div>
+    <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:58px;line-height:.96;color:#f5c518;margin:0;">The Digital<br>Ball of Rights</h2>
+  </div>
+  <img src="https://indiedocjourney.com/wp-content/uploads/2026/06/Lady-J-Final.-2.avif" alt="Lady Justice hoisting a disco ball" loading="lazy" style="width:100%;display:block;">
+  <p style="text-align:center;font-family:'Archivo',sans-serif;font-size:12px;color:#a9b6e0;margin:18px auto 0;max-width:600px;padding:0 30px;">Lady Justice's Digital Ball of Rights, drafted for the Facebook banned. Blind, fabulous, and weighing your data against a disco ball.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:56px 60px 60px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#7d8cc0;border-bottom:1px solid rgba(244,238,225,.2);padding-bottom:12px;margin-bottom:22px;"><span>V · The Digital Ball of Rights</span><span>24</span></div>
+  <p style="font-size:15.5px;line-height:1.55;margin:0 0 8px;color:#e9e3d2;">This is not a personal sob story about my feelings. This is a story about power. Platforms hold our memories, our relationships, our livelihoods, our identities, and then pretend they are just apps. So here is what we need, said like the finale of a Real Housewives reunion, with receipts:</p>
+  <ol style="list-style:none;margin:0;padding:0;">
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">1</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To A Reason.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">If you erase me, cite the charge. Not vibes. Not "community standards." Actual words.</p></div></li>
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">2</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To A Human.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">One real escalation path, staffed by someone who can read, not a script wearing a nametag.</p></div></li>
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">3</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To Evidence.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">Show me the post, the login, the flag, the thing. I am not guessing my crime like I'm on a dystopian game show hosted by Mark Zuckerberg.</p></div></li>
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">4</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To My Data Before The Execution.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">Not a zip file after the guillotine drops. Actual portability before the lights go out.</p></div></li>
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">5</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To Appeal Without A Subscription.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">Customer service is not a Patreon tier.</p></div></li>
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">6</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To Stop Being Followed.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">Spyware in a cardigan is still spyware, like <em>Mean Girls</em> but with tracking pixels.</p></div></li>
+    <li style="display:flex;gap:18px;align-items:flex-start;padding:14px 0;border-top:1px solid rgba(244,238,225,.2);border-bottom:1px solid rgba(244,238,225,.2);break-inside:avoid;"><span style="font-family:'Lato',sans-serif;font-weight:900;font-size:34px;line-height:.9;color:#c2f104;min-width:42px;">7</span><div><div style="font-family:'Archivo',sans-serif;font-weight:800;font-size:16px;color:#f5c518;margin-bottom:3px;">The Right To Exist.</div><p style="margin:0;font-size:14.5px;line-height:1.45;color:#dfe2ee;">Digital displacement is real. If your platform is where modern life happens, you do not get to disappear people without due process.</p></div></li>
+  </ol>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#06297a;color:#f4eee1;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:60px 64px 66px;display:flex;flex-direction:column;justify-content:center;">
+  <h4 style="font-family:'Lato',sans-serif;font-weight:900;font-size:30px;color:#c2f104;margin:0 0 22px;">Credit where credit is due, a Faboosh footnote</h4>
+  <p style="font-size:17px;line-height:1.65;margin:0 0 22px;color:#dfe2ee;">I did not invent the idea of a digital bill of rights. I just put it in a gold toga and handed it a disco ball. The due-process spine of my list (a reason, evidence, a human, a real appeal) comes almost straight from the <a href="https://santaclaraprinciples.org/" style="color:#f5c518;">Santa Clara Principles</a> on content moderation, the framework the EFF and a coalition of civil-society groups built for exactly this kind of account-execution nightmare. And the "bill of rights" framing stands on bigger shoulders: Tim Berners-Lee, who invented the web and then asked for a "Magna Carta" to protect it; Senator Ron Wyden, who called for a Digital Bill of Rights back in 2012; and Representative Ro Khanna, whose Internet Bill of Rights earned Berners-Lee's blessing. They wrote the white papers. I wrote the show tunes. Cheers, sweeties.</p>
+  <p style="font-size:17px;line-height:1.65;margin:0;color:#dfe2ee;">Anyway. I am still here. The account is whole, the work continues, and the receipts are filed. If you've been Zucked too (banned from Facebook, that is), start with <a href="https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/" style="color:#f5c518;">Part 1: The Meta Ban Survival Playbook</a>, document everything, and become just annoying enough to be free. 💋</p>
+  <div style="margin:30px 0 0;border:1px solid rgba(245,197,24,.4);background:#16255a;padding:24px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap;">
+    <div style="flex:1;min-width:260px;">
+      <div style="font-family:'Archivo',sans-serif;font-size:11px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#f5c518;margin-bottom:8px;">The part where you help</div>
+      <div style="font-family:'Lato',sans-serif;font-weight:900;font-size:22px;line-height:1.15;color:#f4eee1;">Co-sign the Digital Ball of Rights</div>
+      <div style="font-family:'Roboto',sans-serif;font-size:14.5px;line-height:1.5;color:#a9b6e0;margin-top:6px;">One signature. No toga required.</div>
+    </div>
+    <a href="https://c.org/sdcmBMtQkN" target="_blank" rel="noopener" style="flex:0 0 auto;display:inline-block;background:#c2f104;color:#06297a;font-family:'Archivo',sans-serif;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:15px 28px;border-radius:40px;">Sign the petition →</a>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#fbe9f7;color:#3a1233;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:56px 64px 60px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#c98bbb;border-bottom:1px solid #efcfe6;padding-bottom:12px;margin-bottom:30px;"><span>VI · The Profile</span><span>28</span></div>
+  <div style="text-align:center;">
+    <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.3em;text-transform:uppercase;color:#b81fa3;margin-bottom:16px;">The Profile · Conducted Between Fittings</div>
+    <h2 style="font-family:'Lato',sans-serif;font-weight:900;font-size:46px;line-height:1.02;color:#9c1f8e;margin:0;">TRAF: A Brown Note<br>Singalong &amp; Colonic</h2>
+    <p style="font-family:'Lato',sans-serif;font-size:21px;color:#7a2168;margin:16px 0 0;">Inside Jenna Maroney's bravest comeback.</p>
+    <p style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b81fa3;margin:14px 0 0;">Interview by Sassy McGraw · First female anchor, KDFW</p>
+  </div>
+  <div style="background:#06297a;padding:40px;text-align:center;margin:34px 0 0;flex:1;display:flex;align-items:center;justify-content:center;"><img src="https://indiedocjourney.com/wp-content/uploads/2026/07/jenna_traf-edited-1-1-Large.avif" alt="Jenna Maroney performing in TRAF at the dinner theater" loading="lazy" style="display:block;width:auto;max-width:100%;max-height:860px;"></div>
+  <p style="font-family:'Roboto',sans-serif;font-size:15.5px;line-height:1.5;color:#5a2350;margin:24px 0 0;">The author's Facebook ban is being adapted into a 90-second-per-episode vertical drama, <em>Reverse Flatulence: A Brown Note Singalong</em>, a Maroney Method Production. Beloved icon Jenna Maroney, who plays the filmmaker, granted us this profile between fittings. We coaxed Sassy McGraw, first female anchor at KDFW, out of retirement to conduct it. Jenna was brave throughout. Sassy brought her own questions.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#fbe9f7;color:#3a1233;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 60px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#c98bbb;border-bottom:1px solid #efcfe6;padding-bottom:12px;margin-bottom:24px;"><span>VI · The Profile</span><span>29</span></div>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b81fa3;margin-bottom:8px;">The Workshop</div>
+  <h3 style="font-family:'Lato',sans-serif;font-weight:900;font-size:30px;line-height:1.08;color:#9c1f8e;margin:0 0 18px;">An intimate residency in a town without a courthouse</h3>
+  <div style="column-count:2;column-gap:38px;font-size:15.5px;line-height:1.58;">
+    <p style="margin:0 0 14px;">She is workshopping the material out of town first, the way the greats always have. The venue is a dinner theater in a city that is not the county seat. A rented disco ball (quinceañera surplus, never returned) throws light across a low ceiling. Behind her hangs a sheet of brown butcher paper, the title hand-lettered in marker: <strong>REVERSE FLATULENCE: A BROWN NOTE SINGALONG.</strong></p>
+    <p style="margin:0;">She performs in the gold toga from the show's Act Three finale, repurposed, because a true star recycles wardrobe. The audience (eleven seniors, a walker parked stage left, two plates of Salisbury steak cooling on red-checkered vinyl) does not look up. They are eating. Right through her number, in fact.</p>
+  </div>
+  <figure style="margin:22px 0 0;background:#d2342b;color:#fff;padding:30px 34px;">
+    <blockquote style="margin:0;font-family:'Lato',sans-serif;font-weight:600;font-size:21px;line-height:1.22;">"They are not ignoring me. They are afraid to engage with my acting, because it is so powerful they know it might kill them. The mashed potatoes are life support. I act <em>at</em> dinner so the potassium keeps the front row alive through Act Two."</blockquote>
+    <figcaption style="font-family:'Archivo',sans-serif;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#ffd6f3;margin-top:14px;">Jenna Maroney</figcaption>
+  </figure>
+  <div style="font-family:'Archivo',sans-serif;font-size:12px;font-weight:800;letter-spacing:.22em;text-transform:uppercase;color:#b81fa3;margin:24px 0 8px;">The Descent</div>
+  <p style="font-size:15.5px;line-height:1.58;margin:0;">The road here was a trilogy: <em>The Rural Juror</em>, a triumph no one could pronounce; the sequel, <em>Urban Fervor</em>, which doubled down on the unsayable; and the threequel that broke the franchise, <em>Summer Somolier</em>, a film so impossible to say <em>and</em> spell that audiences stopped trying. What followed was the part Jenna calls "my Lake Como period." But Jenna Maroney does not process defeat. She reclassifies it. And then, from your blog, she found her vehicle.</p>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#fbe9f7;color:#3a1233;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 60px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#c98bbb;border-bottom:1px solid #efcfe6;padding-bottom:12px;margin-bottom:24px;"><span>VI · The Interview</span><span>30</span></div>
+  <h3 style="font-family:'Lato',sans-serif;font-weight:900;font-size:26px;line-height:1.08;color:#9c1f8e;margin:0 0 22px;">Sassy McGraw sits down with Jenna Maroney, between fittings</h3>
+  <div style="margin:0 0 20px;">
+    <h3 style="font-family:'Lato',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#9c1f8e;margin:0 0 8px;"><span style="color:#eb19cc;">Sassy McGraw</span> (patting Jenna's hand like a casserole dish): Bless your heart. You're playing the filmmaker? A gay documentarian? In a television show shaped like a doorway? Honey, I interviewed Barbara Jordan. Help me understand.</h3>
+    <p style="font-size:15.5px;line-height:1.55;margin:0;"><strong>Jenna Maroney</strong> (lowering sunglasses she does not need indoors): Range, America. I have played a woman, a different woman, and a janitor with a secret. Portraying one renowned filmmaker losing twenty-two years of his life on Christmas Eve is simply The Maroney Method applied vertically. We shoot in portrait because I refuse to be experienced in landscape, like a sunset, or Brazil, which is a city. It's about me, Jenna Maroney from TGS, telling his story, beautifully, one thumb-swipe at a time. Zac Efron tried to beat me to the rights, but I said "Not today, Mr. Efron! Mourn your twink death elsewhere. Here's a hundred dollars. Fleet are half off at Duane Reade." He took the money and ran.</p>
+  </div>
+  <div style="margin:0 0 20px;">
+    <h3 style="font-family:'Lato',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#9c1f8e;margin:0 0 8px;"><span style="color:#eb19cc;">Sassy McGraw</span> (sweet as unsweet tea): Now darlin', where I'm from, taking a phrase off another man's blog gets the sheriff called. You call it a title. Why name the comeback after his words?</h3>
+    <p style="font-size:15.5px;line-height:1.55;margin:0;"><strong>Jenna Maroney</strong> (waving a hand heavy with rings): We had a working title, but a man in a suit cleared his throat, and a true artist pivots before the throat finishes clearing. <em>Reverse Flatulence</em> was right there in his post, describing the sound of a trillion-dollar company's silence. I thought "Reverse Flatulence? Traf is fart backwards." That's when I heard "Eleven o'clock brown note number. 'How Do You Doo?'" Then I heard "mine now." It's not theft, it's curation, like a museum, but braver.</p>
+  </div>
+  <div style="margin:0;">
+    <h3 style="font-family:'Lato',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#9c1f8e;margin:0 0 8px;"><span style="color:#eb19cc;">Sassy McGraw</span> (checking notes she has clearly already memorized): This "Digital Ball of Rights," sugar. In my day a ball had a band and a punch bowl. What is it, and is it in the show?</h3>
+    <p style="font-size:15.5px;line-height:1.55;margin:0;"><strong>Jenna Maroney</strong> (gesturing at a spotlight only she can see): It is the Act Three finale, episode forty, unlockable for nine hundred coins. A Bill of Rights is an invoice; a Ball is an event, and I do not attend events I am not headlining. The seven demands (a reason, a human, evidence, your data before the execution, no subscription, no surveillance, the right to exist) I deliver straight to camera in the gold toga while the disco ball, which has its own trailer, descends. I co-signed all seven, which legally makes them mine, like the moon.</p>
+  </div>
+</section>
+
+<section class="sheet dbor-magazine" data-document-role="page" style="position:relative;width:816px;min-height:1056px;margin:0 auto 30px;background:#fbe9f7;color:#3a1233;font-family:'Roboto',sans-serif;box-shadow:0 10px 40px rgba(0,0,0,.5);padding:54px 64px 60px;display:flex;flex-direction:column;">
+  <div style="display:flex;justify-content:space-between;font-family:'Archivo',sans-serif;font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:#c98bbb;border-bottom:1px solid #efcfe6;padding-bottom:12px;margin-bottom:24px;"><span>VI · The Interview</span><span>31</span></div>
+  <div style="margin:0 0 18px;">
+    <h3 style="font-family:'Lato',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#9c1f8e;margin:0 0 8px;"><span style="color:#eb19cc;">Sassy McGraw</span> (leaning in, church quiet): Honey, I have sat across from governors who lied prettier than you breathe. The court case. Did it really happen, or is that the drama talking?</h3>
+    <p style="font-size:15px;line-height:1.52;margin:0;"><strong>Jenna Maroney</strong> (one brave tear, reabsorbed for continuity): Real, darling, and more cinematic than fiction would dare. He sued a trillion-dollar company, arrived at the wrong courthouse, and still secured a continuance: the most Jenna thing a non-Jenna has ever done. The judge scolded Meta the way Liz Lemon scolds herself after eating an entire sheet cake directly from the pan. We dramatize it as a courtroom musical. The gong between episodes? That's the gavel sponsored by Temu. That's my idea. I should produce.</p>
+  </div>
+  <div style="margin:0 0 18px;">
+    <h3 style="font-family:'Lato',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#9c1f8e;margin:0 0 8px;"><span style="color:#eb19cc;">Sassy McGraw</span> (God love her, surrendering): Fine. Say the Facebook bans <em>me</em>, a woman who signed off the air in 1991. What do I actually do?</h3>
+    <p style="font-size:15px;line-height:1.52;margin:0;"><strong>Jenna Maroney</strong> (snapping twice at an assistant almost certainly named Brian): You document everything, the way I document my own legend. Download your data immediately. Visit hacked-dot-facebook-dot-com to see if cookie theft is your villain origin story. And do not spam appeals. One well-lit appeal, like one well-lit close-up, outperforms a hundred desperate ones. Mickey Rourke taught me that. Or a goat I met in Branson. Richard Branson, not Branson, Missouri.</p>
+  </div>
+  <div style="margin:0 0 18px;">
+    <h3 style="font-family:'Lato',sans-serif;font-weight:700;font-size:18px;line-height:1.25;color:#9c1f8e;margin:0 0 8px;"><span style="color:#eb19cc;">Sassy McGraw</span> (gathering her purse mid-sentence): Last one, darlin', and then Sassy has a hair appointment she booked during your second answer. Any final wisdom from the star of TRAF: A BROWN NOTE SINGALONG &amp; COLONIC?</h3>
+    <p style="font-size:15px;line-height:1.52;margin:0;"><strong>Jenna Maroney</strong> (rising, confirming she is still the most famous person in the room, she is): Back up your memories off-platform, because the cloud is a fickle ingénue and I trust no ingénue but myself. Use real two-factor. Do not pour your whole life into one app. You were deleted? Rise. Reboot. Get so renowned the algorithm crawls back begging, then make it watch you, vertically, for coins. <strong>I am Jenna Maroney</strong>, and the Pope cried. Twice.</p>
+  </div>
+  <div style="height:1px;background:rgba(156,31,142,.3);margin:auto 0 18px;"></div>
+  <p style="font-family:'Roboto',sans-serif;font-size:15px;line-height:1.5;color:#5a2350;margin:0 0 16px;">As we left, a single audience member (the gentleman with the walker) rose. Jenna called it a standing ovation. He was, in fact, about to be evacuated. His colonic was ready. She has decided these are the same thing, and on this point she will not be moved. Sassy watched him go, turned to a camera that was not there out of forty years of habit, and filed the only review that matters: "Bless her heart."</p>
+  <div style="background:#f7d9ef;border:1px solid rgba(156,31,142,.35);padding:22px 26px;margin:0 0 18px;display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
+    <p style="flex:1;min-width:260px;font-family:'Roboto',sans-serif;font-size:15px;line-height:1.55;color:#3a1233;margin:0;"><strong>Jenna Maroney</strong> (calling after us across the parking structure): "Sign his little Facebook ban petition, darlings. A signature is an autograph, and an autograph is a gift to history. I signed it four times. They kept two."</p>
+    <a href="https://c.org/sdcmBMtQkN" target="_blank" rel="noopener" style="flex:0 0 auto;display:inline-block;background:#eb19cc;color:#fff;font-family:'Archivo',sans-serif;font-size:13px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;text-decoration:none;padding:15px 28px;border-radius:40px;">Add your autograph →</a>
+  </div>
+  <div style="display:flex;justify-content:space-between;align-items:center;border-top:2px solid #9c1f8e;padding-top:18px;">
+    <a href="https://indiedocjourney.com/blog" style="font-family:'Archivo',sans-serif;font-weight:800;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#9c1f8e;text-decoration:none;">More dispatches from the Indie Doc Journey →</a>
+    <span style="font-size:22px;">💋</span>
+  </div>
+</section>
+

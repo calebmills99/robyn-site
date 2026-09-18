@@ -14,9 +14,9 @@ She took the job for the travel. Her father, Jay R. Ricks, was an American Airli
 
 ## Girdle checks and weigh-ins
 
-The airline she joined inspected its stewardesses. American checked their girdles, makeup, hair, and nails, and held them to a weight limit. The girdle checks ended not long after Robyn graduated. The weigh-ins lasted much longer: after each of her pregnancies, the last in 1982, American put her back on a scale to make weight. She puts the end of weight checks close to 1990.
+The airline she joined inspected its stewardesses. American checked their girdles, makeup, hair, and nails, and held them to a weight limit. The girdle checks ended not long after Robyn graduated. The weigh-ins lasted longer: after each of her pregnancies, the last in 1982, American put her back on a scale to make weight. She puts the end of weight checks close to 1990.
 
-The stewardess manual she got at graduation didn't last either. American had merged with Trans Caribbean Airways, which employed male flight attendants, so the manual needed a new name.
+The stewardess manual she got at graduation did not last either. American had merged with Trans Caribbean Airways, which employed male flight attendants, so the manual needed a new name.
 
 ![Robyn Stewart in uniform, holding a red carnation, at her 1971 stewardess college graduation, standing between an older woman and a man in glasses wearing a wings pin.](../../assets/people/robyn-stewart-1971.jpg)
 

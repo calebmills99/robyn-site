@@ -1,15 +1,23 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { getEntry, render } from "astro:content";
+import { webPageJsonLd } from "../lib/seo";
 
 const entry = await getEntry("pages", "terms-of-use");
 if (!entry) throw new Error("Missing content: pages/terms-of-use");
 const { Content } = await render(entry);
+
+const description = entry.data.description || "Terms of Use for Golden Wings.";
 ---
 
 <BaseLayout
   title={entry.data.title}
-  description={entry.data.description || "Terms of Use for Golden Wings."}
+  description={description}
+  jsonLd={webPageJsonLd({
+    name: entry.data.title,
+    description,
+    url: "/terms-of-use",
+  })}
 >
   <article class="prose">
     <Content />

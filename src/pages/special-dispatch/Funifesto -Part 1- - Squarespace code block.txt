@@ -1,0 +1,368 @@
+<!-- wp:heading -->
+<h2 class="wp-block-heading">Facebook Ban Christmas Eve: 22 Years Gone. What Happened? I got Zucked.</h2>
+<!-- /wp:heading -->
+
+<!-- wp:code {"tokenizedLines":[[["LQ=="],["PCEtLSBTb3VyY2U6IGh0dHBzOi8vaW5kaWVkb2Nqb3VybmV5LmNvbS8yMDI2LzAzLzI3L21ldGEtYmFuLXN1cnZpdmFsLXBsYXlib29rLyAtLT4=","tok-comment"]],[["LQ=="],["PCEtLSBQYXN0ZSBpbnRvIGEgU3F1YXJlc3BhY2UgQ29kZSBCbG9jayAtLT4=","tok-comment"]],[["Kw=="],["PCEtLSA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0=","tok-comment"]],[["KyAgICAgTUVUQSBCQU4gU1VSVklWQUwgUExBWUJPT0sg4oCUIFNFTy1PUFRJTUlaRUQgVkVSU0lPTg==","tok-comment"]],[["KyAgICAgRm9jdXMgS2V5cGhyYXNlIDogRmFjZWJvb2sgYWNjb3VudCBiYW5uZWQ=","tok-comment"]],[["KyAgICAgU2x1ZyAgICAgICAgICAgIDogZmFjZWJvb2stYWNjb3VudC1iYW5uZWQtc3Vydml2YWwtcGxheWJvb2s=","tok-comment"]],[["KyAgICAgU0VPIFRpdGxlICAgICAgIDogRmFjZWJvb2sgQWNjb3VudCBCYW5uZWQ/IFRoZSBNZXRhIEJhbiBTdXJ2aXZhbCBQbGF5Ym9vaw==","tok-comment"]],[["KyAgICAgTWV0YSBEZXNjcmlwdGlvbjogSGFkIHlvdXIgRmFjZWJvb2sgYWNjb3VudCBiYW5uZWQgd2l0aG91dCB3YXJuaW5nPyBSZWFk","tok-comment"]],[["KyAgICAgICAgICAgICAgICAgICAgICAgaG93IG9uZSBmaWxtbWFrZXIgc3Vydml2ZWQgYSBNZXRhIGJhbiBhZnRlciAyMiB5ZWFycyw=","tok-comment"]],[["KyAgICAgICAgICAgICAgICAgICAgICAgdW5jb3ZlcmVkIGNvb2tpZSB0aGVmdCwgYW5kIGJ1aWx0IGEgc3RlcC1ieS1zdGVw","tok-comment"]],[["KyAgICAgICAgICAgICAgICAgICAgICAgcmVjb3ZlcnkgcGxheWJvb2su","tok-comment"]],[["KyAgICAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IC0tPg==","tok-comment"]],[["Kw=="]],[["Kw=="],["PCEtLSBZT0FTVCBDSEVDS0xJU1QgKHBhc3RlIHRoZXNlIGludG8gWW9hc3QgZmllbGRzIGluIFdvcmRQcmVzcyk6","tok-comment"]],[["KyAgICAgRm9jdXMga2V5cGhyYXNlIDogRmFjZWJvb2sgYWNjb3VudCBiYW5uZWQ=","tok-comment"]],[["KyAgICAgU0VPIHRpdGxlICAgICAgIDogRmFjZWJvb2sgQWNjb3VudCBCYW5uZWQ/IFRoZSBNZXRhIEJhbiBTdXJ2aXZhbCBQbGF5Ym9vaw==","tok-comment"]],[["KyAgICAgU2x1ZyAgICAgICAgICAgIDogZmFjZWJvb2stYWNjb3VudC1iYW5uZWQtc3Vydml2YWwtcGxheWJvb2s=","tok-comment"]],[["KyAgICAgTWV0YSBkZXNjcmlwdGlvbjogSGFkIHlvdXIgRmFjZWJvb2sgYWNjb3VudCBiYW5uZWQgd2l0aG91dCB3YXJuaW5nPyBSZWFkIGhvdyBvbmUgZmlsbW1ha2VyIHN1cnZpdmVkIGEgTWV0YSBiYW4gYWZ0ZXIgMjIgeWVhcnMsIHVuY292ZXJlZCBjb29raWUgdGhlZnQsIGFuZCBidWlsdCBhIHN0ZXAtYnktc3RlcCByZWNvdmVyeSBwbGF5Ym9vay4=","tok-comment"]],[["Ky0tPg==","tok-comment"]]],"language":"HTML","languageConfidence":"certain","metadata":{"blockVisibility":false}} -->
+<pre class="wp-block-code"><code>-&lt;!-- Source: https://indiedocjourney.com/2026/03/27/meta-ban-survival-playbook/ --&gt;
+-&lt;!-- Paste into a Squarespace Code Block --&gt;
++&lt;!-- ============================================================
++     META BAN SURVIVAL PLAYBOOK — SEO-OPTIMIZED VERSION
++     Focus Keyphrase : Facebook account banned
++     Slug            : facebook-account-banned-survival-playbook
++     SEO Title       : Facebook Account Banned? The Meta Ban Survival Playbook
++     Meta Description: Had your Facebook account banned without warning? Read
++                       how one filmmaker survived a Meta ban after 22 years,
++                       uncovered cookie theft, and built a step-by-step
++                       recovery playbook.
++     ============================================================ --&gt;
++
++&lt;!-- YOAST CHECKLIST (paste these into Yoast fields in WordPress):
++     Focus keyphrase : Facebook account banned
++     SEO title       : Facebook Account Banned? The Meta Ban Survival Playbook
++     Slug            : facebook-account-banned-survival-playbook
++     Meta description: Had your Facebook account banned without warning? Read how one filmmaker survived a Meta ban after 22 years, uncovered cookie theft, and built a step-by-step recovery playbook.
++--&gt;</code></pre>
+<!-- /wp:code -->
+
+<!-- wp:heading {"level":6,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}},"anchor":"opening-the-shock-of-account-loss"} -->
+<h6 id="opening-the-shock-of-account-loss" class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a">The Dumpster Fire: How to Manage A Facebook Ban Effectively</h6>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":2338,"sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/CalebS_2-Copy.webp" alt="" class="wp-image-2338"/><figcaption class="wp-element-caption"><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#00fa1d" class="has-inline-color"><strong>This is what I planned to post on Christmas Day had the Facebok ban not happened</strong></mark></strong></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p><i>If you've ever had </i><b style="font-style: italic;">Faceboo</b>k<b style="font-style: italic;"> ba</b><i>n your account without warning, you know the feeling. This is the story of how my 22-year-old account disappeared on Christmas Eve. I built a step-by-step playbook to fight back.</i></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Picture this. It's Christmas Eve, and instead of a warm mug of cocoa, you get a piping hot notice that twenty-two years of your digital life just went:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:jetpack/markdown {"source":"**\u0022Poof. Gone.\u0022**"} -->
+<div class="wp-block-jetpack-markdown"><p><strong>“Poof. Gone.”</strong></p>
+</div>
+<!-- /wp:jetpack/markdown --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>Like the last donut at a morning meeting. That's what happened to me. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Other people were opening presents or pretending to like their in-laws. Meanwhile, I was staring at a screen. It informed me that my Facebook account had been permanently disabled.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>No warning. No explanation. No context. Just a message as cheerful as a tax audit. Facebook ban. I was Zucked.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#00fa1d" class="has-inline-color">"Account Permanently Disabled. You cannot request a</mark><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">nother review."</mark></strong></p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading {"level":5,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}},"anchor":"the-digital-death-sentence"} -->
+<h5 id="the-digital-death-sentence" class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a">Two Decades of Social Media Evolution. THEN FACEBOOK BAN.</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>This wasn't just any account. This was my <em>award-winning</em> Facebook account. "<strong>Biggest Social Media Oversharer</strong>" at my ten-year high school reunion, thank you very much. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2165,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/Firefly_Gemini-Flash-2-579x1024.png" alt="A cartoonish scene depicting a high school reunion for the class of '99. A man in a sparkling blue suit and crown holds an award for 'Biggest Social Media Oversharer,' while a crowd of classmates claps and cheers. Balloons and a banner in the background set the festive atmosphere." class="wp-image-2165"/><figcaption class="wp-element-caption"><strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-primary-color">A dramatic reimaging of my 10 year high school reunion.</mark></strong></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>A meticulously curated archive contained memories, milestones, grief, and joy. It included memes, sobriety anniversaries, and family losses. There were inside jokes and way too many opinions about reality TV shows that probably didn’t deserve the emotional investment. And it was gone in an instant. The timing felt particularly cruel. Christmas Eve: a day when most customer service departments are as reachable as Santa's workshop.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}},"anchor":"the-digital-death-sentence-1"} -->
+<h5 id="the-digital-death-sentence-1" class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a">The Digital Death Sentence of Christmas Eve: fACEBOOK bAN</h5>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":2170,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/d81f735b-c304-43b3-b428-44b947dbf5d8-edited.jpg" alt="A cartoonish blue face with exaggerated features, displaying a mischievous expression, sticking out its tongue, with the word 'facebook' prominently written in white across the mouth." class="wp-image-2170"/><figcaption class="wp-element-caption"><mark style="background-color:rgba(0, 0, 0, 0);color:#bceb00" class="has-inline-color"><strong> </strong></mark></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:pullquote {"textAlign":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|white"}}},"background":{"backgroundImage":{"url":"https://indiedocjourney.com/wp-content/uploads/2026/03/create-a-featured-image-depicting-a-dumpster-on-a-city-4.png","id":2223,"source":"file","title":"create-a-featured-image-depicting-a-dumpster-on-a-city"},"backgroundSize":"cover","backgroundPosition":"49% 56.99999999999999%"},"border":{"width":"0px","style":"none"},"typography":{"fontSize":"52px"},"spacing":{"padding":{"top":"var:preset|spacing|40","bottom":"var:preset|spacing|40"}},"color":{"background":"#e01010"}},"textColor":"white"} -->
+<figure class="wp-block-pullquote has-text-align-center has-white-color has-text-color has-background has-link-color" style="border-style:none;border-width:0px;background-color:#e01010;padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);font-size:52px"><blockquote><p>"<strong><mark style="background-color:rgba(0, 0, 0, 0)" class="has-inline-color has-foreground-color">yOu cAnNoT rEqWeSt aNoThEr rEvU</mark></strong>"</p><cite>meta support</cite></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:paragraph -->
+<p>The language was final. Cold. Absolute. It was almost like they were trolling me.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It carried the tone of a bureaucracy that assumes guilt and offers silence as due process. It was the message that tells you very clearly that no one is coming to help you. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It's the digital equivalent of being kicked off the party bus. Except that, the party bus holds all your family photos. It serves as your primary means of staying connected to distant relatives.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Did they have no sense of legacy? I'd been using Facebook since 2004, back then you needed a ".edu" email to sign up. I'd watched it evolve from a simple college networking site to the digital town square where democracy goes to die</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2175,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/tom-edited.png" alt="A cartoon depicting a character named Caleb angrily throwing another character named Tom into a burning dumpster labeled 'forgotten friendships,' while showcasing Facebook elements and the 'Top 8 Friends' list." class="wp-image-2175"/><figcaption class="wp-element-caption"><strong><mark style="background-color:rgba(0, 0, 0, 0);color:#d3fc03" class="has-inline-color">Caleb throws Myspace Tom into the trash</mark></strong></figcaption></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>I dropped Myspace Tom faster than a three day old "Top 8 Friends" list.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:columns -->
+<div class="wp-block-columns"><!-- wp:column {"width":"100%"} -->
+<div class="wp-block-column" style="flex-basis:100%"><!-- wp:media-text {"mediaPosition":"right","mediaId":2329,"mediaType":"image","mediaWidth":52} -->
+<div class="wp-block-media-text has-media-on-the-right is-stacked-on-mobile" style="grid-template-columns:auto 52%"><div class="wp-block-media-text__content"><!-- wp:paragraph {"placeholder":"Content…"} -->
+<p></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:preformatted {"style":{"spacing":{"padding":{"top":"var:preset|spacing|20","bottom":"var:preset|spacing|20"}},"elements":{"link":{"color":{"text":"var:preset|color|white"}}}},"textColor":"white","fontSize":"medium"} -->
+<pre class="wp-block-preformatted has-white-color has-text-color has-link-color has-medium-font-size" style="padding-top:var(--wp--preset--spacing--20);padding-bottom:var(--wp--preset--spacing--20)">I'd survived every privacy scandal. I endured every algorithm change. Each redesign made everyone threaten to quit but never actually follow through. I had participated loyally in this odd social experiment for two decades. Now I got a facebook ban without so much as a "bye bitch."</pre>
+<!-- /wp:preformatted --></div><figure class="wp-block-media-text__media"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/sparky-687x1024.jpeg" alt="" class="wp-image-2329 size-full"/></figure></div>
+<!-- /wp:media-text --></div>
+<!-- /wp:column --></div>
+<!-- /wp:columns -->
+
+<!-- wp:group {"layout":{"type":"flex","orientation":"vertical"}} -->
+<div class="wp-block-group"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-group"><!-- wp:media-text {"mediaId":2330,"mediaType":"image","mediaWidth":45} -->
+<div class="wp-block-media-text is-stacked-on-mobile" style="grid-template-columns:45% auto"><figure class="wp-block-media-text__media"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/3bf199b0-7160-42b5-8560-d4af0bcff7db-2026-03-27-1-535x1024.png" alt="" class="wp-image-2330 size-full"/></figure><div class="wp-block-media-text__content"><!-- wp:preformatted {"style":{"elements":{"link":{"color":{"text":"var:preset|color|foreground"}}}},"textColor":"foreground","fontSize":"medium"} -->
+<pre class="wp-block-preformatted has-foreground-color has-text-color has-link-color has-medium-font-size">Let me just say that dopamine withdrawals are real thing. It wasn't just the loss of access. It was the sudden realization of how much of my identity had become intertwined with this platform. My connection to friends on other continents was dashed. My repository of memories in the form of old photos. A primary news source because who has time to read a newspaper website anymore? It was even my method of remembering birthdays. All of this was linked to my FB account. It disappeared faster than a one night stand after the booze wears off.</pre>
+<!-- /wp:preformatted --></div></div>
+<!-- /wp:media-text --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:heading {"level":6,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}},"anchor":"into-the-appeal-Abyss"} -->
+<h6 id="into-the-appeal-Abyss" class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a">Understanding Meta’s Appeal Process: Challenges and Comparisons to a Roomba</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Most people would have called it quits and said oh well. Why?</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><a href="https://www.oversightboard.com/transparency-reports/" type="link" id="https://www.theverge.com/2021/10/25/22745242/facebook-oversight-board-appeals-transparency-report">Because as I was about to discover, Meta's appeal process is like arguing with a Roomba. It bumps into a wall, spins in a circle, and pretends not to notice you. Only about twenty-four percent of appeals go anywhere. Paying for Meta Verified support mostly gets you a shinier automated brush-off from agents named Solange.</a></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>It was confusing hedge maze with has more grey areas than my Aunt Linda's mystery casserole at Thanksgiving. I was down the rabbit hole. Things were getting curiouser and curiouser.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:paragraph {"style":{"elements":{"link":{"color":{"text":"#ffe23d"}}},"color":{"text":"#ffe23d"},"typography":{"textAlign":"center"}},"backgroundColor":"vivid-red","fontSize":"x-large"} -->
+<p class="has-text-align-center has-vivid-red-background-color has-text-color has-background has-link-color has-x-large-font-size" style="color:#ffe23d"><strong>"Caleb in Metaland"</strong></p>
+<!-- /wp:paragraph --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>You know me, I'm gay and stubborn. I also love tea parties. And this Facebook ban was giving me life!!</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2180,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/download-890x1024.png" alt="A colorful cartoon scene depicting a whimsical version of 'Meta.land' with caricatures of characters including a man in a dress with a rainbow sash, a blue mad hatter, and a muscular man in bunny ears. They are gathered around a table filled with Facebook-themed items, while one corner shows a burning dumpster. The text 'Caleb in Meta.land' is prominently displayed." class="wp-image-2180"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>So I said nope to giving up and pilled a full Leslie Knope instead.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The appeal process itself deserves its own anthropological study. First, you're presented with a form that asks you to explain what you did wrong. It already assumes guilt. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The drop down menus for violation types don't include "Bitch, I didn't do shit." </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>You're forced to guess at your own crime like some dystopian game show. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>Then comes the waiting. Days turn into weeks. Weeks turn into months. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2182,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/didntdoshit-1024x559.png" alt="Screenshot of a Facebook appeal form displaying options for violations with an aggressive statement highlighted." class="wp-image-2182"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p>The automated responses arrive with the regularity of a Swiss watch. They offer the helpfulness of a belt and suspenders but no pants. Each one essentially says, "We've reviewed your appeal and determined that you're still guilty of something we won't specify."</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>The most infuriating part was the gas-lighting. The responses would reference "community standards" violations without citing which standards or what content. It was like being told you failed a test but not being allowed to see the questions or your answers. The platform seemed designed not to resolve issues but to exhaust you into acceptance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":5,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}},"anchor":"detective-work-finding-the-smoking-gun"} -->
+<h5 id="detective-work-finding-the-smoking-gun" class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a"> Accidental Cyber Detective: Uncovering Online Mysteries</h5>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>I documented the whole experience. Screenshots. Timestamps. Notes. Emails. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I'm a documentary filmmaker, so I treated it like a job. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p> I even started paying Meta for Meta Verified, because it comes with the promise of elevated HUMAN support. Capital letters doing a lot of work there. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>What I got instead was a maze of catch-22s, broken promises, and flat-out falsehoods.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2184,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/banged-584x1024.png" alt="An illustrated office scene depicting multiple customer service representatives wearing Meta-branded shirts, sitting at desks with computers. A chat window on one screen shows a message saying, 'Your account was disabled because you are a bad person.' The representative, a woman with headphones, appears confident while another character, a man, looks shocked. The environment features humorous signs and decorations, emphasizing a busy workplace." class="wp-image-2184"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:paragraph -->
+<p> In the beginning, they tried to shame me. They literally told me my account was disabled because I was a bad person. When I asked what I had done to merit account closure, they responded with, "You know what you did." Which I haven't heard out loud since I was a toddler. It was dismissive. Infantilizing. It made me feel like a bad dog who'd chewed up the furniture but couldn't remember doing it. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":6,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}}} -->
+<h6 class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a">The cookie monsterS: A ROad to Facebook ban perdition</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>That's when I realized I needed proof. The breakthrough came almost by accident. While desperately trying every possible avenue to regain access, I stumbled upon<a href="https://www.facebook.com/hacked?src=helpcenter_hackedindex"> hacked.facebook.com</a>—a link I'd never heard of but decided to try in my increasingly frantic attempts to understand what had happened.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I entered my password and was redirected to a link that looked… odd. I looked closer and did a digital spit-take. It read: </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:pullquote {"style":{"elements":{"link":{"color":{"text":"var:preset|color|primary"}}}},"backgroundColor":"vivid-red","textColor":"primary","fontSize":"medium"} -->
+<figure class="wp-block-pullquote has-primary-color has-vivid-red-background-color has-text-color has-background has-link-color has-medium-font-size"><blockquote><p><em><a href="http://www.facebook.com/checkpoint/disabled/login_with_hacked_cookie" type="link" id="http://www.facebook.com/checkpoint/disabled/login_with_hacked_cookie"><strong>www.facebook.com/checkpoint/disabled/login_with_hacked_cookie</strong></a></em></p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:paragraph -->
+<p> That phrase isn't decorative. "Login with hacked cookie" is Facebook's own internal language.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:image {"id":2186,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/image-572x1024.png" alt="Infographic explaining cookie theft and its impact on Facebook accounts, illustrating the login process, the method of cookie theft, consequences, and the importance of data security." class="wp-image-2186"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:quote -->
+<blockquote class="wp-block-quote"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p><a href="https://owasp.org/www-community/attacks/Session_hijacking_attack" type="link" id="https://owasp.org/www-community/attacks/Session_hijacking_attack"><strong>Cookie theft</strong>: A breach where a hacker doesn't need your password because it doesn't trigger two-factor authentication.</a></p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></blockquote>
+<!-- /wp:quote -->
+
+<!-- wp:paragraph -->
+<p>It's the digital equivalent of someone stealing your house keys and then acting surprised when you notice the furniture moved. </p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>This was my smoking gun. Facebook's own system informed me that my account had been compromised through cookie theft. This is a sophisticated attack. As the account holder, I would have no way to prevent or even detect it until it was too late.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>I finally had ironclad proof it was a hack via cookie theft not something I did. But instead of restoring my account, Meta treated me like the criminal. The real fight  and the gut-wrenching digital autopsy was still ahead.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:pullquote -->
+<figure class="wp-block-pullquote"><blockquote><p><strong><a href="https://indiedocjourney.com/blog" type="link" id="https://indiedocjourney.com/blog">TO BE CONTINUED IN PART 2</a></strong></p></blockquote></figure>
+<!-- /wp:pullquote -->
+
+<!-- wp:heading {"style":{"elements":{"link":{"color":{"text":"var:preset|color|vivid-red"}}}},"backgroundColor":"primary","textColor":"vivid-red"} -->
+<h2 class="wp-block-heading has-vivid-red-color has-primary-background-color has-text-color has-background has-link-color"><strong>Essential Steps for Recovering a Disabled Facebook Account</strong></h2>
+<!-- /wp:heading -->
+
+<!-- wp:list -->
+<ul class="wp-block-list"><!-- wp:list-item -->
+<li><strong>Act fast</strong>: You generally have up to 180 days to appeal a suspension before it becomes permanent.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Document everything</strong>: Take screenshots of every error message, URL (especially anything with “hacked” or “disabled”), and email.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Download your data instantly</strong> if you still can — go to Settings &gt; Your Facebook Information &gt; Download Your Information.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Try the hacked account flow</strong>: Visit hacked.facebook.com and see if it gives you clues about session/cookie theft.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Don’t spam appeals</strong> — one well-written, calm appeal performs better than dozens of angry ones.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Consider Meta Verified</strong> only as a last resort — it sometimes escalates to (semi) human support, but results vary.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:separator -->
+<hr class="wp-block-separator has-alpha-channel-opacity"/>
+<!-- /wp:separator -->
+
+<!-- wp:separator {"className":"is-style-wide"} -->
+<hr class="wp-block-separator has-alpha-channel-opacity is-style-wide"/>
+<!-- /wp:separator -->
+
+<!-- wp:heading {"level":6,"style":{"color":{"text":"#c2f104","background":"#06297a"},"elements":{"link":{"color":{"text":"#c2f104"}}}}} -->
+<h6 class="wp-block-heading has-text-color has-background has-link-color" style="color:#c2f104;background-color:#06297a">An FAQ with Macho Mark Z: Expert Insights and Tips</h6>
+<!-- /wp:heading -->
+
+<!-- wp:image {"id":2205,"sizeSlug":"large","linkDestination":"none"} -->
+<figure class="wp-block-image size-large"><img src="https://indiedocjourney.com/wp-content/uploads/2026/03/ZONKED-1024x559.png" alt="A digital illustration of a muscular man sitting on a throne labeled 'Digital Tyrant's Seat - ZUCK'D', wearing a black t-shirt with a gold chain and a 'Meta' logo. Behind him is a glowing Facebook logo and two 'Denied Appeal' documents. On the left, there are two golden Oscar statuettes, and to the right, a burning trash bin with the Facebook logo. A coffee cup and a magnifying glass are also present in the scene." class="wp-image-2205"/></figure>
+<!-- /wp:image -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading">Why did you permanently disable my 22-year-old Facebook account on Christmas Eve with zero explanation?</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><br>Macho Zuck (flexing, thick gold chain catching the light): Bro, the algorithm don’t take holidays. Sometimes it just hits you with the rear-naked choke. You know what you did… or maybe the cookie thief did. Either way, tap or nap. Merry Christmas.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading"><strong><br>Q: What the hell is “login_with_hacked_cookie” and why did your own system admit my account was compromised?</strong></h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><br>Macho Zuck (shrugging while adjusting his chain): Hackers these days are straight black belts in session theft. We catch the breach, we shut it down hard. Collateral damage happens when you’re running the digital octagon. Should’ve had better guard, my friend.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading"><br>Q: I paid for Meta Verified hoping for real human help. Why did I still get the automated runaround?</h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><br>Macho Zuck (laughing): Verified gets you to the front of the automated line, champ. I’m out here training with UFC fighters and stacking chains — you think I’m personally reviewing your 2017 memes? The system is the system. Respect it or get swept.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading"><br><strong>Q: Should people just give up when they get hit with a Meta ban?</strong></h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><br>Macho Zuck (leaning in, suddenly serious): Hell no. That’s when you turn into the Hardy Boy. Document everything. Find your smoking gun. Download the data. Some legends even drag me into small claims court. Respect the grind. Most people tap out early — that’s why I keep winning.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {"level":6} -->
+<h6 class="wp-block-heading"><br><strong>Q: Any final advice from the guy actually running the platform?</strong></h6>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><br>Macho Zuck (standing up, double bicep flex so the gold chain bounces): Back up your memories off-platform. Use real 2FA. Don’t put your whole life in one app. Me? I’m building the future, rolling on the mats, and collecting chains. You got Zucked? Dust off, touch grass, and come back stronger. The algorithm doesn’t miss you… much.</p>
+<!-- /wp:paragraph -->

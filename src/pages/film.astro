@@ -4,13 +4,15 @@ import { movieJsonLd } from "../lib/seo";
 
 const description =
   "Watch Golden Wings — the award-winning aviation documentary on Robyn Stewart’s 55-year career.";
+const posterSrc = "/images/poster/GWSSQ_Poster_2026.png";
 ---
 
 <BaseLayout
   title="Film"
   description={description}
   ogType="video.other"
-  jsonLd={movieJsonLd(description)}
+  ogImage={posterSrc}
+  jsonLd={movieJsonLd(description, posterSrc)}
 >
   <section class="hero" aria-label="Film">
     <p class="section__label">Golden Wings</p>

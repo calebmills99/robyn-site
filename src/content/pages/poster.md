@@ -8,7 +8,7 @@ scrapedAt: '2026-07-21T15:32:45.450Z'
 reason: core v1
 ---
 
-![](https://images.squarespace-cdn.com/content/v1/6657cd3cfe3d866e6cfb6106/1720192669496-ZIU4X6UR3DJN1NZDSQDZ/GOLDEN_WINGS_POSTER_shrunk.jpg)
+![](/blog/fa0e4996be8a.jpg)
 
   Golden Wings Documentary Poster
 
@@ -26,21 +26,21 @@ Why You’ll Love It:
 
 Product Details:
 
-	•	Dimensions: 24” x 36”
+•	Dimensions: 24” x 36”
 
-	•	Format: High-resolution digital download
+•	Format: High-resolution digital download
 
-	•	Cost: Free
+•	Cost: Free
 
 Perfect for:
 
-	•	Aviation enthusiasts
+•	Aviation enthusiasts
 
-	•	Documentary fans
+•	Documentary fans
 
-	•	Supporters of Robyn Stewart and her incredible career
+•	Supporters of Robyn Stewart and her incredible career
 
-	•	Home or office decor
+•	Home or office decor
 
 Download Your Free Poster Today!
 

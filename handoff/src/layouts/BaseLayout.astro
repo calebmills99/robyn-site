@@ -1,0 +1,141 @@
+---
+import "../styles/global.css";
+import "../styles/ds-2026.css";
+
+interface Props {
+  title?: string;
+  fullTitle?: string;
+  description?: string;
+  canonical?: string;
+  ogImage?: string;
+  ogType?: "website" | "article" | "video.other";
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[];
+}
+
+const SITE = "https://golden-wings-robyn.com";
+const DEFAULT_OG_IMAGE = `${SITE}/images/brand/title-logo-2026.png`;
+const DEFAULT_DESCRIPTION =
+  "Golden Wings, an award-winning aviation documentary following Robyn Stewart's 55-year career as a flight attendant, told by her son Caleb Mills Stewart.";
+
+const {
+  title = "Golden Wings",
+  fullTitle,
+  description = DEFAULT_DESCRIPTION,
+  canonical: canonicalProp,
+  ogImage = DEFAULT_OG_IMAGE,
+  ogType = "website",
+  jsonLd,
+} = Astro.props;
+
+const pageTitle =
+  fullTitle ||
+  (title === "Golden Wings"
+    ? "Golden Wings | Aviation Documentary"
+    : `${title} | Golden Wings`);
+
+const pathname = Astro.url.pathname.replace(/\/$/, "") || "/";
+const canonicalPath = pathname === "/" ? "/" : pathname;
+const canonical =
+  canonicalProp ||
+  (canonicalPath === "/" ? `${SITE}/` : `${SITE}${canonicalPath}`);
+
+const ogImageUrl = ogImage.startsWith("http")
+  ? ogImage
+  : `${SITE}${ogImage.startsWith("/") ? ogImage : `/${ogImage}`}`;
+
+const jsonLdBlocks = jsonLd ? (Array.isArray(jsonLd) ? jsonLd : [jsonLd]) : [];
+
+const nav = [
+  { href: "/film", label: "Film" },
+  { href: "/about-the-film", label: "About" },
+  { href: "/people", label: "People" },
+  { href: "/indie-doc-journey", label: "Journey" },
+  { href: "/press-kit", label: "Press Kit" },
+];
+
+function isCurrent(href: string) {
+  if (href === "/") return pathname === "/";
+  if (href === "/indie-doc-journey") {
+    return (
+      pathname === href ||
+      pathname.startsWith(href + "/") ||
+      pathname === "/special-dispatch" ||
+      pathname.startsWith("/special-dispatch/")
+    );
+  }
+  return pathname === href || pathname.startsWith(href + "/");
+}
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:site_name" content="Golden Wings" />
+    <meta property="og:type" content={ogType} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    {jsonLdBlocks.map((block) => (
+      <script type="application/ld+json" set:html={JSON.stringify(block)} />
+    ))}
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="preload" href="/fonts/Airstream.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="sr-only" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand brand--logo" href="/" aria-label="Golden Wings home">
+          <img class="brand__mark" src="/images/brand/logo-mark.png" alt="" width="200" height="200" />
+          <img class="brand__title" src="/images/brand/title-logo-2026.png" alt="Golden Wings" width="1200" height="480" />
+        </a>
+        <nav aria-label="Primary">
+          <ul class="nav">
+            {nav.map((item) => (
+              <li>
+                <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>{item.label}</a>
+              </li>
+            ))}
+            <li><a class="nav-cta" href="/contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div class="site-footer__signoff">
+          <img src="/images/brand/logo-mark-wink.png" alt="" width="200" height="200" loading="lazy" />
+          <div>
+            <p class="site-footer__script">Thanks for flying with us.</p>
+            <p>© {new Date().getFullYear()} Golden Wings · Gwingz Studios</p>
+          </div>
+        </div>
+        <nav aria-label="Legal">
+          <a class="site-footer__press" href="/press-kit">Press Kit</a>
+          <a href="/privacy-policy">Privacy</a>
+          <span class="guild-egg" aria-hidden="true" tabindex="-1">✦<img src="/images/brand/gwig-seal.png" alt="" loading="lazy" width="400" height="400" /></span>
+          <a href="/terms-of-use">Terms</a>
+          <a href="/optin">SMS Opt-In</a>
+          <a href="mailto:info@golden-wings-robyn.com">info@golden-wings-robyn.com</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
