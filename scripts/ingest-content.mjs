@@ -306,6 +306,14 @@ function clearMd(dir) {
   }
 }
 
+function clearGeneratedPages(files) {
+  for (const f of files) {
+    const slug = f.replace(/\.md$/i, "");
+    const filePath = path.join(DEST_PAGES, `${slug}.md`);
+    if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
+  }
+}
+
 function refreshExistingPage(slug) {
   const override = PAGE_COPY_OVERRIDES[slug];
   if (!override) return null;
@@ -349,8 +357,9 @@ function ingest() {
   const hasBlogMigration = migrationPresent(blogDir);
 
   if (hasPagesMigration) {
-    clearMd(DEST_PAGES);
-    for (const f of fs.readdirSync(pagesDir).filter((x) => x.endsWith(".md"))) {
+    const pageFiles = fs.readdirSync(pagesDir).filter((x) => x.endsWith(".md"));
+    clearGeneratedPages(pageFiles);
+    for (const f of pageFiles) {
       const { slug, markdown } = processMarkdown(path.join(pagesDir, f), { isBlog: false });
       fs.writeFileSync(path.join(DEST_PAGES, `${slug}.md`), markdown, "utf8");
       pageCount++;
