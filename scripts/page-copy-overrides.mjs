@@ -1,8 +1,4 @@
 export const PAGE_COPY_OVERRIDES = {
-  film: {
-    description:
-      "Golden Wings is a documentary about Robyn Stewart's American Airlines career since 1971 and the family history around it.",
-  },
   "about-the-film": {
     description:
       "Golden Wings: Stewardess to Sky Queen is a documentary by Caleb Mills Stewart about his mother, American Airlines flight attendant Robyn Stewart, and three generations of one family at American Airlines.",
