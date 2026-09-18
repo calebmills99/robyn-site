@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>Parity Studio · Golden Wings (dev only)</title>
+    <style>
+      :root {
+        --bg: #1a2228;
+        --panel: #243038;
+        --ink: #f5f7fa;
+        --muted: #9aa7b2;
+        --line: #3a4a55;
+        --amber: #d4af35;
+        --danger: #c45c5c;
+        --ok: #6a9a6a;
+        --mono: ui-monospace, "Cascadia Code", Consolas, monospace;
+        --sans: "Segoe UI", system-ui, sans-serif;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+        background: var(--bg);
+        color: var(--ink);
+        font-family: var(--sans);
+      }
+      body {
+        display: grid;
+        grid-template-rows: auto 1fr;
+      }
+      header {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.75rem 1rem;
+        align-items: center;
+        padding: 0.65rem 1rem;
+        border-bottom: 1px solid var(--line);
+        background: var(--panel);
+      }
+      header h1 {
+        margin: 0;
+        font-size: 1rem;
+        font-weight: 600;
+        letter-spacing: 0.02em;
+      }
+      header h1 span {
+        color: var(--amber);
+      }
+      .badge {
+        font-size: 0.7rem;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        border: 1px solid var(--amber);
+        color: var(--amber);
+        padding: 0.15rem 0.45rem;
+      }
+      .status {
+        font-size: 0.8rem;
+        color: var(--muted);
+        flex: 1;
+        min-width: 12rem;
+      }
+      .status code {
+        color: var(--ink);
+        font-family: var(--mono);
+        font-size: 0.75rem;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: center;
+      }
+      label {
+        font-size: 0.75rem;
+        color: var(--muted);
+      }
+      select,
+      input,
+      textarea,
+      button {
+        font: inherit;
+      }
+      select,
+      input[type="text"] {
+        background: var(--bg);
+        color: var(--ink);
+        border: 1px solid var(--line);
+        padding: 0.35rem 0.5rem;
+        min-width: 10rem;
+      }
+      button {
+        background: var(--amber);
+        color: #1a2228;
+        border: 0;
+        padding: 0.4rem 0.85rem;
+        font-weight: 600;
+        cursor: pointer;
+      }
+      button.ghost {
+        background: transparent;
+        color: var(--ink);
+        border: 1px solid var(--line);
+      }
+      button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+      main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        min-height: 0;
+      }
+      @media (max-width: 960px) {
+        main {
+          grid-template-columns: 1fr;
+          grid-template-rows: 45vh 1fr;
+        }
+      }
+      .pane {
+        display: flex;
+        flex-direction: column;
+        min-height: 0;
+        border-right: 1px solid var(--line);
+      }
+      .pane:last-child {
+        border-right: 0;
+      }
+      .pane-bar {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        align-items: center;
+        padding: 0.5rem 0.75rem;
+        border-bottom: 1px solid var(--line);
+        background: #1f292f;
+      }
+      .pane-bar strong {
+        font-size: 0.8rem;
+      }
+      .pane-body {
+        flex: 1;
+        min-height: 0;
+        display: flex;
+        flex-direction: column;
+      }
+      iframe {
+        flex: 1;
+        width: 100%;
+        border: 0;
+        background: #fff;
+      }
+      .empty {
+        padding: 1.25rem;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.45;
+      }
+      .form {
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+        padding: 0.75rem;
+        overflow: auto;
+        flex: 1;
+      }
+      .form .field {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+      }
+      .form textarea#body {
+        flex: 1;
+        min-height: 18rem;
+        resize: vertical;
+        font-family: var(--mono);
+        font-size: 0.8rem;
+        line-height: 1.4;
+        background: var(--bg);
+        color: var(--ink);
+        border: 1px solid var(--line);
+        padding: 0.6rem;
+      }
+      .form input {
+        width: 100%;
+      }
+      .note {
+        font-size: 0.75rem;
+        color: var(--muted);
+        border-left: 2px solid var(--amber);
+        padding-left: 0.6rem;
+      }
+      .toast {
+        font-size: 0.8rem;
+        padding: 0.35rem 0.5rem;
+      }
+      .toast.ok {
+        color: var(--ok);
+      }
+      .toast.err {
+        color: var(--danger);
+      }
+      .meta {
+        font-family: var(--mono);
+        font-size: 0.7rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Parity <span>Studio</span></h1>
+      <span class="badge">Dev only</span>
+      <div class="status" id="status">Loading…</div>
+      <div class="row">
+        <label for="collection">Collection</label>
+        <select id="collection">
+          <option value="pages">pages</option>
+          <option value="blog">blog</option>
+          <option value="people">people</option>
+        </select>
+        <label for="entry">Entry</label>
+        <select id="entry"></select>
+        <button type="button" id="reload" class="ghost">Reload</button>
+        <a
+          id="preview"
+          class="ghost"
+          href="/"
+          target="_blank"
+          rel="noopener"
+          style="
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            border: 1px solid var(--line);
+            color: var(--ink);
+            text-decoration: none;
+            font-size: 0.9rem;
+          "
+          >Open Astro route</a
+        >
+      </div>
+    </header>
+    <main>
+      <section class="pane" aria-label="Crawl snapshot">
+        <div class="pane-bar">
+          <strong>Crawl</strong>
+          <select id="crawlMatch" style="flex: 1; min-width: 8rem"></select>
+          <button type="button" id="openCrawl" class="ghost">Refresh frame</button>
+        </div>
+        <div class="pane-body" id="crawlPane">
+          <div class="empty" id="crawlEmpty">
+            Point <code>CRAWL_ROOT</code> at your local crawl folder, then pick a
+            page. Default on Caleb's machine:
+            <code>C:\RUNB2\crawls\collections\golden-wings-full</code>
+          </div>
+          <iframe id="crawlFrame" title="Crawl snapshot" hidden></iframe>
+        </div>
+      </section>
+      <section class="pane" aria-label="Astro content editor">
+        <div class="pane-bar">
+          <strong>Astro content</strong>
+          <span class="meta" id="filePath"></span>
+          <button type="button" id="save">Save markdown</button>
+          <span class="toast" id="toast" hidden></span>
+        </div>
+        <div class="form" id="editor">
+          <p class="note" id="note"></p>
+          <div class="field">
+            <label for="title">Title / name</label>
+            <input id="title" type="text" />
+          </div>
+          <div class="field">
+            <label for="description">Description / lede</label>
+            <input id="description" type="text" />
+          </div>
+          <div class="field" style="flex: 1; display: flex; flex-direction: column">
+            <label for="body">Body (markdown)</label>
+            <textarea id="body"></textarea>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      const $ = (id) => document.getElementById(id);
+      let current = null;
+
+      function toast(msg, ok) {
+        const el = $("toast");
+        el.hidden = false;
+        el.textContent = msg;
+        el.className = "toast " + (ok ? "ok" : "err");
+      }
+
+      function sitePathFor(entry, data) {
+        if (data?.path) return data.path;
+        if (entry.collection === "blog") return "/indie-doc-journey/" + entry.id;
+        if (entry.collection === "people") return "/people/" + entry.id;
+        if (entry.id === "home") return "/";
+        return "/" + entry.id;
+      }
+
+      async function api(path, opts) {
+        const res = await fetch(path, opts);
+        const text = await res.text();
+        let body;
+        try {
+          body = JSON.parse(text);
+        } catch {
+          throw new Error(text || res.statusText);
+        }
+        if (!res.ok) throw new Error(body.error || res.statusText);
+        return body;
+      }
+
+      async function loadStatus() {
+        const s = await api("/__parity/api/status");
+        const root = s.crawlRoot || "(unset)";
+        const counts = Object.entries(s.collections)
+          .map(([k, v]) => k + ":" + v.count)
+          .join(" · ");
+        $("status").innerHTML =
+          "CRAWL_ROOT <code>" +
+          root +
+          "</code>" +
+          (s.crawlExists
+            ? " · " + s.crawlHtmlCount + " HTML files"
+            : " · crawl folder not found") +
+          " · " +
+          counts;
+        return s;
+      }
+
+      async function loadEntries() {
+        const collection = $("collection").value;
+        const data = await api(
+          "/__parity/api/entries?collection=" + encodeURIComponent(collection),
+        );
+        const sel = $("entry");
+        sel.innerHTML = "";
+        for (const e of data.entries) {
+          const opt = document.createElement("option");
+          opt.value = e.id;
+          opt.textContent = e.title + " (" + e.id + ")";
+          sel.appendChild(opt);
+        }
+        $("note").textContent = data.note || "";
+        if (data.entries.length) await loadEntry();
+      }
+
+      function fillCrawlMatches(matches) {
+        const sel = $("crawlMatch");
+        sel.innerHTML = "";
+        if (!matches?.length) {
+          const opt = document.createElement("option");
+          opt.value = "";
+          opt.textContent = "(no crawl match — pick from list or set CRAWL_ROOT)";
+          sel.appendChild(opt);
+          $("crawlFrame").hidden = true;
+          $("crawlEmpty").hidden = false;
+          return;
+        }
+        for (const m of matches) {
+          const opt = document.createElement("option");
+          opt.value = m.rel;
+          opt.textContent = m.rel + " (score " + m.score + ")";
+          sel.appendChild(opt);
+        }
+        showCrawl(matches[0].rel);
+      }
+
+      function showCrawl(rel) {
+        if (!rel) {
+          $("crawlFrame").hidden = true;
+          $("crawlEmpty").hidden = false;
+          return;
+        }
+        $("crawlEmpty").hidden = true;
+        $("crawlFrame").hidden = false;
+        $("crawlFrame").src =
+          "/__parity/crawl/" + rel.split("/").map(encodeURIComponent).join("/");
+      }
+
+      async function loadEntry() {
+        const collection = $("collection").value;
+        const id = $("entry").value;
+        if (!id) return;
+        current = await api(
+          "/__parity/api/entry?collection=" +
+            encodeURIComponent(collection) +
+            "&id=" +
+            encodeURIComponent(id),
+        );
+        current.collection = collection;
+        $("filePath").textContent = current.file;
+        $("note").textContent = current.note || "";
+        const d = current.data || {};
+        $("title").value = d.title || d.name || "";
+        $("description").value = d.description || d.lede || "";
+        $("body").value = current.body || "";
+        $("preview").href = sitePathFor({ collection, id }, d);
+        fillCrawlMatches(current.crawlMatches);
+        toast("Loaded " + current.file, true);
+      }
+
+      async function saveEntry() {
+        if (!current) return;
+        const data = { ...current.data };
+        if ("name" in data && !("title" in data)) {
+          data.name = $("title").value;
+          data.lede = $("description").value;
+        } else {
+          data.title = $("title").value;
+          data.description = $("description").value;
+        }
+        const body = $("body").value;
+        $("save").disabled = true;
+        try {
+          const res = await api("/__parity/api/entry", {
+            method: "PUT",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              collection: current.collection,
+              id: current.id,
+              data,
+              body,
+            }),
+          });
+          toast("Saved " + res.file, true);
+          current.data = data;
+          current.body = body;
+        } catch (err) {
+          toast(String(err.message || err), false);
+        } finally {
+          $("save").disabled = false;
+        }
+      }
+
+      $("collection").addEventListener("change", () => loadEntries().catch(showErr));
+      $("entry").addEventListener("change", () => loadEntry().catch(showErr));
+      $("reload").addEventListener("click", () =>
+        Promise.all([loadStatus(), loadEntries()]).catch(showErr),
+      );
+      $("save").addEventListener("click", () => saveEntry());
+      $("crawlMatch").addEventListener("change", (e) => showCrawl(e.target.value));
+      $("openCrawl").addEventListener("click", () => showCrawl($("crawlMatch").value));
+
+      function showErr(err) {
+        toast(String(err.message || err), false);
+        console.error(err);
+      }
+
+      Promise.all([loadStatus(), loadEntries()]).catch(showErr);
+    </script>
+  </body>
+</html>

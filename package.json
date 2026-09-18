@@ -9,6 +9,7 @@
     "ingest": "node scripts/ingest-content.mjs",
     "prebuild": "node scripts/ingest-content.mjs && node scripts/mirror-blog-cdn.cjs && node scripts/mirror-wp-uploads.cjs",
     "dev": "astro dev",
+    "parity": "node scripts/run-parity-studio.mjs",
     "build": "astro build && node -e \"import fs from 'fs'; const source = fs.existsSync('dist/sitemap-index.xml') ? 'dist/sitemap-index.xml' : 'dist/sitemap-0.xml'; fs.copyFileSync(source, 'dist/sitemap.xml');\"",
     "preview": "astro preview",
     "astro": "astro",
