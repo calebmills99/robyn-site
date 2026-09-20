@@ -98,7 +98,7 @@ const laurels = [
       </div>
 
       <div class="crew-call__plate">
-        <form class="crew-form" id="crew-form" action="/api/crew" method="post" enctype="multipart/form-data" novalidate>
+        <form class="crew-form" id="crew-form" action="/api/crew" method="post" novalidate>
           <div class="crew-form__field">
             <label class="crew-form__label" for="crew-name">Name</label>
             <input class="crew-form__input" id="crew-name" name="name" type="text" autocomplete="name" required />
@@ -108,20 +108,12 @@ const laurels = [
             <input class="crew-form__input" id="crew-email" name="email" type="email" autocomplete="email" required />
           </div>
           <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-airline">Airline</label>
-            <input class="crew-form__input" id="crew-airline" name="airline" type="text" required />
-          </div>
-          <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-years">Years flown</label>
-            <input class="crew-form__input" id="crew-years" name="years" type="text" placeholder="e.g. 1985–2020" required />
+            <label class="crew-form__label" for="crew-airline-years">Airline &amp; years</label>
+            <input class="crew-form__input" id="crew-airline-years" name="airline_years" type="text" placeholder="e.g. Delta 1997–2020" required />
           </div>
           <div class="crew-form__field">
             <label class="crew-form__label" for="crew-story">Your story</label>
             <textarea class="crew-form__textarea" id="crew-story" name="story" rows="5" placeholder="One thing nobody believes about the job." required></textarea>
-          </div>
-          <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-photo">Photo</label>
-            <input class="crew-form__file" id="crew-photo" name="photo" type="file" accept="image/*" />
           </div>
           <label class="crew-form__consent">
             <input id="crew-consent" name="consent" type="checkbox" value="yes" required />
@@ -130,6 +122,7 @@ const laurels = [
           <p class="crew-form__error" id="crew-error" hidden></p>
           <button class="btn btn--primary" type="submit">Send it in</button>
         </form>
+        <p class="crew-form__photo-note">Prefer to send a photo? Email it to info@golden-wings-robyn.com after you submit.</p>
 
         <div class="crew-form__success" id="crew-success" hidden>
           <span class="badge">Received</span>
@@ -216,6 +209,8 @@ const laurels = [
         return;
       }
       form.hidden = true;
+      const photoNote = document.querySelector(".crew-form__photo-note");
+      if (photoNote instanceof HTMLElement) photoNote.hidden = true;
       successEl.hidden = false;
     } catch {
       errorEl.textContent = "Network error. Try again.";

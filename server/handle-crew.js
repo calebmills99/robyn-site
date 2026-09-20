@@ -38,11 +38,11 @@ export async function handleCrew(request, env = {}) {
 
   const name = String(form.get("name") || "").trim();
   const email = String(form.get("email") || "").trim();
-  const airline = String(form.get("airline") || "").trim();
-  const years = String(form.get("years") || "").trim();
+  const airlineYears = String(
+    form.get("airline_years") || form.get("airline") || ""
+  ).trim();
   const story = String(form.get("story") || "").trim();
   const consent = form.get("consent");
-  const photo = form.get("photo");
 
   if (!consent || consent === "false" || consent === "off") {
     return json(400, {
@@ -52,10 +52,10 @@ export async function handleCrew(request, env = {}) {
     });
   }
 
-  if (!name || !email || !airline || !years || !story) {
+  if (!name || !email || !airlineYears || !story) {
     return json(400, {
       ok: false,
-      error: "Name, email, airline, years flown, and your story are required.",
+      error: "Name, email, airline & years, and your story are required.",
     });
   }
 
@@ -78,13 +78,14 @@ export async function handleCrew(request, env = {}) {
     "",
     `Name: ${name}`,
     `Email: ${email}`,
-    `Airline: ${airline}`,
-    `Years flown: ${years}`,
+    `Airline & years: ${airlineYears}`,
     "",
     "Story:",
     story,
     "",
     "Consent: yes — may contact and may use with credit.",
+    "",
+    "Photo: not attached on first submit. Ask them to email photos to info@golden-wings-robyn.com if useful.",
   ].join("\n");
 
   const content = [{ type: "text/plain", value: text }];
@@ -98,23 +99,9 @@ export async function handleCrew(request, env = {}) {
   const payload = {
     personalizations,
     from: { email: mailFrom, name: "Golden Wings Crew Door" },
-    subject: `Crew story: ${name} (${airline})`,
+    subject: `Crew story: ${name} (${airlineYears})`,
     content,
   };
-
-  if (photo && typeof photo === "object" && typeof photo.arrayBuffer === "function" && photo.size > 0) {
-    const bytes = new Uint8Array(await photo.arrayBuffer());
-    let binary = "";
-    for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
-    const b64 = btoa(binary);
-    payload.attachments = [
-      {
-        filename: photo.name || "crew-photo.jpg",
-        content: b64,
-        type: photo.type || "application/octet-stream",
-      },
-    ];
-  }
 
   const mcHeaders = { "content-type": "application/json" };
   if (env.MAILCHANNELS_API_KEY) {
