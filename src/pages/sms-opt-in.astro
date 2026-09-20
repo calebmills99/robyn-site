@@ -1,0 +1,59 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { webPageJsonLd } from "../lib/seo";
+
+const description =
+  "SMS terms for Golden Wings screening updates. Once a month at most. Text STOP any time.";
+---
+
+<BaseLayout
+  title="SMS Opt-In"
+  description={description}
+  jsonLd={webPageJsonLd({
+    name: "SMS Opt-In",
+    description,
+    url: "/sms-opt-in",
+  })}
+>
+  <section class="optin-box">
+    <p class="section__label plate--subtitle">Text updates</p>
+    <h1 class="section__title">SMS Opt-In</h1>
+    <p class="script page-motto">Find Your Wings</p>
+
+    <div class="prose">
+      <p>
+        Golden Wings sends optional text messages about public screenings and
+        premieres. That is the only topic. We do not send marketing blasts,
+        fundraising asks, or daily chatter.
+      </p>
+      <p>
+        Cadence: once a month at most, and only when there is a real screening
+        or premiere to announce.
+      </p>
+      <p>
+        By opting in you agree to receive automated messages from Golden Wings
+        at the number you provide. Message and data rates may apply. Consent is
+        not a condition of purchase.
+      </p>
+      <ul>
+        <li>Text STOP to cancel any time.</li>
+        <li>Text HELP for help, or email info@golden-wings-robyn.com.</li>
+        <li>
+          We do not sell your number. See our
+          <a href="/privacy-policy">Privacy Policy</a> and
+          <a href="/terms-of-use">Terms of Use</a>.
+        </li>
+      </ul>
+      <p>
+        SMS delivery provider is not connected yet. Until Twilio (or another
+        provider) is wired, opt-in numbers are forwarded by email to the
+        production inbox only — nothing else is stored on this server.
+      </p>
+    </div>
+
+    <div class="hero__ctas" style="margin-top: 1.75rem;">
+      <a class="btn btn--primary" href="/contact">Back to Contact</a>
+      <a class="btn btn--ghost" href="/#crew">Crew door</a>
+    </div>
+  </section>
+</BaseLayout>

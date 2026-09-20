@@ -1,8 +1,9 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { contactPageJsonLd } from "../lib/seo";
+import ScreeningsCard from "../components/ScreeningsCard.astro";
 
-const description = "Contact Golden Wings at info@golden-wings-robyn.com";
+const description = "Contact Golden Wings — press, former crew, and everything else.";
 ---
 
 <BaseLayout
@@ -14,9 +15,34 @@ const description = "Contact Golden Wings at info@golden-wings-robyn.com";
     <p class="section__label plate--subtitle">Get in touch</p>
     <h1 class="section__title">Contact</h1>
     <p class="script page-motto">Find Your Wings</p>
-    <p>
-      For press, festival, or general inquiries about Golden Wings, reach us at:
-    </p>
+
+    <div class="contact-audiences" role="list">
+      <div class="crew-row" role="listitem">
+        <span>Press &amp; festivals</span>
+        <span
+          ><a href="mailto:caleb@golden-wings-robyn.com"
+            >caleb@golden-wings-robyn.com</a
+          ></span
+        >
+      </div>
+      <div class="crew-row" role="listitem">
+        <span>Former crew &amp; families</span>
+        <span><a href="/#crew">Share your story</a></span>
+      </div>
+      <p class="contact-audiences__hint">
+        Tell us your airline, your years, and one thing nobody believes about
+        the job.
+      </p>
+      <div class="crew-row" role="listitem">
+        <span>Everything else</span>
+        <span
+          ><a href="mailto:info@golden-wings-robyn.com"
+            >info@golden-wings-robyn.com</a
+          ></span
+        >
+      </div>
+    </div>
+
     <p style="margin: 1.5rem 0;">
       <a class="mailto" href="mailto:info@golden-wings-robyn.com"
         >info@<span class="mailto__host">golden-wings-robyn.com</span></a
@@ -27,6 +53,10 @@ const description = "Contact Golden Wings at info@golden-wings-robyn.com";
         >Send email</a
       >
       <a class="btn btn--ghost" href="/about-the-film">About the film</a>
+    </div>
+
+    <div style="margin-top: var(--sp-7); max-width: 28rem;">
+      <ScreeningsCard />
     </div>
   </section>
 </BaseLayout>

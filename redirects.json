@@ -256,7 +256,7 @@
     "status": 301
   },
   "/opt-in": {
-    "target": "/optin",
+    "target": "/sms-opt-in",
     "status": 301
   },
   "/pascua": {
@@ -310,5 +310,9 @@
   "/watch": {
     "target": "https://gwingz.com",
     "status": 302
+  },
+  "/optin": {
+    "target": "/sms-opt-in",
+    "status": 301
   }
 }
