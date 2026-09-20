@@ -66,6 +66,10 @@ The fact sheet accepts "55 years" in body copy, along with "since 1971" and "ove
 - golden-wings-robyn.com is not a screening site: no Watch / Watch the film CTAs. Screening lives only at https://gwingz.com. Contact is info@golden-wings-robyn.com.
 - Leave Squarespace CDN image URLs in content alone until cutover, and use the local assets in `public/images` for new work.
 
+## Code review (cloud / PR)
+
+For pull-request or pre-merge review on this repo, load `.cursor/skills/robyn-site-code-review/SKILL.md`. It encodes the hard fails (Watch CTAs, ingest overwrite, open admin, wrong Worker/DNS surface) and the review output format.
+
 ## Astro docs
 
 Check these before related work: [routing](https://docs.astro.build/en/guides/routing/) · [components](https://docs.astro.build/en/basics/astro-components/) · [content collections](https://docs.astro.build/en/guides/content-collections/) · [styling](https://docs.astro.build/en/guides/styling/). Full docs at https://docs.astro.build.
