@@ -1,51 +1,87 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { Image } from "astro:assets";
 import { homeJsonLd } from "../lib/seo";
 import robynGrad1971 from "../assets/people/robyn-stewart-1971.jpg";
 import ScreeningsCard from "../components/ScreeningsCard.astro";
+
+const description =
+  "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
+
+const posterSrc = "/images/poster/GWSSQ_Poster_2026.png";
+const collegePoster = "/images/archive/GW50YFP_still_Stewardess_College_Footage_1968.png";
+const collegeVideo = "/videos/archive/stewardess-college-1968.mp4";
+const collegeMediaAlt = "Restored 1968 archival footage from American Airlines Stewardess College training in Fort Worth";
+
+const laurels = [
+  { src: "/images/laurels/BEST_DOCUMENTARY_SHORT_-_IGFA_-_International_Guadalajara_Film_Awards_-_2024.png", alt: "IGFA International Guadalajara Film Awards - Best Documentary Short" },
+  { src: "/images/laurels/Laurel_BEST_SHORT_CINEMATOGRAPHY_SILICON_BEACH.png", alt: "Silicon Beach Film Festival - Best Short Cinematography" },
+  { src: "/images/laurels/Laurel_BEST_MOBILE_SHORT_-_Independent_Shorts_Awards_-_2024.png", alt: "Independent Shorts Awards - Best Mobile Short" },
+  { src: "/images/laurels/MAGIC_FANCY_DOC.png", alt: "Magic Silver Screen - Best Documentary Short" },
+  { src: "/images/laurels/Laurel_MAGIC_FANCY_DIRECTOR.png", alt: "Magic Silver Screen - Best First Time Director" },
+];
+---
+
+<BaseLayout title="Golden Wings" description={description} jsonLd={homeJsonLd(description)}>
+  <section class="hero full-bleed-home" aria-label="Golden Wings">
+    <div class="hero__media" aria-hidden="true">
+      <video class="hero__video" autoplay muted loop playsinline preload="metadata" poster="/images/synth-media/747-synth-broll-reel-poster.jpg">
+        <source src="/videos/synth-media/747-synth-broll-reel.mp4" type="video/mp4" />
+      </video>
+      <img class="hero__poster" src="/images/synth-media/747-synth-broll-reel-poster.jpg" alt="" width="1920" height="1080" fetchpriority="high" />
+    </div>
+    <p class="plate--title plate--dark hero__synth-label"><a href="#synthetic-media">Synthetic-media reconstruction</a></p>
+    <div class="hero__content">
+      <div class="hero__lockup">
+        <p class="hero__brand-mark">
+          <img src="/images/brand/title-logo-2026.png" alt="Golden Wings" width="1200" height="480" />
+        </p>
+        <p class="plate--title"><span class="w-red">Stewardess</span> to <span class="w-blue">Sky Queen</span></p>
+      </div>
+      <h1 class="sr-only">Golden Wings: Stewardess to Sky Queen</h1>
+      <ol class="hero__timeline">
+        <li><b>1968</b><span>Jay Ricks engineers the 747 training program.</span></li>
+        <li><b>1971</b><span>His daughter Robyn joins the first crew.</span></li>
+        <li><b>2026</b><span>Robyn is still flying. Now with Golden Wings, after 50+ years of service.</span></li>
+      </ol>
+      <div class="hero__ctas">
+        <a class="btn btn--primary" href="/film">The film</a>
+        <a class="btn btn--ghost" href="/people">Meet the people</a>
+      </div>
+    </div>
+    <div class="hero__laurels award-strip" aria-label="Festival wins">
+      {laurels.map((l) => <img src={l.src} alt={l.alt} width="320" height="210" loading="lazy" />)}
+    </div>
+  </section>
+
+  <section class="section archive-plate full-bleed-home" aria-labelledby="college-heading">
+    <div class="archive-plate__inner">
+      <div class="archive-plate__copy">
+        <p class="section__label plate--subtitle">Archive ┬╖ 1968</p>
+        <h2 id="college-heading" class="section__title">American Airlines Stewardess College</h2>
+        <p class="archive-plate__lede">Robyn's training world: weight checks, girdle rules, the machine that made cabin crews. Shown through restored college footage.</p>
+        <div class="hero__ctas"><a class="btn btn--ghost" href="/stewardess-college-1968">Archive page</a></div>
+      </div>
+      <div class="archive-plate__frame">
+        <div class="archive-plate__media">
+          <video class="archive-plate__video" autoplay muted loop playsinline preload="metadata" poster={collegePoster} aria-label={collegeMediaAlt}>
+            <source src={collegeVideo} type="video/mp4" />
+          </video>
+          <img class="archive-plate__poster" src={collegePoster} alt={collegeMediaAlt} width="1635" height="925" loading="lazy" decoding="async" />
+        </div>
       </div>
     </div>
   </section>
 
-  <section class="cite-strip" aria-label="About this film">
-    <p class="cite-strip__text">
-      A documentary about flight attendants. A stewardess family memoir. Not a
-      museum piece about airplanes.
-    </p>
-  </section>
-
-  <section class="section section--story" id="story" aria-labelledby="story-heading">
-    <div class="section__grid">
-      <div class="section__copy">
-        <p class="section__label">The story</p>
-        <h2 id="story-heading" class="section__title">Cabin service since 1971</h2>
-        <div class="prose">
-          <p>
-            Robyn Stewart joined American Airlines as a stewardess in 1971. She
-            trained on the 747 and kept flying through the years that remade the
-            job: weight checks, mergers, 9/11, and the long haul after.
-          </p>
-          <p>
-            Her father, Jay R. Ricks, was an American Airlines flight engineer
-            who helped build the airline's 747 training program. Jock Bethune,
-            an AA media production specialist, appears on camera to remember that
-            era from the hangar floor, not the cockpit.
-          </p>
-          <p>
-            Directed by Robyn's son, Caleb Mills Stewart, the film stays with
-            one family across three generations of American Airlines service.
-          </p>
-        </div>
+  <section class="section graduation-plate" aria-labelledby="grad-heading">
+    <div class="graduation-plate__inner">
+      <div class="graduation-plate__copy">
+        <p class="section__label plate--subtitle">Archive ┬╖ 1971</p>
+        <h2 id="grad-heading" class="section__title">Graduation day</h2>
+        <p class="graduation-plate__lede">Robyn Stewart at American Airlines Stewardess College graduation in 1971, with her parents Jay and Marie Ricks.</p>
       </div>
-      <figure class="section__figure">
-        <img
-          src="/images/headshots/Jay_R_Ricks_and_Robyn2014.jpg"
-          alt="Jay R. Ricks and Robyn Stewart with their dog, 2014"
-          width="1600"
-          height="1726"
-          loading="lazy"
-        />
-        <figcaption>Jay R. Ricks and Robyn Stewart, 2014</figcaption>
+      <figure class="graduation-plate__frame">
+        <Image class="graduation-plate__img" src={robynGrad1971} alt="Robyn Stewart in uniform at her 1971 American Airlines Stewardess College graduation, standing between her parents Jay and Marie Ricks" widths={[480, 720, 960]} sizes="(min-width: 860px) 22rem, 100vw" loading="lazy" />
       </figure>
     </div>
   </section>
@@ -73,7 +109,7 @@ import ScreeningsCard from "../components/ScreeningsCard.astro";
           </div>
           <div class="crew-form__field">
             <label class="crew-form__label" for="crew-airline-years">Airline &amp; years</label>
-            <input class="crew-form__input" id="crew-airline-years" name="airline_years" type="text" placeholder="e.g. Delta 1997–2020" required />
+            <input class="crew-form__input" id="crew-airline-years" name="airline_years" type="text" placeholder="e.g. Delta 1997ΓÇô2020" required />
           </div>
           <div class="crew-form__field">
             <label class="crew-form__label" for="crew-story">Your story</label>
@@ -120,7 +156,7 @@ import ScreeningsCard from "../components/ScreeningsCard.astro";
         <p class="section__label plate--subtitle">The story</p>
         <h2 id="story-heading" class="section__title">Aviation history, family memory</h2>
         <div class="prose">
-      <p>Golden Wings chronicles the evolution of commercial aviation through the life of Robyn Stewart, from the jet age to modern international routes, weaving archival footage, home video, and vérité moments into a portrait of professionalism, resilience, and the stubborn instinct to keep going.</p>
+      <p>Golden Wings chronicles the evolution of commercial aviation through the life of Robyn Stewart, from the jet age to modern international routes, weaving archival footage, home video, and v├⌐rit├⌐ moments into a portrait of professionalism, resilience, and the stubborn instinct to keep going.</p>
       <p>Shot as a micro-budget student project that grew into an award-winning short, the film has been recognized at festivals including the Swedish International Film Festival, Magic Silver Screen, and Independent Shorts Awards.</p>
     </div>
         <div class="hero__ctas" style="margin-top: 2rem;">
