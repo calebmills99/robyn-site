@@ -339,6 +339,16 @@ function ingest() {
   } catch (err) {
     if (!err || err.code !== "ENOENT") throw err;
   }
+
+  const HAND_PAGES = path.join(ROOT, "scripts/hand-authored-pages");
+  try {
+    for (const f of fs.readdirSync(HAND_PAGES).filter((x) => x.endsWith(".md"))) {
+      fs.copyFileSync(path.join(HAND_PAGES, f), path.join(DEST_PAGES, f));
+      console.log(`Restored hand-authored page: ${f}`);
+    }
+  } catch (err) {
+    if (!err || err.code !== "ENOENT") throw err;
+  }
 }
 
 ingest();
