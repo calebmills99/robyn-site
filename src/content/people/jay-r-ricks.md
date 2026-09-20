@@ -9,7 +9,7 @@ portrait: ../../assets/people/jay-r-ricks.jpg
 portraitAlt: Jay R. Ricks in a WWII veteran cap and plaid shirt, a white dog on his lap, with his daughter Robyn Stewart leaning in behind him.
 ---
 
-Jay R. Ricks flew in a Douglas A-20 in World War II. Some people found it odd that he kept an electric razor next to his recliner. The habit came from that cockpit: above the flak, your face had to be smooth or the oxygen mask wouldn't seal.
+Jay R. Ricks flew in a Douglas A-20 in World War II. Some people found it odd that he kept an electric razor next to his recliner. The habit came from that cockpit: above the flak, your face had to be smooth or the oxygen mask would not seal.
 
 He swing danced with his wife, Maxine, and he was good enough that Louis Armstrong called him up on stage to dance. He worked his way up at American Airlines to flight engineer by 1950.
 
@@ -19,6 +19,6 @@ The 747's size and complexity meant American needed a new way to prepare its fli
 
 Robyn saw his reputation from the inside once American hired her. "I guess I didn't realize what all he had done and how respected he was until I came to work for American in 1971," she says.
 
-He backed her career at a time when plenty of fathers wouldn't have. "So many women of my era, their fathers did not want them to become stewardesses," Robyn says. "My father was all for it."
+He backed her career at a time when plenty of fathers would not have. "So many women of my era, their fathers did not want them to become stewardesses," Robyn says. "My father was all for it."
 
 Jay spent 35 years with American and died in 2016. His grandson Caleb puts it this way: "As a child I didn't know who my Papa was. He was my Papa: that was all I needed to know."

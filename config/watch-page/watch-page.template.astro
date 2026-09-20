@@ -1,0 +1,138 @@
+---
+/**
+ * TEMPLATE: Google watch page for Golden Wings (Astro).
+ * Copy to src/pages/<slug>.astro and replace CONFIG block (or generate from config/watch-page/*.json).
+ * Do not ship this file from /config as a route.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { absoluteUrl, webPageJsonLd, SITE_URL, FILM_NAME, FILM_SHORT } from "../lib/seo";
+
+// === CONFIG (edit or inject from watch-page.config.json) ===
+const CONFIG = {
+  slug: "stewardess-college-1968",
+  path: "/stewardess-college-1968",
+  title: "Stewardess College 1968",
+  description:
+    "Restored 1968 archival footage from American Airlines Stewardess College, the Fort Worth training world Robyn Stewart entered in 1971.",
+  h1: "American Airlines Stewardess College",
+  eyebrow: "Archive · 1968",
+  body: "Robyn's training world: weight checks, girdle rules, the machine that made cabin crews. Shown through restored college footage from 1968.",
+  video: {
+    contentUrl: "/videos/archive/stewardess-college-1968.mp4",
+    posterUrl: "/images/archive/GW50YFP_still_Stewardess_College_Footage_1968.png",
+    mediaAlt:
+      "Restored 1968 archival footage from American Airlines Stewardess College training in Fort Worth",
+    uploadDate: "2026-09-13",
+    duration: "PT0M36S",
+    name: "American Airlines Stewardess College: restored 1968 archival footage",
+    autoplay: false,
+    muted: false,
+    loop: false,
+    controls: true,
+  },
+  ctas: [
+    { label: "Millie Alford", href: "/people/millie-alford", style: "primary" as const },
+    { label: "Robyn Stewart", href: "/people/robyn-stewart", style: "ghost" as const },
+  ],
+};
+// === END CONFIG ===
+
+const contentAbs = absoluteUrl(CONFIG.video.contentUrl);
+const posterAbs = absoluteUrl(CONFIG.video.posterUrl);
+const pageAbs = absoluteUrl(CONFIG.path);
+
+const videoObject = {
+  "@context": "https://schema.org",
+  "@type": "VideoObject",
+  name: CONFIG.video.name,
+  description: CONFIG.description,
+  thumbnailUrl: [posterAbs],
+  uploadDate: CONFIG.video.uploadDate,
+  duration: CONFIG.video.duration,
+  contentUrl: contentAbs,
+  embedUrl: pageAbs,
+  publisher: {
+    "@type": "Organization",
+    name: FILM_SHORT,
+    url: SITE_URL,
+    logo: absoluteUrl("/images/title-logo.png"),
+  },
+  isPartOf: {
+    "@type": "Movie",
+    name: FILM_NAME,
+    alternateName: FILM_SHORT,
+  },
+};
+
+const pageLd = webPageJsonLd({
+  name: CONFIG.title,
+  description: CONFIG.description,
+  url: CONFIG.path,
+  about: {
+    "@type": "Movie",
+    name: FILM_NAME,
+    alternateName: FILM_SHORT,
+  },
+});
+---
+
+<BaseLayout
+  title={CONFIG.title}
+  description={CONFIG.description}
+  ogImage={CONFIG.video.posterUrl}
+  jsonLd={[pageLd, videoObject]}
+>
+  <section class="section watch-page" aria-labelledby="watch-page-heading">
+    {CONFIG.eyebrow && (
+      <p class="section__label plate--subtitle">{CONFIG.eyebrow}</p>
+    )}
+    <h1 id="watch-page-heading" class="section__title">{CONFIG.h1}</h1>
+
+    {CONFIG.body && (
+      <div class="prose" style="margin-top: 1.25rem;">
+        <p>{CONFIG.body}</p>
+      </div>
+    )}
+
+    {/* Primary purpose of this page: watch ONE video */}
+    <div class="archive-plate__frame archive-plate__frame--page watch-page__player">
+      <div class="archive-plate__media">
+        <video
+          class="archive-plate__video"
+          poster={CONFIG.video.posterUrl}
+          aria-label={CONFIG.video.mediaAlt}
+          preload="metadata"
+          playsinline
+          controls={CONFIG.video.controls}
+          autoplay={CONFIG.video.autoplay}
+          muted={CONFIG.video.muted}
+          loop={CONFIG.video.loop}
+        >
+          <source src={CONFIG.video.contentUrl} type="video/mp4" />
+        </video>
+        <img
+          class="archive-plate__poster"
+          src={CONFIG.video.posterUrl}
+          alt={CONFIG.video.mediaAlt}
+          width="1635"
+          height="925"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+
+    {CONFIG.ctas?.length > 0 && (
+      <div class="hero__ctas" style="margin-top: 2rem;">
+        {CONFIG.ctas.map((cta) => (
+          <a
+            class={cta.style === "ghost" ? "btn btn--ghost" : "btn btn--primary"}
+            href={cta.href}
+          >
+            {cta.label}
+          </a>
+        ))}
+      </div>
+    )}
+  </section>
+</BaseLayout>

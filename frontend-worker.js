@@ -1,5 +1,5 @@
 /**
- * Frontend Worker — static assets + Phase 3 redirects + crew/SMS API.
+ * Frontend Worker - static assets + Phase 3 redirects + crew/SMS API.
  */
 import redirects from "./redirects.json";
 import { handleCrew } from "./server/handle-crew.js";
@@ -41,6 +41,16 @@ export default {
     }
     if (path === "/api/sms") {
       return handleSms(request, env);
+    }
+
+    // Parity Studio is local-dev only (Vite middleware). Never serve it from Workers.
+    if (
+      path === "/__parity" ||
+      path.startsWith("/__parity/") ||
+      path === "/parity-studio" ||
+      path.startsWith("/parity-studio/")
+    ) {
+      return new Response("Not Found", { status: 404 });
     }
 
     if (request.method === "OPTIONS" && path.startsWith("/fonts/")) {

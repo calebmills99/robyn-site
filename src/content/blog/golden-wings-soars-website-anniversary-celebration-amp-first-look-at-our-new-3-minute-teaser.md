@@ -15,6 +15,7 @@ scrapedAt: '2026-07-21T15:29:49.461Z'
 reason: blog post
 slug: >-
   golden-wings-soars-website-anniversary-celebration-amp-first-look-at-our-new-3-minute-teaser
+cover: /blog/b4a983c947d9.jpg
 ---
 
 # Golden Wings Soars:  Website Anniversary Celebration & First Look at Our New 3-Minute Teaser!

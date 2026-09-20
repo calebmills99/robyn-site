@@ -12,7 +12,10 @@ canonical: >-
 scrapedAt: '2026-07-21T15:31:37.904Z'
 reason: blog post
 slug: janice-engel-mentor-documentary
+cover: /blog/48c083a2d364.jpg
 ---
+
+![Curated cover](/blog/48c083a2d364.jpg)
 
 # The Making of My Indie Documentary Short: A Journey of Discovery
 

@@ -50,7 +50,12 @@ export function homeJsonLd(description: string) {
   ];
 }
 
-export function movieJsonLd(description: string) {
+export function movieJsonLd(description: string, image?: string) {
+  const imageUrl = image
+    ? image.startsWith("http")
+      ? image
+      : absoluteUrl(image)
+    : DEFAULT_OG_IMAGE;
   return {
     "@context": "https://schema.org",
     "@type": "Movie",
@@ -58,7 +63,7 @@ export function movieJsonLd(description: string) {
     alternateName: FILM_SHORT,
     url: absoluteUrl("/film"),
     description,
-    image: DEFAULT_OG_IMAGE,
+    image: imageUrl,
     genre: ["Documentary", "Biography"],
     director: DIRECTOR,
   };
@@ -199,4 +204,22 @@ export function collectionPageJsonLd(opts: {
       }),
     },
   });
+}
+
+/** FAQPage for how-to / survival articles. */
+export function faqPageJsonLd(
+  faqs: { question: string; answer: string }[],
+) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
 }

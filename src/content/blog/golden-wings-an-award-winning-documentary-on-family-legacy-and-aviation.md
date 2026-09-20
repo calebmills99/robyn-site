@@ -14,6 +14,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:30:48.208Z'
 reason: blog post
 slug: golden-wings-an-award-winning-documentary-on-family-legacy-and-aviation
+cover: /blog/519e8240acf8.png
 ---
 
 # Golden Wings: An Award-Winning Documentary on Family Legacy and Aviation

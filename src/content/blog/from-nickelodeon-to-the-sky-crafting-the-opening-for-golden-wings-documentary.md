@@ -15,6 +15,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:31:10.223Z'
 reason: blog post
 slug: from-nickelodeon-to-the-sky-crafting-the-opening-for-golden-wings-documentary
+cover: /blog/55ce342b406f.png
 ---
 
 # From Nickelodeon to the Sky: Crafting the Opening for "Golden Wings" Documentary

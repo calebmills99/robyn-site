@@ -1,18 +1,20 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { blogPostingJsonLd } from "../../lib/seo";
+import { blogPostingJsonLd, faqPageJsonLd } from "../../lib/seo";
 
 const h1 = "Banned on Christmas Eve. Here's how to fight a Facebook ban.";
 const description =
-  "Hacked, banned, and stuck in Meta's appeal maze? Read the Indie Doc Journey Special Dispatch: Christmas Eve ban, smoking gun, and the small-claims win.";
+  "Facebook banned or hacked? Christmas Eve exile, appeal maze, survival steps, and the rare Meta small-claims win. Special Dispatch №01.";
 /** Live URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
 const path = "/special-dispatch/facebook-banned-on-christmas-eve/";
 const canonical =
   "https://golden-wings-robyn.com/special-dispatch/facebook-banned-on-christmas-eve/";
 const metaTitle =
   "Banned on Christmas Eve | Facebook Ban Survival + Meta Small Claims";
-/** Existing poster asset beats the generic title-logo for share cards. */
-const ogImage = "/images/poster/GWSSQ_Poster_2026.png";
+/** Mirrored Part 1 featured art (not the film poster). */
+const ogImage = "/images/special-dispatch/dumpster-featured.png";
+const featuredImage = ogImage;
+const featuredAlt = "Special Dispatch № 01  -  Banned on Christmas Eve";
 
 /** Magazine PDF download only (not the HTML body). */
 const pdfHref =
@@ -25,6 +27,29 @@ const journeyPart1 = "/indie-doc-journey/zucked-on-christmas-eve-part-1/";
 const part2Href =
   "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
 const part2Exists = true;
+
+const practicalFaqs = [
+  {
+    question: "What do I do if Facebook banned my account?",
+    answer:
+      "Act fast: you often have up to 180 days to appeal before a suspension hardens. Screenshot every error, URL, and email. Download your data if you still can (Settings, Your Facebook Information, Download Your Information). File one calm, detailed appeal instead of spamming. Try hacked.facebook.com for cookie or session clues. Meta Verified is a last-resort escalator, not a guarantee.",
+  },
+  {
+    question: "What if my Facebook was hacked then banned?",
+    answer:
+      "Treat it as compromise first. Visit hacked.facebook.com and capture any login log that mentions a hacked cookie or session theft. Cookie theft can bypass password-based 2FA, so password resets alone may not explain the break-in. Save those screenshots as proof Meta already flagged a breach, then appeal with that evidence attached.",
+  },
+  {
+    question: "How do I appeal a Meta disabled account?",
+    answer:
+      "Use Meta's appeal form once with a clear timeline, what you did not do, and any breach evidence. Do not send dozens of angry follow-ups. Keep copies of every automated reply. If you pay for Meta Verified, treat it as a possible escalator to semi-human support, and keep documenting. Pair the appeal trail with offline backups of anything you still can export.",
+  },
+  {
+    question: "Can you sue Meta in small claims?",
+    answer:
+      "Yes. After the Christmas Eve ban and a year in the appeal maze, Caleb Mills Stewart sued Meta in California small claims and won restoration of his 22-year account. Small claims is local, low-cost, and fact-heavy: bring screenshots, the hacked-cookie log, and a clean timeline. Read Part 2 on the Indie Doc Journey for the court path.",
+  },
+];
 ---
 
 <BaseLayout
@@ -34,12 +59,15 @@ const part2Exists = true;
   canonical={canonical}
   ogImage={ogImage}
   ogType="article"
-  jsonLd={blogPostingJsonLd({
-    title: h1,
-    description,
-    url: path,
-    image: ogImage,
-  })}
+  jsonLd={[
+    blogPostingJsonLd({
+      title: h1,
+      description,
+      url: path,
+      image: ogImage,
+    }),
+    faqPageJsonLd(practicalFaqs),
+  ]}
 >
   <article class="prose">
     <p class="section__label">
@@ -55,6 +83,18 @@ const part2Exists = true;
     </p>
 
     <h1>{h1}</h1>
+
+    <figure style="margin: 1.25rem 0 1.75rem;">
+      <img
+        src={featuredImage}
+        alt={featuredAlt}
+        width="1024"
+        height="768"
+        loading="eager"
+        decoding="async"
+        style="width: 100%; height: auto; display: block;"
+      />
+    </figure>
 
     <p>
       My 22-year Facebook account, gone in an instant, and the year-long fight to
@@ -289,7 +329,20 @@ const part2Exists = true;
       </li>
     </ol>
 
-    <h2 id="faq">V. FAQ with Macho Mark Z</h2>
+        <h2 id="practical-faq">Practical FAQ</h2>
+    <p>
+      Straight answers from the Survival Kit. The Macho Mark Z section below is satire.
+    </p>
+    {
+      practicalFaqs.map((faq) => (
+        <>
+          <h3>{faq.question}</h3>
+          <p>{faq.answer}</p>
+        </>
+      ))
+    }
+
+<h2 id="faq">V. FAQ with Macho Mark Z</h2>
     <p class="section__label">Direct from the Digital Tyrant's Seat.</p>
 
     <h3>

@@ -15,6 +15,26 @@ const MIGRATION = path.resolve(ROOT, "../migration/content");
 const DEST_PAGES = path.join(ROOT, "src/content/pages");
 const DEST_BLOG = path.join(ROOT, "src/content/blog");
 
+/** Posts that shipped with zero body images; inject curated cover into the article body. */
+const EMPTY_BODY_COVER_SLUGS = new Set([
+  "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+  "making-a-no-budget-documentary",
+  "janice-engel-mentor-documentary",
+]);
+
+const blogCoverBySlug = (() => {
+  const mapPath = path.join(ROOT, "scripts/cover-restore-map.json");
+  try {
+    const entries = JSON.parse(fs.readFileSync(mapPath, "utf8"));
+    return new Map(
+      entries.map((e) => [e.slug, `/blog/${path.basename(e.local)}`]),
+    );
+  } catch (err) {
+    if (err && err.code === "ENOENT") return new Map();
+    throw err;
+  }
+})();
+
 const PAGE_TITLES = {
   home: "Golden Wings",
   "about-the-film": "About the Film",
@@ -34,6 +54,54 @@ const PAGE_TITLES = {
   1971: "1971",
   "stewardess-college-1968": "Stewardess College 1968",
 };
+
+/** Durable SEO inlinks (survive re-ingest from migration scrape). */
+const BLOG_SEO_INLINKS = {
+  "zucked-on-christmas-eve-part-1": {
+    replace: [
+      [
+        /\[Part 2, the autopsy & the court case, continues the story.\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
+        "[Part 2, the autopsy & the court case, continues the story.](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)",
+      ],
+      [
+        /\[The Autopsy & the Court Case[^\]]*\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
+        "[The Autopsy & the Court Case](/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won)",
+      ],
+    ],
+    appendIfMissing:
+      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the full timeline, recovery steps, and what Meta would not say).\n",
+  },
+  "i-sued-meta-in-small-claims-court-and-won": {
+    replace: [
+      [
+        /\[More dispatches from the Indie Doc Journey[^\]]*\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
+        "[More dispatches from the Indie Doc Journey](/indie-doc-journey/)",
+      ],
+    ],
+    appendIfMissing:
+      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the Christmas Eve ban timeline and recovery notes).\n",
+  },
+};
+
+function applyBlogSeoInlinks(slug, body) {
+  const spec = BLOG_SEO_INLINKS[slug];
+  if (!spec) return body;
+  let out = body;
+  for (const [re, to] of spec.replace || []) {
+    out = out.replace(re, to);
+  }
+  const needle = "/special-dispatch/facebook-banned-on-christmas-eve/";
+  if (spec.appendIfMissing && !out.includes(needle)) {
+    out = out.replace(/\s*$/, "") + spec.appendIfMissing;
+  }
+  return out;
+}
+
+/** Public-face ban: never ingest these blog slugs (redirects handle old URLs). */
+
+const BLOG_PUBLIC_BAN = new Set([
+  "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+]);
 
 function ensureDir(dir) {
   fs.mkdirSync(dir, { recursive: true });
@@ -92,7 +160,7 @@ function rewriteCareerCopy(text, { isBlogTitle = false } = {}) {
   out = out.replace(/\bfifty-year\b/gi, "55-year");
   out = out.replace(/\b50-year\b/gi, "55-year");
   out = out.replace(/\bmore than fifty years\b/gi, "55 years");
-  out = out.replace(/\bover five decades\b/gi, "over five decades"); // leave idiom
+  out = out.replace(/\bover five decades\b/gi, "over five decades");
   out = out.replace(/\bflight attendant for more than fifty years\b/gi, "flight attendant for 55 years");
   out = out.replace(/\b(?:her|Robyn(?:'s)?|a)\s+50-year\s+career\b/gi, (m) =>
     m.replace(/50-year/i, "55-year"),
@@ -110,7 +178,6 @@ function extractH1(body) {
 }
 
 function blogSlugFromFilename(name) {
-  // indie-doc-journey__swedish-film-awards-winner.md → swedish-film-awards-winner
   const base = name.replace(/\.md$/i, "");
   if (base.startsWith("indie-doc-journey__")) {
     return base.slice("indie-doc-journey__".length);
@@ -138,7 +205,6 @@ function processMarkdown(filePath, { isBlog }) {
   }
 
   let body = content;
-  // Drop empty H1 stubs and Squarespace "(Copy)" title leftovers
   body = body.replace(/^#\s*$/gm, "");
   body = body.replace(/^(#+\s+.+?)\s*\(Copy\)\s*$/gim, "$1");
   // Drop duplicate page H1 when body repeats the page title (template owns the H1).
@@ -150,7 +216,6 @@ function processMarkdown(filePath, { isBlog }) {
   body = cleanScrapedMarkdown(body);
 
   if (isBlog) {
-    // One H1 per post: keep the first ATX H1, demote the rest to H2
     let seenH1 = false;
     body = body.replace(/^#\s+(.+)$/gm, (_m, text) => {
       if (!seenH1) {
@@ -159,7 +224,6 @@ function processMarkdown(filePath, { isBlog }) {
       }
       return `## ${text}`;
     });
-    // Leave blog titles alone; still clean body career marketing + privacy typo
     body = rewriteCareerCopy(body, { isBlogTitle: false });
   } else {
     body = rewriteCareerCopy(body);
@@ -168,7 +232,6 @@ function processMarkdown(filePath, { isBlog }) {
 
   let description = data.description ? String(data.description) : "";
   description = rewriteCareerCopy(description);
-  // Scraped opt-in meta typo
   description = description.replace(
     /Sign up for the\.\s*App/gi,
     "Sign up for the Golden Wings App",
@@ -186,6 +249,19 @@ function processMarkdown(filePath, { isBlog }) {
 
   if (isBlog) {
     frontmatter.slug = slug;
+    // Preserve curated Squarespace featured covers across ingest (see cover-restore-map.json).
+    const cover = blogCoverBySlug.get(slug);
+    if (cover) {
+      frontmatter.cover = cover;
+      const marker = `![Curated cover](${cover})`;
+      if (EMPTY_BODY_COVER_SLUGS.has(slug) && !body.includes(`](${cover})`)) {
+        body = `\n${marker}\n` + body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n");
+      }
+    }
+  }
+
+  if (isBlog) {
+    body = applyBlogSeoInlinks(slug, body);
   }
 
   const yaml = matter.stringify(body.replace(/^\uFEFF/, "").replace(/^\n+/, "\n"), frontmatter);
@@ -242,6 +318,10 @@ function ingest() {
 
   for (const f of fs.readdirSync(blogDir).filter((x) => x.endsWith(".md"))) {
     const { slug, yaml } = processMarkdown(path.join(blogDir, f), { isBlog: true });
+    if (BLOG_PUBLIC_BAN.has(slug)) {
+      console.warn(`Skipping public-banned blog slug: ${slug}`);
+      continue;
+    }
     fs.writeFileSync(path.join(DEST_BLOG, `${slug}.md`), yaml, "utf8");
     blogCount++;
   }

@@ -12,6 +12,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:31:32.408Z'
 reason: blog post
 slug: 10-documentaries-that-will-inspire-and-transform-you
+cover: /blog/bfe88fc5d984.png
 ---
 
 # 10 Docs to inspire

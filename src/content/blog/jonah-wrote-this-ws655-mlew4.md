@@ -11,6 +11,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:29:30.748Z'
 reason: blog post
 slug: jonah-wrote-this-ws655-mlew4
+cover: /blog/6b3732b1c9d4.png
 ---
 
 # ✨ Star Wingz: A New Nope (for My Hard Drive)

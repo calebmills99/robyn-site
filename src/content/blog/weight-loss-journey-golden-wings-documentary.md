@@ -11,6 +11,7 @@ canonical: >-
 scrapedAt: '2026-07-21T15:31:34.571Z'
 reason: blog post
 slug: weight-loss-journey-golden-wings-documentary
+cover: /blog/f6679b274da6.jpeg
 ---
 
 # My Weight Loss Journey: Transforming a Student Project into a Full-Fledged Documentary
