@@ -99,7 +99,7 @@
 .poster-gallery a { display: block; border: var(--bw-thick) solid var(--gw-gold-deep); box-shadow: var(--shadow-plate); }
 .poster-gallery img { width: 100%; aspect-ratio: 3/4; object-fit: cover; }
 
-/* —— Crew door —— */
+/* —— Crew Lounge —— */
 .hero__synth-label a {
   color: inherit;
   text-decoration: none;

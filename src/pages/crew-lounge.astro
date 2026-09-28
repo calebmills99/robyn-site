@@ -1,0 +1,102 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { webPageJsonLd } from "../lib/seo";
+
+const description =
+  "Crew Lounge for former crew and families. Share photographs and stories that help the Golden Wings archive.";
+---
+
+<BaseLayout
+  title="Crew Lounge"
+  description={description}
+  jsonLd={webPageJsonLd({
+    name: "Crew Lounge",
+    description,
+    url: "/crew-lounge",
+  })}
+>
+  <section id="crew" class="section crew-call full-bleed-home band-dark" aria-labelledby="crew-heading">
+    <div class="crew-call__inner">
+      <div class="crew-call__copy">
+        <p class="section__label">Crew Lounge</p>
+        <h1 id="crew-heading" class="section__title">You were there. That makes you the archive.</h1>
+        <p class="crew-call__lede">
+          A place for people who flew, and for the families who held the ground. Golden Wings is built from that memory. If you worked a cabin, a cockpit, a ramp, or a training room, send your photographs and your stories. Some may help the film. All of them help the archive.
+        </p>
+      </div>
+
+      <div class="crew-call__plate">
+        <form class="crew-form" id="crew-form" action="/api/crew" method="post" novalidate>
+          <div class="crew-form__field">
+            <label class="crew-form__label" for="crew-name">Name</label>
+            <input class="crew-form__input" id="crew-name" name="name" type="text" autocomplete="name" required />
+          </div>
+          <div class="crew-form__field">
+            <label class="crew-form__label" for="crew-email">Email</label>
+            <input class="crew-form__input" id="crew-email" name="email" type="email" autocomplete="email" required />
+          </div>
+          <div class="crew-form__field">
+            <label class="crew-form__label" for="crew-airline-years">Airline &amp; years</label>
+            <input class="crew-form__input" id="crew-airline-years" name="airline_years" type="text" placeholder="e.g. Delta 1997-2020" required />
+          </div>
+          <div class="crew-form__field">
+            <label class="crew-form__label" for="crew-story">Your story</label>
+            <textarea class="crew-form__textarea" id="crew-story" name="story" rows="5" placeholder="One thing nobody believes about the job." required></textarea>
+          </div>
+          <label class="crew-form__consent">
+            <input id="crew-consent" name="consent" type="checkbox" value="yes" required />
+            <span>Golden Wings may contact me and may use what I share in the film and on this site, with credit.</span>
+          </label>
+          <p class="crew-form__error" id="crew-error" hidden></p>
+          <button class="btn btn--primary" type="submit">Send it in</button>
+        </form>
+        <p class="crew-form__photo-note">Prefer to send a photo? Email it to info@golden-wings-robyn.com after you submit.</p>
+
+        <div class="crew-form__success" id="crew-success" hidden>
+          <span class="badge">Received</span>
+          <p>Thank you. We read every one. If we use your story we will write to you first.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  const form = document.getElementById("crew-form");
+  const errorEl = document.getElementById("crew-error");
+  const successEl = document.getElementById("crew-success");
+  const consent = document.getElementById("crew-consent");
+
+  form?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (!form || !errorEl || !successEl) return;
+
+    errorEl.hidden = true;
+    errorEl.textContent = "";
+
+    if (!(consent instanceof HTMLInputElement) || !consent.checked) {
+      errorEl.textContent = "Please check the consent box before sending.";
+      errorEl.hidden = false;
+      consent?.focus();
+      return;
+    }
+
+    const body = new FormData(form);
+    try {
+      const res = await fetch("/api/crew", { method: "POST", body });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        errorEl.textContent = data.error || "Something went wrong. Try again.";
+        errorEl.hidden = false;
+        return;
+      }
+      form.hidden = true;
+      const photoNote = document.querySelector(".crew-form__photo-note");
+      if (photoNote instanceof HTMLElement) photoNote.hidden = true;
+      successEl.hidden = false;
+    } catch {
+      errorEl.textContent = "Network error. Try again.";
+      errorEl.hidden = false;
+    }
+  });
+</script>
