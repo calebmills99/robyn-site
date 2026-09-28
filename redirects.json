@@ -19,6 +19,10 @@
     "target": "/",
     "status": 301
   },
+  "/crew": {
+    "target": "/crew-lounge",
+    "status": 301
+  },
   "/elevate": {
     "target": "/about-the-film",
     "status": 302
@@ -259,6 +263,10 @@
     "target": "/sms-opt-in",
     "status": 301
   },
+  "/optin": {
+    "target": "/sms-opt-in",
+    "status": 301
+  },
   "/pascua": {
     "target": "/about-the-film",
     "status": 302
@@ -310,9 +318,5 @@
   "/watch": {
     "target": "https://gwingz.com",
     "status": 302
-  },
-  "/optin": {
-    "target": "/sms-opt-in",
-    "status": 301
   }
 }
