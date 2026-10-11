@@ -330,6 +330,27 @@ function ingest() {
 
   console.log(`Ingested ${pageCount} pages → src/content/pages`);
   console.log(`Ingested ${blogCount} posts → src/content/blog`);
+
+  // Hand-authored Journey posts (survive clearMd + migration scrape).
+  const HAND_BLOG = path.join(ROOT, "scripts/hand-authored-blog");
+  try {
+    for (const f of fs.readdirSync(HAND_BLOG).filter((x) => x.endsWith(".md"))) {
+      fs.copyFileSync(path.join(HAND_BLOG, f), path.join(DEST_BLOG, f));
+      console.log(`Restored hand-authored blog: ${f}`);
+    }
+  } catch (err) {
+    if (!err || err.code !== "ENOENT") throw err;
+  }
+
+  const HAND_PAGES = path.join(ROOT, "scripts/hand-authored-pages");
+  try {
+    for (const f of fs.readdirSync(HAND_PAGES).filter((x) => x.endsWith(".md"))) {
+      fs.copyFileSync(path.join(HAND_PAGES, f), path.join(DEST_PAGES, f));
+      console.log(`Restored hand-authored page: ${f}`);
+    }
+  } catch (err) {
+    if (!err || err.code !== "ENOENT") throw err;
+  }
 }
 
 ingest();
