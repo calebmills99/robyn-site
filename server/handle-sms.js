@@ -1,10 +1,9 @@
 /**
- * SMS opt-in intake — validates phone and forwards to info@golden-wings-robyn.com
- * No Twilio (or other SMS provider) is wired yet.
- * TODO: connect Twilio / Cloudflare SMS / similar; until then we email the number.
+ * SMS opt-in intake - validates phone and emails it to the owner.
+ * No Twilio (or other SMS provider) is wired yet, so intake is email-only
+ * via the FORMS_MAIL send_email binding (see server/send-mail.js).
  */
-
-const INFO_EMAIL = "info@golden-wings-robyn.com";
+import { sendFormMail } from "./send-mail.js";
 
 function json(status, body) {
   return new Response(JSON.stringify(body), {
@@ -52,63 +51,28 @@ export async function handleSms(request, env = {}) {
     });
   }
 
-  // TODO: Twilio Messaging Service (or equivalent) — no SMS provider in this repo yet.
-  const mailFrom = env.MAIL_FROM || env.MAILCHANNELS_FROM;
-  if (!mailFrom) {
-    return json(503, {
+  const text = [
+    "New SMS screening-list opt-in from golden-wings-robyn.com",
+    "",
+    `Phone: ${phone}`,
+    "",
+    "No SMS provider is connected yet, so this email is the only record. Nothing else was stored.",
+    "",
+    "Sent by the Gwingz Studios site forms.",
+  ].join("\n");
+
+  const result = await sendFormMail(env, {
+    fromName: "Golden Wings Screenings",
+    subject: `SMS opt-in: ${phone}`,
+    text,
+  });
+
+  if (!result.ok) {
+    return json(502, {
       ok: false,
       error:
-        "SMS provider is not configured, and MAIL_FROM is missing so we cannot forward the number by email either.",
-      missing: ["twilio", "MAIL_FROM"],
-    });
-  }
-
-  const payload = {
-    personalizations: [{ to: [{ email: INFO_EMAIL, name: "Golden Wings" }] }],
-    from: { email: mailFrom, name: "Golden Wings Screenings" },
-    subject: `SMS opt-in: ${phone}`,
-    content: [
-      {
-        type: "text/plain",
-        value: [
-          "New SMS screening opt-in from the Golden Wings site.",
-          "",
-          `Phone: ${phone}`,
-          "",
-          "TODO: connect Twilio (or another SMS provider). Until then this is email-only intake.",
-          "Nothing else was stored.",
-        ].join("\n"),
-      },
-    ],
-  };
-
-  const mcHeaders = { "content-type": "application/json" };
-  if (env.MAILCHANNELS_API_KEY) {
-    mcHeaders["X-Api-Key"] = env.MAILCHANNELS_API_KEY;
-  }
-
-  let mcRes;
-  try {
-    mcRes = await fetch("https://api.mailchannels.net/tx/v1/send", {
-      method: "POST",
-      headers: mcHeaders,
-      body: JSON.stringify(payload),
-    });
-  } catch (err) {
-    return json(502, {
-      ok: false,
-      error: "Mail forward for SMS opt-in failed.",
-      detail: String(err && err.message ? err.message : err),
-    });
-  }
-
-  if (!mcRes.ok) {
-    const detail = await mcRes.text().catch(() => "");
-    return json(502, {
-      ok: false,
-      error: "Could not forward the opt-in. Nothing was stored.",
-      status: mcRes.status,
-      detail: detail.slice(0, 500),
+        "We could not save your number right now. Please try again in a few minutes or email info@golden-wings-robyn.com.",
+      code: result.error,
     });
   }
 

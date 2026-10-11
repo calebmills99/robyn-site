@@ -8,3 +8,10 @@ directory = "./dist"
 binding = "ASSETS"
 not_found_handling = "404-page"
 run_worker_first = true
+
+# Form mail (/api/crew, /api/sms) via Cloudflare Email Routing.
+# Sender forms@gwingz.com (gwingz.com has Email Routing enabled);
+# destination is the verified Email Routing destination address.
+[[send_email]]
+name = "FORMS_MAIL"
+destination_address = "caleb.mills.stewart@gmail.com"

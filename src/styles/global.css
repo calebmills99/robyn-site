@@ -788,6 +788,15 @@ a:hover {
   color: var(--gw-slate);
 }
 
+.section--watch__fine {
+  margin: 1.5rem 0 0;
+  max-width: 46rem;
+  font-size: 0.95rem;
+  line-height: 1.55;
+  color: var(--gw-cream);
+  opacity: 0.85;
+}
+
 .section--contact {
   background: linear-gradient(180deg, #f7f3e3 0%, var(--gw-cream) 100%);
   width: 100%;

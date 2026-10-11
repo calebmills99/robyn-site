@@ -1,0 +1,16 @@
+---
+// Cloudflare "500 class errors" custom page. Same Goldie scene; Cloudflare requires the
+// ::CLOUDFLARE_ERROR_500S_BOX:: token and fetches this URL once when you save it in the dashboard.
+import src from "../raw/goldie-gate-404.html?raw";
+const css =
+  ".cf-box{max-width:60ch;color:#17140B;background:#F3EAD0;border-radius:8px;padding:12px 16px;font-size:14px;line-height:1.4;overflow:auto}";
+const i = src.lastIndexOf("</style>");
+const html = (src.slice(0, i) + css + "\n" + src.slice(i))
+  .replace(/Error 404[^<]*/, "Error · Terminal temporarily closed")
+  .replace(
+    /<p>The page you were looking for[^<]*<\/p>/,
+    '<p>Something broke on our side of the counter. Goldie has the crew on it. Details from the tower:</p>\n<div class="cf-box">::CLOUDFLARE_ERROR_500S_BOX::</div>',
+  );
+---
+
+<Fragment set:html={html} />

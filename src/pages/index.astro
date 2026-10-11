@@ -4,6 +4,7 @@ import { Image } from "astro:assets";
 import { homeJsonLd } from "../lib/seo";
 import robynGrad1971 from "../assets/people/robyn-stewart-1971.jpg";
 import ScreeningsCard from "../components/ScreeningsCard.astro";
+import { watchUrl } from "../lib/funnel";
 
 const description =
   "Golden Wings, a vivid documentary following flight attendant Robyn Stewart's 55-year legacy of resilience, family, and flight, told by her son Caleb.";
@@ -45,13 +46,27 @@ const laurels = [
         <li><b>2026</b><span>Robyn is still flying. Now with Golden Wings, after 50+ years of service.</span></li>
       </ol>
       <div class="hero__ctas">
-        <a class="btn btn--primary" href="/film">The film</a>
-        <a class="btn btn--ghost" href="/people">Meet the people</a>
+        <a class="btn btn--primary" href={watchUrl("home-hero")} rel="noopener noreferrer">Watch the first cut, free</a>
+        <a class="btn btn--ghost" href="/film">The film</a>
       </div>
     </div>
     <div class="hero__laurels award-strip" aria-label="Festival wins">
       {laurels.map((l) => <img src={l.src} alt={l.alt} width="320" height="210" loading="lazy" />)}
     </div>
+  </section>
+
+  <section id="first-cut" class="section section--watch full-bleed-home" aria-labelledby="first-cut-heading">
+    <p class="section__label">Watch it at home, free</p>
+    <h2 id="first-cut-heading" class="section__title">Come see where Golden Wings began</h2>
+    <p class="section__lede">
+      Before Stewardess to Sky Queen there was a first cut. It traveled the festivals, brought home awards, and has finished its run, so now we get to share it with you. Tell us where to send the link and it is yours to watch tonight.
+    </p>
+    <div class="hero__ctas" style="margin-top: 1.5rem;">
+      <a class="btn btn--primary" href={watchUrl("home-band")} rel="noopener noreferrer">Send me the link</a>
+    </div>
+    <p class="section--watch__fine">
+      A word so nobody feels fooled: this is the first cut, not the new film. The feature is still in the edit, and festivals only take films that have not been shown online, so it stays under wraps until it premieres. Your email gets you the watch link, and first word when our Kickstarter opens. Nothing else.
+    </p>
   </section>
 
   <section class="section archive-plate full-bleed-home" aria-labelledby="college-heading">
@@ -85,53 +100,6 @@ const laurels = [
       </figure>
     </div>
   </section>
-
-
-  <section id="crew" class="section crew-call full-bleed-home band-dark" aria-labelledby="crew-heading">
-    <div class="crew-call__inner">
-      <div class="crew-call__copy">
-        <p class="section__label">For the people who were there</p>
-        <h2 id="crew-heading" class="section__title">You were there. That makes you the archive.</h2>
-        <p class="crew-call__lede">
-          Golden Wings is built from the memory of people who flew. If you worked a cabin, a cockpit, a ramp or a training room, we want your photographs and your stories. Some may end up in the film.
-        </p>
-      </div>
-
-      <div class="crew-call__plate">
-        <form class="crew-form" id="crew-form" action="/api/crew" method="post" novalidate>
-          <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-name">Name</label>
-            <input class="crew-form__input" id="crew-name" name="name" type="text" autocomplete="name" required />
-          </div>
-          <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-email">Email</label>
-            <input class="crew-form__input" id="crew-email" name="email" type="email" autocomplete="email" required />
-          </div>
-          <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-airline-years">Airline &amp; years</label>
-            <input class="crew-form__input" id="crew-airline-years" name="airline_years" type="text" placeholder="e.g. Delta 1997ΓÇô2020" required />
-          </div>
-          <div class="crew-form__field">
-            <label class="crew-form__label" for="crew-story">Your story</label>
-            <textarea class="crew-form__textarea" id="crew-story" name="story" rows="5" placeholder="One thing nobody believes about the job." required></textarea>
-          </div>
-          <label class="crew-form__consent">
-            <input id="crew-consent" name="consent" type="checkbox" value="yes" required />
-            <span>Golden Wings may contact me and may use what I share in the film and on this site, with credit.</span>
-          </label>
-          <p class="crew-form__error" id="crew-error" hidden></p>
-          <button class="btn btn--primary" type="submit">Send it in</button>
-        </form>
-        <p class="crew-form__photo-note">Prefer to send a photo? Email it to info@golden-wings-robyn.com after you submit.</p>
-
-        <div class="crew-form__success" id="crew-success" hidden>
-          <span class="badge">Received</span>
-          <p>Thank you. We read every one. If we use your story we will write to you first.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
 
   <section class="section poster-plate full-bleed-home" aria-labelledby="poster-heading">
     <div class="poster-plate__inner">
@@ -180,41 +148,8 @@ const laurels = [
 </BaseLayout>
 
 <script>
-  const form = document.getElementById("crew-form");
-  const errorEl = document.getElementById("crew-error");
-  const successEl = document.getElementById("crew-success");
-  const consent = document.getElementById("crew-consent");
-
-  form?.addEventListener("submit", async (event) => {
-    event.preventDefault();
-    if (!form || !errorEl || !successEl) return;
-
-    errorEl.hidden = true;
-    errorEl.textContent = "";
-
-    if (!(consent instanceof HTMLInputElement) || !consent.checked) {
-      errorEl.textContent = "Please check the consent box before sending.";
-      errorEl.hidden = false;
-      consent?.focus();
-      return;
-    }
-
-    const body = new FormData(form);
-    try {
-      const res = await fetch("/api/crew", { method: "POST", body });
-      const data = await res.json().catch(() => ({}));
-      if (!res.ok) {
-        errorEl.textContent = data.error || "Something went wrong. Try again.";
-        errorEl.hidden = false;
-        return;
-      }
-      form.hidden = true;
-      const photoNote = document.querySelector(".crew-form__photo-note");
-      if (photoNote instanceof HTMLElement) photoNote.hidden = true;
-      successEl.hidden = false;
-    } catch {
-      errorEl.textContent = "Network error. Try again.";
-      errorEl.hidden = false;
-    }
-  });
+  // Old /#crew bookmarks land on the Crew Lounge page.
+  if (location.hash === "#crew") {
+    location.replace("/crew-lounge");
+  }
 </script>

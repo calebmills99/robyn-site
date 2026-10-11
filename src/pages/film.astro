@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { movieJsonLd } from "../lib/seo";
+import { watchUrl } from "../lib/funnel";
 
 const description =
   "Golden Wings — the award-winning aviation documentary on Robyn Stewart’s 55-year career.";
@@ -22,11 +23,25 @@ const posterSrc = "/images/poster/GWSSQ_Poster_2026.png";
       1971, and the years that remade the job.
     </p>
     <div class="hero__ctas">
-      <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
-        >Screenings on Gwingz</a
+      <a class="btn btn--primary" href={watchUrl("film-hero")} rel="noopener noreferrer"
+        >Watch the first cut, free</a
       >
       <a class="btn btn--ghost" href="/about-the-film">Full story</a>
     </div>
+  </section>
+
+  <section id="first-cut" class="section section--watch full-bleed-home" aria-labelledby="first-cut-heading">
+    <p class="section__label">Watch it at home, free</p>
+    <h2 id="first-cut-heading" class="section__title">The first cut is yours to watch</h2>
+    <p class="section__lede">
+      This is the award-winning cut that started it all. Its festival days are done, so we can finally share it. Leave your email on our screening page and the link comes straight to your inbox.
+    </p>
+    <div class="hero__ctas" style="margin-top: 1.5rem;">
+      <a class="btn btn--primary" href={watchUrl("film-band")} rel="noopener noreferrer">Send me the link</a>
+    </div>
+    <p class="section--watch__fine">
+      The new feature, Stewardess to Sky Queen, is still in the edit. Festivals only take films that have not been shown online, so it stays under wraps until it premieres. Your email gets you the watch link, and first word when our Kickstarter opens. Nothing else.
+    </p>
   </section>
 
   <section class="section">

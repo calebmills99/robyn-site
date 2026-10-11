@@ -1,10 +1,9 @@
 /**
- * Crew story intake — validates multipart form and forwards to info@golden-wings-robyn.com
- * Mail provider: MailChannels when MAIL_FROM is set; otherwise returns 503.
- * TODO: connect Resend / Postmark / Cloudflare Email Routing once DNS is ready.
+ * Crew story intake - validates multipart form and emails it to the owner.
+ * Mail provider: Cloudflare Email Routing via the FORMS_MAIL send_email binding
+ * (see server/send-mail.js). Nothing is stored on the server.
  */
-
-const INFO_EMAIL = "info@golden-wings-robyn.com";
+import { sendFormMail } from "./send-mail.js";
 
 function json(status, body) {
   return new Response(JSON.stringify(body), {
@@ -63,73 +62,37 @@ export async function handleCrew(request, env = {}) {
     return json(400, { ok: false, error: "Please enter a valid email.", field: "email" });
   }
 
-  const mailFrom = env.MAIL_FROM || env.MAILCHANNELS_FROM;
-  if (!mailFrom) {
-    return json(503, {
-      ok: false,
-      error:
-        "Mail provider is not configured (set MAIL_FROM for MailChannels). Your story was not stored.",
-      missing: "MAIL_FROM",
-    });
-  }
-
   const text = [
-    "New crew story from the Golden Wings site",
+    "New crew story from golden-wings-robyn.com",
     "",
     `Name: ${name}`,
     `Email: ${email}`,
-    `Airline & years: ${airlineYears}`,
+    `Airline and years: ${airlineYears}`,
     "",
     "Story:",
     story,
     "",
-    "Consent: yes — may contact and may use with credit.",
+    "Consent: yes, they agreed to be contacted and to have their story used with credit.",
     "",
-    "Photo: not attached on first submit. Ask them to email photos to info@golden-wings-robyn.com if useful.",
+    "Photo: not attached on first submit. Reply to this email to ask them for photos if useful.",
+    "",
+    "Sent by the Gwingz Studios site forms.",
   ].join("\n");
 
-  const content = [{ type: "text/plain", value: text }];
-  const personalizations = [
-    {
-      to: [{ email: INFO_EMAIL, name: "Golden Wings" }],
-      reply_to: { email, name },
-    },
-  ];
-
-  const payload = {
-    personalizations,
-    from: { email: mailFrom, name: "Golden Wings Crew Door" },
+  const result = await sendFormMail(env, {
+    fromName: "Golden Wings Crew Door",
     subject: `Crew story: ${name} (${airlineYears})`,
-    content,
-  };
+    text,
+    replyTo: email,
+    replyToName: name,
+  });
 
-  const mcHeaders = { "content-type": "application/json" };
-  if (env.MAILCHANNELS_API_KEY) {
-    mcHeaders["X-Api-Key"] = env.MAILCHANNELS_API_KEY;
-  }
-
-  let mcRes;
-  try {
-    mcRes = await fetch("https://api.mailchannels.net/tx/v1/send", {
-      method: "POST",
-      headers: mcHeaders,
-      body: JSON.stringify(payload),
-    });
-  } catch (err) {
+  if (!result.ok) {
     return json(502, {
       ok: false,
-      error: "Mail provider request failed.",
-      detail: String(err && err.message ? err.message : err),
-    });
-  }
-
-  if (!mcRes.ok) {
-    const detail = await mcRes.text().catch(() => "");
-    return json(502, {
-      ok: false,
-      error: "Mail provider rejected the message. Nothing was stored on the server.",
-      status: mcRes.status,
-      detail: detail.slice(0, 500),
+      error:
+        "We could not send your story right now. Please try again in a few minutes or email info@golden-wings-robyn.com.",
+      code: result.error,
     });
   }
 

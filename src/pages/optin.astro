@@ -1,9 +1,10 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import { webPageJsonLd } from "../lib/seo";
+import { watchUrl } from "../lib/funnel";
 
 const description =
-  "Find Your Wings. Join the Golden Wings list on gwingz.com, or email us for updates.";
+  "Find Your Wings. Leave your email, watch the first cut of Golden Wings free, and hear first when the Kickstarter opens.";
 ---
 
 <BaseLayout
@@ -19,12 +20,16 @@ const description =
     <h1 class="section__title">Join the list</h1>
     <p class="script page-motto">Find Your Wings</p>
     <p class="prose">
-      Screening and updates live on gwingz.com. Prefer email? Write
-      info@golden-wings-robyn.com and we will get back to you.
+      Leave your email on our screening page and we will send you a link to
+      watch the first cut of Golden Wings at home, free. It is the early,
+      award-winning version, not the new feature, which stays under wraps until
+      its festival premiere. You will also hear first when our Kickstarter
+      opens. Rather just write us? info@golden-wings-robyn.com reaches a real
+      person.
     </p>
     <div class="hero__ctas" style="margin-top: 1.75rem;">
-      <a class="btn btn--primary" href="https://gwingz.com" rel="noopener noreferrer"
-        >Continue to gwingz.com</a
+      <a class="btn btn--primary" href={watchUrl("optin")} rel="noopener noreferrer"
+        >Send me the link</a
       >
       <a class="btn btn--ghost" href="mailto:info@golden-wings-robyn.com"
         >Email us</a
