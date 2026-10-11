@@ -1,4 +1,5 @@
 ---
+date: 2024-08-03
 title: >-
   From Nickelodeon to the Sky: Crafting the Opening for "Golden Wings"
   Documentary

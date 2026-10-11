@@ -245,6 +245,8 @@ function processMarkdown(filePath, { isBlog }) {
     canonical: data.canonical || "",
     scrapedAt: data.scrapedAt || "",
     reason: data.reason || "",
+    date: data.date || "",
+    updated: data.updated || "",
   };
 
   if (isBlog) {

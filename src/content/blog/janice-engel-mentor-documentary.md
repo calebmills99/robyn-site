@@ -1,4 +1,5 @@
 ---
+date: 2026-05-28
 title: 'The Making of My Indie Documentary Short: A Journey of Discovery'
 description: >-
   Discover the inspiring mentorship of Janice Engel, a seasoned documentarian

@@ -1,4 +1,5 @@
 ---
+date: 2024-04-23
 title: "From the galley: how this works"
 description: >-
   How former crew stories submitted through the Golden Wings crew door are

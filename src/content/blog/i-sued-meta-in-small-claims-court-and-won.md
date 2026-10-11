@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 title: I sued Meta in small claims court and got my life back
 description: >-
   Caleb Mills Stewart took Meta to small claims court over a wrongful Christmas

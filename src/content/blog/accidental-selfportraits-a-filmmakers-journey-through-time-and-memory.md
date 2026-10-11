@@ -1,4 +1,5 @@
 ---
+date: 2025-11-13
 title: 'Official Selection: Palma Film Festival and An Accidental Revelation'
 description: 'In a Parisian elevator in 2005, my impatient ex-boyfriend couldn'
 path: >-

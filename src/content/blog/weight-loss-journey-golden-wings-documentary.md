@@ -1,4 +1,5 @@
 ---
+date: 2026-06-23
 title: >-
   My Weight Loss Journey: Transforming a Student Project into a Full-Fledged
   Documentary

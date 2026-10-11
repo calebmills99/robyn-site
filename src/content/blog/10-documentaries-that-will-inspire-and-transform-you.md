@@ -1,4 +1,5 @@
 ---
+date: 2025-07-04
 title: 10 Docs to inspire
 description: >-
   Discover 10 transformative documentaries that offer profound insights into

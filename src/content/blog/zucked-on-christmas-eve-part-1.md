@@ -1,4 +1,5 @@
 ---
+date: 2026-07-09
 title: 'Zucked on Christmas Eve: My Facebook ban survival story (part 1)'
 description: >-
   Facebook banned me on Christmas Eve for the crime of getting hacked. The

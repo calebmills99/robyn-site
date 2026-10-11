@@ -1,4 +1,5 @@
 ---
+date: 2025-08-01
 title: 'A Win in Sweden: Norse Gods and Hot Rollers'
 description: >-
   The opening scene features my mother, Robyn Stewart, preparing for her day

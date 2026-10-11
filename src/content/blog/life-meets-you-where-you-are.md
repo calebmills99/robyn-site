@@ -1,4 +1,5 @@
 ---
+date: 2025-10-25
 title: >-
   When Life Meets You at the Wrong Courthouse: A Tribute to Speech Coach Mr.
   Burns

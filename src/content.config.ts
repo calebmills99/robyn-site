@@ -15,6 +15,8 @@ const pageSchema = z.object({
 const blogSchema = pageSchema.extend({
   slug: z.string().optional(),
   tags: z.array(z.string()).optional().default([]),
+  date: z.coerce.date().optional(),
+  updated: z.coerce.date().optional(),
 });
 
 const pages = defineCollection({

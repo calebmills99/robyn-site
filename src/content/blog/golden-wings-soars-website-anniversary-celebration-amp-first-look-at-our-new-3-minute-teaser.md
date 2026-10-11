@@ -1,4 +1,5 @@
 ---
+date: 2025-05-02
 title: >-
   Golden Wings Soars: Website Anniversary Celebration & First Look at Our New
   3-Minute Teaser!

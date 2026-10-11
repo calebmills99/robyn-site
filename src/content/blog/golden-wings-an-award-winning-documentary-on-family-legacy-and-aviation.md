@@ -1,4 +1,5 @@
 ---
+date: 2025-11-14
 title: 'Golden Wings: An Award-Winning Documentary on Family Legacy and Aviation'
 description: >-
   Golden Wings  is an award-winning documentary    It explores family legacy,

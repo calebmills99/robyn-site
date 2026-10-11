@@ -1,4 +1,5 @@
 ---
+date: 2025-08-14
 title: Golden Wings – Celebrating Milestones in Aviation’s Legacy
 description: >-
   Golden Wings celebrates selections at The NewsFest and Silicon Beach Film

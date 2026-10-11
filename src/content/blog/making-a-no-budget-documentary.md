@@ -1,4 +1,5 @@
 ---
+date: 2025-06-13
 title: The Challenges of Filming a Documentary with No Budget
 description: >-
   Discover the journey of creating a no-budget documentary about my mom,

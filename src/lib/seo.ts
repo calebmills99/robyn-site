@@ -93,6 +93,8 @@ export function blogPostingJsonLd(opts: {
   description: string;
   url: string;
   image?: string;
+  date?: Date;
+  updated?: Date;
 }) {
   const image = opts.image
     ? opts.image.startsWith("http")
@@ -114,6 +116,8 @@ export function blogPostingJsonLd(opts: {
       logo: DEFAULT_OG_IMAGE,
     },
     image,
+    ...(opts.date ? { datePublished: opts.date.toISOString().slice(0, 10) } : {}),
+    ...((opts.updated ?? opts.date) ? { dateModified: (opts.updated ?? opts.date).toISOString().slice(0, 10) } : {}),
   };
 }
 

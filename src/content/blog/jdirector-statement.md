@@ -1,4 +1,5 @@
 ---
+date: 2026-07-11
 title: Director’s Statement for Caleb Stewart
 description: >-
   Explore the multifaceted filmmaking journey of Caleb Stewart, from his early

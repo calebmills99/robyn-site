@@ -1,4 +1,5 @@
 ---
+date: 2025-02-20
 title: 'THE MIDDLE SEAT MANIFESTO: A SURVIVOR''S GUIDE'
 description: >-
   Stuck in the dreaded middle seat? Learn how to survive air travel like a pro

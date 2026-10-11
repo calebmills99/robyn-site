@@ -1,4 +1,5 @@
 ---
+date: 2026-05-07
 title: '✨ Star Wingz: A New Nope (for My Hard Drive)'
 description: >-
   I DM’d the Regal social media team with the desperation of a stranded Jedi:  
