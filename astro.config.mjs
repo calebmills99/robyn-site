@@ -8,6 +8,7 @@ import { parityStudioPlugin } from "./scripts/parity-studio-plugin.mjs";
 // https://astro.build/config
 export default defineConfig({
   site: "https://golden-wings-robyn.com",
+  trailingSlash: "never",
   integrations: [
     sitemap({
       filter(page) {

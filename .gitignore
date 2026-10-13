@@ -26,3 +26,5 @@ pnpm-debug.log*
 # local research sources (interview transcripts, Windows shortcuts); the repo is public
 src/content/people/*.txt
 *.lnk
+
+.wrangler/
