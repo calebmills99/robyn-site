@@ -1,12 +1,14 @@
 const fs = require('fs');
 const path = require('path');
 const presskit = 'E:/~GoldenWings/presskit';
+// The site is this checkout; the migration source stays under presskit on E:.
+const site = path.resolve(__dirname, '..');
 const mapPath = path.join(presskit, 'migration/asset-map.json');
-const blogDir = path.join(presskit, 'robyn-site/src/content/blog');
-const pagesDir = path.join(presskit, 'robyn-site/src/content/pages');
+const blogDir = path.join(site, 'src/content/blog');
+const pagesDir = path.join(site, 'src/content/pages');
 const migBlog = path.join(presskit, 'migration/content/blog');
 const migPages = path.join(presskit, 'migration/content/pages');
-const outDir = path.join(presskit, 'robyn-site/public/blog');
+const outDir = path.join(site, 'public/blog');
 
 if (!fs.existsSync(mapPath)) {
   console.warn(`mirror-blog-cdn: skip (missing ${mapPath})`);

@@ -4,7 +4,8 @@ const crypto = require('crypto');
 const https = require('https');
 const http = require('http');
 
-const site = 'E:/~GoldenWings/presskit/robyn-site';
+// The site is this checkout; the WordPress/Squarespace migration source stays on E:.
+const site = path.resolve(__dirname, '..');
 const blogDir = path.join(site, 'src/content/blog');
 const outDir = path.join(site, 'public/blog');
 const migBlog = 'E:/~GoldenWings/presskit/migration/content/blog';
