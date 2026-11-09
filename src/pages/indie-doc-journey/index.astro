@@ -26,7 +26,7 @@ const description =
 const jsonLd = collectionPageJsonLd({
   name: "Indie Doc Journey", description, url: "/indie-doc-journey",
   items: [
-    { name: "Special Dispatch № 01: Banned on Christmas Eve", url: "/special-dispatch/facebook-banned-on-christmas-eve/", description: "Christmas Eve ban survival map, smoking gun, and Meta small-claims win." },
+    { name: "Special Dispatch № 01: Banned on Christmas Eve", url: "/special-dispatch/facebook-banned-on-christmas-eve", description: "Christmas Eve ban survival map, smoking gun, and Meta small-claims win." },
     ...posts.map((post) => ({ name: displayTitle(post.data.title), url: `/indie-doc-journey/${post.id}`, description: post.data.description || undefined })),
   ],
 });
@@ -49,7 +49,7 @@ const jsonLd = collectionPageJsonLd({
 
   <ul class="post-grid" id="journey-grid">
     <li data-tags="Special Dispatch">
-      <a class="post-card" href="/special-dispatch/facebook-banned-on-christmas-eve/">
+      <a class="post-card" href="/special-dispatch/facebook-banned-on-christmas-eve">
         <div class="post-card__thumb"><span class="post-card__thumb--empty">Special Dispatch</span></div>
         <div class="post-card__body">
           <span class="badge" style="background:var(--gw-red);border-color:var(--gw-red);color:var(--gw-cream)">Special Dispatch № 01</span>

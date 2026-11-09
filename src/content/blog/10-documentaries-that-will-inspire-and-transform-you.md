@@ -17,7 +17,7 @@ cover: /blog/bfe88fc5d984.png
 
 # 10 Docs to inspire
 
-[Film & TV](/indie-doc-journey/category/Film+%26+TV)[Documentaries](/indie-doc-journey/category/Documentaries)[Inspirational Stories](/indie-doc-journey/category/Inspirational+Stories)[Movie Reviews](/indie-doc-journey/category/Movie+Reviews)[Educational Content](/indie-doc-journey/category/Educational+Content)[Real Life Stories](/indie-doc-journey/category/Real+Life+Stories)[Entertainment](/indie-doc-journey/category/Entertainment)[Cultural Insights](/indie-doc-journey/category/Cultural+Insights)[Personal Growth](/indie-doc-journey/category/Personal+Growth)[Social Issues](/indie-doc-journey/category/Social+Issues)
+Film & TVDocumentariesInspirational StoriesMovie ReviewsEducational ContentReal Life StoriesEntertainmentCultural InsightsPersonal GrowthSocial Issues
 
 Jul 4
 
@@ -231,7 +231,7 @@ P.S. This being such a brilliant film, the title is a parody of "Waiting for God
 
 P.P.S. My favorite song in the show is "Stool Boom" 💺💩
 
-[Transformative Films](/indie-doc-journey/tag/Transformative+Films)[Inspiring Documentaries](/indie-doc-journey/tag/Inspiring+Documentaries)[Real Life Stories,](/indie-doc-journey/tag/Real+Life+Stories%2C)[Documentary Recommendations](/indie-doc-journey/tag/Documentary+Recommendations)[Film Inspiration](/indie-doc-journey/tag/Film+Inspiration)[Must Watch Docs](/indie-doc-journey/tag/Must+Watch+Docs)[Life Changing Documentaries](/indie-doc-journey/tag/Life+Changing+Documentaries)[Top 10 Documentaries](/indie-doc-journey/tag/Top+10+Documentaries)[Power of Documentaries](/indie-doc-journey/tag/Power+of+Documentaries)[Documentary Lovers](/indie-doc-journey/tag/Documentary+Lovers)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Educational Films](/indie-doc-journey/tag/Educational+Films)
+Transformative FilmsInspiring DocumentariesReal Life Stories,Documentary RecommendationsFilm InspirationMust Watch DocsLife Changing DocumentariesTop 10 DocumentariesPower of DocumentariesDocumentary LoversAviation DocumentaryEducational Films
 
 
 

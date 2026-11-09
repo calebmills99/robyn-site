@@ -48,7 +48,7 @@ A Special Thanks
 
 Please stay tuned for more updates as we continue to work on making Golden Wings the best it can be. This journey is far from over, and we look forward to sharing the final product with you soon.
 
-[#BlogPost](/indie-doc-journey/tag/%23BlogPost)[#DocumentaryJourney](/indie-doc-journey/tag/%23DocumentaryJourney)[#SiliconBeachFilmFestival](/indie-doc-journey/tag/%23SiliconBeachFilmFestival)[#Filmmaking](/indie-doc-journey/tag/%23Filmmaking)[#BehindTheScenes](/indie-doc-journey/tag/%23BehindTheScenes)[#IndieFilm](/indie-doc-journey/tag/%23IndieFilm)[#ChineseTheater](/indie-doc-journey/tag/%23ChineseTheater)[#StudentProject](/indie-doc-journey/tag/%23StudentProject)[#AviationDocumentary](/indie-doc-journey/tag/%23AviationDocumentary)
+#BlogPost#DocumentaryJourney#SiliconBeachFilmFestival#Filmmaking#BehindTheScenes#IndieFilm#ChineseTheater#StudentProject#AviationDocumentary
 
 
 

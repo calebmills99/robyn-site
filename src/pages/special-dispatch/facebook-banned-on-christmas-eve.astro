@@ -5,10 +5,9 @@ import { blogPostingJsonLd, faqPageJsonLd } from "../../lib/seo";
 const h1 = "Banned on Christmas Eve. Here's how to fight a Facebook ban.";
 const description =
   "Facebook banned or hacked? Christmas Eve exile, appeal maze, survival steps, and the rare Meta small-claims win. Special Dispatch №01.";
-/** Live URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
-const path = "/special-dispatch/facebook-banned-on-christmas-eve/";
+const path = "/special-dispatch/facebook-banned-on-christmas-eve";
 const canonical =
-  "https://golden-wings-robyn.com/special-dispatch/facebook-banned-on-christmas-eve/";
+  "https://golden-wings-robyn.com/special-dispatch/facebook-banned-on-christmas-eve";
 const metaTitle =
   "Banned on Christmas Eve | Facebook Ban Survival + Meta Small Claims";
 /** Mirrored Part 1 featured art (not the film poster). */
@@ -21,11 +20,11 @@ const pdfHref =
   "/special-dispatch/Banned-on-Christmas-Eve-Part-1-Magazine.pdf";
 
 /** Optional Journey companion for the scraped Part 1 magazine. */
-const journeyPart1 = "/indie-doc-journey/zucked-on-christmas-eve-part-1/";
+const journeyPart1 = "/indie-doc-journey/zucked-on-christmas-eve-part-1";
 
 /** Existing Journey companion for Part 2. Do not invent a Part 2 Astro page. */
 const part2Href =
-  "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won/";
+  "/indie-doc-journey/i-sued-meta-in-small-claims-court-and-won";
 const part2Exists = true;
 
 const practicalFaqs = [
@@ -71,7 +70,7 @@ const practicalFaqs = [
 >
   <article class="prose">
     <p class="section__label">
-      <a href="/special-dispatch/" style="text-decoration: none;"
+      <a href="/special-dispatch" style="text-decoration: none;"
         >← Special Dispatch</a
       >
       {" · "}
@@ -437,7 +436,7 @@ const practicalFaqs = [
         )
       }
       {" "}
-      <a class="btn btn--ghost" href="/special-dispatch/">All Special Dispatches</a>
+      <a class="btn btn--ghost" href="/special-dispatch">All Special Dispatches</a>
     </p>
   </article>
 </BaseLayout>
