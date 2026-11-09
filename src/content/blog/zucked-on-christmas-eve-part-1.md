@@ -16,7 +16,7 @@ cover: /blog/3ceabce2f89b.jpg
 
 # Zucked on Christmas Eve:                              My Facebook ban survival story (part 1)
 
-[Personal Stories](/indie-doc-journey/category/Personal+Stories)[Social Issues](/indie-doc-journey/category/Social+Issues)
+Personal StoriesSocial Issues
 
 Jul 9
 
@@ -450,4 +450,4 @@ To be continued in Part 2
 
 [https://www.indiedocjourney.com](https://www.indiedocjourney.com)
 
-Also filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the full timeline, recovery steps, and what Meta would not say).
+Also filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve) (the full timeline, recovery steps, and what Meta would not say).

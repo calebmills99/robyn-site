@@ -8,6 +8,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import matter from "gray-matter";
 import { cleanScrapedMarkdown } from "./rescue-indented-image-blocks.mjs";
+import { cleanLegacyLinks } from "./clean-legacy-links.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
@@ -69,17 +70,17 @@ const BLOG_SEO_INLINKS = {
       ],
     ],
     appendIfMissing:
-      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the full timeline, recovery steps, and what Meta would not say).\n",
+      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve) (the full timeline, recovery steps, and what Meta would not say).\n",
   },
   "i-sued-meta-in-small-claims-court-and-won": {
     replace: [
       [
         /\[More dispatches from the Indie Doc Journey[^\]]*\]\(https:\/\/indiedocjourney\.com\/blog\)/g,
-        "[More dispatches from the Indie Doc Journey](/indie-doc-journey/)",
+        "[More dispatches from the Indie Doc Journey](/indie-doc-journey)",
       ],
     ],
     appendIfMissing:
-      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve/) (the Christmas Eve ban timeline and recovery notes).\n",
+      "\n\nAlso filed: [Special Dispatch No. 01 - Banned on Christmas Eve](/special-dispatch/facebook-banned-on-christmas-eve) (the Christmas Eve ban timeline and recovery notes).\n",
   },
 };
 
@@ -90,7 +91,7 @@ function applyBlogSeoInlinks(slug, body) {
   for (const [re, to] of spec.replace || []) {
     out = out.replace(re, to);
   }
-  const needle = "/special-dispatch/facebook-banned-on-christmas-eve/";
+  const needle = "/special-dispatch/facebook-banned-on-christmas-eve";
   if (spec.appendIfMissing && !out.includes(needle)) {
     out = out.replace(/\s*$/, "") + spec.appendIfMissing;
   }
@@ -214,6 +215,7 @@ function processMarkdown(filePath, { isBlog }) {
     body = body.replace(new RegExp(`^#\\s+${esc}\\s*$`, "gim"), "");
   }
   body = cleanScrapedMarkdown(body);
+  body = cleanLegacyLinks(body);
 
   if (isBlog) {
     let seenH1 = false;

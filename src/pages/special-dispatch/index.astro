@@ -4,8 +4,7 @@ import { collectionPageJsonLd } from "../../lib/seo";
 
 const description =
   "Facebook ban and hacked-account field reports from Indie Doc Journey. Start with Special Dispatch №01: Banned on Christmas Eve.";
-/** Live hub URL uses trailing slash; keep canonical / og:url / JSON-LD aligned. */
-const canonical = "https://golden-wings-robyn.com/special-dispatch/";
+const canonical = "https://golden-wings-robyn.com/special-dispatch";
 /** Curated Dispatch № 01 art (same asset as Journey honeypot; not the film poster). */
 const ogImage = "/blog/special-dispatch-banned.jpg";
 
@@ -13,7 +12,7 @@ const dispatches = [
   {
     num: "01",
     title: "Banned on Christmas Eve. Here's how to fight a Facebook ban.",
-    href: "/special-dispatch/facebook-banned-on-christmas-eve/",
+    href: "/special-dispatch/facebook-banned-on-christmas-eve",
     description:
       "Hacked, banned, and stuck in Meta's appeal maze? Christmas Eve ban, smoking gun, and the small-claims win.",
     thumb: "/blog/special-dispatch-banned.jpg",
@@ -24,7 +23,7 @@ const dispatches = [
 const jsonLd = collectionPageJsonLd({
   name: "Special Dispatch",
   description,
-  url: "/special-dispatch/",
+  url: "/special-dispatch",
   items: dispatches.map((d) => ({
     name: d.title,
     url: d.href,

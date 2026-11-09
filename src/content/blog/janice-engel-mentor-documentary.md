@@ -19,7 +19,7 @@ cover: /blog/48c083a2d364.jpg
 
 # The Making of My Indie Documentary Short: A Journey of Discovery
 
-[Short Documentary](/indie-doc-journey/category/Short+Documentary)[Education and Learning](/indie-doc-journey/category/Education+and+Learning)[Personal Stories](/indie-doc-journey/category/Personal+Stories)[Student Projects](/indie-doc-journey/category/Student+Projects)[Filmmaking and Production](/indie-doc-journey/category/Filmmaking+and+Production)
+Short DocumentaryEducation and LearningPersonal StoriesStudent ProjectsFilmmaking and Production
 
 May 28
 
@@ -82,7 +82,7 @@ Would you be a dear and rent it on[ Amazon](https://www.amazon.com/Raise-Hell-Ti
 
 You can find Janice Engel on [Twitter](https://x.com/janiceengel).
 
-[Indie Documentary](/indie-doc-journey/tag/Indie+Documentary)[Documentary Filmmaking](/indie-doc-journey/tag/Documentary+Filmmaking)[Janice Engel](/indie-doc-journey/tag/Janice+Engel)[Aviation Documentary](/indie-doc-journey/tag/Aviation+Documentary)[Student Film Project](/indie-doc-journey/tag/Student+Film+Project)[Filmmaking Journey](/indie-doc-journey/tag/Filmmaking+Journey)[Academy of Art University](/indie-doc-journey/tag/Academy+of+Art+University)[Personal Storytelling](/indie-doc-journey/tag/Personal+Storytelling)[Documentary Mentor](/indie-doc-journey/tag/Documentary+Mentor)[Short Documentary](/indie-doc-journey/tag/Short+Documentary)
+Indie DocumentaryDocumentary FilmmakingJanice EngelAviation DocumentaryStudent Film ProjectFilmmaking JourneyAcademy of Art UniversityPersonal StorytellingDocumentary MentorShort Documentary
 
 
 
