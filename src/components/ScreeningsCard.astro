@@ -1,0 +1,74 @@
+---
+/**
+ * Screenings SMS opt-in card — deep teal plate, cream type.
+ * Posts to /api/sms; shows success/error inline.
+ */
+---
+
+<aside class="dl-card screenings-card" aria-labelledby="screenings-card-title">
+  <p class="section__label">Screenings</p>
+  <h2 id="screenings-card-title" class="dl-card__title">Know when it plays near you</h2>
+  <p class="dl-card__note">Screenings and premieres, once a month at most. Text STOP any time.</p>
+
+  <form class="screenings-card__form" id="screenings-form" action="/api/sms" method="post" novalidate>
+    <label class="screenings-card__label" for="screenings-phone">Phone</label>
+    <input
+      class="screenings-card__input"
+      id="screenings-phone"
+      name="phone"
+      type="tel"
+      autocomplete="tel"
+      inputmode="tel"
+      required
+      placeholder="(555) 555-5555"
+    />
+    <p class="screenings-card__error" id="screenings-error" hidden></p>
+    <button class="btn btn--primary" type="submit">Text me</button>
+    <p class="screenings-card__terms">
+      By subscribing you agree to the <a href="/sms-opt-in">SMS terms</a>.
+    </p>
+  </form>
+
+  <div class="screenings-card__success" id="screenings-success" hidden>
+    <span class="badge">Received</span>
+    <p>You are on the list. Screenings only — we will not blow up your phone.</p>
+  </div>
+</aside>
+
+<script>
+  const form = document.getElementById("screenings-form");
+  const errorEl = document.getElementById("screenings-error");
+  const successEl = document.getElementById("screenings-success");
+
+  form?.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    if (!form || !errorEl || !successEl) return;
+
+    errorEl.hidden = true;
+    errorEl.textContent = "";
+
+    const phone = /** @type {HTMLInputElement | null} */ (form.elements.namedItem("phone"));
+    if (!phone?.value.trim()) {
+      errorEl.textContent = "Enter a phone number.";
+      errorEl.hidden = false;
+      phone?.focus();
+      return;
+    }
+
+    const body = new FormData(form);
+    try {
+      const res = await fetch("/api/sms", { method: "POST", body });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        errorEl.textContent = data.error || "Something went wrong. Try again.";
+        errorEl.hidden = false;
+        return;
+      }
+      form.hidden = true;
+      successEl.hidden = false;
+    } catch {
+      errorEl.textContent = "Network error. Try again.";
+      errorEl.hidden = false;
+    }
+  });
+</script>

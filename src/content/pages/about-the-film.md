@@ -37,3 +37,6 @@ The film draws on decades of home video and archival footage. Jay R. Ricks built
   <source src="/videos/golden-wings-trailer.mp4" type="video/mp4" />
   <a href="/videos/golden-wings-trailer.mp4">Play the Golden Wings trailer</a>
 </video>
+
+Liked what you saw? Screenings live on [gwingz.com](https://gwingz.com). [Find a screening](https://gwingz.com).
+

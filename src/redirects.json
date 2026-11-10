@@ -115,10 +115,6 @@
     "target": "/indie-doc-journey",
     "status": 301
   },
-  "/indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards": {
-    "target": "/indie-doc-journey/golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy",
-    "status": 301
-  },
   "/indie-doc-journey/lessons-learned-from-a-virtual-screening-and-from-lifehttps/wwwgolden-wings-robyncom/blog-page-url/new-post-title": {
     "target": "/indie-doc-journey",
     "status": 301
@@ -260,7 +256,7 @@
     "status": 301
   },
   "/opt-in": {
-    "target": "/optin",
+    "target": "/sms-opt-in",
     "status": 301
   },
   "/pascua": {
@@ -278,10 +274,6 @@
   "/pride": {
     "target": "/about-the-film",
     "status": 302
-  },
-  "/privacy": {
-    "target": "/privacy-policy",
-    "status": 301
   },
   "/privacy/terms-of-use": {
     "target": "/terms-of-use",
@@ -311,10 +303,6 @@
     "target": "https://gwingz.com",
     "status": 302
   },
-  "/terms": {
-    "target": "/terms-of-use",
-    "status": 301
-  },
   "/terms-of-service": {
     "target": "/terms-of-use",
     "status": 301
@@ -323,8 +311,8 @@
     "target": "https://gwingz.com",
     "status": 302
   },
-  "/indie-doc-journey/golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards/": {
-    "target": "/indie-doc-journey/golden-wings-fifty-year-flight-path-celebrating-milestones-in-aviations-legacy",
+  "/optin": {
+    "target": "/sms-opt-in",
     "status": 301
   }
 }

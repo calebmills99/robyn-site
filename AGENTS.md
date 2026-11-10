@@ -9,6 +9,7 @@ A Cloudflare Worker serves this static Astro 7 site for golden-wings-robyn.com, 
 | Command | What it does |
 | --- | --- |
 | `npx astro dev --background` | Start the dev server in background mode; manage with `astro dev stop` / `status` / `logs` |
+| `npm run parity` | Dev server + Parity Studio (`/__parity`) for crawl↔Markdown side-by-side; see `docs/PARITY-STUDIO.md` |
 | `npm run ingest` | Regenerate `src/content/` from `../migration/content` |
 | `npm run build` | `prebuild` runs ingest, then `astro build` → `./dist` |
 | `npm run preview` | Serve `./dist` on localhost |

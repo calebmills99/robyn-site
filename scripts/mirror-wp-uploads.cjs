@@ -9,8 +9,8 @@ const blogDir = path.join(site, 'src/content/blog');
 const outDir = path.join(site, 'public/blog');
 const migBlog = 'E:/~GoldenWings/presskit/migration/content/blog';
 
-if (!fs.existsSync(blogDir)) {
-  console.warn(`Blog content missing at ${blogDir}; skipping WP upload mirror.`);
+if (!fs.existsSync(blogDir) && !fs.existsSync(migBlog)) {
+  console.warn('mirror-wp-uploads: skip (Windows presskit paths not available)');
   process.exit(0);
 }
 

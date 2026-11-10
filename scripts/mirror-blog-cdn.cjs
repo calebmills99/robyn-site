@@ -9,7 +9,7 @@ const migPages = path.join(presskit, 'migration/content/pages');
 const outDir = path.join(presskit, 'robyn-site/public/blog');
 
 if (!fs.existsSync(mapPath)) {
-  console.warn(`Asset map missing at ${mapPath}; skipping blog CDN mirror.`);
+  console.warn(`mirror-blog-cdn: skip (missing ${mapPath})`);
   process.exit(0);
 }
 

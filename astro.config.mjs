@@ -3,6 +3,7 @@ import { defineConfig } from "astro/config";
 import sitemap from "@astrojs/sitemap";
 import { unified } from "@astrojs/markdown-remark";
 import { remarkRescueIndentedImages } from "./scripts/remark-rescue-indented-images.mjs";
+import { parityStudioPlugin } from "./scripts/parity-studio-plugin.mjs";
 
 // https://astro.build/config
 export default defineConfig({
@@ -10,22 +11,24 @@ export default defineConfig({
   integrations: [
     sitemap({
       filter(page) {
-        // Public-face ban: Clown International Journey post (301 elsewhere).
-        return !page.includes(
-          "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+        return (
+          !page.includes(
+            "golden-wings-takes-flight-celebrating-wins-at-clown-international-and-independent-shorts-awards",
+          ) &&
+          !page.includes("/__parity") &&
+          !page.includes("/parity-studio")
         );
-      },
-      serialize(item) {
-        item.lastmod = new Date();
-        return item;
       },
     }),
   ],
   markdown: {
-    // Astro 7 defaults to Sätteri (no remark). Use unified so the rescue plugin
-    // still catches any scrape indent that survives ingest.
     processor: unified({
       remarkPlugins: [remarkRescueIndentedImages],
     }),
+  },
+  vite: {
+    // Parity Studio middleware registers only when PARITY_STUDIO=1 (see npm run parity).
+    // It is never active during `astro build`, so the editor does not ship in dist.
+    plugins: [parityStudioPlugin()],
   },
 });
